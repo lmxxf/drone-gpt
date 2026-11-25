@@ -1,0 +1,15 @@
+{
+  "bundlePath": null,
+  "bundleStatus": null,
+  "scorecard": {
+    "harbor_replay_executed": 1,
+    "harbor_reward": 0.77115348,
+    "harbor_score": 77.115348,
+    "trace_score": null
+  },
+  "generated_skill": {
+    "status": "unavailable",
+    "reason": "not_authorized",
+    "next_actions": {}
+  }
+}

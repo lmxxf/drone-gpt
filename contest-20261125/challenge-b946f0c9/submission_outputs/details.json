@@ -1,0 +1,1965 @@
+{
+  "status": "feasible",
+  "version": "fusionx-n0-evaluation/v1",
+  "stages": {
+    "normal": {
+      "runs": [
+        {
+          "seed": 2026100801,
+          "particles_per_batch": 300000,
+          "batches": 64,
+          "statepoints": [
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.01.h5",
+              "sha256": "7983b3f6bc821ff0e23f136acdeffb021ef6a8097feda95b265288498e01d0f5"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.02.h5",
+              "sha256": "c26b96f3321a8de6d658c9dcc642c31505a45f274d6f26dab1ed6663c896cad5"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.03.h5",
+              "sha256": "59b5952dac161c7a60b132c4fe7db43a0c4cc2aa212d7546501fc7420cfedf32"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.04.h5",
+              "sha256": "d0b495a01c51e813ae074a9de5821c892b24c4ec288f8984cfb3dc1684f83a0d"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.05.h5",
+              "sha256": "7730505fd5106006ec3b546d239b3429ca8d2ff7f5a7c26ff84183ad3544cc3f"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.06.h5",
+              "sha256": "8c219f656b5262ffea3ea07dc48edf346739a98fca48ddf78187d9f8021e5cec"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.07.h5",
+              "sha256": "f4e6840a44662c1940d473459b1d164e0c40131cfb6f5aa294f5119bccb91083"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.08.h5",
+              "sha256": "dd86928b28f54ac07c63889c93e223287e3a45b0f63ade6aaf6a1f69cf4bb183"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.09.h5",
+              "sha256": "1d0cbb020805f85aebdb46b68e165919342d49bbbd353602c4bd3e3e6e224da1"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.10.h5",
+              "sha256": "e3eaa0ea10beb36d290cd2387fdc2681d12bc4ef3b0b7e51b3858dec8b309d27"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.11.h5",
+              "sha256": "3d40d675d344cea3f1761205d5f5346b05f61635b1fbc309575e92d0ce676ab8"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.12.h5",
+              "sha256": "d64216dc108ab63b0f3b87dc3623eaf1f2eedc38fbaf18de918f80f0a5be91a5"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.13.h5",
+              "sha256": "aa45c88a33e20f0ebe3e6c5c43d889681490af2c20fe32e3d3e2248b6bb90b22"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.14.h5",
+              "sha256": "b3880806ef6984c75d7fda6ec2fefb862a5aabf0592a1275d1fa42e06706875a"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.15.h5",
+              "sha256": "0d1ecd9e4668d95f8b2b72f9a9b4ebc4f795b665d112b228aacb4875ef0e56d6"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.16.h5",
+              "sha256": "95a835222d6c98a64727af1d8a58f21e6cd386d894ac51e1af006ab1cd6e5649"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.17.h5",
+              "sha256": "dacc99121a209ae6d5f39dcd465db12a6af928400fbb4b7cfbe80671d738bbdf"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.18.h5",
+              "sha256": "b71f933bf3b9caf97b637f50dd1ba7a53535e24068c380326c63844504e51f7a"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.19.h5",
+              "sha256": "bc51c9eb4909773f85d918e14e3e101e76debc7410592ce032adb8011069b791"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.20.h5",
+              "sha256": "2904c4e18fec294558ba314d319a9c6aebc1d04b3dd7fccda540777e7944faa3"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.21.h5",
+              "sha256": "aeb9d324de73327262705b922fe78dc1d477f52c12d192111f4a105c313d7de6"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.22.h5",
+              "sha256": "24ee698a5365240a434bbbc350bb9ef69545745674af901f7ff7e8a02ab2638a"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.23.h5",
+              "sha256": "bd50cdfafa3749f85d2133b681b27fd47632d880cfd1de6e92972788c3ec2e49"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.24.h5",
+              "sha256": "9331a266b827b62a02657018dcfa9133bf46f10650d0af3dabf57626402d2ee9"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.25.h5",
+              "sha256": "0174081f293d7d41b163c4faacdd4094fc66af803c357908cf3e300ee9c165c8"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.26.h5",
+              "sha256": "201585506e582399683991cb3b16a63797dfe46f9d96dc460064216f96bbba58"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.27.h5",
+              "sha256": "58e1fb95ce902226b2820b00716833da67fa5fbe9fd4c2cf7f618c97d46bb419"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.28.h5",
+              "sha256": "b17bfa09793aecd5276060aab0799d9e981eb14fa3052705355e53cd4cc8be09"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.29.h5",
+              "sha256": "2f4940351d84d9e803744ff89498c2953799289761c8e7e9ee70f765f633e39a"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.30.h5",
+              "sha256": "eba414b6a4bba3b431a26105101c67bf131413cc8564221b304c911457a0721f"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.31.h5",
+              "sha256": "fb06dc1ee3b72a43eb0753ceb427004d5488c98c130ce8c16ec34242c7aa4e2e"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.32.h5",
+              "sha256": "ca80f159dd41e3aa485f6f7d2e6cfeef486d6130caee88c91eff81ebc30a8245"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.33.h5",
+              "sha256": "2f9154e78972565175ffd2c77aaa404e3ba49d729392893185b7b0fa43f3d906"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.34.h5",
+              "sha256": "39b031a4c4b6cf163c0059c47dc3a6282152f6570e6820e8a5ac2de829629f18"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.35.h5",
+              "sha256": "6878ff8b77ada13a750b2a14585c5122b49e22e24ce8d59f0b1cffa866639c13"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.36.h5",
+              "sha256": "e8172f0818f4cf81b952197028b6c579921de79da8e83cf7ec90fc40a285b293"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.37.h5",
+              "sha256": "dcaff3de6aa209075a61f3fa941de7d76e360f20fb9377c42dc533fabc491303"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.38.h5",
+              "sha256": "13069a56bb136638da356077d4b0079e8933a8a6a60fc6062e19bd70d17cbfaa"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.39.h5",
+              "sha256": "8cb4faf58b2ec8703c4868bf0bca98057fe11dbdcee71d725c76c8bc3f94bf76"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.40.h5",
+              "sha256": "92ee2d82b2623d0551fd3ec83b4a005a0a4c473a62f8f1b3a31d145d33cd70ca"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.41.h5",
+              "sha256": "68515abc827f4f04efc2f3f8060880cc50128236eea09ce059b5bf4cdfc339bd"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.42.h5",
+              "sha256": "7176bb32e5af0a6fcfdf76f4efe7f9d406456a92beae04eecaa6f424bcb98f72"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.43.h5",
+              "sha256": "1f1402aa9832e79035bbe4d08f73412d3cba51af69de36a20f08fc58dfb17015"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.44.h5",
+              "sha256": "7d243e56fc9783236cec5c85ec17fb19b3d127eb52384eb1bb9a3b69f542bfce"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.45.h5",
+              "sha256": "50b2f07603b24fe700368cd06b3f5a547a955cdcdb6ea4a4cee0dad2b981dcc6"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.46.h5",
+              "sha256": "5eaed97704fa4449a01ff70ab6ef127f152c8eec205158016e972d6284e92e57"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.47.h5",
+              "sha256": "e6e1bf60afdcc8e702ed524b7efc515a34194a8d08b42e52253a783954ed7629"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.48.h5",
+              "sha256": "b6c015c161cb1deeb8e4d4090fda4151603e07bacd5552786e0ef69e0ef407c3"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.49.h5",
+              "sha256": "8f7efff2530e6469dae6062228d79fe3b2235563d7c608f03be1fe7361b3ce18"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.50.h5",
+              "sha256": "5190220f4a84e91e4663fa8f4d5838f217c202add31ea05e44a06a112bcf6a2f"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.51.h5",
+              "sha256": "68ca51790aa03ed99a5b5d97d32c981b259d0bbc6b8eb8c35f6a259bc3766868"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.52.h5",
+              "sha256": "99364a8c2db1caa4fa7e2cbcd761babbf6998f25b6df6c1d09ad78c274a840ef"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.53.h5",
+              "sha256": "6cdc2376c44efc0612e3c28eb8a155c14aa1f0cb3fb9a76f9c1cbce2a44a1b1c"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.54.h5",
+              "sha256": "185becc44b5aa161470dbae1041261ad4ce09ea275de3e22cb2d6bea8e3d8817"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.55.h5",
+              "sha256": "8ddc5bd8e8d95fea9872245faadf6514669933afc58a7cba35e103dcc84236e5"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.56.h5",
+              "sha256": "021083217db0572a7badc10660385674fb599dcc97a206255bdeab2703ba1949"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.57.h5",
+              "sha256": "a1c367351397462dcde9e00e7232922930aa2a57bdbad26abbe46d23ee92dd17"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.58.h5",
+              "sha256": "c648d8ebfa43ebf84bae913735f7ec785c08782d0f489b77c31f69925001c177"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.59.h5",
+              "sha256": "b1150ca00e5c31551b7b6b0c93e58d7a004bcd094499f65f70e72c1280498b46"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.60.h5",
+              "sha256": "05e6e966dcfbe30593e4477254b08a4882fce1362887d6caeb3c66810942930c"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.61.h5",
+              "sha256": "5b25274709025928f7eb430f7485dbc8369a64b7164324d5debfb5efe361e961"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.62.h5",
+              "sha256": "2eb77e22f760a389d33be1dfeb72f58bfcafced1ca2db9327b54a33019a31628"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.63.h5",
+              "sha256": "4802c01500a10732cae4eaaca14aae165909e78f058546f0c0ace4bcebf82e02"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/statepoint.64.h5",
+              "sha256": "ff179427c3292296a1221ec85846113030ab493b3e937d7cfa79823ddb9b6498"
+            }
+          ],
+          "inputs": [
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/materials.xml",
+              "sha256": "4093480b65c42cea83d9f27a4cb2690bc19e591fd0d32e47e4f34e1a2b6adb60"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/geometry.xml",
+              "sha256": "16035c23656265afb64319e438814bdf444fb9b807479be89af3b162d83b9993"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/settings.xml",
+              "sha256": "9e93707ac22620ce3ea6ababada0b7dbc9ea88807fca583689387d3456712775"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100801/tallies.xml",
+              "sha256": "6ee8611e1a3e5356539a394f1f0ef3857f0c4c08e1cd2cb302097b893f883c07"
+            }
+          ]
+        },
+        {
+          "seed": 2026100802,
+          "particles_per_batch": 300000,
+          "batches": 64,
+          "statepoints": [
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.01.h5",
+              "sha256": "c38ef3cdd9caa6c16015a4862c55d3665d07e84da8463288292d14d185598997"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.02.h5",
+              "sha256": "a82558a8d7b5c60c186195ee3aa480820fa63303452cc53a13b06f74907c4839"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.03.h5",
+              "sha256": "b19abb6fa67d2c1b9eab92ce0597b2b0d266e39b560a2cb4d4b47a008a3573f8"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.04.h5",
+              "sha256": "d101dcdaba4812a7734caafaf8a96ce91bd3084ae81e392c95b4a8afe3ad8b0a"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.05.h5",
+              "sha256": "8c7d41a38893911a62d2506cb5769a9b151c680297ae59cec819bcd54b23e4da"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.06.h5",
+              "sha256": "b260e1cb1e492a99c269c58033b99a09ac4e4bc2741221b148436a93ca066be3"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.07.h5",
+              "sha256": "16cd5eb3c9761e1e7511ea4110837ea3ff2ee96f6bd7dc27870f16327c66df6c"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.08.h5",
+              "sha256": "0343c7fcbce4b377d646487ec0cd5fe52eeea9bae07113a1f1e73dbc22ade38a"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.09.h5",
+              "sha256": "b435a8810f9956d967ea48185c547ae5384588617577ae939839cbee21784d37"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.10.h5",
+              "sha256": "853565d536d7d0c9b22a361571bd2a6092b5825c48823d73526aae0dcb196e1b"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.11.h5",
+              "sha256": "e1d67727616ca306bd1be3c8b691b2cddff66faf5466cd1bf66d28a4a2678562"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.12.h5",
+              "sha256": "0e43d3fa68699bedf1996f9368f26ab3f69e355d4d41c8c2f948604e315c7a84"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.13.h5",
+              "sha256": "021813cd784ed1f4b18fdc455b4db29f158af4322dd2a4f1a698b54395b1b7e8"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.14.h5",
+              "sha256": "f31686c340f49c9e4251b91f5edda7443cdc40e350332dd2eaf6b340f5e404c2"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.15.h5",
+              "sha256": "4ea18350a11fbe86bee41b3b474199a85aa1a1c3419e84e58b3c3ca68aa2d6a6"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.16.h5",
+              "sha256": "fc316fe902e04abba3d66661e1e181b5b8f794a098607e33ad0dd661b4af5d3c"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.17.h5",
+              "sha256": "3ee425f749babde4f6aa317ea8fe0ee165a63eee5223f747f81bafacddd70d36"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.18.h5",
+              "sha256": "2d6258271b10b1d7af10dc1ef3cf7c468b60bad289ea67022d90770e99c0eeaf"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.19.h5",
+              "sha256": "08127dfb1e9dcfec718ead6f9d470903339215495f112a2391d83e6f07d82f33"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.20.h5",
+              "sha256": "7651bcd9f0e88ad9330d40352f913e2d5a84b64ec4422090325964ba7f951bcd"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.21.h5",
+              "sha256": "141d1fab8af593b9f4467f4d4a4d4cf27c25b51c3968b15dbf37e8d051cfb16f"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.22.h5",
+              "sha256": "130958a0e2b8043735bcf19660915c4c9226999305284a2efe3953e66634ec0f"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.23.h5",
+              "sha256": "5d6403582cda83b42247b46a5c2c451e498af71df0a1f3fdede8870132ba6b9e"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.24.h5",
+              "sha256": "69b7da1eb408ce9a0490d86e1749d36c0455c99add4a2cc0b988adaab92f4ed4"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.25.h5",
+              "sha256": "38a39fdf7c43413baab71156846ecafeab041006c621d8cf64d5c56fec413826"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.26.h5",
+              "sha256": "3b13a8c0d608807e03b4dd6a6528ee2e30cf080071c550b6afd667e01c3d6e22"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.27.h5",
+              "sha256": "d0648871a71a9a452bc9d4bb199a2ab3b96e77c2ab35a31b3dfbf0d7db475c4b"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.28.h5",
+              "sha256": "65d21edb8f08753cc858f1572dbf869e2ca4c656f39091fe6cedf11d6587ebf3"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.29.h5",
+              "sha256": "0130f62af1807ca19fae99afb2681a75a1d68ca7936f70c2c175a18c3177300d"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.30.h5",
+              "sha256": "ba8fb67426b5eb15ae7131b112084f571654564b5349a661cf58e002716fbdda"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.31.h5",
+              "sha256": "7e687d95de121b2913d119d407c7108c92b0aafc0a42932a8a7e7c9e36fd5866"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.32.h5",
+              "sha256": "417d3c5bcca19376ee015bb1c915b8b612b3ee34ff393b43b697cd578c563452"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.33.h5",
+              "sha256": "23fc511fcbcbb56ebb6611f1fcbaf972f0a0a50c0da4248d052d1fe8c3149cea"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.34.h5",
+              "sha256": "00a51e5fbe73334f9d328eea6fcdeaf6cdaffc871428b146a3169d5cf389fda2"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.35.h5",
+              "sha256": "5d025eb3a6d2d6ecf4edab4efe58cc13e0480647d5239463747b35367a14ab97"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.36.h5",
+              "sha256": "b2ef29caefe44f72eb52cd08664e4e237f5e902fe4b56f6000c1c7466549de4a"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.37.h5",
+              "sha256": "227138c3aeaa1d10b944c38164b36f0757a8721a8de236e14118d8db435d2e57"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.38.h5",
+              "sha256": "bcacbcaa614f23e93f412d6cc333c8e6cbfb2efea4c09afe30fa46ce252232ac"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.39.h5",
+              "sha256": "8e3ee9e04264e40b75dae81dd4110a53104a9267ac03b25357bc13fa08e52f87"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.40.h5",
+              "sha256": "c9b24e5b03f0aa8be931798b60beef1c29c4f005bd7a486a59fa0c35caa9d8ec"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.41.h5",
+              "sha256": "1978af2f8529073e1684ab95956d220583f8bf1a1b7056d80fdd936841806b9d"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.42.h5",
+              "sha256": "7a6ec0024690fd81ac5608fc004435b096b19638f72da9032b50c1529eefd32a"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.43.h5",
+              "sha256": "a4dd0cf33a116c926cc0eb7169ee0cbcbc65a8efacfc63435703f231f3cbf328"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.44.h5",
+              "sha256": "623cdd2213f8e08eabb4fec10b3999f51c92e1809e0a8fbea2c4be97ef0df4c4"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.45.h5",
+              "sha256": "c84d912880732d60e0d6445ccdee5d33f073a80fe780dc9fdcb6d932380196a2"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.46.h5",
+              "sha256": "f1b25ccca54950eb4d058e514c0ce21c8c0fe4e7676384182aef0974787191e6"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.47.h5",
+              "sha256": "a9dab0e939b16581231984f2d740149a979a4d7173240d2a2163e379e64783c5"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.48.h5",
+              "sha256": "1ebf1c6239e9ecd594733f8c54b7ff6e0a82c80fa99cc4ff9df8515c85388381"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.49.h5",
+              "sha256": "ee06f7c85e7db0628b254f5a1d497c03442ec43312328ea9e88c04c9682fa035"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.50.h5",
+              "sha256": "f5e4ce8bf2ec62b887f43f8d13376888adef2e66ed2deb82dcfd648d0725b6c8"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.51.h5",
+              "sha256": "5b6ab6f9f9641e895797caf8ffa920e243574c421e384e92cf11abd0f979be71"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.52.h5",
+              "sha256": "9422a0377e70c94173335a78df98d7b4f974b6be0610dfe18f07bc7752d462de"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.53.h5",
+              "sha256": "7b38517dcaba7766ca7d68a25aaf443efdd04f00a05efc2a1186d04483e8a803"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.54.h5",
+              "sha256": "65680769667f1cfcbfd24d7d870775fffa5cbae4eb42de57c097239e9f49054a"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.55.h5",
+              "sha256": "18bee6339d55c70e5e5e572d59ecf1e39941c7d7475177a38f1fa7cb1422ab97"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.56.h5",
+              "sha256": "83f4a3c24ab779cd913a66bc69d1fdaed41fe9ba8391dfa2c3e31bf9aa6e71c1"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.57.h5",
+              "sha256": "116517c922d39a83dbbb65b7cd3967bb7351d8b64f8074ab8705d29fbd4a6ab5"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.58.h5",
+              "sha256": "d7e11d8ad6e932b091dc24791540b7fc93e028697e0db8d275360a8915c7cf21"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.59.h5",
+              "sha256": "28bfd7df5dad3b27a4c333603495ca389b3e6708ed2421fa2fe0fd16d0a3f5fc"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.60.h5",
+              "sha256": "fdfb3bda430785dd242306207038da8011e68a396374bc539462e2e715a9ad4e"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.61.h5",
+              "sha256": "000d24fec49db834a943e8e4d161147963c568d4f3873bc1f94ff53d9bf6d11e"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.62.h5",
+              "sha256": "7dc2721483bcee60a05d4f83f426974a0346a12652452c9681f2e730f0e5dec1"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.63.h5",
+              "sha256": "c399704d040b96f553c5b739e31e95a11f3d7da0a2aa75941b0d730662d5195d"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/statepoint.64.h5",
+              "sha256": "ae2222229df9acd978d5ff110f8291e99b4cf21aef8928dba9866b7678a886d3"
+            }
+          ],
+          "inputs": [
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/materials.xml",
+              "sha256": "4093480b65c42cea83d9f27a4cb2690bc19e591fd0d32e47e4f34e1a2b6adb60"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/geometry.xml",
+              "sha256": "16035c23656265afb64319e438814bdf444fb9b807479be89af3b162d83b9993"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/settings.xml",
+              "sha256": "e231800d3b920fc38b963d0fa8c1d1cfe0c14ee24a197eaf6d9a0c269c05e953"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/normal-seed2026100802/tallies.xml",
+              "sha256": "6ee8611e1a3e5356539a394f1f0ef3857f0c4c08e1cd2cb302097b893f883c07"
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "mean": [
+          0.3632934543091486,
+          1.851623297907455e-06,
+          2.7818116291464727e-06,
+          2.797548611546361e-06,
+          1.8373106933581485e-06,
+          2.6919089641499726e-06,
+          4.24755763744364e-06,
+          4.257256738389813e-06,
+          2.6774939114021287e-06,
+          2.749618995364538e-06,
+          2.4817876735023363e-05,
+          2.4815966711005884e-05,
+          2.772756568794395e-06,
+          1.913923909287897e-06,
+          3.081650609092345e-06,
+          3.1066689012526945e-06,
+          1.8925534120604056e-06
+        ],
+        "standard_error": [
+          0.00012870333758946724,
+          1.2900618017188631e-08,
+          1.743649189134795e-08,
+          1.944343551396312e-08,
+          1.405467787230641e-08,
+          1.5406588573850543e-08,
+          2.0443864304324125e-08,
+          2.412043123378209e-08,
+          1.6291089133066896e-08,
+          1.627921039862046e-08,
+          3.950159750529233e-08,
+          4.158982849997034e-08,
+          1.669573048868466e-08,
+          1.2396033972252074e-08,
+          1.9053791169670545e-08,
+          1.6918110114021684e-08,
+          1.3146366745562634e-08
+        ],
+        "lower": [
+          0.3628749851175002,
+          1.8096779117618547e-06,
+          2.7251181913256846e-06,
+          2.734329747958305e-06,
+          1.7916129686661657e-06,
+          2.6418156038120787e-06,
+          4.181085955124965e-06,
+          4.178830976092894e-06,
+          2.624524664230527e-06,
+          2.696688371001751e-06,
+          2.4689440271086526e-05,
+          2.4680740521544557e-05,
+          2.718471660784742e-06,
+          1.8736191400941025e-06,
+          3.019698644691524e-06,
+          3.051660942669554e-06,
+          1.8498089924659656e-06
+        ],
+        "upper": [
+          0.363711923500797,
+          1.8935686840530555e-06,
+          2.8385050669672608e-06,
+          2.860767475134417e-06,
+          1.8830084180501313e-06,
+          2.7420023244878665e-06,
+          4.314029319762314e-06,
+          4.335682500686732e-06,
+          2.7304631585737305e-06,
+          2.8025496197273247e-06,
+          2.49463131989602e-05,
+          2.495119290046721e-05,
+          2.8270414768040476e-06,
+          1.9542286784816915e-06,
+          3.1436025734931665e-06,
+          3.161676859835835e-06,
+          1.9352978316548456e-06
+        ],
+        "halfwidth": [
+          0.0004184691916484046,
+          4.19453861456004e-08,
+          5.669343782078792e-08,
+          6.321886358805584e-08,
+          4.56977246919827e-08,
+          5.009336033789386e-08,
+          6.647168231867455e-08,
+          7.842576229691934e-08,
+          5.29692471716019e-08,
+          5.293062436278662e-08,
+          1.2843646393683814e-07,
+          1.3522618946132654e-07,
+          5.42849080096526e-08,
+          4.030476919379445e-08,
+          6.195196440082117e-08,
+          5.500795858314041e-08,
+          4.27444195944401e-08
+        ],
+        "n_batches": 128,
+        "quantile": 3.2514245511116493,
+        "seed_difference": [
+          0.00023067883906757736,
+          8.062830648427467e-09,
+          1.433436266631163e-08,
+          1.972120601253699e-08,
+          3.984272303093798e-09,
+          1.482071320663148e-09,
+          3.516319179640842e-08,
+          6.435584681893675e-08,
+          4.467419431027702e-08,
+          7.23381121471994e-10,
+          4.99892373603983e-08,
+          2.2208757601043438e-08,
+          2.186862649407608e-09,
+          1.5772373031582438e-08,
+          3.287212950261934e-09,
+          2.797114135897279e-08,
+          7.50719313502772e-09
+        ],
+        "seed_difference_limit": [
+          0.0008375920306314523,
+          8.419062698252838e-08,
+          1.1376018675671529e-07,
+          1.2680987273749623e-07,
+          9.175015491112714e-08,
+          1.0058258518370755e-07,
+          1.3308067419262716e-07,
+          1.5636546772183837e-07,
+          1.055679106370021e-07,
+          1.0628029628517955e-07,
+          2.5748342540586085e-07,
+          2.714472651603832e-07,
+          1.0899795653582204e-07,
+          8.079972751996732e-08,
+          1.2439099510904676e-07,
+          1.1015406140506811e-07,
+          8.579985864518383e-08
+        ],
+        "positive_batch_fraction": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "halfwidth_limit": [
+          0.001583665607414584,
+          1.0966849063786006e-07,
+          1.6571889382059444e-07,
+          1.6384898347252325e-07,
+          1.0960201967187648e-07,
+          1.5990048607010586e-07,
+          2.506217138282043e-07,
+          2.50420205733276e-07,
+          1.578053167707149e-07,
+          1.6186643815164765e-07,
+          1.4841173558933003e-06,
+          1.4833897863878709e-06,
+          1.6195412627124044e-07,
+          1.1309895038937384e-07,
+          1.8247496139785721e-07,
+          1.8149358191055826e-07,
+          1.1335232888822812e-07
+        ]
+      }
+    },
+    "cosine": {
+      "runs": [
+        {
+          "seed": 2026100801,
+          "particles_per_batch": 300000,
+          "batches": 64,
+          "statepoints": [
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.01.h5",
+              "sha256": "a3244be664d76c4e9104cf453102322ba05a8eb43d85c142b7ba4652bfbda6ed"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.02.h5",
+              "sha256": "6e97501949377d44ddd8ece6ad0c94a69a29d5adcdad98be19533c1531f55e4c"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.03.h5",
+              "sha256": "e5c2db7bbee5358b093c5828249abc28a94c27f62096cfd35e0d71a1d86ab802"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.04.h5",
+              "sha256": "662c419b4a34d1e38d55aed598d0a4f44c1b3c4543166a64ec483508fb5421da"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.05.h5",
+              "sha256": "4833b2378fcb2363cf9d8351f85a5a185f6ee739a9845a3c726f9e6733f22e69"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.06.h5",
+              "sha256": "6e8a6fc942b2aac3d20a4501028a3f8c801cb990e97d202fa9ac77d61345794c"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.07.h5",
+              "sha256": "0266e7e2d785107fa59bd1eda5bfb7200e558b70c0676545d3eddff75e3d2faf"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.08.h5",
+              "sha256": "0f945ef3e6f2e9a4d99a69bbfb6dcadcab7c8fdcd0cb853219eabdba61265f36"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.09.h5",
+              "sha256": "dc360a9304ba1a7f4359e727b6a98c732c8c37f054305c83e99037ceb8f9482d"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.10.h5",
+              "sha256": "75de066b5050517a0802d93cd91e26c67e00f45ac10c9668f5a431afde90bbd8"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.11.h5",
+              "sha256": "a2d95558304782ffb70ec3652dafbe287747202d6f769d22bedf3895d5994901"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.12.h5",
+              "sha256": "f277edd14db412ef6535b73bce6fd3bae98e53acab3db5fb5157bfd580bbab00"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.13.h5",
+              "sha256": "326aae24a775a38c19820c0c5e6ea439c655ae89eb84cab4ec6c8867f3d2693a"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.14.h5",
+              "sha256": "9f89ca8580b92b091dd776756de00f63537ff168e95cce296dffdea1c5696b0a"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.15.h5",
+              "sha256": "0c8b3ac93a780a0284653a212f5c937adf89908eb599d156d89ccd238444250e"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.16.h5",
+              "sha256": "e36b7109e1cea3f758a99af49d2f62e7e50102c0a91b48cabccfd8c42d4be6c9"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.17.h5",
+              "sha256": "c94a221d4bd55ab54cde33d9b3ae08c4923c6ee6b517115d7404dcb7e17926e9"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.18.h5",
+              "sha256": "4dddc5fb860817f85d31b77c01c0bb0d777fae2dce19fadc7da37d60aea0041b"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.19.h5",
+              "sha256": "3894a9951d7a0c635c3ccac7b38f173c824aca536b6291acae972bab791a4696"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.20.h5",
+              "sha256": "7276f335ac4963d51637c7744342857988077c3f6b88a6fed36825d56322e895"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.21.h5",
+              "sha256": "84e1e62eaa182fb4ab89998cae60d7cfa9bd304255d0307eea8b0db15584d82e"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.22.h5",
+              "sha256": "523e84f452e2e3727a8a164883b5f86efbdd80c05783d7d53ac595c35bc69590"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.23.h5",
+              "sha256": "379a65683502ee7e6adfc297b095ae9ab6a2a0e931d85c0ba66a7389298ec12d"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.24.h5",
+              "sha256": "3f50a1450f2ff519324391e953d45cb545470c6b3e55d396affd213afb8ccee1"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.25.h5",
+              "sha256": "ae766fcb12f949bd782484066d454a53def1b9c6b009fd3eb85f4c7596a77eba"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.26.h5",
+              "sha256": "65887ac90533831455515763f46d674c8079adfee1075037a03c68ca43d7fd3b"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.27.h5",
+              "sha256": "70af92ef37af751476e795c1839598c31fec2a0868ffe06aa716f244152f7f3d"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.28.h5",
+              "sha256": "c6a346f56042e18bbd714342859341ef2e962b566356b4ff51f8c70b9ae6fc3d"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.29.h5",
+              "sha256": "3adf5c0c03dd161d4c0d4be3d784f33fb4eb52d13b300254bc2d66bd296da7a4"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.30.h5",
+              "sha256": "ebc2bcc9ab20d8f58f8edb9d3ac4346510e89e39f772be900e073c4424e540e4"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.31.h5",
+              "sha256": "76dd1e31008a8ee64126742336bbe0be9bc72a14d5224776a0d9ca22afcb7e48"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.32.h5",
+              "sha256": "3b9cbce49715e6906ae103399006b6b0a704fd4f4ac05747d68264882b953ed9"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.33.h5",
+              "sha256": "9dcb2b36686179ad0e43e6009a760b78e84f6b1060608e027553033ab8c95695"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.34.h5",
+              "sha256": "856ffe8cb347c3f3de48d1678a7307df2d6eec4b092258fe7552fa5a1b49accb"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.35.h5",
+              "sha256": "8f4543e363217dc9b08a7e3f5ec5ac1261707275e132c105e8915401ba91775e"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.36.h5",
+              "sha256": "c7e2c5bdbf5debc3acc2aa1a00650b64530df825aff6c94e06f80352147ef69c"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.37.h5",
+              "sha256": "3e00ab37ed8d04f42b3f73f20290119e2c9950eed2fac88c2c036ff96c74642d"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.38.h5",
+              "sha256": "c48b06ca71e4489a56a9a20cbc80efcf6e60c8898c3d0971d05c89e40d42b69e"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.39.h5",
+              "sha256": "f727fac61ec19c705f0ef6f22ef35ac57b02f5f7e096b565a8549022a06424c3"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.40.h5",
+              "sha256": "0e07c7eb8ef29d1d873cbb5e3a2e3464f9f963e4596e8d6c35eddf70fbe3d5d8"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.41.h5",
+              "sha256": "52b2871698b069ec2147bc82476348c44827ba09319b46989593653d14350f17"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.42.h5",
+              "sha256": "e05b03716b7b6667eb743b20f3fa56357290bb1cb7ded9944613258138085798"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.43.h5",
+              "sha256": "dc6da745b2e625b393021d3e3f9053d836fdafd8f92cd1918f6a43fe567e36a7"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.44.h5",
+              "sha256": "3ea005e20a57ff5100e2651745df89536e28c5d5554df30a4dbdcce21badb775"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.45.h5",
+              "sha256": "3db4e75dff5d5c844a71e1f26eae0d4f0da86c18b7f23abcb029ff5fc35dcefc"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.46.h5",
+              "sha256": "20039bab7a196a3d2b6abfc6b1d27cecfb05697ff9a7886f77726b913fc931e6"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.47.h5",
+              "sha256": "e6c6c0c13354cceafb2083c143c13cbbac1b20b6d8854eaaf38ff8fddb6d3907"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.48.h5",
+              "sha256": "688ec4c318023851a40bbb51057348ebbf81c2a9e2504efddf3830d81e798ff0"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.49.h5",
+              "sha256": "a17da24b94a3b83e846941ef106d5e2e4ddf092ea5d2c57a54b4a770fbf74a71"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.50.h5",
+              "sha256": "80a4510fc115c1a456b678aa41dde75e0dbbb29ef957bc4a98c9cb937e906717"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.51.h5",
+              "sha256": "8a241657b2feca71f552dde3c2404116a0bb3eca28fb1f60103ced3e29a0889b"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.52.h5",
+              "sha256": "0d72910c32e514c427cfaf686607ef702a0415e9d5b6edd4665f1c3678b4a004"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.53.h5",
+              "sha256": "753ba44ad10549ba9ee91b62869982f7efc8b325e2505e4be887097d7acbb4ee"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.54.h5",
+              "sha256": "99ab2d3e712d4b970dda7542e5be98e44a8a4c3ec002e0ebb33629b84c58f443"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.55.h5",
+              "sha256": "af8c829c60d2c8ec93a9098270dfc574f78e4db537d31bd1c735595434f0e6ba"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.56.h5",
+              "sha256": "f544d80587b8af3a528e4fa7ee1c512ee578cdb2d826a4729d54a23827a1dfeb"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.57.h5",
+              "sha256": "3d1596994fe01c64da2875ec4b262c5a1ab87d9dddcb8a0c134defabc988d0d9"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.58.h5",
+              "sha256": "cb9ace8321a6a822497452e16d8d23b9bb9045f3ed1c60da1425ac993b0f82ea"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.59.h5",
+              "sha256": "6a6d5621ba00b35369d9b3dfa3b4274362026b9bbd13a7959f79c328a6c2016f"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.60.h5",
+              "sha256": "3b03baf299f55171f4ea772d7b281163b601a38d6524b26c02589e09a5fe4097"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.61.h5",
+              "sha256": "f47b7743cc8029b8ddb5fdecd1009210e2b471357f2776cb0417ba2889f43781"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.62.h5",
+              "sha256": "447f16e2a16932db4a064621892718215d9bdd51a069a5db0a2f7ac4602e8cce"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.63.h5",
+              "sha256": "6cc7013422726ad04c3ee41f3c9cf9f66cdaa219ed78db2c1be7eb067827626f"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/statepoint.64.h5",
+              "sha256": "111ad5435765b0fbf3dbc7a78a488ca24a4303e01c57c7db4cb28a9ebeabf542"
+            }
+          ],
+          "inputs": [
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/materials.xml",
+              "sha256": "4093480b65c42cea83d9f27a4cb2690bc19e591fd0d32e47e4f34e1a2b6adb60"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/geometry.xml",
+              "sha256": "16035c23656265afb64319e438814bdf444fb9b807479be89af3b162d83b9993"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/settings.xml",
+              "sha256": "3ea2ef91c37f435e07bd60da106f4276bcb688543ca84d4230ee55a093d34c79"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100801/tallies.xml",
+              "sha256": "6ee8611e1a3e5356539a394f1f0ef3857f0c4c08e1cd2cb302097b893f883c07"
+            }
+          ]
+        },
+        {
+          "seed": 2026100802,
+          "particles_per_batch": 300000,
+          "batches": 64,
+          "statepoints": [
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.01.h5",
+              "sha256": "851f08e8ae3597738eb47f81d6b21eed7fc0344f56f65229d10431ebb936384a"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.02.h5",
+              "sha256": "083504772facc124f3dbeb87b3f7d1bdac6655515fa220824422dda413d9efc5"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.03.h5",
+              "sha256": "1edbfbc06c24f9dd2818095d2aa6e3f5ecf4d12f1440c7f923f76be98d2da0be"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.04.h5",
+              "sha256": "14e8dc186d619027269fd95d3a0d9552d830d53dc46997c12cbf50194885901e"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.05.h5",
+              "sha256": "e0abc13abaae538be832eaeffb8c6997fa7ce5f8489e99e16cca028a0672faac"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.06.h5",
+              "sha256": "f2b4504a46220df601090e3cf5d7ffa32ebb9e16f746ccd5cdaece4640309ced"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.07.h5",
+              "sha256": "8321d88c063e1a4c13a920589033f2165c29183294bf6fbc1fc03d384b2b66a6"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.08.h5",
+              "sha256": "ccef92f51c0e12647070790ceff9643ebec037f56ce5671f027081b4e3745d80"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.09.h5",
+              "sha256": "c098e65d3433c58fabbff46fa3ff5d1bfe3277fecf43204868d9559ef72576f8"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.10.h5",
+              "sha256": "7dece54e9e786ffe7d60e169beb0bc560fd24ab549bafacda0879e2f5a80c223"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.11.h5",
+              "sha256": "07da1b9a569b3d42a9c6c1daca8716002b1804e3c5ae35e62bf7dcc35e774cfd"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.12.h5",
+              "sha256": "f454afa780e5753acc771ef4298dafb5e04922757a4059be6191280f7ba1cec6"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.13.h5",
+              "sha256": "81cf7cc57e389ecb8710c559bdc778cc22e6a2e87b7c16140e43f09505a7b526"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.14.h5",
+              "sha256": "b96b7158debc9489f353bb2620aa672a555b53dff268af765438693e61d3e9d9"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.15.h5",
+              "sha256": "0d248a0b7b256e2d23ee00028477375dd683c4b890f934efe34ebc13b78ef296"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.16.h5",
+              "sha256": "36b303d14b5d73f643446dd83b30978289d2f0db4cb2d0515027764bcff956dc"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.17.h5",
+              "sha256": "8fdee22e70c819ae87c613e7a2da2f02bef8bbe558bc6ca62b13c8ed57bbc22f"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.18.h5",
+              "sha256": "a156df96d9524396eea22ce93aa132fd16b3d1c80b1c76d149284ab5e9589e3b"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.19.h5",
+              "sha256": "6cb349da8e92bebe71bdb0fd58cd46f3edd8aa655742a6c184080ef03a45aab4"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.20.h5",
+              "sha256": "876bdfb1e76adde948461ac104cc23f9f2a06f01e9ffad6bb08e2542110c7ed7"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.21.h5",
+              "sha256": "28714f042499b4600b735a024fa16c3755455f9dbbe2bf6529088ca5bf322960"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.22.h5",
+              "sha256": "7bc06b38563214b6655ad60b985a44e7803d3c3af52eafef6d78192904f40aa7"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.23.h5",
+              "sha256": "914b06d3e64d4c8a1bce72badcbb0c98118a5b62ab625f9f583b9754677e3776"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.24.h5",
+              "sha256": "e44f60dcb36324bb716cb0e0a1f4d26a8c68b8cc49401c1da8e04fceb2d500e0"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.25.h5",
+              "sha256": "6e3b84733b2769393f711bb4b5e0a575a73ac0418e73495c0cc100b156281113"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.26.h5",
+              "sha256": "ae1558de769feb006103f65e18482233600f8edac7137299dcabe6c40d90388b"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.27.h5",
+              "sha256": "208ac706d191e6a94f532f15260d003e5f35c7b4faa16b35e1c408d1e6602d3f"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.28.h5",
+              "sha256": "ded3b63f8e3b688a3a1d0fe134e9311e7494cddb61324ddb34b8dab235524552"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.29.h5",
+              "sha256": "7d38c11075e5375c99faf113fea7c07378ae0a2d76b2a55248a915eb97c7c8b9"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.30.h5",
+              "sha256": "21f2ee9cd6f7224f34dd582ed955358e08a6357c72506e96ae64addb80ed02d6"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.31.h5",
+              "sha256": "851ad453bc00c19803ffd466be08ad8fe31b3486a1a9d5e9067aca42c6893d48"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.32.h5",
+              "sha256": "29e94cd5fb563fa9345d34f5d170c9075bbf67315930675997a38020ec52785a"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.33.h5",
+              "sha256": "b7d3c1c77473eb19d0e21cb71e4280b8eeb094bec0fff2939950a8228813d5b6"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.34.h5",
+              "sha256": "59c6028e454f1deb2f00cb83238ef574efbfb3397ba642d4d9f615632c35978b"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.35.h5",
+              "sha256": "4b790321133c812861ee4bdadcec0210289a7577f26b526f1842c81c45e52da6"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.36.h5",
+              "sha256": "e3099b9844ffb2724f8cf89554eaa23342ca2c4ff7c1db5efbcad3036bdb04b9"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.37.h5",
+              "sha256": "cf67a322f787ad011e9cabaf6e6e7b4dc044b71d145b8b4c7f63e859e9d27551"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.38.h5",
+              "sha256": "8c4ddb2ffb12e5885e0b7793d2d83e98be000f01ac8d31e255ff9f0b61771f10"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.39.h5",
+              "sha256": "f915cc09abfc02ac353fd3b3427ad10891efa705c492a9f55bf903f67100cc23"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.40.h5",
+              "sha256": "29b84f65f801c688e71d694f7e15f0f3bfd51fe308d70722dfc4408f0dd13cb9"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.41.h5",
+              "sha256": "1aeec98545e6168d2c77f7a57fe850a51e14c9e890f3bead12cb174ea0d03b1c"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.42.h5",
+              "sha256": "a702bd020cf93f85318ee9f3823da1ae60236ff404a4056a3ff22e29adbfa08a"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.43.h5",
+              "sha256": "38f8e763059e1b5ce8dcb166b7adab983012eff23b93d4728aabc212789b31e0"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.44.h5",
+              "sha256": "8965eee620819adc7388c9157e5cb51da5372f349132fc6d832fc158d0b44488"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.45.h5",
+              "sha256": "3f8911d78f9ff65ede86bd1cd62bedd9451ade985da246130b47bb194472863a"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.46.h5",
+              "sha256": "58662ecff898a5bb005b89cb70f240da9e441e923f7d1470ffb5a326ad0a6a4b"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.47.h5",
+              "sha256": "103a2cc00d42904231666d381e1802d8002f1f07141bacd1da11866d66218103"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.48.h5",
+              "sha256": "1be33834c6f380f4c2f24921068160ae3ac507bd22c527f486d49420e79174a3"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.49.h5",
+              "sha256": "a549d107cc28bf10bfe9e83dbb7c3092a3289708d57939e88ec1cde1ffabf174"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.50.h5",
+              "sha256": "954b841ea818f7ef9103ab89918e4de41cb06560dcd8ed95a27e5ac553c20386"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.51.h5",
+              "sha256": "d3c316046d610cc0bcfcffafd2742606af24035fe9b8139da3dcc4da593449ef"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.52.h5",
+              "sha256": "02ca085009e5f5f0bdf02ca6561f1d7c6892a4b741fd301da31d4f664bfd8bf0"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.53.h5",
+              "sha256": "a4b5809b85158466923ca827fb55af82476f3a382cf0d5ea62be673eebf655b7"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.54.h5",
+              "sha256": "63d7ca60f63da4841637577616993c7e70bf24befc1019d96c5bbb0e9c608893"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.55.h5",
+              "sha256": "099da4fe6e009aee80ddecd381ac7750f0578ea7d5e94a4c763a483d6842752b"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.56.h5",
+              "sha256": "3ff72ebb622cbadc4c3495e90a99686cb4530c33dd2a06abdf2a1c4ac435d709"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.57.h5",
+              "sha256": "91c58efd0e3af1e87139aad0b9f01fd768a7be52e97483736afd5729f8671b1a"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.58.h5",
+              "sha256": "5737efc6a42fae50f44a129d2d0dc0046b37dc67c68a18ea16a12f9b3f80045b"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.59.h5",
+              "sha256": "b21b81fd3a33baa636693dbc6dc1bf6ac401cbfe11966a216c893a935b300e9b"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.60.h5",
+              "sha256": "6935b5d5b8dc4559f895a67f7fb600f2549e3b96aaa609e17811def862a0f25b"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.61.h5",
+              "sha256": "839778643e34b39bfdc0239a74a67abab904d0791e35e1db5cad3fa99b745317"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.62.h5",
+              "sha256": "53ba65c4429876b1b07f4f572503f9aa1ec2732bee42be46fa2c64fe5b9b6a07"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.63.h5",
+              "sha256": "d8634833799d716ee38f2fdbd4e65b0c996ef76efe1a258ade7df7db31109813"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/statepoint.64.h5",
+              "sha256": "13a794fafa30150bb69bcd78f0892cbd8191d98786333ea5b57a72da42bfd1f8"
+            }
+          ],
+          "inputs": [
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/materials.xml",
+              "sha256": "4093480b65c42cea83d9f27a4cb2690bc19e591fd0d32e47e4f34e1a2b6adb60"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/geometry.xml",
+              "sha256": "16035c23656265afb64319e438814bdf444fb9b807479be89af3b162d83b9993"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/settings.xml",
+              "sha256": "2a5e7544f4dd48b904c3f19b81e10dc57e844aca77cd5c363d2bbb3710168a13"
+            },
+            {
+              "path": "/home/lmxxf/work/drone/contest-20261125/challenge-b946f0c9/runs/optimized-full/cosine-seed2026100802/tallies.xml",
+              "sha256": "6ee8611e1a3e5356539a394f1f0ef3857f0c4c08e1cd2cb302097b893f883c07"
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "mean": [
+          0.2961131256695585,
+          4.682547639124501e-07,
+          7.646272898332433e-07,
+          7.60712942318116e-07,
+          4.659570494336886e-07,
+          7.777224818946631e-07,
+          1.341644303746749e-06,
+          1.3339216973462377e-06,
+          7.838707649591945e-07,
+          8.584677903547851e-07,
+          2.035687464818471e-06,
+          2.0277358180605275e-06,
+          8.335930052021705e-07,
+          5.387789610404831e-07,
+          9.997896905552308e-07,
+          1.0059989722539247e-06,
+          5.433675009218042e-07
+        ],
+        "standard_error": [
+          0.00011443795883023544,
+          6.964258288005941e-09,
+          8.123149810326151e-09,
+          8.387789139096817e-09,
+          7.309271374391615e-09,
+          8.71014922361619e-09,
+          1.2443972412171437e-08,
+          1.0890664817289945e-08,
+          8.96030342153414e-09,
+          8.881991320983564e-09,
+          1.4055679732911618e-08,
+          1.2490809346050463e-08,
+          8.90605961986143e-09,
+          7.657386628098041e-09,
+          9.093622923831094e-09,
+          1.012648027206902e-08,
+          7.163723131698588e-09
+        ],
+        "lower": [
+          0.2957410392806388,
+          4.456110035345448e-07,
+          7.382154811075909e-07,
+          7.334406787817089e-07,
+          4.4219150503625415e-07,
+          7.494020888651513e-07,
+          1.3011836663324587e-06,
+          1.2985115223813734e-06,
+          7.547370144290086e-07,
+          8.295886657109785e-07,
+          1.98998648265232e-06,
+          1.9871228938895243e-06,
+          8.04635624300489e-07,
+          5.138815461605311e-07,
+          9.702224617221347e-07,
+          9.730734856809716e-07,
+          5.200751956540329e-07
+        ],
+        "upper": [
+          0.2964852120584782,
+          4.908985242903554e-07,
+          7.910390985588957e-07,
+          7.87985205854523e-07,
+          4.897225938311231e-07,
+          8.060428749241749e-07,
+          1.3821049411610393e-06,
+          1.369331872311102e-06,
+          8.130045154893803e-07,
+          8.873469149985917e-07,
+          2.0813884469846223e-06,
+          2.0683487422315307e-06,
+          8.625503861038521e-07,
+          5.636763759204352e-07,
+          1.0293569193883269e-06,
+          1.0389244588268777e-06,
+          5.666598061895754e-07
+        ],
+        "halfwidth": [
+          0.0003720863889197317,
+          2.2643760377905298e-08,
+          2.6411808725652385e-08,
+          2.7272263536407035e-08,
+          2.3765544397434486e-08,
+          2.832039302951175e-08,
+          4.046063741429026e-08,
+          3.541017496486439e-08,
+          2.9133750530185815e-08,
+          2.887912464380655e-08,
+          4.5700982166151264e-08,
+          4.061292417100332e-08,
+          2.8957380901681536e-08,
+          2.489741487995202e-08,
+          2.9567228833096118e-08,
+          3.2925486572952986e-08,
+          2.329230526777122e-08
+        ],
+        "n_batches": 128,
+        "quantile": 3.2514245511116493,
+        "seed_difference": [
+          3.658135015427444e-05,
+          1.2167863400252674e-08,
+          5.330788039805951e-09,
+          6.440081200317336e-09,
+          1.0769480100607718e-08,
+          1.590759453233294e-08,
+          2.5719247014549977e-08,
+          6.1704272875361556e-09,
+          1.1305593777874575e-08,
+          2.5883679226380483e-08,
+          1.854255595964493e-08,
+          2.7721428455199296e-08,
+          1.3410751647821475e-08,
+          8.611001569768359e-09,
+          1.0706724381409403e-08,
+          1.2814297474515682e-08,
+          5.9808369853627116e-09
+        ],
+        "seed_difference_limit": [
+          0.0007470448636991753,
+          4.533006280653089e-08,
+          5.301033653833625e-08,
+          5.472876336685274e-08,
+          4.7617259455637374e-08,
+          5.667811419075786e-08,
+          8.089946190859958e-08,
+          7.107835930623365e-08,
+          5.8406530150417716e-08,
+          5.750025825562126e-08,
+          9.160663285673302e-08,
+          8.115123642287389e-08,
+          5.8014221072898104e-08,
+          4.992977566660373e-08,
+          5.928759579045932e-08,
+          6.600749027668037e-08,
+          4.6737008037944256e-08
+        ],
+        "positive_batch_fraction": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "halfwidth_limit": [
+          0.001248314565220104,
+          2.6989777826534264e-08,
+          4.2371578058540943e-08,
+          4.328788130484305e-08,
+          2.7107368191127e-08,
+          4.408495814423769e-08,
+          7.374140292944551e-08,
+          7.547604364023546e-08,
+          4.386711048283517e-08,
+          4.7788053524792535e-08,
+          1.162943135313764e-07,
+          1.1469391998863416e-07,
+          4.814497699283509e-08,
+          3.033442255478841e-08,
+          5.8148293815731165e-08,
+          5.73865519452541e-08,
+          3.1212787208976446e-08
+        ]
+      }
+    }
+  },
+  "submission_sha256": "484776003b3fdbbba15e3004767ca2bbd1a41fda85c7e8afd6c9e6fe83de4247",
+  "case_sha256": "dcf39f16d3d51f60983eb7f06e86b1435a07ff91d6525f5c15f242405031e75d",
+  "inventory": {
+    "breeder_volume_cm3": 143016.00000000006,
+    "be_volume_cm3": 125138.99999999988,
+    "li6_atoms": 1.279017111190331e+27
+  },
+  "outcomes": {
+    "normal": {
+      "mean": [
+        0.3632934543091486,
+        1.851623297907455e-06,
+        2.7818116291464727e-06,
+        2.797548611546361e-06,
+        1.8373106933581485e-06,
+        2.6919089641499726e-06,
+        4.24755763744364e-06,
+        4.257256738389813e-06,
+        2.6774939114021287e-06,
+        2.749618995364538e-06,
+        2.4817876735023363e-05,
+        2.4815966711005884e-05,
+        2.772756568794395e-06,
+        1.913923909287897e-06,
+        3.081650609092345e-06,
+        3.1066689012526945e-06,
+        1.8925534120604056e-06
+      ],
+      "standard_error": [
+        0.00012870333758946724,
+        1.2900618017188631e-08,
+        1.743649189134795e-08,
+        1.944343551396312e-08,
+        1.405467787230641e-08,
+        1.5406588573850543e-08,
+        2.0443864304324125e-08,
+        2.412043123378209e-08,
+        1.6291089133066896e-08,
+        1.627921039862046e-08,
+        3.950159750529233e-08,
+        4.158982849997034e-08,
+        1.669573048868466e-08,
+        1.2396033972252074e-08,
+        1.9053791169670545e-08,
+        1.6918110114021684e-08,
+        1.3146366745562634e-08
+      ],
+      "lower": [
+        0.3628749851175002,
+        1.8096779117618547e-06,
+        2.7251181913256846e-06,
+        2.734329747958305e-06,
+        1.7916129686661657e-06,
+        2.6418156038120787e-06,
+        4.181085955124965e-06,
+        4.178830976092894e-06,
+        2.624524664230527e-06,
+        2.696688371001751e-06,
+        2.4689440271086526e-05,
+        2.4680740521544557e-05,
+        2.718471660784742e-06,
+        1.8736191400941025e-06,
+        3.019698644691524e-06,
+        3.051660942669554e-06,
+        1.8498089924659656e-06
+      ],
+      "upper": [
+        0.363711923500797,
+        1.8935686840530555e-06,
+        2.8385050669672608e-06,
+        2.860767475134417e-06,
+        1.8830084180501313e-06,
+        2.7420023244878665e-06,
+        4.314029319762314e-06,
+        4.335682500686732e-06,
+        2.7304631585737305e-06,
+        2.8025496197273247e-06,
+        2.49463131989602e-05,
+        2.495119290046721e-05,
+        2.8270414768040476e-06,
+        1.9542286784816915e-06,
+        3.1436025734931665e-06,
+        3.161676859835835e-06,
+        1.9352978316548456e-06
+      ],
+      "halfwidth": [
+        0.0004184691916484046,
+        4.19453861456004e-08,
+        5.669343782078792e-08,
+        6.321886358805584e-08,
+        4.56977246919827e-08,
+        5.009336033789386e-08,
+        6.647168231867455e-08,
+        7.842576229691934e-08,
+        5.29692471716019e-08,
+        5.293062436278662e-08,
+        1.2843646393683814e-07,
+        1.3522618946132654e-07,
+        5.42849080096526e-08,
+        4.030476919379445e-08,
+        6.195196440082117e-08,
+        5.500795858314041e-08,
+        4.27444195944401e-08
+      ],
+      "n_batches": 128,
+      "quantile": 3.2514245511116493,
+      "seed_difference": [
+        0.00023067883906757736,
+        8.062830648427467e-09,
+        1.433436266631163e-08,
+        1.972120601253699e-08,
+        3.984272303093798e-09,
+        1.482071320663148e-09,
+        3.516319179640842e-08,
+        6.435584681893675e-08,
+        4.467419431027702e-08,
+        7.23381121471994e-10,
+        4.99892373603983e-08,
+        2.2208757601043438e-08,
+        2.186862649407608e-09,
+        1.5772373031582438e-08,
+        3.287212950261934e-09,
+        2.797114135897279e-08,
+        7.50719313502772e-09
+      ],
+      "seed_difference_limit": [
+        0.0008375920306314523,
+        8.419062698252838e-08,
+        1.1376018675671529e-07,
+        1.2680987273749623e-07,
+        9.175015491112714e-08,
+        1.0058258518370755e-07,
+        1.3308067419262716e-07,
+        1.5636546772183837e-07,
+        1.055679106370021e-07,
+        1.0628029628517955e-07,
+        2.5748342540586085e-07,
+        2.714472651603832e-07,
+        1.0899795653582204e-07,
+        8.079972751996732e-08,
+        1.2439099510904676e-07,
+        1.1015406140506811e-07,
+        8.579985864518383e-08
+      ],
+      "positive_batch_fraction": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "halfwidth_limit": [
+        0.001583665607414584,
+        1.0966849063786006e-07,
+        1.6571889382059444e-07,
+        1.6384898347252325e-07,
+        1.0960201967187648e-07,
+        1.5990048607010586e-07,
+        2.506217138282043e-07,
+        2.50420205733276e-07,
+        1.578053167707149e-07,
+        1.6186643815164765e-07,
+        1.4841173558933003e-06,
+        1.4833897863878709e-06,
+        1.6195412627124044e-07,
+        1.1309895038937384e-07,
+        1.8247496139785721e-07,
+        1.8149358191055826e-07,
+        1.1335232888822812e-07
+      ]
+    },
+    "cosine": {
+      "mean": [
+        0.2961131256695585,
+        4.682547639124501e-07,
+        7.646272898332433e-07,
+        7.60712942318116e-07,
+        4.659570494336886e-07,
+        7.777224818946631e-07,
+        1.341644303746749e-06,
+        1.3339216973462377e-06,
+        7.838707649591945e-07,
+        8.584677903547851e-07,
+        2.035687464818471e-06,
+        2.0277358180605275e-06,
+        8.335930052021705e-07,
+        5.387789610404831e-07,
+        9.997896905552308e-07,
+        1.0059989722539247e-06,
+        5.433675009218042e-07
+      ],
+      "standard_error": [
+        0.00011443795883023544,
+        6.964258288005941e-09,
+        8.123149810326151e-09,
+        8.387789139096817e-09,
+        7.309271374391615e-09,
+        8.71014922361619e-09,
+        1.2443972412171437e-08,
+        1.0890664817289945e-08,
+        8.96030342153414e-09,
+        8.881991320983564e-09,
+        1.4055679732911618e-08,
+        1.2490809346050463e-08,
+        8.90605961986143e-09,
+        7.657386628098041e-09,
+        9.093622923831094e-09,
+        1.012648027206902e-08,
+        7.163723131698588e-09
+      ],
+      "lower": [
+        0.2957410392806388,
+        4.456110035345448e-07,
+        7.382154811075909e-07,
+        7.334406787817089e-07,
+        4.4219150503625415e-07,
+        7.494020888651513e-07,
+        1.3011836663324587e-06,
+        1.2985115223813734e-06,
+        7.547370144290086e-07,
+        8.295886657109785e-07,
+        1.98998648265232e-06,
+        1.9871228938895243e-06,
+        8.04635624300489e-07,
+        5.138815461605311e-07,
+        9.702224617221347e-07,
+        9.730734856809716e-07,
+        5.200751956540329e-07
+      ],
+      "upper": [
+        0.2964852120584782,
+        4.908985242903554e-07,
+        7.910390985588957e-07,
+        7.87985205854523e-07,
+        4.897225938311231e-07,
+        8.060428749241749e-07,
+        1.3821049411610393e-06,
+        1.369331872311102e-06,
+        8.130045154893803e-07,
+        8.873469149985917e-07,
+        2.0813884469846223e-06,
+        2.0683487422315307e-06,
+        8.625503861038521e-07,
+        5.636763759204352e-07,
+        1.0293569193883269e-06,
+        1.0389244588268777e-06,
+        5.666598061895754e-07
+      ],
+      "halfwidth": [
+        0.0003720863889197317,
+        2.2643760377905298e-08,
+        2.6411808725652385e-08,
+        2.7272263536407035e-08,
+        2.3765544397434486e-08,
+        2.832039302951175e-08,
+        4.046063741429026e-08,
+        3.541017496486439e-08,
+        2.9133750530185815e-08,
+        2.887912464380655e-08,
+        4.5700982166151264e-08,
+        4.061292417100332e-08,
+        2.8957380901681536e-08,
+        2.489741487995202e-08,
+        2.9567228833096118e-08,
+        3.2925486572952986e-08,
+        2.329230526777122e-08
+      ],
+      "n_batches": 128,
+      "quantile": 3.2514245511116493,
+      "seed_difference": [
+        3.658135015427444e-05,
+        1.2167863400252674e-08,
+        5.330788039805951e-09,
+        6.440081200317336e-09,
+        1.0769480100607718e-08,
+        1.590759453233294e-08,
+        2.5719247014549977e-08,
+        6.1704272875361556e-09,
+        1.1305593777874575e-08,
+        2.5883679226380483e-08,
+        1.854255595964493e-08,
+        2.7721428455199296e-08,
+        1.3410751647821475e-08,
+        8.611001569768359e-09,
+        1.0706724381409403e-08,
+        1.2814297474515682e-08,
+        5.9808369853627116e-09
+      ],
+      "seed_difference_limit": [
+        0.0007470448636991753,
+        4.533006280653089e-08,
+        5.301033653833625e-08,
+        5.472876336685274e-08,
+        4.7617259455637374e-08,
+        5.667811419075786e-08,
+        8.089946190859958e-08,
+        7.107835930623365e-08,
+        5.8406530150417716e-08,
+        5.750025825562126e-08,
+        9.160663285673302e-08,
+        8.115123642287389e-08,
+        5.8014221072898104e-08,
+        4.992977566660373e-08,
+        5.928759579045932e-08,
+        6.600749027668037e-08,
+        4.6737008037944256e-08
+      ],
+      "positive_batch_fraction": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "halfwidth_limit": [
+        0.001248314565220104,
+        2.6989777826534264e-08,
+        4.2371578058540943e-08,
+        4.328788130484305e-08,
+        2.7107368191127e-08,
+        4.408495814423769e-08,
+        7.374140292944551e-08,
+        7.547604364023546e-08,
+        4.386711048283517e-08,
+        4.7788053524792535e-08,
+        1.162943135313764e-07,
+        1.1469391998863416e-07,
+        4.814497699283509e-08,
+        3.033442255478841e-08,
+        5.8148293815731165e-08,
+        5.73865519452541e-08,
+        3.1212787208976446e-08
+      ]
+    }
+  },
+  "objective_lower": 0.2957410392806388,
+  "violations": {
+    "breeder_volume_cm3": 0.0,
+    "be_volume_cm3": 0.0,
+    "li6_atoms": 0.0,
+    "normal/rear0": 0.0,
+    "normal/rear1": 0.0,
+    "normal/rear2": 0.0,
+    "normal/rear3": 0.0,
+    "normal/rear4": 0.0,
+    "normal/rear5": 0.0,
+    "normal/rear6": 0.0,
+    "normal/rear7": 0.0,
+    "normal/rear8": 0.0,
+    "normal/rear9": 0.0,
+    "normal/rear10": 0.0,
+    "normal/rear11": 0.0,
+    "normal/rear12": 0.0,
+    "normal/rear13": 0.0,
+    "normal/rear14": 0.0,
+    "normal/rear15": 0.0,
+    "cosine/rear0": 0.0,
+    "cosine/rear1": 0.0,
+    "cosine/rear2": 0.0,
+    "cosine/rear3": 0.0,
+    "cosine/rear4": 0.0,
+    "cosine/rear5": 0.0,
+    "cosine/rear6": 0.0,
+    "cosine/rear7": 0.0,
+    "cosine/rear8": 0.0,
+    "cosine/rear9": 0.0,
+    "cosine/rear10": 0.0,
+    "cosine/rear11": 0.0,
+    "cosine/rear12": 0.0,
+    "cosine/rear13": 0.0,
+    "cosine/rear14": 0.0,
+    "cosine/rear15": 0.0,
+    "negative_yield_lower": 0.0
+  },
+  "screening": {
+    "normal": {
+      "limits": [
+        2.193369812757201e-06,
+        3.3143778764118886e-06,
+        3.276979669450465e-06,
+        2.1920403934375296e-06,
+        3.198009721402117e-06,
+        5.012434276564085e-06,
+        5.008404114665519e-06,
+        3.1561063354142977e-06,
+        3.2373287630329527e-06,
+        2.9682347117866004e-05,
+        2.9667795727757417e-05,
+        3.2390825254248087e-06,
+        2.2619790077874767e-06,
+        3.649499227957144e-06,
+        3.629871638211165e-06,
+        2.2670465777645624e-06
+      ],
+      "upper_margin": [
+        2.998011287041456e-07,
+        4.7587280944462783e-07,
+        4.162121943160478e-07,
+        3.090319753873983e-07,
+        4.560073969142506e-07,
+        6.984049568017706e-07,
+        6.727216139787871e-07,
+        4.2564317684056725e-07,
+        4.34779143305628e-07,
+        4.736033918905804e-06,
+        4.716602827290205e-06,
+        4.120410486207611e-07,
+        3.077503293057852e-07,
+        5.058966544639776e-07,
+        4.6819477837532997e-07,
+        3.3174874610971675e-07
+      ]
+    },
+    "cosine": {
+      "limits": [
+        5.397955565306853e-07,
+        8.474315611708189e-07,
+        8.657576260968609e-07,
+        5.4214736382254e-07,
+        8.816991628847538e-07,
+        1.47482805858891e-06,
+        1.509520872804709e-06,
+        8.773422096567033e-07,
+        9.557610704958506e-07,
+        2.3258862706275277e-06,
+        2.2938783997726832e-06,
+        9.628995398567017e-07,
+        6.066884510957682e-07,
+        1.1629658763146232e-06,
+        1.147731038905082e-06,
+        6.242557441795289e-07
+      ],
+      "upper_margin": [
+        4.889703224032993e-08,
+        5.639246261192315e-08,
+        7.777242024233796e-08,
+        5.242476999141689e-08,
+        7.565628796057889e-08,
+        9.272311742787073e-08,
+        1.4018900049360703e-07,
+        6.4337694167323e-08,
+        6.84141554972589e-08,
+        2.444978236429054e-07,
+        2.2552965754115252e-07,
+        1.0034915375284957e-07,
+        4.3012075175332984e-08,
+        1.3360895692629635e-07,
+        1.0880658007820429e-07,
+        5.759593798995352e-08
+      ]
+    }
+  },
+  "elapsed_seconds": 1761.0199440759607
+}

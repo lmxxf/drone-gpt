@@ -1,0 +1,41 @@
+{
+  "status": "complete_platform_scored",
+  "current_task": {
+    "schema_version": "fusionx-n0-design",
+    "case_id": "ported-module-294K",
+    "transport": "coupled neutron-photon",
+    "boundary": "white x=0, periodic y/z",
+    "constraint": "96 regional ceramic heating upper bounds <=49.8 W/cm3",
+    "scoring": "logistic TBR lower bound times exponential violations"
+  },
+  "available_workspace": {
+    "schema_version": "fusionx-n0-design/v1",
+    "case_id": "ported-module-294K-v1",
+    "sources": [
+      "normal",
+      "cosine"
+    ],
+    "transport": "neutron only",
+    "boundary": "vacuum",
+    "constraint": "32 rear fast flux upper bounds",
+    "scoring": "feasible score .5+.5*X/(X+Xref)"
+  },
+  "retrieval_checks": {
+    "fusionx-n0-20261028@2": "404 dataset_not_found",
+    "refreshed/config.json": "wenyon.datasets is empty",
+    "public_history": "paper2arm-task-challenge-b946f0c9-f4dc329f has only version 1; downloaded files match old workspace",
+    "catalog_search": "b946f0c9 including hidden returned only historical dataset"
+  },
+  "baseline_reproduced": true,
+  "optimization_run": true,
+  "submitted": true,
+  "required_to_continue": null,
+  "resolution": "User explicitly selected workspace/instruction.md + eval.py + case.json + calibrated reference as sole authority; ARM64 native rebuild and local path adapter in use.",
+  "attempt_id": "111893",
+  "local_score": 0.7712608367916479,
+  "local_feasible": true,
+  "objective_lower": 0.2957410392806388,
+  "platform_score": 77.1153,
+  "platform_reward": 0.77115348,
+  "platform_score_is_final": true
+}

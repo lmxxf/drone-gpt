@@ -1,0 +1,228 @@
+{
+  "facets": {
+    "domain": [
+      {
+        "count": 2,
+        "value": "hackathon"
+      },
+      {
+        "count": 1,
+        "value": "agentic-science"
+      }
+    ],
+    "visibility": [
+      {
+        "count": 3,
+        "value": "public"
+      }
+    ]
+  },
+  "items": [
+    {
+      "apiVersion": "v0.2",
+      "kind": "Dataset",
+      "metadata": {
+        "created_at": "2026-09-29T05:01:02.708903+00:00",
+        "domain": "agentic-science",
+        "id": "paper2arm-task-equilibrium-shape-and-surf-a9647ebe",
+        "name": "Public task resources — Equilibrium Shape and Surface Diffusion of SiC Nanoparticles from MD [equilibrium-shape-and-surface-diffusion-of-sic-nan-98b26af7]",
+        "owner": "b39f21f1-159f-4b79-a95b-c0edb9025575",
+        "tags": [
+          "worker-task",
+          "resources",
+          "paper2arm"
+        ],
+        "tier": "normal",
+        "updated_at": "2026-10-07T10:30:52.184622+00:00",
+        "version": "0.0.0"
+      },
+      "spec": {
+        "column_descriptions": null,
+        "description": "Public-candidate task resources; publish only after visibility proof; Playground challenge_id=equilibrium-shape-and-surface-diffusion-of-sic-nan-98b26af7; title=Equilibrium Shape and Surface Diffusion of SiC Nanoparticles from MD",
+        "extracted_metadata": {
+          "schema_version": "playground-wenyon-public-manifest/v1",
+          "source_question_id": "worker-task-81ff1b757922-7b610a9e98dc95e642ae9911eaa5cedc147878c5cfa149cac695a256153f3e8f"
+        },
+        "files": {
+          "formats": {
+            "json": 1,
+            "unknown": 2
+          },
+          "parse_coverage": 0.3333,
+          "roles": {
+            "metadata": 1,
+            "unknown": 2
+          },
+          "schemas": [
+            {
+              "columns": [
+                {
+                  "name": "environment",
+                  "nullable": true,
+                  "type": "struct"
+                },
+                {
+                  "name": "resources",
+                  "nullable": true,
+                  "type": "list"
+                },
+                {
+                  "name": "schema_version",
+                  "nullable": true,
+                  "type": "string"
+                },
+                {
+                  "name": "source_question_id",
+                  "nullable": true,
+                  "type": "string"
+                }
+              ],
+              "files": 1,
+              "format": "json"
+            }
+          ],
+          "total": 3
+        },
+        "hidden_columns": null,
+        "intended_use": "",
+        "known_limitations": "",
+        "license": "",
+        "lineage": {
+          "pipeline": "",
+          "sources": []
+        },
+        "location": {
+          "format": "",
+          "row_count": 0,
+          "size_bytes": 1283862,
+          "uri": "s3://datainfra-prod/wenyon/prod/file-dataset/paper2arm-task-equilibrium-shape-and-surf-a9647ebe/v3/"
+        },
+        "quality_claims": {
+          "freshness": null,
+          "notes": "",
+          "primary_key": [],
+          "required_columns": []
+        },
+        "read_quota_daily": null,
+        "registry_adoption": null,
+        "schema": null,
+        "verified": null,
+        "visibility": "public"
+      }
+    },
+    {
+      "apiVersion": "v0.2",
+      "kind": "Dataset",
+      "metadata": {
+        "created_at": "2026-08-18T11:03:44.324821+00:00",
+        "domain": "hackathon",
+        "id": "ionic-diffusion-coefficients-li-na-k-h-cl",
+        "name": "ionic-diffusion-coefficients-li-na-k-h-cl",
+        "owner": "wenyon",
+        "tags": [],
+        "tier": "normal",
+        "updated_at": "2026-08-18T19:03:44.324821+00:00",
+        "version": "0.0.0"
+      },
+      "spec": {
+        "column_descriptions": null,
+        "description": "",
+        "extracted_metadata": null,
+        "files": {
+          "formats": {
+            "unknown": 1
+          },
+          "parse_coverage": 0.0,
+          "roles": {
+            "unknown": 1
+          },
+          "schemas": [],
+          "total": 1
+        },
+        "hidden_columns": null,
+        "intended_use": "",
+        "known_limitations": "",
+        "license": "",
+        "lineage": {
+          "pipeline": "",
+          "sources": []
+        },
+        "location": {
+          "format": "",
+          "row_count": 0,
+          "size_bytes": 6944,
+          "uri": "s3://trisol-prod/datasets/2076600516862812160/2082748853127229440/"
+        },
+        "quality_claims": {
+          "freshness": null,
+          "notes": "",
+          "primary_key": [],
+          "required_columns": []
+        },
+        "read_quota_daily": null,
+        "registry_adoption": null,
+        "schema": null,
+        "verified": null,
+        "visibility": "public"
+      }
+    },
+    {
+      "apiVersion": "v0.2",
+      "kind": "Dataset",
+      "metadata": {
+        "created_at": "2026-08-18T10:55:29.330057+00:00",
+        "domain": "hackathon",
+        "id": "dhcp-neonatal-diffusion-mri-dataset",
+        "name": "dhcp-neonatal-diffusion-mri-dataset",
+        "owner": "wenyon",
+        "tags": [],
+        "tier": "normal",
+        "updated_at": "2026-08-18T18:55:29.330057+00:00",
+        "version": "0.0.0"
+      },
+      "spec": {
+        "column_descriptions": null,
+        "description": "",
+        "extracted_metadata": null,
+        "files": {
+          "formats": {
+            "unknown": 10
+          },
+          "parse_coverage": 0.0,
+          "roles": {
+            "unknown": 10
+          },
+          "schemas": [],
+          "total": 10
+        },
+        "hidden_columns": null,
+        "intended_use": "",
+        "known_limitations": "",
+        "license": "",
+        "lineage": {
+          "pipeline": "",
+          "sources": []
+        },
+        "location": {
+          "format": "",
+          "row_count": 0,
+          "size_bytes": 1273267,
+          "uri": "s3://trisol-prod/datasets/2076600516862812160/2077132720667889664/"
+        },
+        "quality_claims": {
+          "freshness": null,
+          "notes": "",
+          "primary_key": [],
+          "required_columns": []
+        },
+        "read_quota_daily": null,
+        "registry_adoption": null,
+        "schema": null,
+        "verified": null,
+        "visibility": "public"
+      }
+    }
+  ],
+  "repos": [],
+  "total": 3
+}

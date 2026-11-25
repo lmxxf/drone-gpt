@@ -1,0 +1,486 @@
+{
+  "schema_version": "fusionx-n0-design/v1",
+  "case_id": "ported-module-294K-v1",
+  "regions": [
+    {
+      "id": "L0_Y0_Z0",
+      "breeder_fraction": 0.25874511623101043,
+      "li6_atom_fraction": 0.847726267059317
+    },
+    {
+      "id": "L0_Y0_Z1",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.8839347586532889
+    },
+    {
+      "id": "L0_Y0_Z2",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.8839347586532889
+    },
+    {
+      "id": "L0_Y0_Z3",
+      "breeder_fraction": 0.25874511623101043,
+      "li6_atom_fraction": 0.847726267059317
+    },
+    {
+      "id": "L0_Y1_Z0",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.8934176631973909
+    },
+    {
+      "id": "L0_Y1_Z1",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.9
+    },
+    {
+      "id": "L0_Y1_Z2",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.9
+    },
+    {
+      "id": "L0_Y1_Z3",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.8934176631973909
+    },
+    {
+      "id": "L0_Y2_Z0",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.9
+    },
+    {
+      "id": "L0_Y2_Z1",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.9
+    },
+    {
+      "id": "L0_Y2_Z2",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.9
+    },
+    {
+      "id": "L0_Y2_Z3",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.9
+    },
+    {
+      "id": "L0_Y3_Z0",
+      "breeder_fraction": 0.2563392749867837,
+      "li6_atom_fraction": 0.870382632786613
+    },
+    {
+      "id": "L0_Y3_Z1",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.9
+    },
+    {
+      "id": "L0_Y3_Z2",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.9
+    },
+    {
+      "id": "L0_Y3_Z3",
+      "breeder_fraction": 0.2563392749867837,
+      "li6_atom_fraction": 0.870382632786613
+    },
+    {
+      "id": "L1_Y0_Z0",
+      "breeder_fraction": 0.24530853791273793,
+      "li6_atom_fraction": 0.8539311387501386
+    },
+    {
+      "id": "L1_Y0_Z1",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.8828979320253162
+    },
+    {
+      "id": "L1_Y0_Z2",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.8828979320253162
+    },
+    {
+      "id": "L1_Y0_Z3",
+      "breeder_fraction": 0.24530853791273793,
+      "li6_atom_fraction": 0.8539311387501386
+    },
+    {
+      "id": "L1_Y1_Z0",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.8904842556605979
+    },
+    {
+      "id": "L1_Y1_Z1",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.9
+    },
+    {
+      "id": "L1_Y1_Z2",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.9
+    },
+    {
+      "id": "L1_Y1_Z3",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.8904842556605979
+    },
+    {
+      "id": "L1_Y2_Z0",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.9
+    },
+    {
+      "id": "L1_Y2_Z1",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.9
+    },
+    {
+      "id": "L1_Y2_Z2",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.9
+    },
+    {
+      "id": "L1_Y2_Z3",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.9
+    },
+    {
+      "id": "L1_Y3_Z0",
+      "breeder_fraction": 0.24338386491735658,
+      "li6_atom_fraction": 0.8720562313319755
+    },
+    {
+      "id": "L1_Y3_Z1",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.9
+    },
+    {
+      "id": "L1_Y3_Z2",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.9
+    },
+    {
+      "id": "L1_Y3_Z3",
+      "breeder_fraction": 0.24338386491735658,
+      "li6_atom_fraction": 0.8720562313319755
+    },
+    {
+      "id": "L2_Y0_Z0",
+      "breeder_fraction": 0.23187195959446544,
+      "li6_atom_fraction": 0.8601360104409603
+    },
+    {
+      "id": "L2_Y0_Z1",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.8818611053973435
+    },
+    {
+      "id": "L2_Y0_Z2",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.8818611053973435
+    },
+    {
+      "id": "L2_Y0_Z3",
+      "breeder_fraction": 0.23187195959446544,
+      "li6_atom_fraction": 0.8601360104409603
+    },
+    {
+      "id": "L2_Y1_Z0",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.8875508481238047
+    },
+    {
+      "id": "L2_Y1_Z1",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.9
+    },
+    {
+      "id": "L2_Y1_Z2",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.9
+    },
+    {
+      "id": "L2_Y1_Z3",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.8875508481238047
+    },
+    {
+      "id": "L2_Y2_Z0",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.9
+    },
+    {
+      "id": "L2_Y2_Z1",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.9
+    },
+    {
+      "id": "L2_Y2_Z2",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.9
+    },
+    {
+      "id": "L2_Y2_Z3",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.9
+    },
+    {
+      "id": "L2_Y3_Z0",
+      "breeder_fraction": 0.23042845484792943,
+      "li6_atom_fraction": 0.8737298298773379
+    },
+    {
+      "id": "L2_Y3_Z1",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.9
+    },
+    {
+      "id": "L2_Y3_Z2",
+      "breeder_fraction": 0.2,
+      "li6_atom_fraction": 0.9
+    },
+    {
+      "id": "L2_Y3_Z3",
+      "breeder_fraction": 0.23042845484792943,
+      "li6_atom_fraction": 0.8737298298773379
+    },
+    {
+      "id": "L3_Y0_Z0",
+      "breeder_fraction": 0.6,
+      "li6_atom_fraction": 0.06634088213178194
+    },
+    {
+      "id": "L3_Y0_Z1",
+      "breeder_fraction": 0.591342026899665,
+      "li6_atom_fraction": 0.0808242787693707
+    },
+    {
+      "id": "L3_Y0_Z2",
+      "breeder_fraction": 0.591342026899665,
+      "li6_atom_fraction": 0.0808242787693707
+    },
+    {
+      "id": "L3_Y0_Z3",
+      "breeder_fraction": 0.6,
+      "li6_atom_fraction": 0.06634088213178194
+    },
+    {
+      "id": "L3_Y1_Z0",
+      "breeder_fraction": 0.5909392374471663,
+      "li6_atom_fraction": 0.08461744058701151
+    },
+    {
+      "id": "L3_Y1_Z1",
+      "breeder_fraction": 0.5615589350817858,
+      "li6_atom_fraction": 0.12063755755437479
+    },
+    {
+      "id": "L3_Y1_Z2",
+      "breeder_fraction": 0.5615589350817858,
+      "li6_atom_fraction": 0.12063755755437479
+    },
+    {
+      "id": "L3_Y1_Z3",
+      "breeder_fraction": 0.5909392374471663,
+      "li6_atom_fraction": 0.08461744058701151
+    },
+    {
+      "id": "L3_Y2_Z0",
+      "breeder_fraction": 0.5897996586749559,
+      "li6_atom_fraction": 0.09534911853966957
+    },
+    {
+      "id": "L3_Y2_Z1",
+      "breeder_fraction": 0.5559145644728751,
+      "li6_atom_fraction": 0.17379190642205633
+    },
+    {
+      "id": "L3_Y2_Z2",
+      "breeder_fraction": 0.5559145644728751,
+      "li6_atom_fraction": 0.17379190642205633
+    },
+    {
+      "id": "L3_Y2_Z3",
+      "breeder_fraction": 0.5897996586749559,
+      "li6_atom_fraction": 0.09534911853966957
+    },
+    {
+      "id": "L3_Y3_Z0",
+      "breeder_fraction": 0.6,
+      "li6_atom_fraction": 0.07540342842270036
+    },
+    {
+      "id": "L3_Y3_Z1",
+      "breeder_fraction": 0.5865755430234241,
+      "li6_atom_fraction": 0.12571136439587127
+    },
+    {
+      "id": "L3_Y3_Z2",
+      "breeder_fraction": 0.5865755430234241,
+      "li6_atom_fraction": 0.12571136439587127
+    },
+    {
+      "id": "L3_Y3_Z3",
+      "breeder_fraction": 0.6,
+      "li6_atom_fraction": 0.07540342842270036
+    },
+    {
+      "id": "L4_Y0_Z0",
+      "breeder_fraction": 0.6,
+      "li6_atom_fraction": 0.07254575382260363
+    },
+    {
+      "id": "L4_Y0_Z1",
+      "breeder_fraction": 0.5914521257696563,
+      "li6_atom_fraction": 0.07978745214139801
+    },
+    {
+      "id": "L4_Y0_Z2",
+      "breeder_fraction": 0.5914521257696563,
+      "li6_atom_fraction": 0.07978745214139801
+    },
+    {
+      "id": "L4_Y0_Z3",
+      "breeder_fraction": 0.6,
+      "li6_atom_fraction": 0.07254575382260363
+    },
+    {
+      "id": "L4_Y1_Z0",
+      "breeder_fraction": 0.591250731043407,
+      "li6_atom_fraction": 0.08168403305021842
+    },
+    {
+      "id": "L4_Y1_Z1",
+      "breeder_fraction": 0.5765605798607167,
+      "li6_atom_fraction": 0.09969409153390006
+    },
+    {
+      "id": "L4_Y1_Z2",
+      "breeder_fraction": 0.5765605798607167,
+      "li6_atom_fraction": 0.09969409153390006
+    },
+    {
+      "id": "L4_Y1_Z3",
+      "breeder_fraction": 0.591250731043407,
+      "li6_atom_fraction": 0.08168403305021842
+    },
+    {
+      "id": "L4_Y2_Z0",
+      "breeder_fraction": 0.5906809416573018,
+      "li6_atom_fraction": 0.08704987202654745
+    },
+    {
+      "id": "L4_Y2_Z1",
+      "breeder_fraction": 0.5737383945562615,
+      "li6_atom_fraction": 0.12627126596774085
+    },
+    {
+      "id": "L4_Y2_Z2",
+      "breeder_fraction": 0.5737383945562615,
+      "li6_atom_fraction": 0.12627126596774085
+    },
+    {
+      "id": "L4_Y2_Z3",
+      "breeder_fraction": 0.5906809416573018,
+      "li6_atom_fraction": 0.08704987202654745
+    },
+    {
+      "id": "L4_Y3_Z0",
+      "breeder_fraction": 0.6,
+      "li6_atom_fraction": 0.07707702696806283
+    },
+    {
+      "id": "L4_Y3_Z1",
+      "breeder_fraction": 0.5890688838315359,
+      "li6_atom_fraction": 0.1022309949546483
+    },
+    {
+      "id": "L4_Y3_Z2",
+      "breeder_fraction": 0.5890688838315359,
+      "li6_atom_fraction": 0.1022309949546483
+    },
+    {
+      "id": "L4_Y3_Z3",
+      "breeder_fraction": 0.6,
+      "li6_atom_fraction": 0.07707702696806283
+    },
+    {
+      "id": "L5_Y0_Z0",
+      "breeder_fraction": 0.5915622246396479,
+      "li6_atom_fraction": 0.07875062551342532
+    },
+    {
+      "id": "L5_Y0_Z1",
+      "breeder_fraction": 0.5915622246396479,
+      "li6_atom_fraction": 0.07875062551342532
+    },
+    {
+      "id": "L5_Y0_Z2",
+      "breeder_fraction": 0.5915622246396479,
+      "li6_atom_fraction": 0.07875062551342532
+    },
+    {
+      "id": "L5_Y0_Z3",
+      "breeder_fraction": 0.5915622246396479,
+      "li6_atom_fraction": 0.07875062551342532
+    },
+    {
+      "id": "L5_Y1_Z0",
+      "breeder_fraction": 0.5915622246396479,
+      "li6_atom_fraction": 0.07875062551342532
+    },
+    {
+      "id": "L5_Y1_Z1",
+      "breeder_fraction": 0.5915622246396479,
+      "li6_atom_fraction": 0.07875062551342532
+    },
+    {
+      "id": "L5_Y1_Z2",
+      "breeder_fraction": 0.5915622246396479,
+      "li6_atom_fraction": 0.07875062551342532
+    },
+    {
+      "id": "L5_Y1_Z3",
+      "breeder_fraction": 0.5915622246396479,
+      "li6_atom_fraction": 0.07875062551342532
+    },
+    {
+      "id": "L5_Y2_Z0",
+      "breeder_fraction": 0.5915622246396479,
+      "li6_atom_fraction": 0.07875062551342532
+    },
+    {
+      "id": "L5_Y2_Z1",
+      "breeder_fraction": 0.5915622246396479,
+      "li6_atom_fraction": 0.07875062551342532
+    },
+    {
+      "id": "L5_Y2_Z2",
+      "breeder_fraction": 0.5915622246396479,
+      "li6_atom_fraction": 0.07875062551342532
+    },
+    {
+      "id": "L5_Y2_Z3",
+      "breeder_fraction": 0.5915622246396479,
+      "li6_atom_fraction": 0.07875062551342532
+    },
+    {
+      "id": "L5_Y3_Z0",
+      "breeder_fraction": 0.5915622246396479,
+      "li6_atom_fraction": 0.07875062551342532
+    },
+    {
+      "id": "L5_Y3_Z1",
+      "breeder_fraction": 0.5915622246396479,
+      "li6_atom_fraction": 0.07875062551342532
+    },
+    {
+      "id": "L5_Y3_Z2",
+      "breeder_fraction": 0.5915622246396479,
+      "li6_atom_fraction": 0.07875062551342532
+    },
+    {
+      "id": "L5_Y3_Z3",
+      "breeder_fraction": 0.5915622246396479,
+      "li6_atom_fraction": 0.07875062551342532
+    }
+  ]
+}

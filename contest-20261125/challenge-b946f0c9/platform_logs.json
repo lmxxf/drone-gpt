@@ -1,0 +1,5 @@
+{
+  "status": "access_denied",
+  "reason": "Server restricts scoring logs to challenge owner, collaborators and admins; current account is not authorized.",
+  "attempt_id": "111893"
+}

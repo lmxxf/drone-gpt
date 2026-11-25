@@ -1,0 +1,1965 @@
+{
+  "status": "feasible",
+  "version": "fusionx-n0-evaluation/v1",
+  "stages": {
+    "normal": {
+      "runs": [
+        {
+          "seed": 2026100801,
+          "particles_per_batch": 300000,
+          "batches": 64,
+          "statepoints": [
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.01.h5",
+              "sha256": "a43133babc8849a3f68d9a8c560498f11d2c1848816277520ce8f17f3c8377e6"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.02.h5",
+              "sha256": "02075d823d0ca37191d1673dbc0a4751b70ca39f8bbe95f26051693b3edfd324"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.03.h5",
+              "sha256": "85b5e0c39160bd172ae52359d6e92199cd32a28629830d2910b81506df380da3"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.04.h5",
+              "sha256": "b8410996a1f969f6661aaa1e1795c7be1133cdefe32e61ccb6e5d8ae93fbb5c2"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.05.h5",
+              "sha256": "2d6d097b59414d216b1d5b0c17c0c318f4c56483b334f1d196cee16465f39a0c"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.06.h5",
+              "sha256": "f4a18420cae7bb4f8cac2ca02440ffb063fce98478e6e5b61639e344dad224cf"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.07.h5",
+              "sha256": "42ac041143b58cad9aeb8bcc44634ee36396a6ed3c8d1673b9926fcdd5b530d1"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.08.h5",
+              "sha256": "307501e48008233162bc48390e8ed5647266611f3a71384b54ae2a0d6143290f"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.09.h5",
+              "sha256": "50f6fd63cb29698d6e4d6103c2524d2d7b13661408b4372a436e536d00e478f4"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.10.h5",
+              "sha256": "e02102b399dff07c5a787ef2992035646947c0dd78df0a523a28b490b9cc9b18"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.11.h5",
+              "sha256": "71a6cb1b0a99d4aada815bc38b8b1cec6889c6098b16be8f777ff5011b8c31b0"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.12.h5",
+              "sha256": "d335af5a838152b7d859aa0f720e1b9f1ba47ad5d2705445c90bc735f725e1a0"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.13.h5",
+              "sha256": "4c218ae35eba2af1a469094fdd7feb113b857f67837f748286042e1e4753fa97"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.14.h5",
+              "sha256": "b70e0341490ab4f853cd10b09c39d9e933df81a2f14aef84060708060d1ab278"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.15.h5",
+              "sha256": "c2d5bed1d5a50f935bafd35a3e219598f5f879a3849651decdd8f8068779b4b2"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.16.h5",
+              "sha256": "8a4297e4dae524063b7f25f67497ff121c4834e7f695fd67b43c8b1c1b1a1245"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.17.h5",
+              "sha256": "b016bac79b9e31c4a1c6a30c53b8ba58f5e03d84087fe7fcf5d374255b28c6e9"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.18.h5",
+              "sha256": "26e09ca2b069bd16080be5e4d1e126a4f6994edb159216e733f7abe0beb08093"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.19.h5",
+              "sha256": "075b806eeb682377eb19e48a4baae697f6d9aa610fa443d429be911d988f0554"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.20.h5",
+              "sha256": "e320aef2b8e267d151eb5592b727ffac1daaafbcc8e0939056966ef0a30ceefe"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.21.h5",
+              "sha256": "24d543ec7779b735c1fb09ae8459d8ae8c4ba70adf6fdbeeb0f2e1bc61d28337"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.22.h5",
+              "sha256": "ead0cf4bb92fc50b2372d650430de71b222c390a074dfc2333a101e5c7f48895"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.23.h5",
+              "sha256": "28c4dbfb856fcdbea17cdb233dfe77dc5515b327f923f81a53cbeed278de00f1"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.24.h5",
+              "sha256": "9a9337cea3d94b6f69eb578f9116efb5bff3a8f3a847ce8113826a4b55ebd35e"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.25.h5",
+              "sha256": "1b8cfc97f5ae6696ba30d5f1b03b9dee6ed2c495cc5bdbe882e55cf268d46de7"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.26.h5",
+              "sha256": "5e6b1818ea47916c7f13302b92f657c0d169ab95d9c5f3aab059da240162a4ac"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.27.h5",
+              "sha256": "f5189cbd550fb07b9826836b2fef56cda4809958fb65b5d93614f2ccbdebee7e"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.28.h5",
+              "sha256": "a764bc73bb3010e3bb7719e52cfedb5d95c8c512581ce721efbbae8ea5273109"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.29.h5",
+              "sha256": "731187cb611c74b7ffceb42fa9b7a963664e6a5041da44aa9f9e82287d9aa39a"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.30.h5",
+              "sha256": "83a3c8ac63ca297eb034e322966ce67b1466ca158926238f00d8800660e87de6"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.31.h5",
+              "sha256": "97cee4b80f34ea48fb17563764dc6812b60e22b62b05af0cbccbdbddb5ca4649"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.32.h5",
+              "sha256": "cd8e101c4034357d12c19afeeeae96918dc941c7a23ec5a767abde81f6b03bde"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.33.h5",
+              "sha256": "dc072b5700fe71b06cd1447d1a03c9cd2cb40aba1a13ea7f72c7b7fba3e19108"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.34.h5",
+              "sha256": "45f6e1b70e8933d46bd2a053e841ba3e2fd5c0bf77212456f63fb0ec3e963ab2"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.35.h5",
+              "sha256": "fb6c930c87e57c8f155eb958ec82ef18d9a85d25dfb75aa878b1c64f5c14596d"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.36.h5",
+              "sha256": "6c0e49614f616be2121e900be3fd0006c95ec2fe70963354ba567a3531353a5b"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.37.h5",
+              "sha256": "6e5c48a99df2d7500c37dffba42584f839345c3d5da6abeeb584cca3a367adb8"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.38.h5",
+              "sha256": "09b9590f17fc99ce1561222587e8d101ae8accd3765caed647d20bd20ac527ba"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.39.h5",
+              "sha256": "0111045bdff0fa5326cb9892a4e67573bc27a139f03d967b862e1f09e2167692"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.40.h5",
+              "sha256": "b0aaa9e5de95a80aec4f8886d0ad1c902953fdf98e4f45b3180cc50967665cda"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.41.h5",
+              "sha256": "b1a70788546e70c4b51e930c5467abe23be945e215fb8d79c10cf84fbae00363"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.42.h5",
+              "sha256": "5574c9fcd014f96e9216a685d287d791930b26f614ce674433c53d175a4cb784"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.43.h5",
+              "sha256": "822039d28081a7878a521e95405c5d8afefbe6f481f4f57e2ae85f3d27b897d0"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.44.h5",
+              "sha256": "52abf74019a3decd70cecaa927a1a6f692768fc8d06b1642a094d9323a0f5944"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.45.h5",
+              "sha256": "5602dc11d282c4ff972b7e35447a21faf60708de9171d00f844e4a8854f69808"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.46.h5",
+              "sha256": "c4f6968fb5ab6a4ab93793e15fc0bcc94ec7b3c3a78a768f631fc65bead5bcba"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.47.h5",
+              "sha256": "1981042ce1a0dd1e08cfdfb10856e2bd727e58943c541124abc589e635841122"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.48.h5",
+              "sha256": "e993c270fec6b9533720962d46ae9dbf3ebf220c826ca379c6b66922ae740f9a"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.49.h5",
+              "sha256": "87a6c16f7261e0e4ff57a731c925fc0b8f40ccc276cee89f91e40000dd78081b"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.50.h5",
+              "sha256": "eb00e6b6d63a28f63b598dbd6e4953dec68522f126a4a565a8b726c5d3e2f529"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.51.h5",
+              "sha256": "4758005c2858589a8b169c322c5c154c85d5a5130f7535580b4afa373a14079f"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.52.h5",
+              "sha256": "093b593661fd1b57d2321d27de18667d7edfefd01848c3fa8029bc13ab3f0d83"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.53.h5",
+              "sha256": "e4e8e5aa5cbadd30673a1229560088c5f2fcb139c9a6f95e18e3b1b9cc9effbf"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.54.h5",
+              "sha256": "1b9ff22e24e1b7776416affe67c4d2e0af44c7272ede47e01cf133a0513216fe"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.55.h5",
+              "sha256": "6cee286aec09d441422122a768cbd848de8f87d420cc3ab7aea0b2bee625c824"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.56.h5",
+              "sha256": "55c40e232668561ed37708edbe979efdb072c2903dc06564ba9ac331635dd8f1"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.57.h5",
+              "sha256": "472310133fe260f75dc4c2c4e565edea6c2fbd954d9f40363da5ee27bec026ec"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.58.h5",
+              "sha256": "eb094285bceae2a5f85241fab4343164174b22d967787e5fb9ff82197bcf8a4f"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.59.h5",
+              "sha256": "55a731bf85504388113336281493348ce9abed88731863fe2ba824c37184aead"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.60.h5",
+              "sha256": "0d960022ab0dd5bcf9a751ebea735a2fce859fe8f170787a32c32ceab15534c7"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.61.h5",
+              "sha256": "8cd44d85f4a648cbe5bccd76ed7131dae01446ba90653d151613d2f7a95a9d9b"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.62.h5",
+              "sha256": "f05f8f435af0d7c85ac9d62a2e844fdbcd8938346e2b1cc7ddfd9912043587b2"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.63.h5",
+              "sha256": "54b9e29586d9747902bccde019f18d05251706f41f3a706eb14045f20daed22d"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/statepoint.64.h5",
+              "sha256": "b5c173faf8703f8b8543c462eb4c346d97899cb3dacd1bef363421f5f79b338f"
+            }
+          ],
+          "inputs": [
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/materials.xml",
+              "sha256": "77e2b5ef83bb1a02835fc47b75ed7fc1c30842f2d9d1538765c168e515c8114c"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/geometry.xml",
+              "sha256": "16035c23656265afb64319e438814bdf444fb9b807479be89af3b162d83b9993"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/settings.xml",
+              "sha256": "9e93707ac22620ce3ea6ababada0b7dbc9ea88807fca583689387d3456712775"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100801/tallies.xml",
+              "sha256": "6ee8611e1a3e5356539a394f1f0ef3857f0c4c08e1cd2cb302097b893f883c07"
+            }
+          ]
+        },
+        {
+          "seed": 2026100802,
+          "particles_per_batch": 300000,
+          "batches": 64,
+          "statepoints": [
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.01.h5",
+              "sha256": "d398267c888a7322ffb684a6baf899fe340a9cb195efc0f1ac401a392dcde0d0"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.02.h5",
+              "sha256": "85ec4c4702d2102f5783808f55efe6e5df366d7c433a8299aeab5f4383af3aff"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.03.h5",
+              "sha256": "9d5483feba55881b2cdbc4a55c83584921bf19972961d4f355af882469023b8a"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.04.h5",
+              "sha256": "d71226a3ee56976faa3d0035e32fccae278fdc970eb9e0735b0341261fc948da"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.05.h5",
+              "sha256": "a7cd4544dd1de0765ab17a5c4f8a48ec168ab6c41014dfed901b9f644abbc795"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.06.h5",
+              "sha256": "5e4625386bcd9a6c6b7813f641ba84ada31a4d98363066a5c6f9b30af76335f9"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.07.h5",
+              "sha256": "093044710472f745e25e20c34a612cebcfb67074c8016f596f3bb68ed6b55771"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.08.h5",
+              "sha256": "54c37b8df9b97278bf13bbca2f48f2066c2fc83725eed29ec3906489e938de78"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.09.h5",
+              "sha256": "816b7285a7688aa0416a5e535c82f4e1ff37b590ebf0a8730f2a5912bdc53789"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.10.h5",
+              "sha256": "3d70505ff0b741b63a6e9e62d2c6307100ea2191f697497bbc27895fd2772f8d"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.11.h5",
+              "sha256": "6c3c9d968f45278b4a4e81cd12449fd7cc5d17ce3c7dbb5a1ce02534ab1ea86c"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.12.h5",
+              "sha256": "aa88270c77737fe4269fac50ab4f96bce827fec9caf525d2bd30cd1231aa72f0"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.13.h5",
+              "sha256": "0032abe57c21f61c532251dbfbe9342a73787506f7b5829253721579815f2036"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.14.h5",
+              "sha256": "c42a2d044a5440b9b07dce7857a4857182c1363aec5e0b059b662289120942ef"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.15.h5",
+              "sha256": "85b6348d4bcaa5441c40bb24a9f1c7bfed1bac9cc9204b19dfdd748b34f289a3"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.16.h5",
+              "sha256": "997072fd20cd5f1f487d3a7f2d3eb34c7249b89bb1755c5c5616a489aafe40e6"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.17.h5",
+              "sha256": "4a3f552ac2de5904cfb91c635bd05fc9144600170b878171bd404726c2d2c9fe"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.18.h5",
+              "sha256": "dd6944dd0244266408622485ec434ace4b05cc5149a876b79def7b770f91f785"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.19.h5",
+              "sha256": "6f6aabf95f9c65fe54d07ebeb5721853fbb4240a2ca2c9cca6f1c0c4fa1ee445"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.20.h5",
+              "sha256": "9b4e635fa734fd7e3d7d8c960007533a1351006ce1e806c26ce8693bc5fc23f9"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.21.h5",
+              "sha256": "5aa4c28f4418a06af9c9778259bd7412afd4980fae7c02c8171aef9d22611c8c"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.22.h5",
+              "sha256": "930380293dfda26d9bc9d758c9e7b41d2810e4c0ff5b81afed5db17bc0f2a883"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.23.h5",
+              "sha256": "e52130e18da57a5b889ca1adfcfff94c2aae78e1e2474224266e3fbcd2880b4d"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.24.h5",
+              "sha256": "5f63eca14408e1fee7df21b76ca37347d520af2af6ff5b76d19d4f279b11e48d"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.25.h5",
+              "sha256": "527acd65faa7bc09309b30622a2d94d0712637a9830837a69cd8e66c9726a4f3"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.26.h5",
+              "sha256": "eb1b7b9489e5fef850a7210267ef725cfbe67ae960bf75478cb71afe29577cb7"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.27.h5",
+              "sha256": "ab97e1d05dce9e9461c0b800ecc59c8aa44bc48096a11ea8326a1ddbe0ee13a6"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.28.h5",
+              "sha256": "ef9367a98a904c85b35b8df16b40b2448f7f415782cc6df78f166c0c29c853d5"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.29.h5",
+              "sha256": "61ab147d4fcf0ebacea64954f5d79c301743b166cfc047259a6a9d6a14356bae"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.30.h5",
+              "sha256": "d460c04fad0d37a0dd4b80328b66fc976f09aa7a9a539722e2bde8fdc3755794"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.31.h5",
+              "sha256": "30c9e79882d70d0f98f4903ead312022c92be66a36eab0516317daf9f0df4956"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.32.h5",
+              "sha256": "7b1af47809e8da16d5e56b74099d1d77f0beb0ec7dc9e96b2d68e3424c71f289"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.33.h5",
+              "sha256": "44af5c6828a2c93364bdc3be7b82b4a1abc713079aea5abf530ff7ddd3d597b1"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.34.h5",
+              "sha256": "0453a53e25634eaa615ffb9c490599df59d2291a0a21496cfa8eff87d6ce52fe"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.35.h5",
+              "sha256": "3bb521fd1d4207805e489eafda06651860fae6b34c570860f41cbf8323a00f9b"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.36.h5",
+              "sha256": "788d2a44edc7591117ee1c3cb98c3e5fd44c5ad0ff59899f07b44aed01f3f146"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.37.h5",
+              "sha256": "7547483f2fb4e30b96804c06bcd6dcddaf9aa017b4ea9bdcfd339b5ac05c95b1"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.38.h5",
+              "sha256": "215d55055f9bc60670fcc7fa341f1f3c6671347c8ee09f34dcc34a1afd91c6a4"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.39.h5",
+              "sha256": "d7fb65fcefa50bb7e03aacb7aee6aac819761fa07e027a527813bf3b4d67faa5"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.40.h5",
+              "sha256": "0caffe4f4fa2f64acfec503243b2c0697a83f5b03b4ac7e9e7874a6a361753fc"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.41.h5",
+              "sha256": "e6b41312582f9518037d35c982137dd30f3b6375079570630ec3dcaabddb3b15"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.42.h5",
+              "sha256": "905d5a6c989ce20bf68c58a5ab2f1096d24bd989ef5ebfd57fbdbcde150ca00e"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.43.h5",
+              "sha256": "78251a8f9e99b5cd8aea2e2075788f494f5612da7dbbb01bf53dbb561a9e988a"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.44.h5",
+              "sha256": "71df2fb40d4083da6eaa9f1f139302a9c31fc340f795d8ed1f711eacd8649948"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.45.h5",
+              "sha256": "587d85bc62282db15395da0f6474830c64ef12511394a0e27a03334bb8ce6504"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.46.h5",
+              "sha256": "eda8f1f4b3f105e4b582c42c2b95f9de34a5f146713832adc816bda7c530c3f8"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.47.h5",
+              "sha256": "e6e88226a5e067150e5c8c9b4c4b0f0939ba1ed2f10e9d8776946b55e411e419"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.48.h5",
+              "sha256": "f0a08e9bc9c765600f822cad7db02b65f14641b9c51daea8fc59978ad91f02db"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.49.h5",
+              "sha256": "2f011f97447f4aa3db163ecb6552797a5ffdcd796131eeafd39a76ddaae65c4e"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.50.h5",
+              "sha256": "2384352f9bc218e867188f92ab1d252e91793118859dbdf337d9f5d76ce29684"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.51.h5",
+              "sha256": "d320170f4fe462684cddb647ff93f84eac9be7317d06ce84e353599c95b2f5e9"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.52.h5",
+              "sha256": "dfac54ed7f77990f25b543757e803cc9c98fdf82a044b977b7bf39065a45127a"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.53.h5",
+              "sha256": "05b463574be1b99597f03f79fee5e1380628904b26c6f9a62622250e8eff6d4d"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.54.h5",
+              "sha256": "822a5c8b26d94ae9ab7ee27d7204f4d508dc7fc4d81104b0c9a5915210cfc26c"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.55.h5",
+              "sha256": "a4424806fc7801598bcbba6a7a6e39bdfbe6a08a39a5e2b8078e11d877c153f4"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.56.h5",
+              "sha256": "b458a26854a1f7d105b8b8fde70d5e33f80b7a8ce0a7a8a5dd5f7f2c7db6b74f"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.57.h5",
+              "sha256": "33513ce7f219bed3fc1c4e5becb52f81e50ba7f1887f0c0af873a7d0a708f245"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.58.h5",
+              "sha256": "178320e87e12eab9a1d9f0233c29089dbdfac523d57e5ab660ad893a0583d727"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.59.h5",
+              "sha256": "1d0499d74ffb94ebbf5b3a0323cc6d41e3b1ff617bd7ef6cea72682d29f85ab5"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.60.h5",
+              "sha256": "d4c34019b991bb37f3d0492e57324b2198eb4ab7db01d524bd38a3978dc0f9f0"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.61.h5",
+              "sha256": "688cacb202017cdb2b514869edd6d2be2928b9ee1ff2cef6f62204f2fdff02da"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.62.h5",
+              "sha256": "99a3220b517e9a6df01fb45ae4a4058010db072480445e2b092c0a7b5ebe7d31"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.63.h5",
+              "sha256": "f804b531df58107daa6f19611829ec1bf66bd013fd127457142684a1aa6e5f82"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/statepoint.64.h5",
+              "sha256": "105976e03a62a4506c6d4762ece837f93bfd7c32d8f8ed9cb05da2cac2fdc308"
+            }
+          ],
+          "inputs": [
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/materials.xml",
+              "sha256": "77e2b5ef83bb1a02835fc47b75ed7fc1c30842f2d9d1538765c168e515c8114c"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/geometry.xml",
+              "sha256": "16035c23656265afb64319e438814bdf444fb9b807479be89af3b162d83b9993"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/settings.xml",
+              "sha256": "e231800d3b920fc38b963d0fa8c1d1cfe0c14ee24a197eaf6d9a0c269c05e953"
+            },
+            {
+              "path": "runs/uniform-full/normal-seed2026100802/tallies.xml",
+              "sha256": "6ee8611e1a3e5356539a394f1f0ef3857f0c4c08e1cd2cb302097b893f883c07"
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "mean": [
+          0.3167331214828973,
+          1.7825502246974755e-06,
+          2.7026498720508726e-06,
+          2.676167149844869e-06,
+          1.782864655839501e-06,
+          2.613128879727605e-06,
+          4.109151055331174e-06,
+          4.103597232550151e-06,
+          2.57880281266237e-06,
+          2.6501254466684585e-06,
+          2.4610211043797255e-05,
+          2.4588788925998354e-05,
+          2.6457664934494e-06,
+          1.841431670598954e-06,
+          2.983166757581883e-06,
+          2.96777027133682e-06,
+          1.8443657377523543e-06
+        ],
+        "standard_error": [
+          9.881865839904621e-05,
+          1.3919422667767827e-08,
+          1.824790663192484e-08,
+          1.6807783938463005e-08,
+          1.348198961430262e-08,
+          1.59558435464768e-08,
+          2.0876236679241925e-08,
+          2.1551434425732873e-08,
+          1.5773332386646024e-08,
+          1.4654660373776128e-08,
+          3.846874473706406e-08,
+          4.13277867457808e-08,
+          1.6444774763465577e-08,
+          1.3394386123744431e-08,
+          1.786373884284217e-08,
+          1.756853330133876e-08,
+          1.3790799393291807e-08
+        ],
+        "lower": [
+          0.3164118200708707,
+          1.737292272098195e-06,
+          2.643318180421439e-06,
+          2.62151790849757e-06,
+          1.7390289838097252e-06,
+          2.561249658286894e-06,
+          4.041273546857469e-06,
+          4.033524369546651e-06,
+          2.5275170124875846e-06,
+          2.6024769241409596e-06,
+          2.4485132822708717e-05,
+          2.4454414745530017e-05,
+          2.592297549045967e-06,
+          1.797880834709142e-06,
+          2.925084158533619e-06,
+          2.9106475108338246e-06,
+          1.7995259940255496e-06
+        ],
+        "upper": [
+          0.31705442289492386,
+          1.8278081772967559e-06,
+          2.761981563680306e-06,
+          2.7308163911921677e-06,
+          1.826700327869277e-06,
+          2.665008101168316e-06,
+          4.177028563804879e-06,
+          4.173670095553652e-06,
+          2.630088612837155e-06,
+          2.6977739691959574e-06,
+          2.4735289264885793e-05,
+          2.472316310646669e-05,
+          2.6992354378528335e-06,
+          1.8849825064887658e-06,
+          3.041249356630147e-06,
+          3.0248930318398157e-06,
+          1.889205481479159e-06
+        ],
+        "halfwidth": [
+          0.00032130141202657423,
+          4.525795259928032e-08,
+          5.933169162943351e-08,
+          5.4649241347298665e-08,
+          4.383567202977582e-08,
+          5.1879221440711036e-08,
+          6.787750847370472e-08,
+          7.007286300350066e-08,
+          5.128580017478539e-08,
+          4.764852252749872e-08,
+          1.2507822108853714e-07,
+          1.343741804683383e-07,
+          5.346894440343324e-08,
+          4.355083588981184e-08,
+          5.808259904826383e-08,
+          5.712276050299544e-08,
+          4.483974372680462e-08
+        ],
+        "n_batches": 128,
+        "quantile": 3.2514245511116493,
+        "seed_difference": [
+          9.32621440454251e-05,
+          2.2437532063186516e-08,
+          1.8668545020736277e-08,
+          1.7611378689592848e-08,
+          1.3294928710597715e-08,
+          3.687434751606904e-08,
+          5.7071865217458514e-08,
+          6.349513680239732e-08,
+          1.3517064113346159e-08,
+          2.5406140264958723e-08,
+          1.085928054851637e-07,
+          4.378613885259945e-08,
+          5.8931139361754604e-08,
+          2.595103749047294e-08,
+          2.240338893659609e-08,
+          6.707645215127276e-09,
+          2.2854783584032826e-08
+        ],
+        "seed_difference_limit": [
+          0.0006445819618916211,
+          9.064167710520069e-08,
+          1.1901055041506011e-07,
+          1.0961270788642057e-07,
+          8.793427321772881e-08,
+          1.0362033217573325e-07,
+          1.3528636907646913e-07,
+          1.3949350719308132e-07,
+          1.0290336578054633e-07,
+          9.539101349465404e-08,
+          2.4916958546286886e-07,
+          2.69514453120156e-07,
+          1.0599569402262046e-07,
+          8.712294887703172e-08,
+          1.1644457671777576e-07,
+          1.1468152284198832e-07,
+          8.97909416608938e-08
+        ],
+        "positive_batch_fraction": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "halfwidth_limit": [
+          0.001583665607414584,
+          1.0966849063786006e-07,
+          1.6571889382059444e-07,
+          1.6384898347252325e-07,
+          1.0960201967187648e-07,
+          1.5990048607010586e-07,
+          2.506217138282043e-07,
+          2.50420205733276e-07,
+          1.578053167707149e-07,
+          1.6186643815164765e-07,
+          1.4841173558933003e-06,
+          1.4833897863878709e-06,
+          1.6195412627124044e-07,
+          1.1309895038937384e-07,
+          1.8247496139785721e-07,
+          1.8149358191055826e-07,
+          1.1335232888822812e-07
+        ]
+      }
+    },
+    "cosine": {
+      "runs": [
+        {
+          "seed": 2026100801,
+          "particles_per_batch": 300000,
+          "batches": 64,
+          "statepoints": [
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.01.h5",
+              "sha256": "06836fae9f1da5d03895f1bb2b24604eacdf6c8504cc01ecac971b2a7b38a8c5"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.02.h5",
+              "sha256": "88fdfe7a35d7733acd3a1ead9fcc3550c10c1bf76292671b5d6e03685b3c02b2"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.03.h5",
+              "sha256": "4bb697a1b8e946c7bd08d2c547b8caaf442fc01208607b02e0bb426cba6e8f76"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.04.h5",
+              "sha256": "a88211c5f27f7e0d8f9ea1cc9e5dc7924abd66076c7f2adaba23fe3ff463c04b"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.05.h5",
+              "sha256": "d1ee6071aa4b06d03d0ae646696f9fcfac30a0c632c92641e093eb6aa79e8eb7"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.06.h5",
+              "sha256": "b7c9f5c9aad12096c973c35b19d69365ea2707188a5067146ec7a984282b9825"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.07.h5",
+              "sha256": "c53b44683eff20ba8159da28ed70173812bb0e9c0b8ed74f1061dc71a60af499"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.08.h5",
+              "sha256": "1de9c273141db34047fc1e53f4d590acfb9ff0f39b0ba76e114b6f8e77f38a00"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.09.h5",
+              "sha256": "07e7aa8cf333b53072d72f62a9302dd1f1253cd9d71f1d312aa5fecb8d526223"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.10.h5",
+              "sha256": "3236460a9853c70a5e45469c23cdb0f0c13daeb6a8fb643b8d5fa52ee801485d"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.11.h5",
+              "sha256": "7e767674883026147933b0a3dc9b837d8724eb13ae89c7279dcd0dd1ce201555"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.12.h5",
+              "sha256": "79fc7831059b676adc364010d2f0616a60c3d975798c417fc1a845f0d288400a"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.13.h5",
+              "sha256": "b912ea747206b35a0197beff25d0038c47cd894c11c85074d0fd7ea04898228a"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.14.h5",
+              "sha256": "386a5c3ded0791b00c9e8f351084eae3921030ccbe0c96232249c53a6348000d"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.15.h5",
+              "sha256": "b8f88edfb41231e3505930a08b07d9789164edae771b060dcf223f64b6aecb88"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.16.h5",
+              "sha256": "5d722c27bd9b9a5e531a072157244839c1b5f4dd09f10ef14483cfde1fb1c52b"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.17.h5",
+              "sha256": "579eedcf0654eb032bfc343a1afcbcaf2069d2bee5d6c1e0069fb9bc048567c2"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.18.h5",
+              "sha256": "3f545cb5522bd26567bb63bfc0d72e6e530e1a177c3c454eee95bf7e2e6cacef"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.19.h5",
+              "sha256": "1186db13dd4066fa1f879b6f35948ad03f72b046031295067774cbc22e180449"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.20.h5",
+              "sha256": "04e4450f55ef24a60233d0b36e4e483c951a4ef9574de46e3a8e1d9037c3ef9c"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.21.h5",
+              "sha256": "f61fdb99d9d27d368789b1767411e255b6c8a70c3e6748ef45ef4ee7401b2ee5"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.22.h5",
+              "sha256": "1b860de0dfa855b1de939bf466a47b388b8d066edcaa15b8a55fa7c02ba2c457"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.23.h5",
+              "sha256": "ceb34bf8a93e9e80e402b08f2e270d73eda26c29fd88a00e92ce8babdf80744e"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.24.h5",
+              "sha256": "9d34f043832fe5a78c74b8b34d869b3a66a733af2a2f0626ecee9c7ffc0e43b7"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.25.h5",
+              "sha256": "149bf29d3d5e3208fa480a16f96603949b747e1275a9fb915fa94270f0df04f4"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.26.h5",
+              "sha256": "f12964d7dfceb92a8db070a4e5369d3a618fe46d9c568e70ececa2e2a9b4430a"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.27.h5",
+              "sha256": "518f04926f92483fbe116c0974523856e680f5b97854158e721cbbda5c1ca190"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.28.h5",
+              "sha256": "c2edfb5a6ec4707ee2b3a9ef3ce80408d9af975cf89361cad146b714dcd93450"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.29.h5",
+              "sha256": "98a7cc4ee7ef6875a6e4f73dc78011f5fa7070792fb1b2622000ea2a1b320a5a"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.30.h5",
+              "sha256": "b69336aca87a12c2f0a24ed7a924cfb468ab2ae6402ba53f3fa527fcd70b36d4"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.31.h5",
+              "sha256": "dc215538a8a53a75925f9803eab1afe5cab9985ed6a99c052627235a87c5f9df"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.32.h5",
+              "sha256": "9be47891bc34ba960885c2ce9806407f3ee249ef42bfff0f77b9fc8bcd98c8d8"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.33.h5",
+              "sha256": "21ed33e5f80f26b3f38a9268839fbf3d640d5b78d02b5178ff9afaa5056b6f51"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.34.h5",
+              "sha256": "e140d35bcd667f58722e02f9fd7b263090c6cb8f2fcf35fdb8ea32252526da30"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.35.h5",
+              "sha256": "aed93b39e38d50b6d692248f6cf492d9375f2eb23d17b70b501efedcbd917bb0"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.36.h5",
+              "sha256": "0a5bb86c9d97695775d2baaa398a002b0b9abc60ff78b1c950b84a0653d747f2"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.37.h5",
+              "sha256": "65e4ce5329f19635a421fc50209805f3e282076c78b8c5a7406504ee958ebe4a"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.38.h5",
+              "sha256": "6cfc8168b1c895149ef18723f57c5929d3dd45314ce95c0526c41ed89b4585ab"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.39.h5",
+              "sha256": "577527d62f639381492f8869f02e6f646b3eb96ff45a0b116042bc0cdf0392d0"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.40.h5",
+              "sha256": "00e90e775b82825558e02de1205b95076f46311f55bbecfeec6f3b667af23eda"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.41.h5",
+              "sha256": "18face4ef85a99a59f74e60206f24ecdb543a649619f0b8c572020ef04535a6c"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.42.h5",
+              "sha256": "e9221898a13d32c4f7720c0995d9a88fb52e06b7695a71be51948d9775a991cf"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.43.h5",
+              "sha256": "0f1e1e44b456e72650544a69a75440e7ba60e548b82c98b57b8323700106dc41"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.44.h5",
+              "sha256": "086efa8d7f955ce9b448cf6af96e09e2e9cf29b683e072ff9b84b1c0af9aebbb"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.45.h5",
+              "sha256": "1628fadd9451ea2baa32c95f772aeddef43b9649ef89e8613831804da4977d07"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.46.h5",
+              "sha256": "20abe4a6246f18a34e40909f74a4c8999a41ff508434a707338880471a13781b"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.47.h5",
+              "sha256": "10c4e6eb4ca2ebd5a3c6a6784dbe45343750de0f8cb4f339d48ab3d8d77a8d78"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.48.h5",
+              "sha256": "78bc96860c6b4f222beb59c16d8509a06423d6842a1d3771ac8cc024e2f69779"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.49.h5",
+              "sha256": "b3344a9d7b861e3ef1aeb0080b1e47d5ebce3e726f27c7ba95908986ee3c89a5"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.50.h5",
+              "sha256": "54ee8a25fca7530196f694429d49a00ed36cdf79999144bd4a25199fc1cc117d"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.51.h5",
+              "sha256": "799c2fdf5af4e9f284f5762c187c19bd3e21b7cce7faa8957bc5e56e6e91f09b"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.52.h5",
+              "sha256": "020f948612320c302c47f5c776436255c28fc4b11d79ef006558aad5d745510a"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.53.h5",
+              "sha256": "cb9965bb38ba32c32a3aac534e231dd2f39473241c354f21604fa4d5ede9a2c5"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.54.h5",
+              "sha256": "58fa82f414792b00d61fb4b80a25a92298bc4562175a46a66c58eef15b1fba73"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.55.h5",
+              "sha256": "3523baafa5bd475fa2726823c778c07467f97a6c243e1045700f6c42fdd35a2a"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.56.h5",
+              "sha256": "acf61dd63f0830828a9a8c3411e9c085191b97ca38216cb96c76c8ed08c7f5ba"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.57.h5",
+              "sha256": "8c616261cb0fa3f301f1c4d6e14791d47dc3bbfba385ed4f089b6120da515f21"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.58.h5",
+              "sha256": "8a6d8224ac2a91b8aac88a84ec81725ec80af8543ed40441071fed14a24bcdbd"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.59.h5",
+              "sha256": "b2ee1030cab4fb240565c32ba9d3c4a88004a93e4effdf3b0eeded7ae1009b89"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.60.h5",
+              "sha256": "7a4e4cb6b0e0f2d0120962ffb835a780cdf4f63c772ffbec5e847ae83071d001"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.61.h5",
+              "sha256": "91110c7a296a621bfb0a3d61920c28aebf7489559bb75af25baaf0e8f3969381"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.62.h5",
+              "sha256": "48a4da0405f1c0edb9cbf24ec412adf4aa3acb540223e76ee3fc9df126760319"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.63.h5",
+              "sha256": "705884b838ee609c4465e3159d594e4cadba6a89e0fdd904fcedc08437364215"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/statepoint.64.h5",
+              "sha256": "76bb23ff911e7c5a61f151fd7f357dad240cff227f8e72a643cfeeb7ad2559f1"
+            }
+          ],
+          "inputs": [
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/materials.xml",
+              "sha256": "77e2b5ef83bb1a02835fc47b75ed7fc1c30842f2d9d1538765c168e515c8114c"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/geometry.xml",
+              "sha256": "16035c23656265afb64319e438814bdf444fb9b807479be89af3b162d83b9993"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/settings.xml",
+              "sha256": "3ea2ef91c37f435e07bd60da106f4276bcb688543ca84d4230ee55a093d34c79"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100801/tallies.xml",
+              "sha256": "6ee8611e1a3e5356539a394f1f0ef3857f0c4c08e1cd2cb302097b893f883c07"
+            }
+          ]
+        },
+        {
+          "seed": 2026100802,
+          "particles_per_batch": 300000,
+          "batches": 64,
+          "statepoints": [
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.01.h5",
+              "sha256": "df757c65007c70358eae8e7fc582f784b8d7797f80c53b8a2e5b83a431e262cc"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.02.h5",
+              "sha256": "d0f870cd3f702c88671bdb180f32007b4faa8cbff832307bf6df699ea6a65eee"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.03.h5",
+              "sha256": "8a2910470dc2e3efb1f39144e2066352c02db9b46fef1344aa880ec216aff260"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.04.h5",
+              "sha256": "22d64861189228d7f025ae902f50447ac8e1d1576718c22e45b190fb3d71cab5"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.05.h5",
+              "sha256": "b8504b834fe06208368c94f5c2ae4b663f8d11cb190047ffb2992ec7721cbf92"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.06.h5",
+              "sha256": "e2406256f5237b19676cf294ea58364f09a842dd479785d1628afd4b913fdfae"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.07.h5",
+              "sha256": "82f9b98502323bd275ff3048010a09093d1c8988d38150e3f4c179431d869b36"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.08.h5",
+              "sha256": "5d4a830bc90250e277ac16f77d246996b7f7331a8a5007c51f37e33e67fdf7dc"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.09.h5",
+              "sha256": "58fdb668653a2755124a6fcdeca3e5c7ed7c96a28df6abf1d00851983fca982e"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.10.h5",
+              "sha256": "54ba346ada9502a8c31335e4fa60f61e8371e1476ae4be6e6795237b29bc8b82"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.11.h5",
+              "sha256": "746084e750147e09ddcd7228ba7c6ab2264f5877c9244e1179db910cd98d9a72"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.12.h5",
+              "sha256": "894428c5011c8225017f34d80cf8825abee474a50f196b4a293afa43c0be0ffb"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.13.h5",
+              "sha256": "dddd2e28025645bcd727e3f5126e58919695de582480ad255ae4c7f9c7a27f85"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.14.h5",
+              "sha256": "abe2da0d79b6e5a56446f1542be4ab2e466ee398aa2100bd560fcb570c3ce0c0"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.15.h5",
+              "sha256": "1da070b8722cf5de4c50ec787ae0a40a3ecad930215fa7b6a19bd6650bf66e0b"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.16.h5",
+              "sha256": "823349652e1097c218b85a296016443c19a7afa39c7521633673bbcdcabb34da"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.17.h5",
+              "sha256": "fc655175a1d020cbe6b9598cc45bc266af17428bb77339f359dc2c076e313dbb"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.18.h5",
+              "sha256": "2719551d941e942b70f48375f5e87a87c75466fcf362d8e78bde64976d5d752e"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.19.h5",
+              "sha256": "439d506faa52607a3c6d2e6cda5626939d479852f215c70592ae54fe78933ec6"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.20.h5",
+              "sha256": "e6bed11c55b273e1f39a3610f7d5be590e2a1caf5f1a4b84581eda70f37cdd23"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.21.h5",
+              "sha256": "06fe455c8edc27625c3886fe8cf75fd344a04f7c30edd88619e3999e55892409"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.22.h5",
+              "sha256": "2a884d40c3759f3e3058642a53d6e683f32049ce36e9b023b8a16dea03852de8"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.23.h5",
+              "sha256": "47ba12a84b0621cb6cd130c5300f0acbe0ad17d04deb80ad6cb970c069175729"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.24.h5",
+              "sha256": "196b0db5d4beaf1473bd9fb7bfb8698616e3b979a89cdb9aafb5152d901e920a"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.25.h5",
+              "sha256": "21cf5b10323a639a40e48f742155e89482c1db297a6d9a6f9e826eb4a48110e0"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.26.h5",
+              "sha256": "1a41651a3096a652619472ce4ab4a68415a99eb0103481e4acd63085e354918a"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.27.h5",
+              "sha256": "609643601f432b78e538fbc5375632713f89ca3b676584131dd1fddd00e8519c"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.28.h5",
+              "sha256": "33924f745bb030b72aaa900cbc4a7830d3f48472b9b4881d08ea130632292ef2"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.29.h5",
+              "sha256": "e47135bd209a14c3d9746705a02f6a20096cd2aa9d6a60dc3b69d8dbd8952bc3"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.30.h5",
+              "sha256": "445af647fdf84fb35d6cf5c05645e94fc01ba0c45406827e1375e074ca87e0a2"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.31.h5",
+              "sha256": "ee9d308a131738b91c4dcf22372169390485768b12aca31d8ea46e4251fef6c4"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.32.h5",
+              "sha256": "d7d1ae79688c2c050026d9bcf4c1db9a17981290ec2601dfa632a410bfe3644e"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.33.h5",
+              "sha256": "352c5efb020c49352e3ff17d21daa6a8527fa37fb83f1490caa2796b700ef1cd"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.34.h5",
+              "sha256": "d2211ba04681deb4a5cb93863da11bf8fb823190278c5f521d0fe58f7b042fc8"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.35.h5",
+              "sha256": "705e3214e458c4534d3636d4359b713cf46b2eb6d6a340e7263c92131487cf2e"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.36.h5",
+              "sha256": "11ec45349e56e3ee07d7a6c672750d4e52baf9e565662bfb434828f56ec23845"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.37.h5",
+              "sha256": "0a237f479644bbb7c4e7e77467537c6ae52e7f99e6f1b83db86fd90c650fb859"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.38.h5",
+              "sha256": "7bfec7ad8c59606ffa89163b7f943c019e95bfa857995b5f8e695a421d0c19c8"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.39.h5",
+              "sha256": "e92f920c8e647fa8824752cb137ad9efb816b1cfaa47a464978760c9d91e06f2"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.40.h5",
+              "sha256": "268cbeec1f528401357071bed4c97207d8edf482725f71d6c81fa2c030d224cc"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.41.h5",
+              "sha256": "3b2e3ccbe85adedfef954be78bc96e25936b6f51353928f0d808708a7946a7e7"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.42.h5",
+              "sha256": "2e5de2f90563fb02b1f363f61e8320370732c76a468808ccee40655b30f1b5bb"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.43.h5",
+              "sha256": "a1e77fcb05414fbb2605103f982daf64e1992dcc3162c35447aa0afed418c979"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.44.h5",
+              "sha256": "589c64d42288cca6f7b53a9683db850677571d490bfb4aa6aa14c4b4a2a9c7ef"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.45.h5",
+              "sha256": "c8326d50f8f05c14bb2255ba81b7da232df47fa0f89f20a5b0bf128cb9b8da24"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.46.h5",
+              "sha256": "8790ca75ee75ffcda615d8cc12ab9f5c63aa94276a6b8aab0df26ff92b4a14c4"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.47.h5",
+              "sha256": "186f8cefe95b356c482a0bbba05fab88cd5b2829f584eba1c8492eb4eab78a88"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.48.h5",
+              "sha256": "bba8fa64036e9bc3631dab6263d7ce4417334a639a1762748811190d26e213e9"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.49.h5",
+              "sha256": "f931d039b65093607ae1a68087a152e2a11ec90661f67b8a122b53d64d19b5f4"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.50.h5",
+              "sha256": "f43cb9e216d859b5a1ee27f94bd97b5af88581ff7ba22657b960d1f5a4390be0"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.51.h5",
+              "sha256": "02751894281554b63c720ef911ae0d30e9ea7e1b5157d20f2cb124e878a59c67"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.52.h5",
+              "sha256": "b08e8eef8bbe9e8b72dba3b39db49ba943e3a7e59a2a5d7e777245a51928622a"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.53.h5",
+              "sha256": "4a5d055018593501a7701c3c5bb7526fce7ed39e818a4679b6a06c66d58ffc47"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.54.h5",
+              "sha256": "9d24815ba9934edca21956a8d38a085fecd4b322f9699d448f913ac35d7cc89f"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.55.h5",
+              "sha256": "75255e525a256d09574852946d15f920c62e89e0201f5b72020e0926dac7065e"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.56.h5",
+              "sha256": "0f6eb5832bac383e8c94d14ba1cd3699c80db1b5e8b9b89b697ea86bd1d09b91"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.57.h5",
+              "sha256": "6df442c4cc0e8d47cf712b49f7679402939e949d3c1d4de258b88a8940f9b092"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.58.h5",
+              "sha256": "73c21ff65cdb4687a944a2da72383cf3c2af09b7d53c79bed0bc59a668dc3607"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.59.h5",
+              "sha256": "74ae4f444e1636f5f5971df28437aa28144dc0aea536a0586e6d7ba13fc1b91d"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.60.h5",
+              "sha256": "ed5c6c0582b97aa00e88893482de74d5fa34a74561064d8688a9b0036725147a"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.61.h5",
+              "sha256": "608a852414ad5136f9b3c5db8b62aa8bc23feae198fc99f751242457b19e7b0b"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.62.h5",
+              "sha256": "6e7c8e66ab14c91b930183626ad7e3eca495347f61abe10f217705f9c8ccf633"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.63.h5",
+              "sha256": "8ef454abd0979f119c0de41427e04f74f7cbd47aaf2ddd75a4dbcfe069bb360f"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/statepoint.64.h5",
+              "sha256": "4b4d604fe61a329473e303d26f06c00c320297db5fc23f55063e57f4c8c8d394"
+            }
+          ],
+          "inputs": [
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/materials.xml",
+              "sha256": "77e2b5ef83bb1a02835fc47b75ed7fc1c30842f2d9d1538765c168e515c8114c"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/geometry.xml",
+              "sha256": "16035c23656265afb64319e438814bdf444fb9b807479be89af3b162d83b9993"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/settings.xml",
+              "sha256": "2a5e7544f4dd48b904c3f19b81e10dc57e844aca77cd5c363d2bbb3710168a13"
+            },
+            {
+              "path": "runs/uniform-full/cosine-seed2026100802/tallies.xml",
+              "sha256": "6ee8611e1a3e5356539a394f1f0ef3857f0c4c08e1cd2cb302097b893f883c07"
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "mean": [
+          0.2496629130439702,
+          4.2749681293099574e-07,
+          6.777355401935484e-07,
+          6.930616613171102e-07,
+          4.319105829960743e-07,
+          7.074705956605708e-07,
+          1.191690779640152e-06,
+          1.2223845261488261e-06,
+          7.040635148378141e-07,
+          7.668187878849327e-07,
+          1.8936493708349002e-06,
+          1.8708927830973172e-06,
+          7.745711648714566e-07,
+          4.835300402963793e-07,
+          9.347591105902965e-07,
+          9.237474793632964e-07,
+          4.956607501250281e-07
+        ],
+        "standard_error": [
+          8.64106880111975e-05,
+          6.868625477930646e-09,
+          8.752295186771775e-09,
+          8.735563950598988e-09,
+          6.113900705001967e-09,
+          8.389770794009519e-09,
+          1.1481921824853677e-08,
+          1.093352589402341e-08,
+          8.320966021266884e-09,
+          9.118701786975746e-09,
+          1.3713739101081842e-08,
+          1.2509147731332457e-08,
+          8.563974930046846e-09,
+          6.779695670084022e-09,
+          1.0573556036736175e-08,
+          1.0055608716708324e-08,
+          7.551265495742388e-09
+        ],
+        "lower": [
+          0.24938195521149215,
+          4.0516399541966104e-07,
+          6.492781127447022e-07,
+          6.646586342203268e-07,
+          4.120316961407721e-07,
+          6.801918889227288e-07,
+          1.154358177124878e-06,
+          1.1868349916267834e-06,
+          6.770085216273011e-07,
+          7.371700170204941e-07,
+          1.8490601828341028e-06,
+          1.8302202330501802e-06,
+          7.467260465287976e-07,
+          4.6148637134560273e-07,
+          9.003799908998977e-07,
+          8.910524263054186e-07,
+          4.71108380100209e-07
+        ],
+        "upper": [
+          0.24994387087644826,
+          4.4982963044233043e-07,
+          7.061929676423945e-07,
+          7.214646884138937e-07,
+          4.5178946985137656e-07,
+          7.347493023984128e-07,
+          1.229023382155426e-06,
+          1.2579340606708689e-06,
+          7.311185080483271e-07,
+          7.964675587493713e-07,
+          1.9382385588356974e-06,
+          1.9115653331444542e-06,
+          8.024162832141156e-07,
+          5.055737092471559e-07,
+          9.691382302806952e-07,
+          9.564425324211742e-07,
+          5.202131201498472e-07
+        ],
+        "halfwidth": [
+          0.0002809578324780566,
+          2.233281751133469e-08,
+          2.8457427448846066e-08,
+          2.8403027096783422e-08,
+          1.9878886855302218e-08,
+          2.7278706737842027e-08,
+          3.733260251527392e-08,
+          3.554953452204266e-08,
+          2.7054993210512967e-08,
+          2.964877086443861e-08,
+          4.45891880007973e-08,
+          4.067255004713694e-08,
+          2.7845118342658983e-08,
+          2.2043668950776536e-08,
+          3.437911969039879e-08,
+          3.269505305787775e-08,
+          2.455237002481908e-08
+        ],
+        "n_batches": 128,
+        "quantile": 3.2514245511116493,
+        "seed_difference": [
+          8.998495361361991e-05,
+          1.653933673122569e-09,
+          1.0668727275513153e-08,
+          5.209301236742252e-09,
+          3.902294989352732e-09,
+          1.6447954284333775e-08,
+          3.832185434367514e-08,
+          6.381314920944232e-09,
+          3.2100692255924386e-08,
+          2.225166582691812e-08,
+          5.222346449842817e-09,
+          2.0676916498131374e-09,
+          2.08531598836883e-08,
+          6.030870212321819e-09,
+          2.0243503685164927e-08,
+          3.688086918139409e-08,
+          7.907180110746339e-09
+        ],
+        "seed_difference_limit": [
+          0.0005635386185905328,
+          4.4839970112714714e-08,
+          5.7056633908912434e-08,
+          5.7011064488010066e-08,
+          3.9899222915790936e-08,
+          5.456588486884263e-08,
+          7.41344808142823e-08,
+          7.13567141809291e-08,
+          5.352260991936657e-08,
+          5.918244171705958e-08,
+          8.951877900685792e-08,
+          8.166506394536359e-08,
+          5.5583551932806054e-08,
+          4.42274556874102e-08,
+          6.878105499505317e-08,
+          6.477404467298891e-08,
+          4.92459815780576e-08
+        ],
+        "positive_batch_fraction": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "halfwidth_limit": [
+          0.001248314565220104,
+          2.6989777826534264e-08,
+          4.2371578058540943e-08,
+          4.328788130484305e-08,
+          2.7107368191127e-08,
+          4.408495814423769e-08,
+          7.374140292944551e-08,
+          7.547604364023546e-08,
+          4.386711048283517e-08,
+          4.7788053524792535e-08,
+          1.162943135313764e-07,
+          1.1469391998863416e-07,
+          4.814497699283509e-08,
+          3.033442255478841e-08,
+          5.8148293815731165e-08,
+          5.73865519452541e-08,
+          3.1212787208976446e-08
+        ]
+      }
+    }
+  },
+  "submission_sha256": "d264d76287fa5511177ce921e20cb43696636ccc65b6b1985965602f62d97d6c",
+  "case_sha256": "dcf39f16d3d51f60983eb7f06e86b1435a07ff91d6525f5c15f242405031e75d",
+  "inventory": {
+    "breeder_volume_cm3": 143016.0,
+    "be_volume_cm3": 125139.0,
+    "li6_atoms": 1.2790171111928884e+27
+  },
+  "outcomes": {
+    "normal": {
+      "mean": [
+        0.3167331214828973,
+        1.7825502246974755e-06,
+        2.7026498720508726e-06,
+        2.676167149844869e-06,
+        1.782864655839501e-06,
+        2.613128879727605e-06,
+        4.109151055331174e-06,
+        4.103597232550151e-06,
+        2.57880281266237e-06,
+        2.6501254466684585e-06,
+        2.4610211043797255e-05,
+        2.4588788925998354e-05,
+        2.6457664934494e-06,
+        1.841431670598954e-06,
+        2.983166757581883e-06,
+        2.96777027133682e-06,
+        1.8443657377523543e-06
+      ],
+      "standard_error": [
+        9.881865839904621e-05,
+        1.3919422667767827e-08,
+        1.824790663192484e-08,
+        1.6807783938463005e-08,
+        1.348198961430262e-08,
+        1.59558435464768e-08,
+        2.0876236679241925e-08,
+        2.1551434425732873e-08,
+        1.5773332386646024e-08,
+        1.4654660373776128e-08,
+        3.846874473706406e-08,
+        4.13277867457808e-08,
+        1.6444774763465577e-08,
+        1.3394386123744431e-08,
+        1.786373884284217e-08,
+        1.756853330133876e-08,
+        1.3790799393291807e-08
+      ],
+      "lower": [
+        0.3164118200708707,
+        1.737292272098195e-06,
+        2.643318180421439e-06,
+        2.62151790849757e-06,
+        1.7390289838097252e-06,
+        2.561249658286894e-06,
+        4.041273546857469e-06,
+        4.033524369546651e-06,
+        2.5275170124875846e-06,
+        2.6024769241409596e-06,
+        2.4485132822708717e-05,
+        2.4454414745530017e-05,
+        2.592297549045967e-06,
+        1.797880834709142e-06,
+        2.925084158533619e-06,
+        2.9106475108338246e-06,
+        1.7995259940255496e-06
+      ],
+      "upper": [
+        0.31705442289492386,
+        1.8278081772967559e-06,
+        2.761981563680306e-06,
+        2.7308163911921677e-06,
+        1.826700327869277e-06,
+        2.665008101168316e-06,
+        4.177028563804879e-06,
+        4.173670095553652e-06,
+        2.630088612837155e-06,
+        2.6977739691959574e-06,
+        2.4735289264885793e-05,
+        2.472316310646669e-05,
+        2.6992354378528335e-06,
+        1.8849825064887658e-06,
+        3.041249356630147e-06,
+        3.0248930318398157e-06,
+        1.889205481479159e-06
+      ],
+      "halfwidth": [
+        0.00032130141202657423,
+        4.525795259928032e-08,
+        5.933169162943351e-08,
+        5.4649241347298665e-08,
+        4.383567202977582e-08,
+        5.1879221440711036e-08,
+        6.787750847370472e-08,
+        7.007286300350066e-08,
+        5.128580017478539e-08,
+        4.764852252749872e-08,
+        1.2507822108853714e-07,
+        1.343741804683383e-07,
+        5.346894440343324e-08,
+        4.355083588981184e-08,
+        5.808259904826383e-08,
+        5.712276050299544e-08,
+        4.483974372680462e-08
+      ],
+      "n_batches": 128,
+      "quantile": 3.2514245511116493,
+      "seed_difference": [
+        9.32621440454251e-05,
+        2.2437532063186516e-08,
+        1.8668545020736277e-08,
+        1.7611378689592848e-08,
+        1.3294928710597715e-08,
+        3.687434751606904e-08,
+        5.7071865217458514e-08,
+        6.349513680239732e-08,
+        1.3517064113346159e-08,
+        2.5406140264958723e-08,
+        1.085928054851637e-07,
+        4.378613885259945e-08,
+        5.8931139361754604e-08,
+        2.595103749047294e-08,
+        2.240338893659609e-08,
+        6.707645215127276e-09,
+        2.2854783584032826e-08
+      ],
+      "seed_difference_limit": [
+        0.0006445819618916211,
+        9.064167710520069e-08,
+        1.1901055041506011e-07,
+        1.0961270788642057e-07,
+        8.793427321772881e-08,
+        1.0362033217573325e-07,
+        1.3528636907646913e-07,
+        1.3949350719308132e-07,
+        1.0290336578054633e-07,
+        9.539101349465404e-08,
+        2.4916958546286886e-07,
+        2.69514453120156e-07,
+        1.0599569402262046e-07,
+        8.712294887703172e-08,
+        1.1644457671777576e-07,
+        1.1468152284198832e-07,
+        8.97909416608938e-08
+      ],
+      "positive_batch_fraction": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "halfwidth_limit": [
+        0.001583665607414584,
+        1.0966849063786006e-07,
+        1.6571889382059444e-07,
+        1.6384898347252325e-07,
+        1.0960201967187648e-07,
+        1.5990048607010586e-07,
+        2.506217138282043e-07,
+        2.50420205733276e-07,
+        1.578053167707149e-07,
+        1.6186643815164765e-07,
+        1.4841173558933003e-06,
+        1.4833897863878709e-06,
+        1.6195412627124044e-07,
+        1.1309895038937384e-07,
+        1.8247496139785721e-07,
+        1.8149358191055826e-07,
+        1.1335232888822812e-07
+      ]
+    },
+    "cosine": {
+      "mean": [
+        0.2496629130439702,
+        4.2749681293099574e-07,
+        6.777355401935484e-07,
+        6.930616613171102e-07,
+        4.319105829960743e-07,
+        7.074705956605708e-07,
+        1.191690779640152e-06,
+        1.2223845261488261e-06,
+        7.040635148378141e-07,
+        7.668187878849327e-07,
+        1.8936493708349002e-06,
+        1.8708927830973172e-06,
+        7.745711648714566e-07,
+        4.835300402963793e-07,
+        9.347591105902965e-07,
+        9.237474793632964e-07,
+        4.956607501250281e-07
+      ],
+      "standard_error": [
+        8.64106880111975e-05,
+        6.868625477930646e-09,
+        8.752295186771775e-09,
+        8.735563950598988e-09,
+        6.113900705001967e-09,
+        8.389770794009519e-09,
+        1.1481921824853677e-08,
+        1.093352589402341e-08,
+        8.320966021266884e-09,
+        9.118701786975746e-09,
+        1.3713739101081842e-08,
+        1.2509147731332457e-08,
+        8.563974930046846e-09,
+        6.779695670084022e-09,
+        1.0573556036736175e-08,
+        1.0055608716708324e-08,
+        7.551265495742388e-09
+      ],
+      "lower": [
+        0.24938195521149215,
+        4.0516399541966104e-07,
+        6.492781127447022e-07,
+        6.646586342203268e-07,
+        4.120316961407721e-07,
+        6.801918889227288e-07,
+        1.154358177124878e-06,
+        1.1868349916267834e-06,
+        6.770085216273011e-07,
+        7.371700170204941e-07,
+        1.8490601828341028e-06,
+        1.8302202330501802e-06,
+        7.467260465287976e-07,
+        4.6148637134560273e-07,
+        9.003799908998977e-07,
+        8.910524263054186e-07,
+        4.71108380100209e-07
+      ],
+      "upper": [
+        0.24994387087644826,
+        4.4982963044233043e-07,
+        7.061929676423945e-07,
+        7.214646884138937e-07,
+        4.5178946985137656e-07,
+        7.347493023984128e-07,
+        1.229023382155426e-06,
+        1.2579340606708689e-06,
+        7.311185080483271e-07,
+        7.964675587493713e-07,
+        1.9382385588356974e-06,
+        1.9115653331444542e-06,
+        8.024162832141156e-07,
+        5.055737092471559e-07,
+        9.691382302806952e-07,
+        9.564425324211742e-07,
+        5.202131201498472e-07
+      ],
+      "halfwidth": [
+        0.0002809578324780566,
+        2.233281751133469e-08,
+        2.8457427448846066e-08,
+        2.8403027096783422e-08,
+        1.9878886855302218e-08,
+        2.7278706737842027e-08,
+        3.733260251527392e-08,
+        3.554953452204266e-08,
+        2.7054993210512967e-08,
+        2.964877086443861e-08,
+        4.45891880007973e-08,
+        4.067255004713694e-08,
+        2.7845118342658983e-08,
+        2.2043668950776536e-08,
+        3.437911969039879e-08,
+        3.269505305787775e-08,
+        2.455237002481908e-08
+      ],
+      "n_batches": 128,
+      "quantile": 3.2514245511116493,
+      "seed_difference": [
+        8.998495361361991e-05,
+        1.653933673122569e-09,
+        1.0668727275513153e-08,
+        5.209301236742252e-09,
+        3.902294989352732e-09,
+        1.6447954284333775e-08,
+        3.832185434367514e-08,
+        6.381314920944232e-09,
+        3.2100692255924386e-08,
+        2.225166582691812e-08,
+        5.222346449842817e-09,
+        2.0676916498131374e-09,
+        2.08531598836883e-08,
+        6.030870212321819e-09,
+        2.0243503685164927e-08,
+        3.688086918139409e-08,
+        7.907180110746339e-09
+      ],
+      "seed_difference_limit": [
+        0.0005635386185905328,
+        4.4839970112714714e-08,
+        5.7056633908912434e-08,
+        5.7011064488010066e-08,
+        3.9899222915790936e-08,
+        5.456588486884263e-08,
+        7.41344808142823e-08,
+        7.13567141809291e-08,
+        5.352260991936657e-08,
+        5.918244171705958e-08,
+        8.951877900685792e-08,
+        8.166506394536359e-08,
+        5.5583551932806054e-08,
+        4.42274556874102e-08,
+        6.878105499505317e-08,
+        6.477404467298891e-08,
+        4.92459815780576e-08
+      ],
+      "positive_batch_fraction": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "halfwidth_limit": [
+        0.001248314565220104,
+        2.6989777826534264e-08,
+        4.2371578058540943e-08,
+        4.328788130484305e-08,
+        2.7107368191127e-08,
+        4.408495814423769e-08,
+        7.374140292944551e-08,
+        7.547604364023546e-08,
+        4.386711048283517e-08,
+        4.7788053524792535e-08,
+        1.162943135313764e-07,
+        1.1469391998863416e-07,
+        4.814497699283509e-08,
+        3.033442255478841e-08,
+        5.8148293815731165e-08,
+        5.73865519452541e-08,
+        3.1212787208976446e-08
+      ]
+    }
+  },
+  "objective_lower": 0.24938195521149215,
+  "violations": {
+    "breeder_volume_cm3": 0.0,
+    "be_volume_cm3": 0.0,
+    "li6_atoms": 0.0,
+    "normal/rear0": 0.0,
+    "normal/rear1": 0.0,
+    "normal/rear2": 0.0,
+    "normal/rear3": 0.0,
+    "normal/rear4": 0.0,
+    "normal/rear5": 0.0,
+    "normal/rear6": 0.0,
+    "normal/rear7": 0.0,
+    "normal/rear8": 0.0,
+    "normal/rear9": 0.0,
+    "normal/rear10": 0.0,
+    "normal/rear11": 0.0,
+    "normal/rear12": 0.0,
+    "normal/rear13": 0.0,
+    "normal/rear14": 0.0,
+    "normal/rear15": 0.0,
+    "cosine/rear0": 0.0,
+    "cosine/rear1": 0.0,
+    "cosine/rear2": 0.0,
+    "cosine/rear3": 0.0,
+    "cosine/rear4": 0.0,
+    "cosine/rear5": 0.0,
+    "cosine/rear6": 0.0,
+    "cosine/rear7": 0.0,
+    "cosine/rear8": 0.0,
+    "cosine/rear9": 0.0,
+    "cosine/rear10": 0.0,
+    "cosine/rear11": 0.0,
+    "cosine/rear12": 0.0,
+    "cosine/rear13": 0.0,
+    "cosine/rear14": 0.0,
+    "cosine/rear15": 0.0,
+    "negative_yield_lower": 0.0
+  },
+  "screening": {
+    "normal": {
+      "limits": [
+        2.193369812757201e-06,
+        3.3143778764118886e-06,
+        3.276979669450465e-06,
+        2.1920403934375296e-06,
+        3.198009721402117e-06,
+        5.012434276564085e-06,
+        5.008404114665519e-06,
+        3.1561063354142977e-06,
+        3.2373287630329527e-06,
+        2.9682347117866004e-05,
+        2.9667795727757417e-05,
+        3.2390825254248087e-06,
+        2.2619790077874767e-06,
+        3.649499227957144e-06,
+        3.629871638211165e-06,
+        2.2670465777645624e-06
+      ],
+      "upper_margin": [
+        3.655616354604452e-07,
+        5.523963127315825e-07,
+        5.461632782582971e-07,
+        3.653400655682527e-07,
+        5.330016202338012e-07,
+        8.354057127592058e-07,
+        8.347340191118673e-07,
+        5.260177225771427e-07,
+        5.395547938369953e-07,
+        4.947057852980211e-06,
+        4.944632621290726e-06,
+        5.398470875719752e-07,
+        3.769965012987109e-07,
+        6.082498713269972e-07,
+        6.049786063713492e-07,
+        3.778410962854033e-07
+      ]
+    },
+    "cosine": {
+      "limits": [
+        5.397955565306853e-07,
+        8.474315611708189e-07,
+        8.657576260968609e-07,
+        5.4214736382254e-07,
+        8.816991628847538e-07,
+        1.47482805858891e-06,
+        1.509520872804709e-06,
+        8.773422096567033e-07,
+        9.557610704958506e-07,
+        2.3258862706275277e-06,
+        2.2938783997726832e-06,
+        9.628995398567017e-07,
+        6.066884510957682e-07,
+        1.1629658763146232e-06,
+        1.147731038905082e-06,
+        6.242557441795289e-07
+      ],
+      "upper_margin": [
+        8.996592608835485e-08,
+        1.412385935284244e-07,
+        1.4429293768296726e-07,
+        9.03578939711634e-08,
+        1.4694986048634096e-07,
+        2.45804676433484e-07,
+        2.5158681213384017e-07,
+        1.462237016083762e-07,
+        1.592935117464793e-07,
+        3.876477117918304e-07,
+        3.82313066628229e-07,
+        1.604832566425861e-07,
+        1.0111474184861232e-07,
+        1.9382764603392798e-07,
+        1.912885064839078e-07,
+        1.0404262402968174e-07
+      ]
+    }
+  },
+  "elapsed_seconds": 1619.3857278130017
+}

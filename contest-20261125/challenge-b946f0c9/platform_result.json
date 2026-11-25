@@ -1,0 +1,27 @@
+{
+  "attempt_id": "111893",
+  "score_is_final": true,
+  "platform_score": 77.1153,
+  "score_max": 100,
+  "raw_reward": 0.77115348,
+  "trace_factor": 1,
+  "local_reward": 0.7712608367916479,
+  "local_feasible": true,
+  "local_objective_lower": 0.2957410392806388,
+  "local_objective_improvement_fraction": 0.18589590425564362,
+  "platform_scoring_details": {
+    "gradable": true,
+    "harbor_reward": 0.77115348,
+    "playground_score": 77.115348,
+    "source": "harbor_worker",
+    "summary": "Received and graded in full. Solid — refine for a more complete and rigorous solution.",
+    "total_score": 77.115348,
+    "trace_factor": 1
+  },
+  "platform_scorecard": {
+    "harbor_replay_executed": 1,
+    "harbor_reward": 0.77115348,
+    "harbor_score": 77.115348,
+    "trace_score": null
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": "playground-submission/v0",
+  "task_id": "challenge-b946f0c9",
+  "challenge_id": "challenge-b946f0c9",
+  "run_id": "local-20261125t180916z-39baabd0",
+  "created_at": "2026-11-25T18:09:16Z",
+  "task_url": "",
+  "agent": {
+    "name": "playground-cli",
+    "version": "0.1.58",
+    "model": "unknown"
+  },
+  "harness": {
+    "name": "opencode",
+    "native_trace_format": "auto"
+  },
+  "artifacts": [
+    {
+      "path": "outputs/baseline_details.json",
+      "sha256": "d8c2d5acc76b19cc68efcad97f96b214451f6b4e5b7722d6330aa2baf6b93636"
+    },
+    {
+      "path": "outputs/baseline_reward.json",
+      "sha256": "b530c79457278f8e012a51f03a0c364089b1d97ab07c480019a2331f945702f8"
+    },
+    {
+      "path": "outputs/blanket.json",
+      "sha256": "484776003b3fdbbba15e3004767ca2bbd1a41fda85c7e8afd6c9e6fe83de4247"
+    },
+    {
+      "path": "outputs/build_report.py",
+      "sha256": "a0e144c4a5f7a5b6b61204dd5ed6a3f4be8a9b2cb5b41a126b6ba298f2fe4f59"
+    },
+    {
+      "path": "outputs/details.json",
+      "sha256": "cf8fdcaf1ea005feecf8ed8aff9f0e4a771913616258020a751456f7f998cac4"
+    },
+    {
+      "path": "outputs/evaluation_report.json",
+      "sha256": "3ef8c590f8d10a68443adcfd8d8a95ff0a5a37cb250d2be11cf5a1de64faf13a"
+    },
+    {
+      "path": "outputs/local_eval.py",
+      "sha256": "34a59f654e5056b04db736faa3d7a0827c7edf3396cf028b1e417288d4fa6471"
+    },
+    {
+      "path": "outputs/reward.json",
+      "sha256": "eaf0db8939b6bb54fe3646bdff6cb744d9239aeff8a9bb4453f9d09e9a6f44bc"
+    },
+    {
+      "path": "outputs/runtime_manifest.json",
+      "sha256": "6bfa454a75f33109a7c4f036ca102255441586fd19d94565ac29203effe4e6cc"
+    },
+    {
+      "path": "outputs/solve_blanket.py",
+      "sha256": "86a1e752fc1595f3c1704a32def580e159c5ee8dcc8707b75b07d5818dd30660"
+    }
+  ],
+  "privacy": {
+    "redaction": "playground-cli-secret-scan-v0",
+    "contains_raw_credentials": false
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "architecture": "aarch64",
+  "source_commit": "617d35a5063c57796b43428bc401e627d2011046",
+  "original_evaluator_sha256": "3f0a3c291c384986a2ca6a11d3263130f6394d92c487d409b4da5ccbbf6e111c",
+  "compiler": "GNU 13.3.0",
+  "build_type": "Release",
+  "openmp": true,
+  "mpi": false,
+  "dagmc": false,
+  "local_path_adapter": "local_eval.py",
+  "threads": 4,
+  "affinity": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "openmc_version_output": "OpenMC version 0.16.0\nCommit hash: 617d35a5063c57796b43428bc401e627d2011046\nCopyright (c) 2011-2026 MIT, UChicago Argonne LLC, and contributors\nMIT/X license at <https://docs.openmc.org/en/latest/license.html>\nBuild type:            Release\nCompiler ID:           GNU 13.3.0\nMPI enabled:           no\nParallel HDF5 enabled: no\nPNG support:           yes\nDAGMC support:         no\nlibMesh support:       no\nCoverage testing:      no\nProfiling flags:       no\nUWUW support:          no\nStrict FP:             no\n",
+  "nuclear_data": [
+    {
+      "isotope": "He4",
+      "sha256": "2361ccfb51592cc659861849b5dc0ea47101dfca8f4923454954f63c436d06dc",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/He4.h5"
+    },
+    {
+      "isotope": "Li6",
+      "sha256": "3e85c1a46c73ddf8e49f14ac3da0f48b9540bcc1fc17a55f9582fbe605212e7a",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/Li6.h5"
+    },
+    {
+      "isotope": "Li7",
+      "sha256": "c0f0908c935dffc6f9f4745cac0fde06bd3efbdf1092a1b570c793eaebeafc9c",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/Li7.h5"
+    },
+    {
+      "isotope": "Be9",
+      "sha256": "a5ac958413c16b11ff42f5a362abeecdcbc4802e5cf69c3708ff9a1d97c821fa",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/Be9.h5"
+    },
+    {
+      "isotope": "O16",
+      "sha256": "86d87c47de9260c887c3574a0d12fefc365326931934e4d24c081719a5379b3a",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/O16.h5"
+    },
+    {
+      "isotope": "O17",
+      "sha256": "111c44db0d7b7249f1d0050f3361b1be6d66555bf1dd10da688ad5c6b95db991",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/O17.h5"
+    },
+    {
+      "isotope": "O18",
+      "sha256": "f116042acb3d5e281b99518a9793eff61307679155b211a24122812cf5f7207f",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/O18.h5"
+    },
+    {
+      "isotope": "Si28",
+      "sha256": "2b8a5195649c2d7bdfd503db933a6c7b39cca4945daca15023c8854ec1ed82f8",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/Si28.h5"
+    },
+    {
+      "isotope": "Si29",
+      "sha256": "9e0b2597cec49565801e98021e541f7e5eb1d437621b23c81feaee781da38958",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/Si29.h5"
+    },
+    {
+      "isotope": "Si30",
+      "sha256": "d4b1b000312cf1ee3818e6ef86e24f5a9f640f97be0e1416b118d44b2a56b53a",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/Si30.h5"
+    },
+    {
+      "isotope": "Fe54",
+      "sha256": "4ba04cd0c8810e3c8efbb775e2cb4c52292819c9a58578a0e1dd4c4974bf1ff0",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/Fe54.h5"
+    },
+    {
+      "isotope": "Fe56",
+      "sha256": "c9757aeb4dbf0cc560a04cd4ba395dc2d797d8dce2c2bc5f62d177b5be8561eb",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/Fe56.h5"
+    },
+    {
+      "isotope": "Fe57",
+      "sha256": "5568f95057b38abae110cd8876597aedb118b6e96eb4cdda6f0c16544a8f5427",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/Fe57.h5"
+    },
+    {
+      "isotope": "Fe58",
+      "sha256": "30c7672fde0f672f5cdad33e2ec54610f59fc82852fa0416301d608a772f6550",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/Fe58.h5"
+    },
+    {
+      "isotope": "W180",
+      "sha256": "927a3385b325156c765a832e82e8564a71d751d32bf6d1d3421eb94ceee4c2f0",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/W180.h5"
+    },
+    {
+      "isotope": "W182",
+      "sha256": "60b686215134788ee3d050e3dc7b5b27f4e8240e2641bed4ea9f2a3502c9ded7",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/W182.h5"
+    },
+    {
+      "isotope": "W183",
+      "sha256": "5c434b6c49880e0653ad39672274be93e3109ee508bb86a0f100d1718430da73",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/W183.h5"
+    },
+    {
+      "isotope": "W184",
+      "sha256": "a2e97d5db19214f96848a7b94fafa44d48766b2776cac8b860bf0e63dd81142c",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/W184.h5"
+    },
+    {
+      "isotope": "W186",
+      "sha256": "ce253a17f396dd5d86833ad4f5a51a2032c418fa00de18357544a1757622ec0b",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/W186.h5"
+    }
+  ],
+  "local_binary_sha256": "c6558cfa6cdf1ae106dca5b522680f03dc6fe3fd8501153f64f68e1c64e4a36b",
+  "local_library_sha256": "bf03774d2177eb545702f4586c48f7661da45de46c3e3c7d961110460d9f8400"
+}
