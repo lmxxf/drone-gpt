@@ -1,0 +1,6 @@
+{
+  "status": "evaluator_error",
+  "reason": "EvaluatorError: D0 runtime has not passed fresh native image and isolation checks",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/lmxxf/work/drone/contest-20261125/challenge-1b02e50c/workspace/eval.py\", line 651, in main\n    case, baseline = load_configuration(root)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/lmxxf/work/drone/contest-20261125/challenge-1b02e50c/workspace/eval.py\", line 124, in load_configuration\n    raise EvaluatorError('D0 runtime has not passed fresh native image and isolation checks')\nEvaluatorError: D0 runtime has not passed fresh native image and isolation checks\n",
+  "seconds": 0.0005161762237548828
+}

@@ -1,0 +1,1484 @@
+{
+  "status": "proxy_optimized_candidate_with_incomplete_formal_physics_validation",
+  "boundary_sha256": "bd1ee11c5d3d031c58dc44ca89781f041693416fb6b2e729de2771e4e0f81b3a",
+  "full_feasible": null,
+  "official_reward": null,
+  "official_nonlinear_J": null,
+  "submission_decision": "User explicitly requested immediate submission with particle-verification gap disclosed.",
+  "measured_geometry": {
+    "aspect_ratio": 6.000011993448138,
+    "minor_radius": 1.7,
+    "major_radius": 10.200020388861834,
+    "volume": 581.873560180027,
+    "kappa_max": 4.641001836849057,
+    "kappa_max_phi": 0.3313398501832985,
+    "min_R": 6.3434389134720925
+  },
+  "measured_screening_magnetic_metrics": {
+    "volume_relative_error": 2.220446049250313e-16,
+    "minor_radius_m": 1.7,
+    "kappa_max": 4.641001836849057,
+    "iota_min": 0.4466054499523191,
+    "well": 0.0023369038059741025,
+    "lgradb_min": 5.356692142951283,
+    "eps_eff_max": 0.0002531936753467444
+  },
+  "screening_constraint_excess": {
+    "volume_relative_error": 0,
+    "kappa_max": 0,
+    "iota_min": 0,
+    "well": 0,
+    "lgradb_min": 0,
+    "eps_eff_max": 0
+  },
+  "magnetic_measurement_scope": {
+    "equilibrium_backend": "VMEC++ 0.9.4, fixed-boundary stellarator-symmetric vacuum, zero toroidal current",
+    "ns": 65,
+    "mpol": 8,
+    "ntor": 6,
+    "force_residuals": [
+      9.81972506140968e-13,
+      3.233308260160075e-13,
+      1.8919023672266998e-13
+    ],
+    "geometry_grid": {
+      "phi_per_period": 256,
+      "theta": 512,
+      "self_intersection_checked": true
+    },
+    "coil_gradient_grid": {
+      "theta": 128,
+      "phi": 128
+    },
+    "neo": "Actual STELLOPT NEO binary, published signed-iota correction, five surfaces and control from magnetic_eval.py",
+    "boozer": "Actual booz_xform; adaptive transform tolerance checked by magnetic_eval.run_boozer",
+    "field_strength": "B00 axis is rescalable to 5.70 T; full candidate alpha run at that field was not completed",
+    "warning": "Zero excess here applies only to measured screening metrics; it is NOT seven-constraint formal feasibility."
+  },
+  "proxy_results": {
+    "baseline_J_proxy": 133.51456370379887,
+    "candidate_J_proxy": 121.8438531646944,
+    "relative_reduction": 0.08741151688137827,
+    "worst_point": "T00-g5",
+    "baseline_points": {
+      "T00-g3": 44.55548422938148,
+      "T00-g4": 84.08970914931429,
+      "T00-g5": 133.51456370379887,
+      "T10-g3": 10.96743172175167,
+      "T10-g4": 22.53453329176011,
+      "T10-g5": 37.701355415107926,
+      "T01-g3": 13.916480133474883,
+      "T01-g4": 24.118920893267738,
+      "T01-g5": 35.60407742308872,
+      "T11-g3": 1.091077614119661,
+      "T11-g4": 2.4608616009292503,
+      "T11-g5": 4.054165908857101
+    },
+    "candidate_points": {
+      "T00-g3": 41.375003856381404,
+      "T00-g4": 77.29298657835723,
+      "T00-g5": 121.8438531646944,
+      "T10-g3": 16.993709597303646,
+      "T10-g4": 32.4300087720969,
+      "T10-g5": 51.76969558321839,
+      "T01-g3": 12.82612170633217,
+      "T01-g4": 21.555988915976613,
+      "T01-g5": 31.249292784048954,
+      "T11-g3": 2.9128843818905223,
+      "T11-g4": 5.425833593611271,
+      "T11-g5": 8.241869495596221
+    },
+    "model": "Uncalibrated fluid/interchange mixing-length geometry heuristic, NOT linear kinetic GX and NOT nonlinear heat flux.",
+    "normalization": "Arbitrary proxy units. Reference evaluated with exactly the same model; official baseline unchanged.",
+    "definition_file": "proxy-definition.json",
+    "gridcheck": {
+      "baseline": {
+        "points": {
+          "T00-g3": 44.48867789336675,
+          "T00-g4": 83.95927004496268,
+          "T00-g5": 133.30251260875363,
+          "T10-g3": 10.959329900896025,
+          "T10-g4": 22.497589491661945,
+          "T10-g5": 37.64947474200407,
+          "T01-g3": 13.915115220278375,
+          "T01-g4": 24.118266365197147,
+          "T01-g5": 35.60468717924041,
+          "T11-g3": 1.0898121548539879,
+          "T11-g4": 2.457008430091951,
+          "T11-g5": 4.049422952541284
+        },
+        "J_proxy": 133.30251260875363
+      },
+      "candidate": {
+        "points": {
+          "T00-g3": 41.31356852274263,
+          "T00-g4": 77.1743169680769,
+          "T00-g5": 121.65205767256425,
+          "T10-g3": 16.954345508412942,
+          "T10-g4": 32.362603725941625,
+          "T10-g5": 51.629611584869664,
+          "T01-g3": 12.825630829856323,
+          "T01-g4": 21.556593880655402,
+          "T01-g5": 31.25148650128387,
+          "T11-g3": 2.9111159829118334,
+          "T11-g4": 5.423434217594346,
+          "T11-g5": 8.238757226045966
+        },
+        "J_proxy": 121.65205767256425
+      },
+      "reduction": 0.0873986146861595
+    }
+  },
+  "particle_verification": {
+    "candidate_4096_particles": "NOT COMPLETED",
+    "candidate_loss_fraction": null,
+    "candidate_wilson_upper": null,
+    "baseline_probe": {
+      "status": "measured",
+      "particles": 16,
+      "seconds": 97.5863139629364,
+      "alpha": {
+        "N_L": 0,
+        "N_U": 0,
+        "f_alpha": 0.0,
+        "f_alpha_groups": [
+          0.0,
+          0.0
+        ],
+        "exit_codes": {
+          "0": 16
+        },
+        "simple_axis_field_gauss": 56999.36360890315,
+        "simple_recoveries": {},
+        "seconds": 97.14833784103394
+      },
+      "official_feasible": null
+    },
+    "warning": "16-particle zero-loss result is for the PUBLIC BASELINE only and does not certify this candidate or the 4096-particle requirement."
+  },
+  "verification_gaps": [
+    "257-surface, full prescribed Fourier-resolution final equilibrium was started but interrupted for immediate submission; no convergence result claimed.",
+    "Candidate 4096 alpha particles at s=0.25, 3.5 MeV, 0.2 s were not completed.",
+    "Candidate full-resolution NEO, well, iota and L_grad_B constraints remain unverified.",
+    "No GX nonlinear trajectory was run; no nonlinear heat-flux suppression or platform score improvement established.",
+    "Installed simsopt 1.11.1 differs from locked 1.10.6; screen uses VMEC++ rather than prescribed VMEC2000."
+  ],
+  "official_package_audit": {
+    "runtime_lock_state": "built_unverified",
+    "baseline_state": "uncalibrated",
+    "J_reference": null,
+    "task_mapping": "0.75 - atan(max(candidate heat-flux upper bounds))/(2*pi)",
+    "bundled_eval_mapping": "0.5 + 0.5*sigmoid(J_reference-max(candidate_upper/reference_lower))",
+    "statistics_conflict": "Bundled eval uses reference means in tolerance checks; task specifies candidate means.",
+    "original_eval_unchanged": true,
+    "runtime_and_baseline_not_forged": true,
+    "baseline_eval_result": {
+      "reward": 0.0,
+      "valid": 0,
+      "feasible": 0,
+      "evaluator_error": 1
+    },
+    "baseline_eval_reason": "EvaluatorError: D0 runtime has not passed fresh native image and isolation checks",
+    "private_registry": "Specified fixed-digest image manifest request returned denied / unauthorized.",
+    "scope": "Package audit concerns the supplied local evaluator; remote platform evaluation is reported separately after submission.",
+    "candidate_local_eval_result": {
+      "reward": 0.0,
+      "valid": 0,
+      "feasible": 0,
+      "evaluator_error": 1
+    },
+    "candidate_local_eval_reason": "EvaluatorError: D0 runtime has not passed fresh native image and isolation checks"
+  },
+  "search": {
+    "initial_sweep": {
+      "baseline": {
+        "folder": "runs/proxy_v2/63947299a918c6",
+        "final_resolution": false,
+        "full_feasible": null,
+        "profile": {
+          "iota_min": 0.4169208170587255,
+          "iota_min_s": 0.0546875,
+          "iota_axis_side": 0.41705070792624077,
+          "iota_edge_side": 0.42367001410556543,
+          "well": 0.002167049855086447,
+          "well_worst_s": 0.9375,
+          "vmec_aspect": 6.000011993448138,
+          "volume_from_vp_rel_error": 3.643186985424762e-08
+        },
+        "residuals": [
+          9.970079841018335e-13,
+          1.7316680449113092e-13,
+          1.9197265288800256e-13
+        ],
+        "coil": {
+          "lgradb_min": 5.552800680317959,
+          "theta": 3.5342917352885173,
+          "phi": 0.22089323345553233
+        },
+        "qs_rms": 0.00018341373466453702,
+        "screen_pass": true,
+        "tubes": {
+          "T00": {
+            "points": {
+              "3": {
+                "Q_proxy": 44.55548422938148,
+                "ky": 0.65
+              },
+              "4": {
+                "Q_proxy": 84.08970914931429,
+                "ky": 0.65
+              },
+              "5": {
+                "Q_proxy": 133.51456370379887,
+                "ky": 0.65
+              }
+            },
+            "B_ratio": 1.1130494282575836,
+            "curvature_rms": 0.11487328254834481,
+            "bad_curvature_mean": 0.06469370835706191,
+            "compression_mean": 2.5671727060839875,
+            "poloidal_turns": 0.778061675338571,
+            "length_over_a": 75.00000000000004
+          },
+          "T10": {
+            "points": {
+              "3": {
+                "Q_proxy": 10.96743172175167,
+                "ky": 0.65
+              },
+              "4": {
+                "Q_proxy": 22.53453329176011,
+                "ky": 0.4
+              },
+              "5": {
+                "Q_proxy": 37.701355415107926,
+                "ky": 0.4
+              }
+            },
+            "B_ratio": 1.1088254222586984,
+            "curvature_rms": 0.11462228585500879,
+            "bad_curvature_mean": 0.02356249955530602,
+            "compression_mean": 2.933327775859206,
+            "poloidal_turns": 0.8046792471209326,
+            "length_over_a": 75.00000000087475
+          },
+          "T01": {
+            "points": {
+              "3": {
+                "Q_proxy": 13.916480133474883,
+                "ky": 0.15
+              },
+              "4": {
+                "Q_proxy": 24.118920893267738,
+                "ky": 0.15
+              },
+              "5": {
+                "Q_proxy": 35.60407742308872,
+                "ky": 0.15
+              }
+            },
+            "B_ratio": 1.113512081747049,
+            "curvature_rms": 0.1142773583493353,
+            "bad_curvature_mean": 0.06466351070352194,
+            "compression_mean": 3.1009087394485646,
+            "poloidal_turns": 0.7527942863013221,
+            "length_over_a": 74.99999999999999
+          },
+          "T11": {
+            "points": {
+              "3": {
+                "Q_proxy": 1.091077614119661,
+                "ky": 0.25
+              },
+              "4": {
+                "Q_proxy": 2.4608616009292503,
+                "ky": 0.15
+              },
+              "5": {
+                "Q_proxy": 4.054165908857101,
+                "ky": 0.15
+              }
+            },
+            "B_ratio": 1.1090336365928795,
+            "curvature_rms": 0.11484720513567141,
+            "bad_curvature_mean": 0.023507351745222504,
+            "compression_mean": 3.068321402139716,
+            "poloidal_turns": 0.7866914689149093,
+            "length_over_a": 75.00000000000038
+          }
+        },
+        "points": {
+          "T00-g3": 44.55548422938148,
+          "T00-g4": 84.08970914931429,
+          "T00-g5": 133.51456370379887,
+          "T10-g3": 10.96743172175167,
+          "T10-g4": 22.53453329176011,
+          "T10-g5": 37.701355415107926,
+          "T01-g3": 13.916480133474883,
+          "T01-g4": 24.118920893267738,
+          "T01-g5": 35.60407742308872,
+          "T11-g3": 1.091077614119661,
+          "T11-g4": 2.4608616009292503,
+          "T11-g5": 4.054165908857101
+        },
+        "J_proxy": 133.51456370379887,
+        "seconds": 29.191535711288452
+      },
+      "best": {
+        "folder": "runs/proxy_v2/e912136300becf",
+        "final_resolution": false,
+        "full_feasible": null,
+        "profile": {
+          "iota_min": 0.42145187073608836,
+          "iota_min_s": 0.0703125,
+          "iota_axis_side": 0.4216028486565226,
+          "iota_edge_side": 0.4274130153049163,
+          "well": 0.0022241287145761193,
+          "well_worst_s": 0.9375,
+          "vmec_aspect": 6.000011993448123,
+          "volume_from_vp_rel_error": 3.644113111267444e-08
+        },
+        "residuals": [
+          9.896972793966883e-13,
+          1.8066126650218564e-13,
+          1.4653943341599901e-13
+        ],
+        "coil": {
+          "lgradb_min": 5.526810230424617,
+          "theta": 2.748893571891069,
+          "phi": 2.9206994201342606
+        },
+        "qs_rms": 0.0012118536877808218,
+        "screen_pass": true,
+        "tubes": {
+          "T00": {
+            "points": {
+              "3": {
+                "Q_proxy": 44.07379674083501,
+                "ky": 0.65
+              },
+              "4": {
+                "Q_proxy": 83.06104000089647,
+                "ky": 0.65
+              },
+              "5": {
+                "Q_proxy": 131.7452588914276,
+                "ky": 0.65
+              }
+            },
+            "B_ratio": 1.1146919267522166,
+            "curvature_rms": 0.11588405865281935,
+            "bad_curvature_mean": 0.06482927340342363,
+            "compression_mean": 2.566673489179495,
+            "poloidal_turns": 0.7862769288205503,
+            "length_over_a": 75.0000000000001
+          },
+          "T10": {
+            "points": {
+              "3": {
+                "Q_proxy": 11.898733906300073,
+                "ky": 0.65
+              },
+              "4": {
+                "Q_proxy": 23.898173608236696,
+                "ky": 0.4
+              },
+              "5": {
+                "Q_proxy": 40.18101151016093,
+                "ky": 0.4
+              }
+            },
+            "B_ratio": 1.109363556109543,
+            "curvature_rms": 0.11590011902900746,
+            "bad_curvature_mean": 0.02467864022796465,
+            "compression_mean": 2.920981303682945,
+            "poloidal_turns": 0.812016791999161,
+            "length_over_a": 75.00000000091435
+          },
+          "T01": {
+            "points": {
+              "3": {
+                "Q_proxy": 13.751047229574233,
+                "ky": 0.15
+              },
+              "4": {
+                "Q_proxy": 23.717237064802966,
+                "ky": 0.15
+              },
+              "5": {
+                "Q_proxy": 34.91017837456155,
+                "ky": 0.15
+              }
+            },
+            "B_ratio": 1.1152360014056566,
+            "curvature_rms": 0.1158836676148428,
+            "bad_curvature_mean": 0.06452323241743385,
+            "compression_mean": 3.071578101296849,
+            "poloidal_turns": 0.7604726516413881,
+            "length_over_a": 75.00000000000001
+          },
+          "T11": {
+            "points": {
+              "3": {
+                "Q_proxy": 1.229031251722941,
+                "ky": 0.25
+              },
+              "4": {
+                "Q_proxy": 2.8503761478129888,
+                "ky": 0.15
+              },
+              "5": {
+                "Q_proxy": 4.596756040745916,
+                "ky": 0.15
+              }
+            },
+            "B_ratio": 1.1112800016896578,
+            "curvature_rms": 0.11607685089001701,
+            "bad_curvature_mean": 0.02425230860808884,
+            "compression_mean": 3.02875221110413,
+            "poloidal_turns": 0.794034717225566,
+            "length_over_a": 75.00000000000068
+          }
+        },
+        "points": {
+          "T00-g3": 44.07379674083501,
+          "T00-g4": 83.06104000089647,
+          "T00-g5": 131.7452588914276,
+          "T10-g3": 11.898733906300073,
+          "T10-g4": 23.898173608236696,
+          "T10-g5": 40.18101151016093,
+          "T01-g3": 13.751047229574233,
+          "T01-g4": 23.717237064802966,
+          "T01-g5": 34.91017837456155,
+          "T11-g3": 1.229031251722941,
+          "T11-g4": 2.8503761478129888,
+          "T11-g5": 4.596756040745916
+        },
+        "J_proxy": 131.7452588914276,
+        "seconds": 36.25677466392517,
+        "direction": [
+          "elongation",
+          null,
+          -0.006
+        ]
+      },
+      "records": [
+        {
+          "folder": "runs/proxy_v2/63947299a918c6",
+          "final_resolution": false,
+          "full_feasible": null,
+          "profile": {
+            "iota_min": 0.4169208170587255,
+            "iota_min_s": 0.0546875,
+            "iota_axis_side": 0.41705070792624077,
+            "iota_edge_side": 0.42367001410556543,
+            "well": 0.002167049855086447,
+            "well_worst_s": 0.9375,
+            "vmec_aspect": 6.000011993448138,
+            "volume_from_vp_rel_error": 3.643186985424762e-08
+          },
+          "residuals": [
+            9.970079841018335e-13,
+            1.7316680449113092e-13,
+            1.9197265288800256e-13
+          ],
+          "coil": {
+            "lgradb_min": 5.552800680317959,
+            "theta": 3.5342917352885173,
+            "phi": 0.22089323345553233
+          },
+          "qs_rms": 0.00018341373466453702,
+          "screen_pass": true,
+          "tubes": {
+            "T00": {
+              "points": {
+                "3": {
+                  "Q_proxy": 44.55548422938148,
+                  "ky": 0.65
+                },
+                "4": {
+                  "Q_proxy": 84.08970914931429,
+                  "ky": 0.65
+                },
+                "5": {
+                  "Q_proxy": 133.51456370379887,
+                  "ky": 0.65
+                }
+              },
+              "B_ratio": 1.1130494282575836,
+              "curvature_rms": 0.11487328254834481,
+              "bad_curvature_mean": 0.06469370835706191,
+              "compression_mean": 2.5671727060839875,
+              "poloidal_turns": 0.778061675338571,
+              "length_over_a": 75.00000000000004
+            },
+            "T10": {
+              "points": {
+                "3": {
+                  "Q_proxy": 10.96743172175167,
+                  "ky": 0.65
+                },
+                "4": {
+                  "Q_proxy": 22.53453329176011,
+                  "ky": 0.4
+                },
+                "5": {
+                  "Q_proxy": 37.701355415107926,
+                  "ky": 0.4
+                }
+              },
+              "B_ratio": 1.1088254222586984,
+              "curvature_rms": 0.11462228585500879,
+              "bad_curvature_mean": 0.02356249955530602,
+              "compression_mean": 2.933327775859206,
+              "poloidal_turns": 0.8046792471209326,
+              "length_over_a": 75.00000000087475
+            },
+            "T01": {
+              "points": {
+                "3": {
+                  "Q_proxy": 13.916480133474883,
+                  "ky": 0.15
+                },
+                "4": {
+                  "Q_proxy": 24.118920893267738,
+                  "ky": 0.15
+                },
+                "5": {
+                  "Q_proxy": 35.60407742308872,
+                  "ky": 0.15
+                }
+              },
+              "B_ratio": 1.113512081747049,
+              "curvature_rms": 0.1142773583493353,
+              "bad_curvature_mean": 0.06466351070352194,
+              "compression_mean": 3.1009087394485646,
+              "poloidal_turns": 0.7527942863013221,
+              "length_over_a": 74.99999999999999
+            },
+            "T11": {
+              "points": {
+                "3": {
+                  "Q_proxy": 1.091077614119661,
+                  "ky": 0.25
+                },
+                "4": {
+                  "Q_proxy": 2.4608616009292503,
+                  "ky": 0.15
+                },
+                "5": {
+                  "Q_proxy": 4.054165908857101,
+                  "ky": 0.15
+                }
+              },
+              "B_ratio": 1.1090336365928795,
+              "curvature_rms": 0.11484720513567141,
+              "bad_curvature_mean": 0.023507351745222504,
+              "compression_mean": 3.068321402139716,
+              "poloidal_turns": 0.7866914689149093,
+              "length_over_a": 75.00000000000038
+            }
+          },
+          "points": {
+            "T00-g3": 44.55548422938148,
+            "T00-g4": 84.08970914931429,
+            "T00-g5": 133.51456370379887,
+            "T10-g3": 10.96743172175167,
+            "T10-g4": 22.53453329176011,
+            "T10-g5": 37.701355415107926,
+            "T01-g3": 13.916480133474883,
+            "T01-g4": 24.118920893267738,
+            "T01-g5": 35.60407742308872,
+            "T11-g3": 1.091077614119661,
+            "T11-g4": 2.4608616009292503,
+            "T11-g5": 4.054165908857101
+          },
+          "J_proxy": 133.51456370379887,
+          "seconds": 29.191535711288452
+        },
+        {
+          "folder": "runs/proxy_v2/4acbb50ad02733",
+          "final_resolution": false,
+          "full_feasible": null,
+          "profile": {
+            "iota_min": 0.41232358965589905,
+            "iota_min_s": 0.0546875,
+            "iota_axis_side": 0.4124324409140298,
+            "iota_edge_side": 0.4198931155252725,
+            "well": 0.0020929547964734945,
+            "well_worst_s": 0.9375,
+            "vmec_aspect": 6.000011993448075,
+            "volume_from_vp_rel_error": 3.6313926976561106e-08
+          },
+          "residuals": [
+            9.989348746073027e-13,
+            1.6488150916769315e-13,
+            1.9136534193103704e-13
+          ],
+          "coil": {
+            "lgradb_min": 5.5802605317835665,
+            "theta": 3.5342917352885173,
+            "phi": 0.22089323345553233
+          },
+          "qs_rms": 0.0012759781619372048,
+          "screen_pass": true,
+          "tubes": {
+            "T00": {
+              "points": {
+                "3": {
+                  "Q_proxy": 45.02566471739337,
+                  "ky": 0.65
+                },
+                "4": {
+                  "Q_proxy": 85.0942156564473,
+                  "ky": 0.65
+                },
+                "5": {
+                  "Q_proxy": 135.24447195163503,
+                  "ky": 0.65
+                }
+              },
+              "B_ratio": 1.1115479322640636,
+              "curvature_rms": 0.11394706677689742,
+              "bad_curvature_mean": 0.06472190141426147,
+              "compression_mean": 2.5673684457267942,
+              "poloidal_turns": 0.7698349942064661,
+              "length_over_a": 75.00000000000007
+            },
+            "T10": {
+              "points": {
+                "3": {
+                  "Q_proxy": 10.250533306586211,
+                  "ky": 0.4
+                },
+                "4": {
+                  "Q_proxy": 21.117314113643683,
+                  "ky": 0.4
+                },
+                "5": {
+                  "Q_proxy": 35.1483830790991,
+                  "ky": 0.4
+                }
+              },
+              "B_ratio": 1.1083692471819042,
+              "curvature_rms": 0.11342116423848465,
+              "bad_curvature_mean": 0.02247073609799155,
+              "compression_mean": 2.94574633388522,
+              "poloidal_turns": 0.7972993203380861,
+              "length_over_a": 75.00000000126009
+            },
+            "T01": {
+              "points": {
+                "3": {
+                  "Q_proxy": 14.075008170853257,
+                  "ky": 0.15
+                },
+                "4": {
+                  "Q_proxy": 24.512293491283025,
+                  "ky": 0.15
+                },
+                "5": {
+                  "Q_proxy": 36.29061570503722,
+                  "ky": 0.15
+                }
+              },
+              "B_ratio": 1.1117724956806054,
+              "curvature_rms": 0.11273358371563957,
+              "bad_curvature_mean": 0.06479633873481834,
+              "compression_mean": 3.130078508564269,
+              "poloidal_turns": 0.7450947120887655,
+              "length_over_a": 75.0
+            },
+            "T11": {
+              "points": {
+                "3": {
+                  "Q_proxy": 0.9633043976614484,
+                  "ky": 0.25
+                },
+                "4": {
+                  "Q_proxy": 2.0944879402012444,
+                  "ky": 0.15
+                },
+                "5": {
+                  "Q_proxy": 3.5506026849643035,
+                  "ky": 0.15
+                }
+              },
+              "B_ratio": 1.1067473682801183,
+              "curvature_rms": 0.113686075737895,
+              "bad_curvature_mean": 0.022788302517825074,
+              "compression_mean": 3.1082073482782686,
+              "poloidal_turns": 0.7793045643256549,
+              "length_over_a": 75.00000000000112
+            }
+          },
+          "points": {
+            "T00-g3": 45.02566471739337,
+            "T00-g4": 85.0942156564473,
+            "T00-g5": 135.24447195163503,
+            "T10-g3": 10.250533306586211,
+            "T10-g4": 21.117314113643683,
+            "T10-g5": 35.1483830790991,
+            "T01-g3": 14.075008170853257,
+            "T01-g4": 24.512293491283025,
+            "T01-g5": 36.29061570503722,
+            "T11-g3": 0.9633043976614484,
+            "T11-g4": 2.0944879402012444,
+            "T11-g5": 3.5506026849643035
+          },
+          "J_proxy": 135.24447195163503,
+          "seconds": 35.519094705581665,
+          "direction": [
+            "elongation",
+            null,
+            0.006
+          ]
+        },
+        {
+          "folder": "runs/proxy_v2/e912136300becf",
+          "final_resolution": false,
+          "full_feasible": null,
+          "profile": {
+            "iota_min": 0.42145187073608836,
+            "iota_min_s": 0.0703125,
+            "iota_axis_side": 0.4216028486565226,
+            "iota_edge_side": 0.4274130153049163,
+            "well": 0.0022241287145761193,
+            "well_worst_s": 0.9375,
+            "vmec_aspect": 6.000011993448123,
+            "volume_from_vp_rel_error": 3.644113111267444e-08
+          },
+          "residuals": [
+            9.896972793966883e-13,
+            1.8066126650218564e-13,
+            1.4653943341599901e-13
+          ],
+          "coil": {
+            "lgradb_min": 5.526810230424617,
+            "theta": 2.748893571891069,
+            "phi": 2.9206994201342606
+          },
+          "qs_rms": 0.0012118536877808218,
+          "screen_pass": true,
+          "tubes": {
+            "T00": {
+              "points": {
+                "3": {
+                  "Q_proxy": 44.07379674083501,
+                  "ky": 0.65
+                },
+                "4": {
+                  "Q_proxy": 83.06104000089647,
+                  "ky": 0.65
+                },
+                "5": {
+                  "Q_proxy": 131.7452588914276,
+                  "ky": 0.65
+                }
+              },
+              "B_ratio": 1.1146919267522166,
+              "curvature_rms": 0.11588405865281935,
+              "bad_curvature_mean": 0.06482927340342363,
+              "compression_mean": 2.566673489179495,
+              "poloidal_turns": 0.7862769288205503,
+              "length_over_a": 75.0000000000001
+            },
+            "T10": {
+              "points": {
+                "3": {
+                  "Q_proxy": 11.898733906300073,
+                  "ky": 0.65
+                },
+                "4": {
+                  "Q_proxy": 23.898173608236696,
+                  "ky": 0.4
+                },
+                "5": {
+                  "Q_proxy": 40.18101151016093,
+                  "ky": 0.4
+                }
+              },
+              "B_ratio": 1.109363556109543,
+              "curvature_rms": 0.11590011902900746,
+              "bad_curvature_mean": 0.02467864022796465,
+              "compression_mean": 2.920981303682945,
+              "poloidal_turns": 0.812016791999161,
+              "length_over_a": 75.00000000091435
+            },
+            "T01": {
+              "points": {
+                "3": {
+                  "Q_proxy": 13.751047229574233,
+                  "ky": 0.15
+                },
+                "4": {
+                  "Q_proxy": 23.717237064802966,
+                  "ky": 0.15
+                },
+                "5": {
+                  "Q_proxy": 34.91017837456155,
+                  "ky": 0.15
+                }
+              },
+              "B_ratio": 1.1152360014056566,
+              "curvature_rms": 0.1158836676148428,
+              "bad_curvature_mean": 0.06452323241743385,
+              "compression_mean": 3.071578101296849,
+              "poloidal_turns": 0.7604726516413881,
+              "length_over_a": 75.00000000000001
+            },
+            "T11": {
+              "points": {
+                "3": {
+                  "Q_proxy": 1.229031251722941,
+                  "ky": 0.25
+                },
+                "4": {
+                  "Q_proxy": 2.8503761478129888,
+                  "ky": 0.15
+                },
+                "5": {
+                  "Q_proxy": 4.596756040745916,
+                  "ky": 0.15
+                }
+              },
+              "B_ratio": 1.1112800016896578,
+              "curvature_rms": 0.11607685089001701,
+              "bad_curvature_mean": 0.02425230860808884,
+              "compression_mean": 3.02875221110413,
+              "poloidal_turns": 0.794034717225566,
+              "length_over_a": 75.00000000000068
+            }
+          },
+          "points": {
+            "T00-g3": 44.07379674083501,
+            "T00-g4": 83.06104000089647,
+            "T00-g5": 131.7452588914276,
+            "T10-g3": 11.898733906300073,
+            "T10-g4": 23.898173608236696,
+            "T10-g5": 40.18101151016093,
+            "T01-g3": 13.751047229574233,
+            "T01-g4": 23.717237064802966,
+            "T01-g5": 34.91017837456155,
+            "T11-g3": 1.229031251722941,
+            "T11-g4": 2.8503761478129888,
+            "T11-g5": 4.596756040745916
+          },
+          "J_proxy": 131.7452588914276,
+          "seconds": 36.25677466392517,
+          "direction": [
+            "elongation",
+            null,
+            -0.006
+          ]
+        },
+        {
+          "folder": "runs/proxy_v2/5ea6fe2fbaa963",
+          "final_resolution": false,
+          "full_feasible": null,
+          "profile": {
+            "iota_min": 0.41707467662607334,
+            "iota_min_s": 0.0546875,
+            "iota_axis_side": 0.4172062915067424,
+            "iota_edge_side": 0.4237719165976188,
+            "well": 0.0022663244025280306,
+            "well_worst_s": 0.9375,
+            "vmec_aspect": 6.0000119934481075,
+            "volume_from_vp_rel_error": 3.657574232374117e-08
+          },
+          "residuals": [
+            9.907374404199472e-13,
+            1.6584884293812554e-13,
+            1.8442857672634635e-13
+          ],
+          "coil": {
+            "lgradb_min": 5.556940361323648,
+            "theta": 3.5342917352885173,
+            "phi": 0.22089323345553233
+          },
+          "qs_rms": 0.0005653327783009883,
+          "screen_pass": true,
+          "tubes": {
+            "T00": {
+              "points": {
+                "3": {
+                  "Q_proxy": 44.77094110855778,
+                  "ky": 0.65
+                },
+                "4": {
+                  "Q_proxy": 84.4253770814588,
+                  "ky": 0.65
+                },
+                "5": {
+                  "Q_proxy": 133.95677353334247,
+                  "ky": 0.65
+                }
+              },
+              "B_ratio": 1.1134447798222715,
+              "curvature_rms": 0.11447880970828923,
+              "bad_curvature_mean": 0.06437041030892465,
+              "compression_mean": 2.568685316310521,
+              "poloidal_turns": 0.7780415755008357,
+              "length_over_a": 75.00000000000003
+            },
+            "T10": {
+              "points": {
+                "3": {
+                  "Q_proxy": 10.994954762927891,
+                  "ky": 0.65
+                },
+                "4": {
+                  "Q_proxy": 22.58094514345819,
+                  "ky": 0.4
+                },
+                "5": {
+                  "Q_proxy": 37.78958077091957,
+                  "ky": 0.4
+                }
+              },
+              "B_ratio": 1.1086556154309097,
+              "curvature_rms": 0.11436618627747351,
+              "bad_curvature_mean": 0.023428726776488235,
+              "compression_mean": 2.936796949157722,
+              "poloidal_turns": 0.8045792072168328,
+              "length_over_a": 75.00000000089771
+            },
+            "T01": {
+              "points": {
+                "3": {
+                  "Q_proxy": 13.891680646749956,
+                  "ky": 0.15
+                },
+                "4": {
+                  "Q_proxy": 24.087824024335116,
+                  "ky": 0.15
+                },
+                "5": {
+                  "Q_proxy": 35.571518229912726,
+                  "ky": 0.15
+                }
+              },
+              "B_ratio": 1.1126179049069118,
+              "curvature_rms": 0.11418673572635887,
+              "bad_curvature_mean": 0.06454699257895236,
+              "compression_mean": 3.1032532838599294,
+              "poloidal_turns": 0.7525428728703806,
+              "length_over_a": 75.0
+            },
+            "T11": {
+              "points": {
+                "3": {
+                  "Q_proxy": 1.0873554405896475,
+                  "ky": 0.25
+                },
+                "4": {
+                  "Q_proxy": 2.4334447824785013,
+                  "ky": 0.15
+                },
+                "5": {
+                  "Q_proxy": 4.030723489317393,
+                  "ky": 0.15
+                }
+              },
+              "B_ratio": 1.1073855287299377,
+              "curvature_rms": 0.11452802057930676,
+              "bad_curvature_mean": 0.023249327503762,
+              "compression_mean": 3.0700491756116577,
+              "poloidal_turns": 0.7864475356902152,
+              "length_over_a": 75.00000000000045
+            }
+          },
+          "points": {
+            "T00-g3": 44.77094110855778,
+            "T00-g4": 84.4253770814588,
+            "T00-g5": 133.95677353334247,
+            "T10-g3": 10.994954762927891,
+            "T10-g4": 22.58094514345819,
+            "T10-g5": 37.78958077091957,
+            "T01-g3": 13.891680646749956,
+            "T01-g4": 24.087824024335116,
+            "T01-g5": 35.571518229912726,
+            "T11-g3": 1.0873554405896475,
+            "T11-g4": 2.4334447824785013,
+            "T11-g5": 4.030723489317393
+          },
+          "J_proxy": 133.95677353334247,
+          "seconds": 52.826908826828,
+          "direction": [
+            "axis",
+            null,
+            0.006
+          ]
+        },
+        {
+          "folder": "runs/proxy_v2/bb224c08ced04a",
+          "final_resolution": false,
+          "full_feasible": null,
+          "profile": {
+            "iota_min": 0.4167632948088614,
+            "iota_min_s": 0.0546875,
+            "iota_axis_side": 0.4168909112081159,
+            "iota_edge_side": 0.42356957485917396,
+            "well": 0.002065867442051332,
+            "well_worst_s": 0.9375,
+            "vmec_aspect": 6.000011993448101,
+            "volume_from_vp_rel_error": 3.628864664317888e-08
+          },
+          "residuals": [
+            9.946540168136925e-13,
+            1.7240754662078266e-13,
+            1.9244970164107096e-13
+          ],
+          "coil": {
+            "lgradb_min": 5.549045936589661,
+            "theta": 3.5342917352885173,
+            "phi": 0.22089323345553233
+          },
+          "qs_rms": 0.0005400693006927222,
+          "screen_pass": true,
+          "tubes": {
+            "T00": {
+              "points": {
+                "3": {
+                  "Q_proxy": 44.33577559477427,
+                  "ky": 0.65
+                },
+                "4": {
+                  "Q_proxy": 83.74488958194257,
+                  "ky": 0.65
+                },
+                "5": {
+                  "Q_proxy": 133.05730980728737,
+                  "ky": 0.65
+                }
+              },
+              "B_ratio": 1.1126606141272513,
+              "curvature_rms": 0.11527182294263322,
+              "bad_curvature_mean": 0.06501813271432887,
+              "compression_mean": 2.5656110082437302,
+              "poloidal_turns": 0.7780870260209601,
+              "length_over_a": 75.00000000000001
+            },
+            "T10": {
+              "points": {
+                "3": {
+                  "Q_proxy": 10.938454232098952,
+                  "ky": 0.65
+                },
+                "4": {
+                  "Q_proxy": 22.48539123027649,
+                  "ky": 0.4
+                },
+                "5": {
+                  "Q_proxy": 37.60851407585124,
+                  "ky": 0.4
+                }
+              },
+              "B_ratio": 1.1089930328656135,
+              "curvature_rms": 0.11488402845176057,
+              "bad_curvature_mean": 0.0236941584978472,
+              "compression_mean": 2.929904510337894,
+              "poloidal_turns": 0.8047840997923035,
+              "length_over_a": 75.00000000085264
+            },
+            "T01": {
+              "points": {
+                "3": {
+                  "Q_proxy": 13.940347639980653,
+                  "ky": 0.15
+                },
+                "4": {
+                  "Q_proxy": 24.148143405189515,
+                  "ky": 0.15
+                },
+                "5": {
+                  "Q_proxy": 35.63369559865979,
+                  "ky": 0.15
+                }
+              },
+              "B_ratio": 1.1144175169437742,
+              "curvature_rms": 0.1143755652246002,
+              "bad_curvature_mean": 0.064779031366158,
+              "compression_mean": 3.0985600018218484,
+              "poloidal_turns": 0.7530509312811942,
+              "length_over_a": 75.0
+            },
+            "T11": {
+              "points": {
+                "3": {
+                  "Q_proxy": 1.0950748071444758,
+                  "ky": 0.25
+                },
+                "4": {
+                  "Q_proxy": 2.488656124347249,
+                  "ky": 0.15
+                },
+                "5": {
+                  "Q_proxy": 4.078524537091009,
+                  "ky": 0.15
+                }
+              },
+              "B_ratio": 1.1106860941521195,
+              "curvature_rms": 0.11517243846582113,
+              "bad_curvature_mean": 0.023770452402926804,
+              "compression_mean": 3.0664957813712266,
+              "poloidal_turns": 0.7869391010281339,
+              "length_over_a": 75.00000000000037
+            }
+          },
+          "points": {
+            "T00-g3": 44.33577559477427,
+            "T00-g4": 83.74488958194257,
+            "T00-g5": 133.05730980728737,
+            "T10-g3": 10.938454232098952,
+            "T10-g4": 22.48539123027649,
+            "T10-g5": 37.60851407585124,
+            "T01-g3": 13.940347639980653,
+            "T01-g4": 24.148143405189515,
+            "T01-g5": 35.63369559865979,
+            "T11-g3": 1.0950748071444758,
+            "T11-g4": 2.488656124347249,
+            "T11-g5": 4.078524537091009
+          },
+          "J_proxy": 133.05730980728737,
+          "seconds": 123.13481187820435,
+          "direction": [
+            "axis",
+            null,
+            -0.006
+          ]
+        },
+        {
+          "folder": "runs/proxy_v2/3504350fcdc002",
+          "final_resolution": false,
+          "full_feasible": null,
+          "profile": {
+            "iota_min": 0.41691986723695484,
+            "iota_min_s": 0.0546875,
+            "iota_axis_side": 0.41705187987136516,
+            "iota_edge_side": 0.4236471307241568,
+            "well": 0.002145834992781465,
+            "well_worst_s": 0.9375,
+            "vmec_aspect": 6.00001199344815,
+            "volume_from_vp_rel_error": 3.777810564375983e-08
+          },
+          "residuals": [
+            9.97709411645395e-13,
+            1.742657616118222e-13,
+            1.9478405979062112e-13
+          ],
+          "coil": {
+            "lgradb_min": 5.547382266134918,
+            "theta": 2.748893571891069,
+            "phi": 2.9206994201342606
+          },
+          "qs_rms": 0.0005850911670874614,
+          "screen_pass": true,
+          "tubes": {
+            "T00": {
+              "points": {
+                "3": {
+                  "Q_proxy": 44.51143064598546,
+                  "ky": 0.65
+                },
+                "4": {
+                  "Q_proxy": 83.99408399830716,
+                  "ky": 0.65
+                },
+                "5": {
+                  "Q_proxy": 133.35078312741376,
+                  "ky": 0.65
+                }
+              },
+              "B_ratio": 1.1135189798684273,
+              "curvature_rms": 0.11495829176083149,
+              "bad_curvature_mean": 0.06477601369063185,
+              "compression_mean": 2.5640156744789366,
+              "poloidal_turns": 0.7780948508338245,
+              "length_over_a": 75.00000000000004
+            },
+            "T10": {
+              "points": {
+                "3": {
+                  "Q_proxy": 10.974051696485516,
+                  "ky": 0.65
+                },
+                "4": {
+                  "Q_proxy": 22.56046689823903,
+                  "ky": 0.4
+                },
+                "5": {
+                  "Q_proxy": 37.7329659731145,
+                  "ky": 0.4
+                }
+              },
+              "B_ratio": 1.1087253285908543,
+              "curvature_rms": 0.11469680338203105,
+              "bad_curvature_mean": 0.023588393926348605,
+              "compression_mean": 2.9296452433681526,
+              "poloidal_turns": 0.804726190690852,
+              "length_over_a": 75.0000000008708
+            },
+            "T01": {
+              "points": {
+                "3": {
+                  "Q_proxy": 13.922212154953202,
+                  "ky": 0.15
+                },
+                "4": {
+                  "Q_proxy": 24.12464046092178,
+                  "ky": 0.15
+                },
+                "5": {
+                  "Q_proxy": 35.60874859017336,
+                  "ky": 0.15
+                }
+              },
+              "B_ratio": 1.1134569814246174,
+              "curvature_rms": 0.11436739011966048,
+              "bad_curvature_mean": 0.06471688377050512,
+              "compression_mean": 3.097165110023466,
+              "poloidal_turns": 0.7528624485719321,
+              "length_over_a": 74.99999999999999
+            },
+            "T11": {
+              "points": {
+                "3": {
+                  "Q_proxy": 1.0927898227202524,
+                  "ky": 0.25
+                },
+                "4": {
+                  "Q_proxy": 2.4689374476092354,
+                  "ky": 0.15
+                },
+                "5": {
+                  "Q_proxy": 4.0625221790586155,
+                  "ky": 0.15
+                }
+              },
+              "B_ratio": 1.109224769638752,
+              "curvature_rms": 0.11493636865505363,
+              "bad_curvature_mean": 0.0235529700585999,
+              "compression_mean": 3.0645245974747737,
+              "poloidal_turns": 0.7867619895828211,
+              "length_over_a": 75.00000000000041
+            }
+          },
+          "points": {
+            "T00-g3": 44.51143064598546,
+            "T00-g4": 83.99408399830716,
+            "T00-g5": 133.35078312741376,
+            "T10-g3": 10.974051696485516,
+            "T10-g4": 22.56046689823903,
+            "T10-g5": 37.7329659731145,
+            "T01-g3": 13.922212154953202,
+            "T01-g4": 24.12464046092178,
+            "T01-g5": 35.60874859017336,
+            "T11-g3": 1.0927898227202524,
+            "T11-g4": 2.4689374476092354,
+            "T11-g5": 4.0625221790586155
+          },
+          "J_proxy": 133.35078312741376,
+          "seconds": 90.45844459533691,
+          "direction": [
+            "rbc",
+            [
+              1,
+              0
+            ],
+            0.0005
+          ]
+        },
+        {
+          "folder": "runs/proxy_v2/62d8319babdff1",
+          "final_resolution": false,
+          "full_feasible": null,
+          "profile": {
+            "iota_min": 0.4169228724847383,
+            "iota_min_s": 0.0546875,
+            "iota_axis_side": 0.41705232962676925,
+            "iota_edge_side": 0.42369253856760225,
+            "well": 0.0021886412114515206,
+            "well_worst_s": 0.9375,
+            "vmec_aspect": 6.000011993448054,
+            "volume_from_vp_rel_error": 3.579317420232542e-08
+          },
+          "residuals": [
+            9.986724990511496e-13,
+            1.6652237161812948e-13,
+            1.9018467296736538e-13
+          ],
+          "coil": {
+            "lgradb_min": 5.553138343380863,
+            "theta": 3.485204350076177,
+            "phi": 0.19634954084936207
+          },
+          "qs_rms": 0.0005861686593705506,
+          "screen_pass": true,
+          "tubes": {
+            "T00": {
+              "points": {
+                "3": {
+                  "Q_proxy": 44.59918568980262,
+                  "ky": 0.65
+                },
+                "4": {
+                  "Q_proxy": 84.18521714786814,
+                  "ky": 0.65
+                },
+                "5": {
+                  "Q_proxy": 133.67870883245618,
+                  "ky": 0.65
+                }
+              },
+              "B_ratio": 1.112556533465345,
+              "curvature_rms": 0.11478827573727762,
+              "bad_curvature_mean": 0.06461458628112818,
+              "compression_mean": 2.5703546317875876,
+              "poloidal_turns": 0.7780284334916264,
+              "length_over_a": 75.00000000000006
+            },
+            "T10": {
+              "points": {
+                "3": {
+                  "Q_proxy": 10.961113999037938,
+                  "ky": 0.65
+                },
+                "4": {
+                  "Q_proxy": 22.509376806717196,
+                  "ky": 0.4
+                },
+                "5": {
+                  "Q_proxy": 37.67106586132605,
+                  "ky": 0.4
+                }
+              },
+              "B_ratio": 1.1089390687547265,
+              "curvature_rms": 0.1145466929354915,
+              "bad_curvature_mean": 0.02353458739455962,
+              "compression_mean": 2.937049048809046,
+              "poloidal_turns": 0.8046323100763793,
+              "length_over_a": 75.00000000087786
+            },
+            "T01": {
+              "points": {
+                "3": {
+                  "Q_proxy": 13.909956182622008,
+                  "ky": 0.15
+                },
+                "4": {
+                  "Q_proxy": 24.111881182015544,
+                  "ky": 0.15
+                },
+                "5": {
+                  "Q_proxy": 35.59750103250968,
+                  "ky": 0.15
+                }
+              },
+              "B_ratio": 1.1136429863308421,
+              "curvature_rms": 0.11418567395065812,
+              "bad_curvature_mean": 0.0646052786950362,
+              "compression_mean": 3.1046972743015595,
+              "poloidal_turns": 0.7527259585643612,
+              "length_over_a": 75.0
+            },
+            "T11": {
+              "points": {
+                "3": {
+                  "Q_proxy": 1.0896605672167567,
+                  "ky": 0.25
+                },
+                "4": {
+                  "Q_proxy": 2.4537683566881157,
+                  "ky": 0.15
+                },
+                "5": {
+                  "Q_proxy": 4.047038093856857,
+                  "ky": 0.15
+                }
+              },
+              "B_ratio": 1.1088700214702243,
+              "curvature_rms": 0.11475977176913282,
+              "bad_curvature_mean": 0.023467532391161245,
+              "compression_mean": 3.072019905584939,
+              "poloidal_turns": 0.7866207963551629,
+              "length_over_a": 75.00000000000043
+            }
+          },
+          "points": {
+            "T00-g3": 44.59918568980262,
+            "T00-g4": 84.18521714786814,
+            "T00-g5": 133.67870883245618,
+            "T10-g3": 10.961113999037938,
+            "T10-g4": 22.509376806717196,
+            "T10-g5": 37.67106586132605,
+            "T01-g3": 13.909956182622008,
+            "T01-g4": 24.111881182015544,
+            "T01-g5": 35.59750103250968,
+            "T11-g3": 1.0896605672167567,
+            "T11-g4": 2.4537683566881157,
+            "T11-g5": 4.047038093856857
+          },
+          "J_proxy": 133.67870883245618,
+          "seconds": 88.2639365196228,
+          "direction": [
+            "rbc",
+            [
+              1,
+              0
+            ],
+            -0.0005
+          ]
+        }
+      ],
+      "proxy_reduction": 0.013251773913566911,
+      "full_feasible": null
+    },
+    "refinement_steps": [
+      {
+        "step": -0.012,
+        "J_proxy": 130.00697759932473,
+        "eps_eff_max": 4.884630936544059e-05
+      },
+      {
+        "step": -0.024,
+        "J_proxy": 126.52808804269586,
+        "eps_eff_max": 0.00012208897678996357
+      },
+      {
+        "step": -0.04,
+        "J_proxy": 121.8438531646944,
+        "eps_eff_max": 0.0002531936753467444
+      }
+    ],
+    "final_transform": "For all m>0, R Fourier amplitudes multiplied by exp(0.04), Z amplitudes by exp(-0.04); uniform minor-radius normalization and exact R00 volume correction.",
+    "selected_by": "Lowest measured J_proxy among tested candidates passing available geometry/profile/coil and actual NEO screening checks; alpha constraint remains unknown."
+  },
+  "reproduction": {
+    "cpu_affinity": [
+      16,
+      17,
+      18,
+      19
+    ],
+    "packages": {
+      "vmecpp": "0.9.4",
+      "simsopt": "1.10.6",
+      "booz-xform": "0.1.0",
+      "numpy": "2.5.5",
+      "scipy": "1.18.1",
+      "netCDF4": "1.7.5.1.post1"
+    },
+    "commands": [
+      "python solve_turbulence.py --search 6",
+      "python solve_turbulence.py --refine"
+    ],
+    "external_native_requirements": "Native NEO and SIMPLE executables plus shared libraries must be supplied separately. Tools/environment.sh records this machine configuration.",
+    "caches": "Search caches keyed by boundary and v2 model directory; remove caches before changing model or numerical resolution."
+  },
+  "sources": [
+    "https://arxiv.org/abs/2502.11657",
+    "https://arxiv.org/abs/2310.18842",
+    "https://arxiv.org/abs/2301.09356"
+  ]
+}

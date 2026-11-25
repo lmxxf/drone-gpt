@@ -1,0 +1,12 @@
+{
+  "schema": "fusionx-d0-baseline/v1",
+  "evidence_schema": "fusionx-d0-evidence/v2",
+  "state": "uncalibrated",
+  "case_sha256": "483ee4df1129940852a881a3644b929cbb7995d661ff14fe4374f569f2b129ec",
+  "boundary_sha256": "8a692fc6654deb6c793a91a904f4f98091ad1dd7ee643c7687762af0ead52db5",
+  "runtime_lock_sha256": null,
+  "points": null,
+  "J_reference": null,
+  "evidence": null,
+  "reason": "Uncalibrated v0.2: twelve points retained, proposed 64/128 grids and eight-GPU native evaluation. Diagnostic field dumps disabled, flux cadence retained; lossless native-output archiving. No heat flux or score is invented."
+}

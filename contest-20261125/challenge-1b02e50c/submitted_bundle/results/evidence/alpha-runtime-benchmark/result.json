@@ -1,0 +1,21 @@
+{
+  "status": "measured",
+  "particles": 16,
+  "seconds": 97.5863139629364,
+  "alpha": {
+    "N_L": 0,
+    "N_U": 0,
+    "f_alpha": 0.0,
+    "f_alpha_groups": [
+      0.0,
+      0.0
+    ],
+    "exit_codes": {
+      "0": 16
+    },
+    "simple_axis_field_gauss": 56999.36360890315,
+    "simple_recoveries": {},
+    "seconds": 97.14833784103394
+  },
+  "official_feasible": null
+}

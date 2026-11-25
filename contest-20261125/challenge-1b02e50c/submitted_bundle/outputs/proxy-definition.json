@@ -1,0 +1,32 @@
+{
+  "schema": "geometry-fluid-mixing-length-proxy/v2",
+  "official_heat_flux": false,
+  "kinetic_linear_solver": false,
+  "source_geometry": "gx_geometry d080a16deaca328aa970f4f0036e61786ac4d67e with published explicit Dataset.close I/O patch",
+  "surface_s": 0.5,
+  "tube_length_over_a": 75,
+  "grid_points_including_endpoint": 97,
+  "boundary": "forced periodic",
+  "ky_scan": [0.15, 0.25, 0.4, 0.65, 1.0],
+  "eigenproblem": "[diag(w*ky^2*(a/LTi - 2*a/Ln/3)*cvdrift/(1+ky^2*gds2)) - D^T*diag(w)*D] phi = lambda*diag(w)*phi",
+  "w": "(1/bmag)/mean(1/bmag)",
+  "D": "periodic forward difference in l/a on length 75",
+  "gamma": "sqrt(max(lambda_max,0))",
+  "Q_proxy": "(a/LTi)*gamma*weighted_mode_average(grho^2)/weighted_mode_average(ky^2*gds2)",
+  "mode_weight": "w*abs(phi)^2 / sum(w*abs(phi)^2)",
+  "J_proxy": "max across 4 tubes, gradients 3/4/5, and ky scan",
+  "normalization": "arbitrary proxy units; baseline evaluated by same model, never assigned to official J_reference",
+  "limitations": [
+    "No kinetic resonances, Landau damping, nonlinear saturation, zonal-flow dynamics or Dimits shift",
+    "The 2/3 density correction is a fluid closure assumption, not a calibrated ITG threshold",
+    "B magnitude weights and the full metric retain magnetic-well and shear structure but do not resolve bounce dynamics",
+    "Improvement in this objective does not establish improvement in nonlinear GX heat flux",
+    "VMEC++ screening uses 65 radial surfaces, MPOL 8 and NTOR 6; final equilibrium must be checked separately",
+    "No replacement of missing NEO or SIMPLE results by quasisymmetry RMS"
+  ],
+  "literature": [
+    "https://arxiv.org/abs/2502.11657",
+    "https://arxiv.org/abs/2310.18842",
+    "https://arxiv.org/abs/2301.09356"
+  ]
+}

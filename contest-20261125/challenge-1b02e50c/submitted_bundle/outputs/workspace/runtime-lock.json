@@ -1,0 +1,15 @@
+{
+  "schema": "fusionx-d0-runtime/v1",
+  "state": "built_unverified",
+  "image_digest": "registry.dp.tech/dptech/dp/native/prod-4727808/4650601/fusionx-d0-eikclose-20261008-01@sha256:4d805f5d94d49cb17059e0f8369d9657ab71c537b6d419920f3f13c239550e91",
+  "GX_commit": "b88d763a7e622b6597531bfabc8696161a791979",
+  "gx_geometry_commit": "d080a16deaca328aa970f4f0036e61786ac4d67e",
+  "gx_geometry_io_patch": {
+    "file": "/opt/stellarator/env/lib/python3.12/site-packages/gx_geometry/eik_files.py",
+    "upstream_sha256": "14e837643e823fc9aa0574bc863f63e0990d61fa5dd9970ce731977766f5b099",
+    "patched_sha256": "bfe0158a5f2f1afa33d5ceb1478ffa6b8acbdc4f464b1f73c1071d1b19d4a6e6",
+    "change": "Explicit Dataset.close after the final native assignment; equations and physical arrays unchanged."
+  },
+  "verified_files": [],
+  "reason": "Image 172940 is the explicit-close child of verified native-interface image 172756. GX bytes are unchanged, writer lifecycle checks passed, and a true fixed-digest batch job produced 104 exact-zero flux samples. The main 48 reference runs retain their actual original image/input identities; full heat-flux calibration and final clean verifier replay remain pending."
+}

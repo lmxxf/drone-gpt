@@ -14,3 +14,10 @@ contest-20261125/*/workspace/runtime-lock.json
 contest-20261125/*/workspace/reference/calibration/
 contest-20261125/*/session_trace.jsonl
 contest-20261125/*/*.zip
+contest-20261125/*/runs/
+contest-20261125/*/results/
+contest-20261125/*/tools/src/
+contest-20261125/*/native/
+contest-20261125/*/tools/bin/
+contest-20261125/*/tools/debs/
+contest-20261125/*/tools/sysroot/

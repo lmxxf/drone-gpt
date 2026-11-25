@@ -1,0 +1,694 @@
+{
+  "arm_version": "1.1",
+  "paper": {
+    "title": "challenge-1b02e50c",
+    "url": ""
+  },
+  "entrypoint": "src/reproduce.py",
+  "environment": {
+    "dependencies": "requirements.txt"
+  },
+  "execution": {
+    "ran_at": "2026-11-25T16:38:52Z",
+    "wall_time_s": 1423.781,
+    "log_path": "execution/run.log",
+    "artifacts": [
+      {
+        "id": "artifact-1",
+        "path": "outputs/artifact_manifest.json",
+        "kind": "output",
+        "type": "data",
+        "format": "json"
+      },
+      {
+        "id": "artifact-2",
+        "path": "outputs/audit_report.json",
+        "kind": "output",
+        "type": "data",
+        "format": "json"
+      },
+      {
+        "id": "artifact-3",
+        "path": "outputs/boundary.json",
+        "kind": "output",
+        "type": "data",
+        "format": "json"
+      },
+      {
+        "id": "artifact-4",
+        "path": "outputs/evidence/alpha-runtime-benchmark/result.json",
+        "kind": "output",
+        "type": "data",
+        "format": "json"
+      },
+      {
+        "id": "artifact-5",
+        "path": "outputs/evidence/baseline/T00.nc",
+        "kind": "output",
+        "type": "data",
+        "format": "other"
+      },
+      {
+        "id": "artifact-6",
+        "path": "outputs/evidence/baseline/T01.nc",
+        "kind": "output",
+        "type": "data",
+        "format": "other"
+      },
+      {
+        "id": "artifact-7",
+        "path": "outputs/evidence/baseline/T10.nc",
+        "kind": "output",
+        "type": "data",
+        "format": "other"
+      },
+      {
+        "id": "artifact-8",
+        "path": "outputs/evidence/baseline/T11.nc",
+        "kind": "output",
+        "type": "data",
+        "format": "other"
+      },
+      {
+        "id": "artifact-9",
+        "path": "outputs/evidence/baseline/input.eq",
+        "kind": "output",
+        "type": "data",
+        "format": "other"
+      },
+      {
+        "id": "artifact-10",
+        "path": "outputs/evidence/baseline/screening-result.json",
+        "kind": "output",
+        "type": "data",
+        "format": "json"
+      },
+      {
+        "id": "artifact-11",
+        "path": "outputs/evidence/candidate-official/details.json",
+        "kind": "output",
+        "type": "data",
+        "format": "json"
+      },
+      {
+        "id": "artifact-12",
+        "path": "outputs/evidence/candidate-official/reward.json",
+        "kind": "output",
+        "type": "data",
+        "format": "json"
+      },
+      {
+        "id": "artifact-13",
+        "path": "outputs/evidence/candidate/T00.nc",
+        "kind": "output",
+        "type": "data",
+        "format": "other"
+      },
+      {
+        "id": "artifact-14",
+        "path": "outputs/evidence/candidate/T01.nc",
+        "kind": "output",
+        "type": "data",
+        "format": "other"
+      },
+      {
+        "id": "artifact-15",
+        "path": "outputs/evidence/candidate/T10.nc",
+        "kind": "output",
+        "type": "data",
+        "format": "other"
+      },
+      {
+        "id": "artifact-16",
+        "path": "outputs/evidence/candidate/T11.nc",
+        "kind": "output",
+        "type": "data",
+        "format": "other"
+      },
+      {
+        "id": "artifact-17",
+        "path": "outputs/evidence/candidate/input.eq",
+        "kind": "output",
+        "type": "data",
+        "format": "other"
+      },
+      {
+        "id": "artifact-18",
+        "path": "outputs/evidence/candidate/screening-result.json",
+        "kind": "output",
+        "type": "data",
+        "format": "json"
+      },
+      {
+        "id": "artifact-19",
+        "path": "outputs/evidence/results/proxy-baseline.json",
+        "kind": "output",
+        "type": "data",
+        "format": "json"
+      },
+      {
+        "id": "artifact-20",
+        "path": "outputs/evidence/results/refined-best.json",
+        "kind": "output",
+        "type": "data",
+        "format": "json"
+      },
+      {
+        "id": "artifact-21",
+        "path": "outputs/evidence/simple/orbit_exit_code.dat",
+        "kind": "output",
+        "type": "data",
+        "format": "txt"
+      },
+      {
+        "id": "artifact-22",
+        "path": "outputs/proxy-definition.json",
+        "kind": "output",
+        "type": "data",
+        "format": "json"
+      },
+      {
+        "id": "artifact-23",
+        "path": "outputs/solve_turbulence.py",
+        "kind": "output",
+        "type": "data",
+        "format": "other"
+      },
+      {
+        "id": "artifact-24",
+        "path": "outputs/tools/environment.sh",
+        "kind": "output",
+        "type": "data",
+        "format": "other"
+      },
+      {
+        "id": "artifact-25",
+        "path": "outputs/tools/refine_proxy.py",
+        "kind": "output",
+        "type": "data",
+        "format": "other"
+      },
+      {
+        "id": "artifact-26",
+        "path": "outputs/tools/src/gx_geometry/gx_geometry/__init__.py",
+        "kind": "output",
+        "type": "data",
+        "format": "other"
+      },
+      {
+        "id": "artifact-27",
+        "path": "outputs/tools/src/gx_geometry/gx_geometry/desc.py",
+        "kind": "output",
+        "type": "data",
+        "format": "other"
+      },
+      {
+        "id": "artifact-28",
+        "path": "outputs/tools/src/gx_geometry/gx_geometry/driver.py",
+        "kind": "output",
+        "type": "data",
+        "format": "other"
+      },
+      {
+        "id": "artifact-29",
+        "path": "outputs/tools/src/gx_geometry/gx_geometry/eik_files.py",
+        "kind": "output",
+        "type": "data",
+        "format": "other"
+      },
+      {
+        "id": "artifact-30",
+        "path": "outputs/tools/src/gx_geometry/gx_geometry/gx_grid.py",
+        "kind": "output",
+        "type": "data",
+        "format": "other"
+      },
+      {
+        "id": "artifact-31",
+        "path": "outputs/tools/src/gx_geometry/gx_geometry/module.py",
+        "kind": "output",
+        "type": "data",
+        "format": "other"
+      },
+      {
+        "id": "artifact-32",
+        "path": "outputs/tools/src/gx_geometry/gx_geometry/util.py",
+        "kind": "output",
+        "type": "data",
+        "format": "other"
+      },
+      {
+        "id": "artifact-33",
+        "path": "outputs/tools/src/gx_geometry/gx_geometry/vmec.py",
+        "kind": "output",
+        "type": "data",
+        "format": "other"
+      },
+      {
+        "id": "artifact-34",
+        "path": "outputs/tools/src/gx_geometry/gx_geometry/vmec_diagnostics.py",
+        "kind": "output",
+        "type": "data",
+        "format": "other"
+      },
+      {
+        "id": "artifact-35",
+        "path": "outputs/validate_native.py",
+        "kind": "output",
+        "type": "data",
+        "format": "other"
+      },
+      {
+        "id": "artifact-36",
+        "path": "outputs/workspace/case.json",
+        "kind": "output",
+        "type": "data",
+        "format": "json"
+      },
+      {
+        "id": "artifact-37",
+        "path": "outputs/workspace/eval.py",
+        "kind": "output",
+        "type": "data",
+        "format": "other"
+      },
+      {
+        "id": "artifact-38",
+        "path": "outputs/workspace/magnetic_eval.py",
+        "kind": "output",
+        "type": "data",
+        "format": "other"
+      },
+      {
+        "id": "artifact-39",
+        "path": "outputs/workspace/reference/baseline.json",
+        "kind": "output",
+        "type": "data",
+        "format": "json"
+      },
+      {
+        "id": "artifact-40",
+        "path": "outputs/workspace/reference_configurations/landreman_paul_2022_QA_well.json",
+        "kind": "output",
+        "type": "data",
+        "format": "json"
+      },
+      {
+        "id": "artifact-41",
+        "path": "outputs/workspace/runtime-lock.json",
+        "kind": "output",
+        "type": "data",
+        "format": "json"
+      }
+    ]
+  },
+  "expected_outputs": [
+    {
+      "name": "artifact_manifest.json",
+      "path": "outputs/artifact_manifest.json",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-1"
+      ]
+    },
+    {
+      "name": "audit_report.json",
+      "path": "outputs/audit_report.json",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-2"
+      ]
+    },
+    {
+      "name": "boundary.json",
+      "path": "outputs/boundary.json",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-3"
+      ]
+    },
+    {
+      "name": "result.json",
+      "path": "outputs/evidence/alpha-runtime-benchmark/result.json",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-4"
+      ]
+    },
+    {
+      "name": "T00.nc",
+      "path": "outputs/evidence/baseline/T00.nc",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-5"
+      ]
+    },
+    {
+      "name": "T01.nc",
+      "path": "outputs/evidence/baseline/T01.nc",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-6"
+      ]
+    },
+    {
+      "name": "T10.nc",
+      "path": "outputs/evidence/baseline/T10.nc",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-7"
+      ]
+    },
+    {
+      "name": "T11.nc",
+      "path": "outputs/evidence/baseline/T11.nc",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-8"
+      ]
+    },
+    {
+      "name": "input.eq",
+      "path": "outputs/evidence/baseline/input.eq",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-9"
+      ]
+    },
+    {
+      "name": "screening-result.json",
+      "path": "outputs/evidence/baseline/screening-result.json",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-10"
+      ]
+    },
+    {
+      "name": "details.json",
+      "path": "outputs/evidence/candidate-official/details.json",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-11"
+      ]
+    },
+    {
+      "name": "reward.json",
+      "path": "outputs/evidence/candidate-official/reward.json",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-12"
+      ]
+    },
+    {
+      "name": "T00.nc",
+      "path": "outputs/evidence/candidate/T00.nc",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-13"
+      ]
+    },
+    {
+      "name": "T01.nc",
+      "path": "outputs/evidence/candidate/T01.nc",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-14"
+      ]
+    },
+    {
+      "name": "T10.nc",
+      "path": "outputs/evidence/candidate/T10.nc",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-15"
+      ]
+    },
+    {
+      "name": "T11.nc",
+      "path": "outputs/evidence/candidate/T11.nc",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-16"
+      ]
+    },
+    {
+      "name": "input.eq",
+      "path": "outputs/evidence/candidate/input.eq",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-17"
+      ]
+    },
+    {
+      "name": "screening-result.json",
+      "path": "outputs/evidence/candidate/screening-result.json",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-18"
+      ]
+    },
+    {
+      "name": "proxy-baseline.json",
+      "path": "outputs/evidence/results/proxy-baseline.json",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-19"
+      ]
+    },
+    {
+      "name": "refined-best.json",
+      "path": "outputs/evidence/results/refined-best.json",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-20"
+      ]
+    },
+    {
+      "name": "orbit_exit_code.dat",
+      "path": "outputs/evidence/simple/orbit_exit_code.dat",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-21"
+      ]
+    },
+    {
+      "name": "proxy-definition.json",
+      "path": "outputs/proxy-definition.json",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-22"
+      ]
+    },
+    {
+      "name": "solve_turbulence.py",
+      "path": "outputs/solve_turbulence.py",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-23"
+      ]
+    },
+    {
+      "name": "environment.sh",
+      "path": "outputs/tools/environment.sh",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-24"
+      ]
+    },
+    {
+      "name": "refine_proxy.py",
+      "path": "outputs/tools/refine_proxy.py",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-25"
+      ]
+    },
+    {
+      "name": "__init__.py",
+      "path": "outputs/tools/src/gx_geometry/gx_geometry/__init__.py",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-26"
+      ]
+    },
+    {
+      "name": "desc.py",
+      "path": "outputs/tools/src/gx_geometry/gx_geometry/desc.py",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-27"
+      ]
+    },
+    {
+      "name": "driver.py",
+      "path": "outputs/tools/src/gx_geometry/gx_geometry/driver.py",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-28"
+      ]
+    },
+    {
+      "name": "eik_files.py",
+      "path": "outputs/tools/src/gx_geometry/gx_geometry/eik_files.py",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-29"
+      ]
+    },
+    {
+      "name": "gx_grid.py",
+      "path": "outputs/tools/src/gx_geometry/gx_geometry/gx_grid.py",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-30"
+      ]
+    },
+    {
+      "name": "module.py",
+      "path": "outputs/tools/src/gx_geometry/gx_geometry/module.py",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-31"
+      ]
+    },
+    {
+      "name": "util.py",
+      "path": "outputs/tools/src/gx_geometry/gx_geometry/util.py",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-32"
+      ]
+    },
+    {
+      "name": "vmec.py",
+      "path": "outputs/tools/src/gx_geometry/gx_geometry/vmec.py",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-33"
+      ]
+    },
+    {
+      "name": "vmec_diagnostics.py",
+      "path": "outputs/tools/src/gx_geometry/gx_geometry/vmec_diagnostics.py",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-34"
+      ]
+    },
+    {
+      "name": "validate_native.py",
+      "path": "outputs/validate_native.py",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-35"
+      ]
+    },
+    {
+      "name": "case.json",
+      "path": "outputs/workspace/case.json",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-36"
+      ]
+    },
+    {
+      "name": "eval.py",
+      "path": "outputs/workspace/eval.py",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-37"
+      ]
+    },
+    {
+      "name": "magnetic_eval.py",
+      "path": "outputs/workspace/magnetic_eval.py",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-38"
+      ]
+    },
+    {
+      "name": "baseline.json",
+      "path": "outputs/workspace/reference/baseline.json",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-39"
+      ]
+    },
+    {
+      "name": "landreman_paul_2022_QA_well.json",
+      "path": "outputs/workspace/reference_configurations/landreman_paul_2022_QA_well.json",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-40"
+      ]
+    },
+    {
+      "name": "runtime-lock.json",
+      "path": "outputs/workspace/runtime-lock.json",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-41"
+      ]
+    }
+  ],
+  "characterization": "characterization.json",
+  "trace": "traces/trace.jsonl",
+  "provenance": {
+    "created_by": "agent",
+    "toolchain": "@paper2arm/playground-cli 0.1.58",
+    "created_at": "2026-11-25T17:02:36Z",
+    "challenge_id": "challenge-1b02e50c",
+    "task_id": "challenge-1b02e50c",
+    "run_id": "local-20261125t170236z-66c94a87",
+    "model": "unknown",
+    "harness": "opencode",
+    "declared_model": "",
+    "declared_harness": "",
+    "detected_model": "",
+    "detected_harness": "opencode",
+    "model_source": "fallback",
+    "harness_source": "detected"
+  }
+}

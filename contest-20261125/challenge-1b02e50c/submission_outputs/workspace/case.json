@@ -1,0 +1,280 @@
+{
+  "schema": "fusionx-d0/v0.1",
+  "release_state": "draft",
+  "identity": {
+    "name": "fusionx/stellarator-robust-itg-heat-flux",
+    "version": "0.2",
+    "date": "2026-10-08"
+  },
+  "submission": {
+    "nfp": 2,
+    "m_max": 5,
+    "n_max": 5,
+    "max_bytes": 1048576
+  },
+  "fixed": {
+    "minor_radius_m": 1.7,
+    "axis_B00_T": 5.7,
+    "reference_volume_m3": 581.8735601800271,
+    "pressure": "vacuum",
+    "enclosed_toroidal_current": "zero",
+    "stellarator_symmetric": true
+  },
+  "constraints": {
+    "volume_relative_error": {
+      "sense": "upper",
+      "threshold": 0.001,
+      "progress_scale": 0.001
+    },
+    "f_alpha_upper": {
+      "sense": "upper",
+      "threshold": 0.05,
+      "progress_scale": 0.05
+    },
+    "eps_eff_max": {
+      "sense": "upper",
+      "threshold": 0.01,
+      "progress_scale": 0.01
+    },
+    "iota_min": {
+      "sense": "lower",
+      "threshold": 0.3,
+      "progress_scale": 0.3
+    },
+    "well": {
+      "sense": "lower",
+      "threshold": 0.0,
+      "progress_scale": 0.01
+    },
+    "kappa_max": {
+      "sense": "upper",
+      "threshold": 8.0,
+      "progress_scale": 8.0
+    },
+    "lgradb_min": {
+      "sense": "lower",
+      "threshold": 2.4,
+      "progress_scale": 2.4
+    }
+  },
+  "magnetic": {
+    "source": "../task_A/tests/eval.py",
+    "source_sha256": "f8af3835fd88130409385891a695f21c774d0ce3d0c990fdf5ca5af7b6bcd83a",
+    "vmec_ns_final": 257,
+    "vmec_budget_sec": 14400,
+    "magnetic_budget_sec": 43200,
+    "geometric_theta_points": 512,
+    "geometric_phi_points": 256,
+    "vmec_force_residual_max": 1e-16,
+    "boozer_valid_error_max": 1e-10,
+    "alpha_particles": 4096,
+    "alpha_launch_s": 0.25,
+    "alpha_time_sec": 0.2,
+    "alpha_unresolved_fraction_max": 0.001,
+    "alpha_seeds": [
+      2026091301,
+      2026091302
+    ]
+  },
+  "physics": {
+    "model": "local-electrostatic-ITG-adiabatic-electrons",
+    "kinetic_species": 1,
+    "ion_normalized_charge": 1.0,
+    "ion_normalized_mass": 1.0,
+    "ion_normalized_density": 1.0,
+    "ion_normalized_temperature": 1.0,
+    "Ti_over_Te": 1.0,
+    "collision_frequency_a_over_vti": 0.01,
+    "beta": 0.0,
+    "radial_coordinate": "x=a_ref*sqrt(s)",
+    "thermal_speed": "sqrt(Ti/mi)"
+  },
+  "points": [
+    {
+      "id": "T00-g3",
+      "s": 0.5,
+      "theta_pest_center": 0.0,
+      "zeta_center": 0.0,
+      "a_over_L_Ti": 3.0,
+      "a_over_L_n": 0.9
+    },
+    {
+      "id": "T00-g4",
+      "s": 0.5,
+      "theta_pest_center": 0.0,
+      "zeta_center": 0.0,
+      "a_over_L_Ti": 4.0,
+      "a_over_L_n": 0.9
+    },
+    {
+      "id": "T00-g5",
+      "s": 0.5,
+      "theta_pest_center": 0.0,
+      "zeta_center": 0.0,
+      "a_over_L_Ti": 5.0,
+      "a_over_L_n": 0.9
+    },
+    {
+      "id": "T10-g3",
+      "s": 0.5,
+      "theta_pest_center": 3.141592653589793,
+      "zeta_center": 0.0,
+      "a_over_L_Ti": 3.0,
+      "a_over_L_n": 0.9
+    },
+    {
+      "id": "T10-g4",
+      "s": 0.5,
+      "theta_pest_center": 3.141592653589793,
+      "zeta_center": 0.0,
+      "a_over_L_Ti": 4.0,
+      "a_over_L_n": 0.9
+    },
+    {
+      "id": "T10-g5",
+      "s": 0.5,
+      "theta_pest_center": 3.141592653589793,
+      "zeta_center": 0.0,
+      "a_over_L_Ti": 5.0,
+      "a_over_L_n": 0.9
+    },
+    {
+      "id": "T01-g3",
+      "s": 0.5,
+      "theta_pest_center": 0.0,
+      "zeta_center": 1.5707963267948966,
+      "a_over_L_Ti": 3.0,
+      "a_over_L_n": 0.9
+    },
+    {
+      "id": "T01-g4",
+      "s": 0.5,
+      "theta_pest_center": 0.0,
+      "zeta_center": 1.5707963267948966,
+      "a_over_L_Ti": 4.0,
+      "a_over_L_n": 0.9
+    },
+    {
+      "id": "T01-g5",
+      "s": 0.5,
+      "theta_pest_center": 0.0,
+      "zeta_center": 1.5707963267948966,
+      "a_over_L_Ti": 5.0,
+      "a_over_L_n": 0.9
+    },
+    {
+      "id": "T11-g3",
+      "s": 0.5,
+      "theta_pest_center": 3.141592653589793,
+      "zeta_center": 1.5707963267948966,
+      "a_over_L_Ti": 3.0,
+      "a_over_L_n": 0.9
+    },
+    {
+      "id": "T11-g4",
+      "s": 0.5,
+      "theta_pest_center": 3.141592653589793,
+      "zeta_center": 1.5707963267948966,
+      "a_over_L_Ti": 4.0,
+      "a_over_L_n": 0.9
+    },
+    {
+      "id": "T11-g5",
+      "s": 0.5,
+      "theta_pest_center": 3.141592653589793,
+      "zeta_center": 1.5707963267948966,
+      "a_over_L_Ti": 5.0,
+      "a_over_L_n": 0.9
+    }
+  ],
+  "gx": {
+    "commit": "b88d763a7e622b6597531bfabc8696161a791979",
+    "executable": "/opt/gx/bin/gx",
+    "geometry_commit": "d080a16deaca328aa970f4f0036e61786ac4d67e",
+    "geometry_module": "gx_geometry",
+    "tube_length_over_a": 75.0,
+    "geometry_length_tolerance_relative": 1e-06,
+    "geometry_sigma_Bxy": -1.0,
+    "boundary": "periodic",
+    "levels": [
+      {
+        "id": "coarse",
+        "nx": 64,
+        "ny": 64
+      },
+      {
+        "id": "fine",
+        "nx": 128,
+        "ny": 128
+      }
+    ],
+    "ntheta": 96,
+    "nperiod": 1,
+    "nhermite": 8,
+    "nlaguerre": 4,
+    "x0_common": 10.0,
+    "y0_common": 10.0,
+    "tau_end": 1600.0,
+    "tau_discard": 400.0,
+    "seeds": [
+      2026100801,
+      2026100802
+    ],
+    "init_field": "density",
+    "init_amp": 0.001,
+    "scheme": "rk3",
+    "cfl": 0.9,
+    "dt_max_common": 0.1,
+    "nwrite": 5,
+    "D_hyper": 0.05,
+    "hyper": true,
+    "hypercollisions": true,
+    "closure_model": "none",
+    "per_run_budget_sec": 43200,
+    "diagnostic_padding_tau": 5.0,
+    "diagnostics": {
+      "free_energy": true,
+      "fluxes": true,
+      "fields": false,
+      "moments": false
+    },
+    "archive_native_output": "gzip-lossless"
+  },
+  "statistics": {
+    "joint_confidence": 0.95,
+    "comparison_family_size": 48,
+    "blocks_per_run": 12,
+    "uniform_sampling_delta_tau": 0.5,
+    "minimum_block_over_correlation_time": 10.0,
+    "maximum_resolution_difference_over_reference_mean": 0.1,
+    "maximum_statistical_halfwidth_over_reference_mean": 0.05,
+    "stationarity_relative_tolerance": 0.1,
+    "resolution_error_rule": "absolute difference of coarse and fine pooled means"
+  },
+  "scoring": {
+    "objective": "max(candidate_upper_k/reference_lower_k)",
+    "mapping": "0.5+0.5*sigmoid(J_reference-J)",
+    "infeasible_mapping": "0.5*exp(-sum(violations**2))",
+    "logistic_scale": 1.0,
+    "improvement_threshold": 1.0
+  },
+  "reference": {
+    "boundary": "reference_configurations/landreman_paul_2022_QA_well.json",
+    "boundary_sha256": "8a692fc6654deb6c793a91a904f4f98091ad1dd7ee643c7687762af0ead52db5",
+    "baseline": "reference/baseline.json"
+  },
+  "budget": {
+    "whole_evaluation_sec": 259200,
+    "threads": 64,
+    "gpus": 8,
+    "cost_state": "discussion-proposal-awaiting-full-parallel-measurement"
+  },
+  "software": {
+    "STELLOPT": "780f5db557eacc7ca1160f4ca5a10a80922e4f26",
+    "SIMPLE": "9269e8614e581ede8768e0bccb003b52db87e3be",
+    "libneo": "f1bef44e80c4508f04594d4d2ca120eaf17564f8",
+    "booz_xform": "21aff118735de4255641aa1b64fc7ab35e8c9767",
+    "simsopt": "1.10.6"
+  },
+  "runtime_lock": "runtime-lock.json"
+}
