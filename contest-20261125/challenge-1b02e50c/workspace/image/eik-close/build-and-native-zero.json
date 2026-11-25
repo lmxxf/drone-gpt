@@ -1,0 +1,11 @@
+{
+  "schema": "d0-native-io-fix-build/v1",
+  "image_id": 172940,
+  "image_digest": "registry.dp.tech/dptech/dp/native/prod-4727808/4650601/fusionx-d0-eikclose-20261008-01@sha256:4d805f5d94d49cb17059e0f8369d9657ab71c537b6d419920f3f13c239550e91",
+  "GX_binary_sha256": "0f14d22252f39f1d3d79af81a180871689396a1c6aab58c41ec91e5557670ca0",
+  "native_zero_job": "06c6a083d4e8434799cad4dc643794a4",
+  "native_zero_samples": 104,
+  "native_zero_max_abs_flux": 0.0,
+  "native_zero_summary_source": "/workspace/.devbox-local/fusion-question-quality/d0-eik-close-image-20261008/verified-native-zero-summary.json",
+  "scope": "Native writer explicit close and byte-verified zero replay; not a full reference calibration."
+}

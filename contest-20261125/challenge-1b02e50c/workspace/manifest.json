@@ -1,0 +1,120 @@
+{
+  "schema": "fusionx-task-background/v1",
+  "task": "fusionx/stellarator-robust-itg-heat-flux",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2791,
+      "sha256": "208f02f2ed9eea704e3ec970ad3d4374c61ca38a714cada72e2b9c4168143cdb",
+      "source": "environment/background-guide.md"
+    },
+    {
+      "path": "UPSTREAM.md",
+      "bytes": 7941,
+      "sha256": "46ba8f1a18baa38b54e4c68c93a2178e9df78639d45a709d47522df1dbf0e1aa",
+      "source": "UPSTREAM.md"
+    },
+    {
+      "path": "case.json",
+      "bytes": 6978,
+      "sha256": "483ee4df1129940852a881a3644b929cbb7995d661ff14fe4374f569f2b129ec",
+      "source": "environment/case.json"
+    },
+    {
+      "path": "eval.py",
+      "bytes": 33964,
+      "sha256": "08169a9f5c8b400e7f180937b69589c0aa6fd738e74d41a0369c330657201f73",
+      "source": "tests/eval.py"
+    },
+    {
+      "path": "image-reference.json",
+      "bytes": 318,
+      "sha256": "ea59acb303531b573bc3b2b36f4e809c689cfabcdd9ddecfe56a3490347c91f4",
+      "source": "task.toml"
+    },
+    {
+      "path": "image/eik-close/Dockerfile",
+      "bytes": 28628,
+      "sha256": "adf6af46affed9e7b864da8e1041e5e027121fb6c4bbbc4f5fe73db0a9f481fb",
+      "source": "image/eik-close/Dockerfile"
+    },
+    {
+      "path": "image/eik-close/build-and-native-zero.json",
+      "bytes": 712,
+      "sha256": "20a8b7e9960c8bddeb031b3a21bdd1ee784419502d3f52cda3fc7d9a4ed22392",
+      "source": "image/eik-close/build-and-native-zero.json"
+    },
+    {
+      "path": "image/eik-close/eik_files.original.py",
+      "bytes": 6427,
+      "sha256": "14e837643e823fc9aa0574bc863f63e0990d61fa5dd9970ce731977766f5b099",
+      "source": "image/eik-close/eik_files.original.py"
+    },
+    {
+      "path": "image/eik-close/eik_files.py",
+      "bytes": 6445,
+      "sha256": "bfe0158a5f2f1afa33d5ceb1478ffa6b8acbdc4f464b1f73c1071d1b19d4a6e6",
+      "source": "image/eik-close/eik_files.py"
+    },
+    {
+      "path": "image/eik-close/manifest.json",
+      "bytes": 613,
+      "sha256": "f91a7f8d926b071362a909f944d9e778e1fa2c02b6656633628c9d16359e660b",
+      "source": "image/eik-close/manifest.json"
+    },
+    {
+      "path": "image/eik-close/source-change.diff",
+      "bytes": 421,
+      "sha256": "ea5b8a77a48239866cca5a12681baf6190b0ffdd274ee5872c1d5f0dfa013234",
+      "source": "image/eik-close/source-change.diff"
+    },
+    {
+      "path": "image/eik-close/test_close.py",
+      "bytes": 1582,
+      "sha256": "24abdc55a02ba91f89aca1708292033e9066e945f3ff6de8d4d562e1def719d3",
+      "source": "image/eik-close/test_close.py"
+    },
+    {
+      "path": "instruction.md",
+      "bytes": 19671,
+      "sha256": "679e65a39edcc280247c3bc8d97b5270317596c8ee585462750eed7d4797d09a",
+      "source": "instruction.md"
+    },
+    {
+      "path": "magnetic_eval.py",
+      "bytes": 38318,
+      "sha256": "f8af3835fd88130409385891a695f21c774d0ce3d0c990fdf5ca5af7b6bcd83a",
+      "source": "../task_A/tests/eval.py"
+    },
+    {
+      "path": "measure_native.py",
+      "bytes": 8323,
+      "sha256": "aba7a0ce44be8c67ba98509ae79b5d3d0c67046072bdb12b81c8da5877121bc2",
+      "source": "batch/native_probe.py"
+    },
+    {
+      "path": "reference/baseline.json",
+      "bytes": 619,
+      "sha256": "9b0d08dc2a306fea3bccbaaa7bc38417ed53c50d77e217610ea4718304676cbd",
+      "source": "environment/reference/baseline.json"
+    },
+    {
+      "path": "reference_configurations/landreman_paul_2022_QA_well.json",
+      "bytes": 5857,
+      "sha256": "8a692fc6654deb6c793a91a904f4f98091ad1dd7ee643c7687762af0ead52db5",
+      "source": "environment/reference_configurations/landreman_paul_2022_QA_well.json"
+    },
+    {
+      "path": "resources.yaml",
+      "bytes": 2803,
+      "sha256": "97b3127e496b4c89b88225f8dd56ecf043133d6012256c2df743c76669ce4259",
+      "source": "environment/resources.yaml"
+    },
+    {
+      "path": "runtime-lock.json",
+      "bytes": 1203,
+      "sha256": "72367b928c0bcb7732c40df861cb104d6b94fa69333346d9d836fd0732848bf7",
+      "source": "environment/runtime-lock.json"
+    }
+  ]
+}

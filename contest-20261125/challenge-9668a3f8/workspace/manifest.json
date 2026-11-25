@@ -1,0 +1,151 @@
+{
+  "schema": "fusionx-t0-resources/v0.1",
+  "state": "frozen",
+  "files": [
+    {
+      "path": "UPSTREAM.md",
+      "bytes": 9802,
+      "sha256": "4926a73f330b73586013e2d3d81747ce28e72790c7910015e89cb524c9a3753f"
+    },
+    {
+      "path": "background-guide.md",
+      "bytes": 1946,
+      "sha256": "8f67ed912d8982cee15b3f1767faa6d499db6466cfe920713e2702c11d039b73"
+    },
+    {
+      "path": "case.json",
+      "bytes": 5005,
+      "sha256": "62a01a79b1045bdf57edadb4a0840d8efea4f7fb4e755eaf3e2bab7f8ae8d767"
+    },
+    {
+      "path": "controller.py",
+      "bytes": 10164,
+      "sha256": "142819e34331c57de605d97a1616a00a6c10ef466919d57789620d00496a35aa"
+    },
+    {
+      "path": "eval.py",
+      "bytes": 21302,
+      "sha256": "7feb6c84edc4670fb7485a74d301af838cb56a3575db1e01b126e88308ebdaec"
+    },
+    {
+      "path": "instruction.md",
+      "bytes": 16770,
+      "sha256": "136447377aa2d7b1eb71ed5f306ceba880ba6d6ce81f8e87abcf9dcd1838185b"
+    },
+    {
+      "path": "iterhybrid.mat2cols",
+      "bytes": 222178,
+      "sha256": "11d43613bf3b508b1b3d41c63ddefe642d725bf9de8dc0da230ffd3223400e08"
+    },
+    {
+      "path": "plant.py",
+      "bytes": 12425,
+      "sha256": "875bba518a3b7814c0ccb52ff693dd6162be8dff75ddd6501fceba7042665d98"
+    },
+    {
+      "path": "qlknn-core-domain.json",
+      "bytes": 1083,
+      "sha256": "c24c8c0357ff618c58d59463b6d0d8c84db6f1da7ca7c30f4f48c02fc6fdaa8f"
+    },
+    {
+      "path": "reference/Fusion-Surrogates-LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "reference/Gym-TORAX-LICENSE",
+      "bytes": 1116,
+      "sha256": "70694c59d48433f52445b191a63136cca970b74d385edeb685d215e38747b628"
+    },
+    {
+      "path": "reference/QLKNN-7-11-domain.md",
+      "bytes": 3019,
+      "sha256": "664bd975282127019ba75a3c3e571d6e6f8df94cbd142e121f82afab54e01fe1"
+    },
+    {
+      "path": "reference/TORAX-LICENSE",
+      "bytes": 31776,
+      "sha256": "3d5036bd786413156dbb51df0f3aa7bb67d5973e474a592572edb8a10fc892cc"
+    },
+    {
+      "path": "reference/baseline.json",
+      "bytes": 13218,
+      "sha256": "8c76101e5ad08bf81f95d5db0bff2f0baf7e7ea1903d0986ae6c2c621d564680"
+    },
+    {
+      "path": "reference/controller.onnx",
+      "bytes": 355,
+      "sha256": "80b91e778e621eb959aab5af145b96ce1da64afb581a4335db9ca232776fe5b8"
+    },
+    {
+      "path": "release-evidence.json",
+      "bytes": 3578,
+      "sha256": "e504af2ffd8739ac21d852296a629c038389c5f410337e323cbea76b2a34047f"
+    },
+    {
+      "path": "runtime-lock.json",
+      "bytes": 59496,
+      "sha256": "a8a5585bff80117686ed2cc2cb6fa27c51069ffa45f83b44196ed761fcbc16fb"
+    },
+    {
+      "path": "torax-config.json",
+      "bytes": 3155,
+      "sha256": "a5bab5a0f66c184380419886718d458999f10e833c4babdd6f15bc30f2e22b52"
+    },
+    {
+      "path": "validation/contracts.json",
+      "bytes": 459,
+      "sha256": "4cfacea836c687a342911cbe754d0348b93b51c576297ad10d56523cdf061b9c"
+    },
+    {
+      "path": "validation/energy-budget.json",
+      "bytes": 2206,
+      "sha256": "ab9871fdbfb75104a4d92a3b6fd385d064bb7d84c1b17d99a02a532fa5924b12"
+    },
+    {
+      "path": "validation/ensemble.json",
+      "bytes": 2091,
+      "sha256": "a58c0f408482aa50b2a58588b5a3e6a0fe0c54eb0924933c2243dac1d655951b"
+    },
+    {
+      "path": "validation/formal-verifier.json",
+      "bytes": 4343,
+      "sha256": "cd84d3098e5d4acce7428397b1a0cb1a16d3bc728d6ebf42472469af44e1e6c1"
+    },
+    {
+      "path": "validation/history-equivalence.json",
+      "bytes": 829,
+      "sha256": "e1c450f81c99555284e30d19ab72c15d5fa22c7ae9be2b88945c817c86f7c922"
+    },
+    {
+      "path": "validation/independent-replay.json",
+      "bytes": 1850,
+      "sha256": "6434f4d7de4d615bcb195dd96a7775d5145930a5e24278ec736a6ecb3012c21b"
+    },
+    {
+      "path": "validation/nominal-radial-resolution.json",
+      "bytes": 715,
+      "sha256": "5ba1eedc01e31ed12c57affc463ed369284e260605595ca37c5f4434904e06f3"
+    },
+    {
+      "path": "validation/pedestal-diagnostic-equivalence.json",
+      "bytes": 1040,
+      "sha256": "280792edf669ebd59e1b43aa9fb29b71a02b56eec0caad7920991804246c373e"
+    },
+    {
+      "path": "validation/time-resolution.json",
+      "bytes": 703,
+      "sha256": "06d3b93035de9560da4257682802885543063de4a53ef9f8d53ed5a115e37545"
+    },
+    {
+      "path": "validation/zero-drive.json",
+      "bytes": 313,
+      "sha256": "06d3c9168506a24125842ec60bdfc9b402263eab05c51462f36af2d796c84707"
+    }
+  ],
+  "excluded": [
+    "hidden scenario seed manifest",
+    "solution scripts",
+    "cloud credentials"
+  ]
+}

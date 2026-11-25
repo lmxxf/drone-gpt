@@ -1,0 +1,14 @@
+{
+  "image_id": 172839,
+  "status": 2,
+  "name": "fusionx-n0-openmc0160-endfb8:20261008-build1",
+  "tagged_url": "registry.dp.tech/dptech/dp/native/prod-4727808/4650601/fusionx-n0-openmc0160-endfb8:20261008-build1",
+  "digest_reference": "registry.dp.tech/dptech/dp/native/prod-4727808/4650601/fusionx-n0-openmc0160-endfb8@sha256:cdaa2b6889ad6c25905da642b48c196cd72c1f574c34ca05d7045988739b8f8a",
+  "size": "1.31GB",
+  "build_type": 1,
+  "dockerfile_sha256": "3953bbfa1fb8ab5c024d43e3af85ee1f27e78c6c0e0d1630b864d06115fd6769",
+  "server_dockerfile_sha256": "04a273a96fade1aeea8231c7c89da02989ca9a842a0a706a74795c29507d39b8",
+  "source_difference": "CLI strips the terminal newline; all other bytes identical.",
+  "raw_log_sha256": "7f65830a864218bdbd4d2fa656828af72164bda043c631af49df4a4228d7fa02",
+  "push_manifest_line": "pushing manifest for registry.dp.tech/dptech/dp/native/prod-4727808/4650601/fusionx-n0-openmc0160-endfb8:20261008-build1@sha256:cdaa2b6889ad6c25905da642b48c196cd72c1f574c34ca05d7045988739b8f8a 0.5s done"
+}

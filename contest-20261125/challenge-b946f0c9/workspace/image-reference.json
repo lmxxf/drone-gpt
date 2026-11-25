@@ -1,0 +1,4 @@
+{
+  "docker_image": "registry.dp.tech/dptech/dp/native/prod-4727808/4650601/fusionx-n0-openmc0160-endfb8@sha256:cdaa2b6889ad6c25905da642b48c196cd72c1f574c34ca05d7045988739b8f8a",
+  "state": "native-calibrated-replay-verified"
+}

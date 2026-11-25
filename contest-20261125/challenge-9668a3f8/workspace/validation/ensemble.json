@@ -1,0 +1,48 @@
+{
+  "state": "passed",
+  "definition_version": "thermal-feedback-supplied-heat-20261008-v4",
+  "native_episodes": 40,
+  "development_scenarios": 4,
+  "formal_scenarios": 16,
+  "all_native_horizons_completed": true,
+  "all_original_radial_tolerances_passed": true,
+  "all_accepted_native_model_domain_checks_passed": true,
+  "full_ensemble_source_sha256": "9adc4f6994b7e953f4c580cd54499437bdfcad6d1ce64de8c71c7344a9112600",
+  "groups": {
+    "development": {
+      "reference_progress_reward": 0.3228227465274488,
+      "J_reference_J": 1312666780.7788234,
+      "fusion_energy_min_ratio": 0.9867711724148958,
+      "fusion_rms_max": 0.019814460914451937,
+      "fusion_peak_relative_max": 0.04458136693222146,
+      "terminal_W_min_ratio": 0.9943335817967333,
+      "beta_N_max": 1.4067411417014657,
+      "temperature_max_keV": 16.641483516347357,
+      "max_aligned_accepted_power_difference_over_reference_peak": 0.016874728395192728,
+      "max_positive_implicit_pedestal_J": 0.0,
+      "max_abs_external_right_minus_trapezoid_J": 180.05863690376282,
+      "violation": {
+        "fusion_energy_deficit_fraction": 0.6614413792552121
+      }
+    },
+    "scoring": {
+      "reference_progress_reward": 0.2705514484682283,
+      "J_reference_J": 1312798165.7215183,
+      "fusion_energy_min_ratio": 0.9843265087417448,
+      "fusion_rms_max": 0.02236564638213205,
+      "fusion_peak_relative_max": 0.04961542909067783,
+      "terminal_W_min_ratio": 0.9935014287381275,
+      "beta_N_max": 1.4195078279201985,
+      "temperature_max_keV": 16.663589453555776,
+      "max_aligned_accepted_power_difference_over_reference_peak": 0.016921310373058655,
+      "max_positive_implicit_pedestal_J": 0.0,
+      "max_abs_external_right_minus_trapezoid_J": 213.7464747428894,
+      "violation": {
+        "fusion_energy_deficit_fraction": 0.7836745629127617
+      }
+    }
+  },
+  "independent_job_id": 20862432,
+  "formal_test_sh_status": "passed independently; actual job20862717, 32 native episodes, valid1, feasible0, evaluator_error0",
+  "formal_test_sh_receipt": "validation/formal-verifier.json"
+}

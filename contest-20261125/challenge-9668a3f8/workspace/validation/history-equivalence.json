@@ -1,0 +1,40 @@
+{
+  "state": "passed",
+  "results": [
+    {
+      "level": "coarse",
+      "accepted_states": 201,
+      "final_native_arrays": 287,
+      "commands_MW": [
+        [
+          27.0,
+          16.0
+        ],
+        [
+          28.0,
+          15.0
+        ]
+      ],
+      "accepted_diagnostics_and_domain": "exactly_equal",
+      "final_native_state_and_outputs": "exactly_equal"
+    },
+    {
+      "level": "fine",
+      "accepted_states": 401,
+      "final_native_arrays": 287,
+      "commands_MW": [
+        [
+          27.0,
+          16.0
+        ],
+        [
+          28.0,
+          15.0
+        ]
+      ],
+      "accepted_diagnostics_and_domain": "exactly_equal",
+      "final_native_state_and_outputs": "exactly_equal"
+    }
+  ],
+  "plant_sha256": "2f36cdfa307884b7dd5a718887decd042c210c1656caea514b7829f0bf79a9ab"
+}

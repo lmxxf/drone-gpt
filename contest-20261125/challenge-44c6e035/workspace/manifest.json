@@ -1,0 +1,92 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 2477,
+    "sha256": "97f28750ced4240dbda9099370ac9a458d3acb2faf1da0f0961de31aad993835"
+  },
+  {
+    "path": "UPSTREAM.md",
+    "bytes": 5436,
+    "sha256": "b750646eb8e3000d800b42ef54183a33f526005a3f9cadcc4a60e34bddfcea6e"
+  },
+  {
+    "path": "assets/background-guide.md",
+    "bytes": 2477,
+    "sha256": "97f28750ced4240dbda9099370ac9a458d3acb2faf1da0f0961de31aad993835"
+  },
+  {
+    "path": "assets/baseline.json",
+    "bytes": 871,
+    "sha256": "3d729f2bc554d45b76d36358bde826c4e2690a2908ed892aa465e4829f84d034"
+  },
+  {
+    "path": "assets/case.json",
+    "bytes": 4809,
+    "sha256": "d79b918322b490004c2327127d513d7b5181ebeeb7ab833a8024c29d101abe16"
+  },
+  {
+    "path": "assets/constraint-rationale.md",
+    "bytes": 3996,
+    "sha256": "4e40f8b9e1f78b868299a7943b05fd828b871d362fbd4bc4678c6ef6bbbe65c7"
+  },
+  {
+    "path": "assets/reference/coils_nominal.json",
+    "bytes": 5610,
+    "sha256": "361fc275ae491b302f8f536b9206659ec37471186600e0c5d0419f56c2401774"
+  },
+  {
+    "path": "assets/reference/source.json",
+    "bytes": 1178,
+    "sha256": "ae5baea1980647e544c1a053bbf5f6d6e95080d1937e96afb18d3327b2ed7c68"
+  },
+  {
+    "path": "assets/reference/target.vmec",
+    "bytes": 6628,
+    "sha256": "4c6ba4bc391a69b5b6a5e84ff82df9b0ce92e20c42f2a47f89a9283fd5bc3458"
+  },
+  {
+    "path": "assets/release-lock.json",
+    "bytes": 2073,
+    "sha256": "d6b43c91d68f9b9e013c1affc0b3276b5a431bf02655d0caeed9a2361374e744"
+  },
+  {
+    "path": "assets/resources.yaml",
+    "bytes": 4159,
+    "sha256": "46d14122294549a6e3a97b5c1ddb886310fdcdbf130b3a646ccaa2c6b93ee706"
+  },
+  {
+    "path": "assets/search-baseline.json",
+    "bytes": 796,
+    "sha256": "8ad1edf7f9fd1e6ede92707f93b17718a9940e71a477d66939be1ab74c80a38a"
+  },
+  {
+    "path": "assets/search_scenarios.npz",
+    "bytes": 94396,
+    "sha256": "9b0812e3437900627ee653a59a27005ffb74fb5898538a23f38d9e16a1d931be"
+  },
+  {
+    "path": "assets/upstream/README.md",
+    "bytes": 2455,
+    "sha256": "83b635f5f830397629ac5be87d75c162935948f6b86bcdbc84583eb9ae248544"
+  },
+  {
+    "path": "assets/upstream/SIMSOPT-LICENSE",
+    "bytes": 1078,
+    "sha256": "c4c5baf2047f7065714f9ab856e9e18985cfab64982fc454fa29ef08a1411af3"
+  },
+  {
+    "path": "check_native.py",
+    "bytes": 11856,
+    "sha256": "27095a87b5ba4bf7240d60c08b4805ceccbd71fc5578d30c2065c25f7c3ed3a2"
+  },
+  {
+    "path": "eval.py",
+    "bytes": 31288,
+    "sha256": "8ecdca4deb4995d4a1c09fd26cd77ca1b1d695bd998378a91fdb2ab37090784d"
+  },
+  {
+    "path": "instruction.md",
+    "bytes": 17511,
+    "sha256": "42be45d1b3f39b398530aa536e263c316152140661e4246b50f0c4a1ed475683"
+  }
+]

@@ -1,0 +1,92 @@
+resources:
+  - name: physical-case
+    kind: data
+    source: bundled
+    path: case.json
+    description: C0 全部固定条件、约束、误差分布及数值网格；有限截面版 0.3.1
+  - name: fixed-target-and-real-coils
+    kind: data
+    source: bundled
+    path: reference/coils_nominal.json
+    description: 公开中心线缩放到阶数8，附新增零初始截面旋转；不是已达标绕组
+  - name: fixed-QA-target
+    kind: data
+    source: bundled
+    path: reference/target.vmec
+    description: 原始公开 QA 目标；eval.py 按 case.json 固定倍率读取和缩放
+  - name: fixed-data-provenance
+    kind: documentation
+    source: bundled
+    path: reference/source.json
+    description: 原始文件 SHA256、MIT 来源、长度和电流转换倍率
+  - name: search-assembly-scenarios
+    kind: data
+    source: bundled
+    path: search_scenarios.npz
+    description: 两组各 64 个公开独立刚体装配工况；errors 数组形状 128×16×6
+  - name: public-evaluator-background
+    kind: tool
+    source: bundled
+    path: background.zip
+    description: 由维护源码生成的公开评估器、固定输入及说明；不包含正式保留误差向量
+  - name: background-guide
+    kind: documentation
+    source: bundled
+    path: background-guide.md
+    description: 实际物理测量和正式评分门禁、输入路径及原生输出读取
+  - name: constraint-rationale
+    kind: documentation
+    source: bundled
+    path: constraint-rationale.md
+    description: 固定目标、每项阈值、合成误差、有限样本及预算的实际来源与局限
+  - name: upstream-native-examples
+    kind: source
+    source: external
+    url: https://github.com/hiddenSymmetries/simsopt/blob/9e027eac38028d57aa23777be52a781aa860e347/examples/2_Intermediate/stage_two_optimization.py
+    description: 固定上游原生名义优化示例；题包不复制优化流程，使用前配置本题公开输入与条件
+  - name: upstream-stochastic-example
+    kind: source
+    source: external
+    url: https://github.com/hiddenSymmetries/simsopt/blob/9e027eac38028d57aa23777be52a781aa860e347/examples/2_Intermediate/stage_two_optimization_stochastic.py
+    description: 固定上游随机优化位置；本题明确刚体误差，不能照搬示例形状误差
+  - name: native-example-usage
+    kind: documentation
+    source: bundled
+    path: upstream/README.md
+    description: 原生示例位置与目标尺度、误差、全环及验收条件中容易用错的事实
+  - name: upstream-license
+    kind: documentation
+    source: bundled
+    path: upstream/SIMSOPT-LICENSE
+    description: 随题固定输入和上游示例的 MIT 许可全文
+  - name: release-status
+    kind: data
+    source: bundled
+    path: release-lock.json
+    description: 固定镜像、依赖文件和可信环境验证状态；未核验项目不得作为已通过
+  - name: simsopt-maintained-package
+    kind: tool
+    source: external
+    url: https://pypi.org/project/simsopt/1.10.6/
+    version: "1.10.6"
+    description: 维护中的Biot-Savart、Fourier曲线与原生诊断；固定原生依赖；本版完整参考状态见有限截面校准记录
+  - name: coil-error-paper
+    kind: paper
+    source: external
+    url: https://arxiv.org/abs/2203.10164
+    description: 线圈制造误差、随机优化与装配后调整的研究；阈值不直接照搬论文成绩
+  - name: actual-manufacturing-scan-paper
+    kind: paper
+    source: external
+    url: https://arxiv.org/abs/2507.22516
+    description: 非平面线圈框架制造偏差的实测和统计建模；本版不冒称采用此测量分布
+  - name: public-search-baseline
+    kind: data
+    source: bundled
+    path: search-baseline.json
+    description: 有限截面公开组校准与约束结果；参考未必达标，J_ref_search只用于公开组比较
+  - name: native-finite-build-example
+    kind: source
+    source: external
+    url: https://github.com/hiddenSymmetries/simsopt/blob/v1.10.6/examples/3_Advanced/stage_two_optimization_finitebuild.py
+    description: 原生有限截面与旋转优化示例，按题目固定截面和装配规则配置

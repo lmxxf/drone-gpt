@@ -1,0 +1,93 @@
+{
+  "state": "passed",
+  "actual_job_id": 20862717,
+  "entry": "bash /tests/test.sh",
+  "reward": {
+    "reward": 0.27055144846898393,
+    "valid": 1,
+    "feasible": 0,
+    "evaluator_error": 0
+  },
+  "native_episodes": 32,
+  "all_horizons_and_accepted_model_domains_rechecked": true,
+  "case_sha256": "62a01a79b1045bdf57edadb4a0840d8efea4f7fb4e755eaf3e2bab7f8ae8d767",
+  "controller_sha256": "80b91e778e621eb959aab5af145b96ce1da64afb581a4335db9ca232776fe5b8",
+  "J_supplied_upper_J": 1312798165.7215261,
+  "author_reference_score": 0.2705514484682283,
+  "score_difference_from_author": 7.556177905598815e-13,
+  "maximum_absolute_metric_differences_from_author": {
+    "fusion_energy_J": 0.0032758712768554688,
+    "fusion_energy_deficit_fraction": 9.806599976514008e-13,
+    "fusion_rms_relative": 1.482139931618942e-12,
+    "fusion_peak_relative": 2.081196326386703e-12,
+    "q_min": 1.1102230246251565e-15,
+    "q95_min": 0.0,
+    "beta_N_max": 0.0,
+    "temperature_max_keV": 3.469580178716569e-11,
+    "fgw_max": 0.0,
+    "terminal_energy_deficit_fraction": 2.028821555200011e-12,
+    "E_external_total_J": 1.52587890625e-05,
+    "E_external_right_endpoint_J": 1.0251998901367188e-05,
+    "E_external_quadrature_difference_J": 1.2874603271484375e-05,
+    "E_pedestal_positive_J": 0.0,
+    "E_pedestal_negative_J": 0.004787921905517578,
+    "J_supplied_total_J": 1.52587890625e-05
+  },
+  "formal_receipt": {
+    "state": "formal_entry_returned",
+    "entry": "bash /tests/test.sh",
+    "exit_code": 0,
+    "wall_time_s": 3467.586937175,
+    "child_max_rss_KiB": 2470204,
+    "reward": {
+      "reward": 0.27055144846898393,
+      "valid": 1,
+      "feasible": 0,
+      "evaluator_error": 0
+    },
+    "physics_state": "evaluated"
+  },
+  "artifact_hashes": {
+    "details.json": "bf81ae231c30f348a15762635706eb6b19771adda74ab7a8d3fdc7be8eb9e1d9",
+    "reward.json": "ce55a74fb6492de2c9fdf59af535afcba5cc2886eb2148f8a6090f4dfc3474d7",
+    "runtime.json": "d51a804573c85533596088532533bcab13965fb4b4f1eb68baf71c8a223b3d68",
+    "isolation.json": "4cee010bbb9fefd82cdcc2760b547de71e588d4e977a1142c0658c4643224843"
+  },
+  "scope": "Actual clean Bohrium verifier; 16 pre-frozen formal scenarios, both grids, 30s; only controller.onnx accepted from candidate. Seed identities remain private.",
+  "resource": {
+    "machine_type": "c32_m128_cpu",
+    "cpus": 32,
+    "memory_GiB": 128,
+    "scenario_workers": 16,
+    "wall_time_s": 3467.586937175,
+    "rss_note": "child_max_rss_KiB is the largest child process, not aggregate concurrent memory peak"
+  },
+  "native_fingerprint_files": 731,
+  "post_run_metadata_changes": {
+    "state": "passed",
+    "formal_job": 20862717,
+    "unchanged_executable_and_physics_inputs": {
+      "tests/eval.py": "7feb6c84edc4670fb7485a74d301af838cb56a3575db1e01b126e88308ebdaec",
+      "tests/plant.py": "875bba518a3b7814c0ccb52ff693dd6162be8dff75ddd6501fceba7042665d98",
+      "tests/controller.py": "142819e34331c57de605d97a1616a00a6c10ef466919d57789620d00496a35aa",
+      "tests/test.sh": "e7bd5e52a3f5443829b4b23cabd8b7c30f0ab9a7fefb48a7b2a497882813119d",
+      "tests/scenarios.json": "cea94f6826a8222ed79471e3a753c38cc7827cf802e79d626cbe52c33ab7ea4a",
+      "environment/case.json": "62a01a79b1045bdf57edadb4a0840d8efea4f7fb4e755eaf3e2bab7f8ae8d767",
+      "environment/torax-config.json": "a5bab5a0f66c184380419886718d458999f10e833c4babdd6f15bc30f2e22b52",
+      "environment/qlknn-core-domain.json": "c24c8c0357ff618c58d59463b6d0d8c84db6f1da7ca7c30f4f48c02fc6fdaa8f",
+      "environment/runtime-lock.json": "a8a5585bff80117686ed2cc2cb6fa27c51069ffa45f83b44196ed761fcbc16fb",
+      "environment/reference/controller.onnx": "80b91e778e621eb959aab5af145b96ce1da64afb581a4335db9ca232776fe5b8"
+    },
+    "baseline_changed_fields_only": {
+      "development": {
+        "previous": "measured_nominal_target_not_release_calibration",
+        "current": "calibrated_full_native_ensemble"
+      },
+      "scoring": {
+        "previous": "measured_nominal_target_not_release_calibration",
+        "current": "calibrated_full_native_ensemble"
+      }
+    },
+    "scope": "Documentation and validation summaries can change after the running job snapshot; controller, physics, objectives, targets, native runtime identities, seeds and scoring code are byte-identical. All numeric baseline fields are equal."
+  }
+}

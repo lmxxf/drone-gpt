@@ -1,0 +1,9 @@
+{
+  "docker_image": "registry.dp.tech/dptech/dp/native/prod-4727808/4650601/fusionx-d0-eikclose-20261008-01@sha256:4d805f5d94d49cb17059e0f8369d9657ab71c537b6d419920f3f13c239550e91",
+  "workdir": "/app",
+  "cpus": 64,
+  "memory_mb": 262144,
+  "storage_mb": 1048576,
+  "gpus": 8,
+  "runtime_state": "built_unverified"
+}

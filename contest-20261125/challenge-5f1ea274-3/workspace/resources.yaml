@@ -1,0 +1,316 @@
+resources:
+- name: vmec2000
+  kind: tool
+  source: preinstalled
+  command: xvmec2000
+  version: STELLOPT 780f5db557eacc7ca1160f4ca5a10a80922e4f26
+  description: 'VMEC2000 fixed-boundary equilibrium solver at /opt/stellarator/bin/xvmec2000.
+    Usage: mpirun --allow-run-as-root -np 8 xvmec2000 input.NAME, writes wout_NAME.nc.'
+- name: neo
+  kind: tool
+  source: preinstalled
+  command: xneo
+  version: STELLOPT 780f5db557eacc7ca1160f4ca5a10a80922e4f26
+  description: 'NEO effective-ripple code (Nemov version in STELLOPT) at /opt/stellarator/bin/xneo.
+    Usage: xneo NAME, reads the control file neo_in.NAME and the boozmn file it names.
+    One line differs from upstream: in NEO/Sources/flint_bo.f90 the correction for
+    near-rational surfaces takes abs(iota); upstream uses the signed value and returns
+    NaN on such surfaces when iota < 0.'
+- name: simple
+  kind: tool
+  source: preinstalled
+  command: simple.x
+  version: SIMPLE 9269e8614e581ede8768e0bccb003b52db87e3be, libneo f1bef44e80c4508f04594d4d2ca120eaf17564f8
+  description: 'SIMPLE guiding-centre orbit tracer at /opt/stellarator/bin/simple.x,
+    built with SIMPLE_DETERMINISTIC_FP=ON. Usage: simple.x simple.in (Fortran namelist
+    config), per-orbit results in orbit_exit_code.dat.'
+- name: booz_xform
+  kind: tool
+  source: preinstalled
+  command: /opt/stellarator/env/bin/python -c 'import booz_xform'
+  version: booz_xform 21aff118735de4255641aa1b64fc7ab35e8c9767
+  description: 'Boozer-coordinate transform of a VMEC wout, as a Python module (Booz_xform:
+    read_wout, run, write_boozmn).'
+- name: simsopt
+  kind: tool
+  source: preinstalled
+  command: /opt/stellarator/env/bin/python -c 'import simsopt'
+  version: simsopt 1.10.6
+  description: SIMSOPT; the evaluation takes the boundary L_grad(B) from simsopt.mhd.vmec_diagnostics.vmec_compute_geometry
+    on the VMEC output.
+- name: sources-and-toolchain
+  kind: tool
+  source: preinstalled
+  command: gfortran
+  version: gcc/gfortran 15.3.0, cmake 4.4.3, OpenMPI 5.0.10; sources (GitHub commits)
+    PrincetonUniversity/STELLOPT 780f5db5, itpplasma/SIMPLE 9269e861, itpplasma/libneo
+    f1bef44e, hiddenSymmetries/booz_xform 21aff118, lazy-fortran/fortnum b382eff4,
+    lazy-fortran/fortio 11afd0bd, lazy-fortran/fortplot feabb592, jacobwilliams/pyplot-fortran
+    217d0c97
+  description: The pinned sources the programs were built from are in /opt/stellarator/src,
+    one directory per repository at the commit above, without git history; fortnum,
+    fortio, fortplot and pyplot-fortran are the libraries SIMPLE builds with. NEO/Sources/flint_bo.f90
+    carries the one-line change described for NEO. Compilers and build tools are in
+    the environment below, so the programs can be rebuilt or modified in a copy.
+- name: python-env
+  kind: tool
+  source: preinstalled
+  command: /opt/stellarator/env/bin/python
+  version: Python 3.12.14, numpy 2.5.3, scipy 1.18.1, netCDF4 1.7.4, f90nml 1.5, matplotlib
+    3.11.2, simsopt 1.10.6, jax 0.11.2 (CPU)
+  description: 'Conda environment at /opt/stellarator/env holding the programs above;
+    the evaluation runs in it, so pip refuses to change it. Install further packages
+    into a new environment: conda create (conda of Miniforge 26.7.2 at /opt/miniforge3/bin/conda,
+    on PATH, conda-forge channel) or python -m venv.'
+- name: landreman-paul-2022-qa
+  kind: data
+  source: bundled
+  path: reference_configurations/landreman_paul_2022_QA.json
+  format: boundary JSON in the submission format
+  description: Landreman and Paul 2022, precise QA (N_FP=2); boundary of doi:10.5281/zenodo.5645413,
+    configurations/new_QA.
+- name: landreman-paul-2022-qa-well
+  kind: data
+  source: bundled
+  path: reference_configurations/landreman_paul_2022_QA_well.json
+  format: boundary JSON in the submission format
+  description: Landreman and Paul 2022, precise QA with magnetic well (N_FP=2); boundary
+    of doi:10.5281/zenodo.5645413, configurations/new_QA_well.
+- name: landreman-paul-2022-qh-well
+  kind: data
+  source: bundled
+  path: reference_configurations/landreman_paul_2022_QH_well.json
+  format: boundary JSON in the submission format
+  description: Landreman and Paul 2022, precise QH with magnetic well (N_FP=4); boundary
+    of doi:10.5281/zenodo.5645413, configurations/new_QH_well.
+- name: estell
+  kind: data
+  source: bundled
+  path: reference_configurations/ESTELL.json
+  format: boundary JSON in the submission format
+  description: ESTELL quasi-toroidally symmetric stellarator (N_FP=2); last closed
+    surface of https://github.com/landreman/vmec_equilibria/tree/41fcf8beb9fb743f0ee6e9c1397981e7ac7b29aa/ESTELL/ns201.
+- name: qhs46
+  kind: data
+  source: bundled
+  path: reference_configurations/QHS46.json
+  format: boundary JSON in the submission format
+  description: QHS46 quasi-helically symmetric stellarator (N_FP=4); last closed surface
+    of https://github.com/landreman/vmec_equilibria/tree/41fcf8beb9fb743f0ee6e9c1397981e7ac7b29aa/QHS46/ns201.
+- name: landreman-paul-2022-data
+  kind: data
+  source: external
+  uri: https://zenodo.org/records/5645413/files/20211102-01-precise_quasisymmetry_zenodo.tar.gz
+  version: doi:10.5281/zenodo.5645413
+  checksum: md5:c2f4fe1a87bc058bdd5bde23761cbbf9
+  format: tar.gz
+  size: 4501319889
+  description: 'Data of Magnetic fields with precise quasisymmetry: VMEC inputs of
+    the QA, QA+well, QH and QH+well configurations under configurations/.'
+- name: wistell-a-data
+  kind: data
+  source: external
+  uri: https://zenodo.org/records/3952862
+  version: doi:10.5281/zenodo.3952862
+  checksum: input.wistella_reactorscale md5:794185e3647edc42160aa7fed5f448a0; input.wistella_midscale
+    md5:27efd1a027305ded64ed9834dece2a1e; input.turbulence_reduced md5:c7ef999d639f6152147f0eb0793e0973;
+    coils.wistella_reactorscale md5:dbbeb299c01daf20151e3a81a98d7fa9
+  format: VMEC input namelists and a coils file
+  description: Wistell-A VMEC inputs; download each file from the record page.
+- name: quasr-data
+  kind: data
+  source: external
+  uri: https://zenodo.org/records/13717741/files/QUASR_08072024.tar.gz
+  version: doi:10.5281/zenodo.13717741, concept doi:10.5281/zenodo.10050655
+  checksum: md5:129b9e6e4a5a7106bd114551d1c80dea
+  format: tar.gz
+  size: 12688330726
+  description: QUASR repository of quasisymmetric stellarators with their coils.
+- name: vmec-equilibria
+  kind: data
+  source: external
+  uri: https://github.com/landreman/vmec_equilibria
+  version: commit 41fcf8beb9fb743f0ee6e9c1397981e7ac7b29aa
+  description: Collection of historical stellarator VMEC equilibria (ARIES-CS, NCSX,
+    W7-X, HSX, QHS46, ESTELL and others).
+- name: quasr-website
+  kind: data
+  source: external
+  uri: https://quasr.flatironinstitute.org/
+  description: QUASR browser of quasisymmetric vacuum configurations with coils.
+- name: constellaration-dataset
+  kind: data
+  source: external
+  uri: https://huggingface.co/datasets/proxima-fusion/constellaration
+  description: ConStellaration dataset of QI-like stellarator boundaries.
+- name: stellopt-code
+  kind: tool
+  source: external
+  uri: https://github.com/PrincetonUniversity/STELLOPT
+  description: STELLOPT source, including VMEC2000 and NEO.
+- name: vmecpp-code
+  kind: tool
+  source: external
+  uri: https://github.com/proximafusion/vmecpp
+  description: VMEC++, a C++ reimplementation of VMEC with a Python interface.
+- name: simsopt-code
+  kind: tool
+  source: external
+  uri: https://github.com/hiddenSymmetries/simsopt
+  description: SIMSOPT stellarator optimization framework.
+- name: desc-code
+  kind: tool
+  source: external
+  uri: https://github.com/PlasmaControl/DESC
+  description: DESC, JAX-based equilibrium solver and optimizer.
+- name: booz-xform-code
+  kind: tool
+  source: external
+  uri: https://github.com/hiddenSymmetries/booz_xform
+  description: booz_xform source.
+- name: simple-code
+  kind: tool
+  source: external
+  uri: https://github.com/itpplasma/SIMPLE
+  description: SIMPLE source and documentation.
+- name: pyqsc-code
+  kind: tool
+  source: external
+  uri: https://github.com/landreman/pyQSC
+  description: pyQSC near-axis quasisymmetric configurations.
+- name: pyqic-code
+  kind: tool
+  source: external
+  uri: https://github.com/rogeriojorge/pyQIC
+  description: pyQIC near-axis quasi-isodynamic configurations.
+- name: regcoil-code
+  kind: tool
+  source: external
+  uri: https://github.com/landreman/regcoil
+  description: REGCOIL winding-surface current potential for a given coil distance.
+- name: constellaration-code
+  kind: tool
+  source: external
+  uri: https://github.com/proximafusion/constellaration
+  description: ConStellaration dataset tools and evaluator.
+- name: landreman-paul-2022
+  kind: document
+  source: external
+  uri: https://doi.org/10.1103/PhysRevLett.128.035001
+  description: Landreman and Paul, Magnetic fields with precise quasisymmetry for
+    plasma confinement, PRL 128, 035001 (2022).
+- name: wechsung-2022
+  kind: document
+  source: external
+  uri: https://doi.org/10.1073/pnas.2202084119
+  description: Wechsung et al., Precise stellarator quasi-symmetry can be achieved
+    with electromagnetic coils, PNAS 119 (2022).
+- name: landreman-2022-near-axis
+  kind: document
+  source: external
+  uri: https://doi.org/10.1017/S0022377822001258
+  description: Landreman, Mapping the space of quasisymmetric stellarators using optimized
+    near-axis expansion, JPP (2022).
+- name: quasr-paper
+  kind: document
+  source: external
+  uri: https://arxiv.org/abs/2409.04826
+  description: Giuliani et al. 2024, the QUASR database.
+- name: kappel-2024-lgradb
+  kind: document
+  source: external
+  uri: https://arxiv.org/abs/2309.11342
+  description: Kappel, Landreman and Malhotra, The magnetic gradient scale length
+    explains why certain plasmas require close external magnetic coils, PPCF 66, 025018
+    (2024), doi:10.1088/1361-6587/ad1a3e; appendix D tabulates L_grad(B) and coil
+    distance of 45 configurations.
+- name: kappel-2026-lgradb
+  kind: document
+  source: external
+  uri: https://arxiv.org/abs/2602.18974
+  description: Kappel, Landreman, Jurašić and Henneberg 2026, How does the magnetic
+    gradient scale length influence complexity of filamentary coils in stellarators?
+- name: bindel-2023
+  kind: document
+  source: external
+  uri: https://doi.org/10.1088/1361-6587/acd141
+  description: Bindel, Landreman and Padidar, Direct optimization of fast-ion confinement
+    in stellarators, PPCF (2023).
+- name: paul-2022-losses
+  kind: document
+  source: external
+  uri: https://doi.org/10.1088/1741-4326/ac9b07
+  description: Paul et al., Energetic particle loss mechanisms in reactor-scale equilibria
+    close to quasisymmetry, Nucl. Fusion (2022).
+- name: nemov-1999
+  kind: document
+  source: external
+  uri: https://doi.org/10.1063/1.873749
+  description: Nemov et al., Evaluation of 1/nu neoclassical transport in stellarators,
+    Phys. Plasmas 6, 4622 (1999).
+- name: albert-2020-simple
+  kind: document
+  source: external
+  uri: https://doi.org/10.1017/S0022377820000203
+  description: Albert, Kasilov and Kernbichler, accelerated methods for direct computation
+    of fusion alpha particle losses (SIMPLE), JPP (2020).
+- name: aries-cs
+  kind: document
+  source: external
+  uri: https://www-pub.iaea.org/MTCD/Meetings/FEC2006/ft_p5-26.pdf
+  description: Najmabadi et al., ARIES-CS compact stellarator power plant, including
+    the radial build between plasma and coils.
+- name: alonso-reactor-requirements
+  kind: document
+  source: external
+  uri: https://arxiv.org/abs/2109.15189
+  description: Alonso et al. 2022, Physics design point of high-field stellarator
+    reactors; section 4.1.2 gives the effective-ripple requirement.
+- name: constellaration-paper
+  kind: document
+  source: external
+  uri: https://arxiv.org/abs/2506.19583
+  description: Cadena et al. 2025, ConStellaration dataset and optimization benchmarks.
+- name: magnetic-well-mercier
+  kind: document
+  source: external
+  uri: https://arxiv.org/abs/2006.14881
+  description: Magnetic well and Mercier stability near the magnetic axis.
+- name: helios
+  kind: document
+  source: external
+  uri: https://arxiv.org/abs/2512.08027
+  description: Thea Energy 2025, Helios stellarator power plant (finite pressure).
+- name: schuett-henneberg-2024
+  kind: document
+  source: external
+  uri: https://doi.org/10.1103/PhysRevResearch.6.L042052
+  description: Schuett and Henneberg 2024, compact QA stellarator with self-consistent
+    bootstrap current.
+- name: simsopt-geometry-doc
+  kind: document
+  source: external
+  uri: https://simsopt.readthedocs.io/v0.2.0-alpha/simsopt.geo.html#simsopt.geo.surface.Surface.aspect_ratio
+  description: SIMSOPT definitions of the effective minor radius, major radius and
+    aspect ratio used by the task.
+- name: vmec-input-doc
+  kind: document
+  source: external
+  uri: https://princetonuniversity.github.io/STELLOPT/VMEC%20Input%20Namelist%20%28v8.47%29.html
+  description: VMEC2000 input namelist.
+- name: neo-doc
+  kind: document
+  source: external
+  uri: https://princetonuniversity.github.io/STELLOPT/NEO.html
+  description: NEO documentation.
+- name: booz-xform-doc
+  kind: document
+  source: external
+  uri: https://hiddensymmetries.github.io/booz_xform/
+  description: booz_xform documentation.
+- name: pypi
+  kind: service
+  source: external
+  uri: https://pypi.org/simple
+  description: Python package index. The sandbox has internet access, so conda-forge
+    and other public sources are reachable as well.

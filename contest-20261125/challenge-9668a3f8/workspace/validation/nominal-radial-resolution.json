@@ -1,0 +1,23 @@
+{
+  "P_fusion_W": {
+    "max_absolute_difference": 2805773.8737149686,
+    "max_relative_to_fine_peak": 0.016457553810289505
+  },
+  "E_external_total_J": {
+    "max_absolute_difference": 254482.21553325653,
+    "max_relative_to_fine_peak": 0.0001940403962385315
+  },
+  "q_min": {
+    "max_absolute_difference": 0.005788072440616965,
+    "max_relative_to_fine_peak": 0.0031663769845816816
+  },
+  "q95": {
+    "max_absolute_difference": 0.0004913499483016892,
+    "max_relative_to_fine_peak": 9.867591440451005e-05
+  },
+  "beta_N": {
+    "max_absolute_difference": 0.0076443754104580375,
+    "max_relative_to_fine_peak": 0.005491421648525355
+  },
+  "scope": "Completed nominal30s, not ensemble release calibration"
+}

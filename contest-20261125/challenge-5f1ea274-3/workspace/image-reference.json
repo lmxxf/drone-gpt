@@ -1,0 +1,19 @@
+{
+  "docker_image": "registry.dp.tech/dptech/dp/native/prod-21128/21221/fusionx-compact-vacuum-stellarator:4",
+  "workdir": "/app",
+  "cpus": 96,
+  "memory_mb": 131072,
+  "storage_mb": 102400,
+  "gpus": 0,
+  "agent_timeout_sec": 172800,
+  "verifier_timeout_sec": 45000,
+  "preinstalled_versions": {
+    "vmec2000": "STELLOPT 780f5db557eacc7ca1160f4ca5a10a80922e4f26",
+    "neo": "STELLOPT 780f5db557eacc7ca1160f4ca5a10a80922e4f26",
+    "simple": "SIMPLE 9269e8614e581ede8768e0bccb003b52db87e3be, libneo f1bef44e80c4508f04594d4d2ca120eaf17564f8",
+    "booz_xform": "booz_xform 21aff118735de4255641aa1b64fc7ab35e8c9767",
+    "simsopt": "simsopt 1.10.6",
+    "sources-and-toolchain": "gcc/gfortran 15.3.0, cmake 4.4.3, OpenMPI 5.0.10; sources (GitHub commits) PrincetonUniversity/STELLOPT 780f5db5, itpplasma/SIMPLE 9269e861, itpplasma/libneo f1bef44e, hiddenSymmetries/booz_xform 21aff118, lazy-fortran/fortnum b382eff4, lazy-fortran/fortio 11afd0bd, lazy-fortran/fortplot feabb592, jacobwilliams/pyplot-fortran 217d0c97",
+    "python-env": "Python 3.12.14, numpy 2.5.3, scipy 1.18.1, netCDF4 1.7.4, f90nml 1.5, matplotlib 3.11.2, simsopt 1.10.6, jax 0.11.2 (CPU)"
+  }
+}

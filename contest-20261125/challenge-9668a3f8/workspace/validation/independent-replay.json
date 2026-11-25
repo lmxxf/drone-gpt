@@ -1,0 +1,46 @@
+{
+  "state": "passed",
+  "bohr_job_id": 20862432,
+  "runtime_files_matched": 731,
+  "scope": "Actual native30s replay in independent image; numerical agreement checked with original2%/.02 protocol, not asserted cross-CPU bitwise identity",
+  "comparisons": {
+    "coarse": {
+      "metric_absolute_differences": {
+        "fusion_energy_J": 0.00040340423583984375,
+        "fusion_energy_deficit_fraction": 0.0,
+        "fusion_rms_relative": 7.798796330948932e-14,
+        "fusion_peak_relative": 1.656487447210253e-13,
+        "q_min": 1.1102230246251565e-15,
+        "q95_min": 0.0,
+        "beta_N_max": 0.0,
+        "temperature_max_keV": 3.3004710076056654e-12,
+        "fgw_max": 0.0,
+        "terminal_energy_deficit_fraction": 5.495603971894525e-14,
+        "E_external_total_J": 2.384185791015625e-07
+      },
+      "max_accepted_power_difference_W": 8.581578731536865e-05,
+      "accepted_states": 6001,
+      "cloud_wall_s": 817.902921653,
+      "receipt_sha256": "77441ded0d39e7748d828d022c104a292877ce30ddf957fb7e3b9d2a1e261997"
+    },
+    "fine": {
+      "metric_absolute_differences": {
+        "fusion_energy_J": 0.0020580291748046875,
+        "fusion_energy_deficit_fraction": 6.160627563644994e-13,
+        "fusion_rms_relative": 9.493881375499669e-14,
+        "fusion_peak_relative": 5.196641728044682e-13,
+        "q_min": 1.1102230246251565e-15,
+        "q95_min": 0.0,
+        "beta_N_max": 0.0,
+        "temperature_max_keV": 1.9170443010807503e-11,
+        "fgw_max": 0.0,
+        "terminal_energy_deficit_fraction": 0.0,
+        "E_external_total_J": 7.3909759521484375e-06
+      },
+      "max_accepted_power_difference_W": 0.0006338953971862793,
+      "accepted_states": 12001,
+      "cloud_wall_s": 1765.0189901630001,
+      "receipt_sha256": "35d26c4f3b523d2237d2f0062d98a34334a3d3bc6de628406ee2836225edfd92"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "state": "passed",
+  "native_degenerate_case": "deuterium fraction1 tritium fraction0; other sources and native transport unchanged",
+  "accepted_states": 101,
+  "fusion_power_W": "exactly_zero_every_accepted_state",
+  "alpha_power_W": "exactly_zero_every_accepted_state",
+  "horizon_s": 0.5000000000000003
+}

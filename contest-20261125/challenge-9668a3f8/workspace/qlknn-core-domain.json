@@ -1,0 +1,49 @@
+{
+  "schema": "fusionx-t0-qlknn-core-domain/v0.1",
+  "scope": "QLKNN11D core subset of QLKNN_7_11; rectangular bounds are a rejection guard, not accuracy certification",
+  "source": "fusion_surrogates/qlknn/models/README.md",
+  "source_sha256": "664bd975282127019ba75a3c3e571d6e6f8df94cbd142e121f82afab54e01fe1",
+  "source_version": "0.4.6",
+  "ranges": {
+    "Ati": {
+      "min": 9.9999998245167e-15,
+      "max": 16.0
+    },
+    "Ate": {
+      "min": 9.9999998245167e-15,
+      "max": 16.0
+    },
+    "Ane": {
+      "min": -5.0,
+      "max": 5.0
+    },
+    "Ani": {
+      "min": -15.0,
+      "max": 15.0
+    },
+    "q": {
+      "min": 0.6600000262260437,
+      "max": 10.0
+    },
+    "smag": {
+      "min": -1.0,
+      "max": 4.0
+    },
+    "x": {
+      "min": 0.10000000149011612,
+      "max": 0.949999988079071
+    },
+    "Ti_Te": {
+      "min": 0.24999983608722687,
+      "max": 2.5000014305114746
+    },
+    "LogNuStar": {
+      "min": -5.000293731689453,
+      "max": -0.0002939051773864776
+    },
+    "normni": {
+      "min": 0.699999988079071,
+      "max": 1.0
+    }
+  }
+}

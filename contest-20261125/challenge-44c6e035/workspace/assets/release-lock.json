@@ -1,0 +1,34 @@
+{
+  "state": "verified",
+  "image_digest": "registry.dp.tech/dptech/dp/native/prod-4727808/4650601/fusionx-c0-rigid-coils-20261008-v03@sha256:cc591fa3f77d6e13f77cd8d20ec25306ab69fd0a5a5ac32f34af209333987146",
+  "image_build_id": 172809,
+  "image_build_terminal": "success",
+  "isolation": "clean_trusted_verifier",
+  "evaluator_sha256": "8ecdca4deb4995d4a1c09fd26cd77ca1b1d695bd998378a91fdb2ab37090784d",
+  "case_sha256": "d79b918322b490004c2327127d513d7b5181ebeeb7ab833a8024c29d101abe16",
+  "native_modules": {
+    "simsoptpp": "8723093f292a5b6f201638daa395cbaed0f0f0247004d41133f7280a721f1299",
+    "simsopt.geo.curvexyzfourier": "c3c9e0cdcc6420b408dd39dcd815fc8860a4c78dd3302491fa24cc6fdacdc10c",
+    "simsopt.geo.surfacerzfourier": "52a3b16e991d808cd3c0ab42904f7cdf9b5eae043d620ed224dffd0cde903ec3",
+    "simsopt.field.biotsavart": "f0897aafe944f93eabc8c737d13cec46048a85c7c4aaba37dcb4e1900a1d05f9",
+    "simsopt.geo.curveobjectives": "3739110f685a0b7363c154daf6e4ecdc4e49bbbf1bffc62856a8731e7ffe3fa1",
+    "simsopt.objectives.fluxobjective": "65855e8fd43e05e23c69acc1648a1b404078a2ecaeac79f4b62adc31b3d435d9",
+    "simsopt.geo.finitebuild": "6b301dbe34bbc3254dff7b2eb414ec4cbfcb178ca9d53b2bd298ba9624a0ae4c",
+    "simsopt.geo.framedcurve": "3cf0bfe902bd86fd72f7ef311f6105e7b1682d2045a62118dfc70045b9d4b581",
+    "numpy.polynomial.legendre": "c685c1a15193a129650ec5875379c140948140b84964184ca40fdb7a66170c74"
+  },
+  "versions": {
+    "simsopt": "1.10.6",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "jax": "0.5.3",
+    "jaxlib": "0.5.3"
+  },
+  "fresh_sandbox": "default--d-image-replace-c8-m32-tmmd6z-zz7cp",
+  "native_known_answers": "17 checks passed in local and fresh image",
+  "full_native_reference": "passed_finite_build_v031_measurement",
+  "full_reference_wall_seconds": 1663.782873054,
+  "reference_feasible": false,
+  "verification_scope": "Full native measurement and local/cloud comparison; formal invalid-input and identity gates recorded separately; not a claimed second full test.sh replay",
+  "platform_online_automatic_grading": "not_verified"
+}

@@ -1,0 +1,18 @@
+{
+  "state": "passed",
+  "scope": "nominal full30s time refinement at400 radial cells; physical domain all accepted states",
+  "fine_dt_s": 0.0025,
+  "refined_dt_s": 0.00125,
+  "max_power_difference_W": 2574909.7447874993,
+  "max_power_difference_over_reference_peak": 0.015103396634515827,
+  "external_energy_relative_difference": 5.2111966074139275e-06,
+  "pointwise_safety_difference": {
+    "q_min": 0.0,
+    "q95": 0.0,
+    "beta_N": 0.007120459274585267
+  },
+  "input_runs": {
+    "v3-pedestal-strong-fine-full": "f5eab64acab791391af86a4a6f07e29a00316cc34a585c49637950d055d41108",
+    "v3-pedestal-fine-timehalf-fine-full": "f9fde662c9c78cca0ead17cc21b9db0e3885029b0fe3a24c61168ccab4d583b7"
+  }
+}

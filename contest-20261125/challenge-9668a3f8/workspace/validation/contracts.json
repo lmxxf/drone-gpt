@@ -1,0 +1,12 @@
+{
+  "state": "passed",
+  "checks": [
+    "score_monotone_and_feasibility_priority",
+    "supplied_heat_counts_positive_boundary_and_never_credits_sink",
+    "sensor_delay_does_not_read_current_physics",
+    "delivered_fusion_energy_cannot_be_replaced_by_terminal_heat",
+    "reference_graph_executes_causal_memory",
+    "malformed_external_and_random_graphs_rejected"
+  ],
+  "scope": "interface and scoring only; native physics/image gates remain separate"
+}

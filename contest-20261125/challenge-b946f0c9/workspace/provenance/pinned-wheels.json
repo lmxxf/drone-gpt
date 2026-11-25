@@ -1,0 +1,30 @@
+[
+  {
+    "name": "retry",
+    "version": "0.9.2",
+    "filename": "retry-0.9.2-py2.py3-none-any.whl",
+    "url": "https://files.pythonhosted.org/packages/4b/0d/53aea75710af4528a25ed6837d71d117602b01946b307a3912cb3cfcbcba/retry-0.9.2-py2.py3-none-any.whl",
+    "sha256": "ccddf89761fa2c726ab29391837d4327f819ea14d244c232a1d24c67a2f98606"
+  },
+  {
+    "name": "py",
+    "version": "1.11.0",
+    "filename": "py-1.11.0-py2.py3-none-any.whl",
+    "url": "https://files.pythonhosted.org/packages/f6/f0/10642828a8dfb741e5f3fbaac830550a518a775c7fff6f04a007259b0548/py-1.11.0-py2.py3-none-any.whl",
+    "sha256": "607c53218732647dff4acdfcd50cb62615cedf612e72d1724fb1a0cc6405b378"
+  },
+  {
+    "name": "decorator",
+    "version": "5.3.1",
+    "filename": "decorator-5.3.1-py3-none-any.whl",
+    "url": "https://files.pythonhosted.org/packages/05/7f/798705f5296a58ca505d600456748d1be48078eac8a7050d8a98bc9edb89/decorator-5.3.1-py3-none-any.whl",
+    "sha256": "f47fe6fdbd2edd623ecfe36875d37aba411624e2670dd395dddae1358689bb3c"
+  },
+  {
+    "name": "openmc_data_downloader",
+    "version": "0.6.2",
+    "filename": "openmc_data_downloader-0.6.2-py3-none-any.whl",
+    "url": "https://files.pythonhosted.org/packages/80/03/3bde6b3357e2c546ca6dbc4a94bd24a5d539a5df80cc93f013030b863bd1/openmc_data_downloader-0.6.2-py3-none-any.whl",
+    "sha256": "1965211b9dd7877b551d4e7e4e5a1335be7db765c3b441214e8942f606ab51c3"
+  }
+]

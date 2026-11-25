@@ -1,0 +1,8 @@
+{
+  "upstream_commit": "d080a16deaca328aa970f4f0036e61786ac4d67e",
+  "source_path": "/opt/stellarator/env/lib/python3.12/site-packages/gx_geometry/eik_files.py",
+  "original_sha256": "14e837643e823fc9aa0574bc863f63e0990d61fa5dd9970ce731977766f5b099",
+  "modified_sha256": "bfe0158a5f2f1afa33d5ceb1478ffa6b8acbdc4f464b1f73c1071d1b19d4a6e6",
+  "change": "explicit file.close() after final native write; no equations or values modified",
+  "base_image": "registry.dp.tech/dptech/dp/native/prod-4727808/4650601/fusionx-d0-gx-20261008-b88d-02@sha256:ef27575b717400f731df43e1521a97148d0107c18a5e660f0119da7013fab5de"
+}

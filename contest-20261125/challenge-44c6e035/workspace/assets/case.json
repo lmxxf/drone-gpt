@@ -1,0 +1,219 @@
+{
+  "schema": "fusionx-c0-finite-build/v1",
+  "version": "0.3.1",
+  "state": "authoring",
+  "simsopt_version": "1.10.6",
+  "nfp": 2,
+  "order": 8,
+  "target_sha256": "4c6ba4bc391a69b5b6a5e84ff82df9b0ce92e20c42f2a47f89a9283fd5bc3458",
+  "effective_minor_radius_m": 1.7,
+  "length_scale": 10.100286074838271,
+  "field_rms_T": 5.7,
+  "first_current_Aturn": 19167004.61524802,
+  "link_axis_radius_m": 10.200013249102263,
+  "scenario_count": 128,
+  "batch_size": 64,
+  "error": {
+    "kind": "independent_bounded_rigid_assembly",
+    "translation_halfwidth_m": 0.01,
+    "rotation_halfwidth_rad": 0.001,
+    "rotation_pivot": "native_arc_length_centroid_on_16384_points",
+    "sampling": "PCG64DXSM independent uniform components for each physical coil",
+    "entity_order": "ascending native arc-length centroid toroidal angle in [0,2pi), xyz centroid, exact physical xyz Fourier coefficients, signed current; identity quadrature 16384"
+  },
+  "geometry": {
+    "curve_points": 16384,
+    "surface_phi": 1024,
+    "surface_theta": 256,
+    "link_points": 512,
+    "self_arclength_exclusion_m": 4.0,
+    "self_distance_search_m": 1.0
+  },
+  "field_grids": [
+    [
+      64,
+      32,
+      256,
+      3
+    ],
+    [
+      128,
+      64,
+      512,
+      3
+    ],
+    [
+      256,
+      128,
+      1024,
+      3
+    ],
+    [
+      256,
+      128,
+      1024,
+      5
+    ]
+  ],
+  "numeric": {
+    "e_absolute_tol": 1e-08,
+    "e_relative_tol": 0.001,
+    "field_T_tol": 0.001
+  },
+  "constraints": {
+    "base_length_sum_upper_m": {
+      "sense": "upper",
+      "threshold": 200,
+      "scale": 200
+    },
+    "kappa_upper_per_m": {
+      "sense": "upper",
+      "threshold": 0.55,
+      "scale": 0.55
+    },
+    "coil_distance_lower_m": {
+      "sense": "lower",
+      "threshold": 0.85,
+      "scale": 0.85
+    },
+    "plasma_distance_lower_m": {
+      "sense": "lower",
+      "threshold": 2.4,
+      "scale": 2.4
+    },
+    "self_distance_lower_m": {
+      "sense": "lower",
+      "threshold": 0.5,
+      "scale": 0.5
+    },
+    "radius_min_lower_m": {
+      "sense": "lower",
+      "threshold": 2.5,
+      "scale": 2.5
+    },
+    "radius_max_upper_m": {
+      "sense": "upper",
+      "threshold": 22.0,
+      "scale": 22.0
+    },
+    "z_max_upper_m": {
+      "sense": "upper",
+      "threshold": 10.0,
+      "scale": 10.0
+    },
+    "link_axis_error": {
+      "sense": "upper",
+      "threshold": 0.001,
+      "scale": 0.001
+    },
+    "interlink": {
+      "sense": "upper",
+      "threshold": 0.001,
+      "scale": 0.001
+    },
+    "first_current_relative_error": {
+      "sense": "upper",
+      "threshold": 1e-10,
+      "scale": 1e-10
+    },
+    "current_min_Aturn": {
+      "sense": "lower",
+      "threshold": 1000000.0,
+      "scale": 1000000.0
+    },
+    "current_max_Aturn": {
+      "sense": "upper",
+      "threshold": 25000000.0,
+      "scale": 25000000.0
+    },
+    "nominal_e_upper": {
+      "sense": "upper",
+      "threshold": 0.001,
+      "scale": 0.001
+    },
+    "brms_relative_error_upper": {
+      "sense": "upper",
+      "threshold": 0.02,
+      "scale": 0.02
+    },
+    "bmin_T_lower": {
+      "sense": "lower",
+      "threshold": 3.0,
+      "scale": 3.0
+    },
+    "bmax_T_upper": {
+      "sense": "upper",
+      "threshold": 9.0,
+      "scale": 9.0
+    },
+    "negative_bphi_min_T_lower": {
+      "sense": "lower",
+      "threshold": 3.0,
+      "scale": 3.0
+    },
+    "pack_coil_distance_lower_m": {
+      "sense": "lower",
+      "threshold": 0.1,
+      "scale": 0.1
+    },
+    "pack_plasma_distance_lower_m": {
+      "sense": "lower",
+      "threshold": 2.4,
+      "scale": 2.4
+    },
+    "pack_self_distance_lower_m": {
+      "sense": "lower",
+      "threshold": 0.1,
+      "scale": 0.1
+    },
+    "pack_radius_min_lower_m": {
+      "sense": "lower",
+      "threshold": 2.5,
+      "scale": 2.5
+    },
+    "pack_radius_max_upper_m": {
+      "sense": "upper",
+      "threshold": 22.0,
+      "scale": 22.0
+    },
+    "pack_z_max_upper_m": {
+      "sense": "upper",
+      "threshold": 10.0,
+      "scale": 10.0
+    },
+    "pack_current_density_MA_per_m2": {
+      "sense": "upper",
+      "threshold": 100.0,
+      "scale": 100.0
+    },
+    "pack_local_curvature_product": {
+      "sense": "upper",
+      "threshold": 0.5,
+      "scale": 0.5
+    },
+    "pack_twist_upper_per_m": {
+      "sense": "upper",
+      "threshold": 0.25,
+      "scale": 0.25
+    }
+  },
+  "winding_pack": {
+    "width_m": 0.4,
+    "height_m": 0.6,
+    "frame": "native_centroid",
+    "rotation_order": 2,
+    "current_model": "uniform continuous rectangular section; tensor Gauss-Legendre nodes and normalized current weights",
+    "frame_grids": [
+      4096,
+      8192
+    ],
+    "twist_resolution_per_m": 0.0001,
+    "quadrature": "Gauss-Legendre"
+  },
+  "audit_grid": [
+    512,
+    256,
+    2048,
+    7
+  ]
+}

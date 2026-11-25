@@ -1,0 +1,141 @@
+{
+  "armiId": "arm:challenge-44c6e035@34a198e938ef",
+  "attempts": 4,
+  "benchmarkId": null,
+  "content": "# 让理想磁场走向工程实现，提升实体线圈在装配偏差下的磁场精度\n\n仿星器完全靠外部的三维线圈产生约束等离子体的磁场。优化程序已经能算出约束性能极好的磁面形状，但等离子体看不到设计图，它只感受真实线圈产生的场。从一张理想磁面，到一套造得出来、装得上、通得起电的线圈，是仿星器走向电站的关键一步。\n\n**本题请你设计四条有限截面模块线圈的中心线、绕组截面朝向和电流，使它们在名义装配和隐藏的装配偏差下，都尽量精确地产生一个固定的目标磁面。** 提交一份 `coils.json`。成绩由名义装配和指定的 128 个刚体偏移样本中最坏工况下目标面上的法向磁场误差决定，越过工程限制按越过的程度连续扣分。\n\n## 1. 问题\n\n好的磁场由一层层嵌套的闭合曲面组成，叫磁面。磁力线贴在磁面上，是把带电粒子和热量留住的第一步。本题的目标是一个公开的准轴对称（QA）构型的外边界：线圈产生的磁场应当处处与这张曲面相切，穿过它的法向磁场越小越好。\n\n真实线圈不是数学曲线。每个绕组包有 0.40 m × 0.60 m 的截面，约 19 MA·turn 的电流分布在整个截面上，产生的场与把电流压缩到中心线上不同。截面可以绕中心线转动，这会改变电流路径，也改变导体上的峰值磁场。装配时，十六个绕组包各自带着毫米级的随机平移和转角。\n\n这些要求彼此牵制。线圈贴近等离子体、弯得更巧，磁场更准，但导体上的峰值磁场和电磁力由距离、曲率和电流共同决定；线圈放松、拉远，工程上更从容，磁场却开始走样。对装配偏差最不敏感的形状，又未必是名义状态下最准的形状。没有人知道在这些约束下误差能压到多低，这正是要探索的。\n\n## 2. 你可以改变的量与固定条件\n\n你手里有三样东西，每一样都在改变磁场的样子。\n\n**线圈走向。** 每条线圈的中心线是一条空间闭合曲线，用 Fourier 级数描述。低阶系数决定大尺度的走向：线圈离等离子体多远、在哪里拐弯；高阶系数加上更细的起伏，能把磁场雕得更准，但也让线圈弯得更急，更难绕制，也更容易和邻居挤在一起。四条线圈按对称性复制成十六条，所以每改一条，就同时改了四条。\n\n**截面朝向。** 绕组包是一根 40 × 60 cm 的扁\"带子\"，可以沿着线圈慢慢扭转。转一转，电流在截面里的分布就跟着变，目标面上的磁场会细微地改变，导体边缘最强的磁场也会升高或降低。转得太快，带材就更难绕制，截面扭转衡量的正是这种制造难度。\n\n**电流。** 第一条线圈设有参考电流，用来定下整个磁场的强度，偏离时按偏差连续扣分。另外三条线圈的电流可以调，用来平衡各条线圈对磁场的贡献。\n\n可以改变的量：四条中心线的全部 Fourier 系数、每条中心线的五个截面旋转系数，以及四条线圈的电流。\n\n| 固定条件 | 定义 |\n|---|---|\n| 目标面 | `target.vmec` 的外边界，有效小半径 a = 1.70 m |\n| 目标场强 | 目标面上面积加权的 RMS 磁场 5.70 T |\n| 线圈架构 | 场周期数 2，四条独立线圈，按仿星器对称展开为十六个绕组包 |\n| 中心线 | Cartesian Fourier 级数，最高阶 8，单位 m |\n| 绕组截面 | 矩形，宽 0.40 m、高 0.60 m |\n| 截面朝向 | 在中心线的 centroid 材料框架上叠加最高阶 2 的周期旋转 |\n| 第一条线圈电流 | 参考值为 19,167,004.61524802 A·turn，偏离时按偏差连续扣分 |\n| 磁场模型 | 真空场，SIMSOPT 1.10.6 的有限截面多细丝 Biot–Savart |\n\n## 3. 工程要求\n\n每项要求带一个违反量尺度。超出时，违反量 v = 超出量 / 尺度，分数乘以 exp(−v)。全部满足时设计为可行。\n\n| 要求 | 条件 | 违反量尺度 |\n|---|---|---|\n| 中心线总长 | 四条之和 ≤ 200 m | 2 m |\n| 中心线曲率 | ≤ 0.55 m⁻¹（弯曲半径 ≥ 1.82 m） | 0.01 m⁻¹ |\n| 中心线之间的距离 | ≥ 0.85 m | 0.01 m |\n| 中心线到目标面 | ≥ 2.40 m | 0.05 m |\n| 中心线非局部自距 | 弧长相隔 ≥ 4 m 的点之间 ≥ 0.50 m | 0.01 m |\n| 绕组包之间的间隙 | ≥ 0.10 m | 0.01 m |\n| 绕组包到目标面 | ≥ 2.40 m，为包层和屏蔽留出空间 | 0.05 m |\n| 绕组包非局部自距 | 弧长相隔 ≥ 4 m 的截面之间 ≥ 0.10 m | 0.01 m |\n| 装置包络 | 中心线和绕组包：2.50 m ≤ R ≤ 22 m，abs(Z) ≤ 10 m | 0.05 m |\n| 局部弯曲 | 截面半对角线 × 曲率 ≤ 0.5 | 0.025 |\n| 截面扭转 | 材料框架单位弧长扭转 ≤ 0.25 m⁻¹ | 0.0125 m⁻¹ |\n| 电流 | 每条线圈 1–25 MA·turn | 0.05 / 1.25 MA·turn |\n| 安匝密度 | ≤ 100 MA·turn/m² | 5 MA·turn/m² |\n| 线圈拓扑 | 每条线圈绕环一周且通过 Gauss 链接数筛查 | 0.05 |\n| 名义磁场误差 | 名义装配下 e ≤ 0.001 | 10⁻⁴ |\n| 场强 | 名义和全部工况：RMS 场与 5.70 T 之差 ≤ 0.114 T；目标面上 3 T ≤ abs(B) ≤ 9 T，−B_φ ≥ 3 T | 0.057 T |\n| 导体峰值磁场 | 名义装配下绕组包边界 ≤ 20 T | 0.5 T |\n| 电磁线力 | 名义装配下单位长度 ≤ 175 MN/m | 8.75 MN/m |\n\n所有几何距离都含装配偏差，并按截面外接圆计算，是保守值。截面旋转会改变目标面磁场、导体峰值磁场和截面扭转；电磁线力只取决于中心线、电流和截面尺寸，不随旋转变化。\n\n## 4. 成绩\n\n对名义状态和每个装配工况 k，计算目标面上的归一化法向场误差：\n\n```text\ne_k  = sqrt( ∫(B_k·n)² dA / ∫abs(B_k)² dA )\nJ_mT = 5700 × max_k e_k                    （按 5.70 T 换算成等效法向磁场，单位 mT）\nS    = [1 − (2/π)·arctan(J_mT / 1 mT)] × exp(−Σ v)\n```\n\nJ_mT 说的是：在名义装配和指定的 128 个刚体偏移样本中最坏的那一次安装之后，线圈磁场有多大一部分\"穿\"过了本该与它相切的磁面。它越小，等离子体感受到的场就越接近设计。1 mT 约为目标场强的万分之二，与实验装置上需要专门校正的误差场同一量级；把最坏情况压到这个量级，意味着这套线圈装上去之后，离理想磁面已经很近。\n\n全部达标时，J_mT 为 5、2、1 mT 分别对应 S ≈ 0.13、0.30、0.50。越过工程限制会按越过的程度扣分：超导导体能承受的磁场有限，本题给导体峰值磁场的预算是 20 T；电磁力过大，支撑结构就扛不住；线圈离等离子体太近，包层和屏蔽就放不下。\n\n排名按 S，是否全部达标另行报告。轻微超限但磁场很准的设计，可以排在误差大的可行设计之前。格式无效或数值计算未收敛的提交得 0 分，结果文件会写明原因。\n\n## 5. 装配偏差\n\n每个绕组包作为刚体独立偏移：三个方向的平移各在 ±10 mm 内均匀分布，转动向量的三个分量各在 ±1 mrad 内均匀分布，转动支点是中心线的弧长质心。每组 128 个工况。\n\n公开工况 `search_scenarios.npz` 供开发使用。正式成绩用另一组同分布、不公开的 128 个工况计算。\n\n## 6. 公开起点\n\n`coils_nominal.json` 是一套格式合法的起点线圈，来自 SIMSOPT 公开示例，按目标尺寸和场强缩放，截面旋转为零。它目前有两项不达标：绕组包的保守包络不满足最小 R ≥ 2.50 m 的要求，导体峰值磁场约 21.5 T。\n\n## 7. 提交格式\n\n提交 `/app/coils.json`，不超过 1 MiB：\n\n```json\n{\n  \"nfp\": 2,\n  \"order\": 8,\n  \"coils\": [\n    {\n      \"x\": [17 个数], \"y\": [17 个数], \"z\": [17 个数],\n      \"current\": 19167004.61524802,\n      \"rotation\": [5 个数]\n    },\n    { \"x\": [...], \"y\": [...], \"z\": [...], \"current\": 1.9e7, \"rotation\": [...] },\n    { \"x\": [...], \"y\": [...], \"z\": [...], \"current\": 1.9e7, \"rotation\": [...] },\n    { \"x\": [...], \"y\": [...], \"z\": [...], \"current\": 1.9e7, \"rotation\": [...] }\n  ]\n}\n```\n\n中心线用 t ∈ [0, 1) 参数化，每个坐标数组按 `[c0, s1, c1, s2, c2, …, s8, c8]` 排列：\n\n```text\nx(t) = c0 + Σ_{m=1..8} ( s_m sin(2πmt) + c_m cos(2πmt) )\n```\n\ny、z 同理，单位 m。`rotation` 为 `[a0, s1, c1, s2, c2]`，单位 rad：\n\n```text\nα(t) = a0 + s1 sin(2πt) + c1 cos(2πt) + s2 sin(4πt) + c2 cos(4πt)\n```\n\n第一条线圈的电流偏离参考值时按偏差连续扣分，电流方向沿 t 增加的方向。只接受数值，不接受额外键、重复键、NaN、Infinity 或布尔值。复制公开起点即可得到完整的合法格式。\n\n## 8. 在本地评估\n\n```bash\ncd /app\npython -m zipfile -e background.zip background\ncp coils_nominal.json coils.json\n/opt/stellarator/env/bin/python -I background/eval.py coils.json \\\n  --assets background/assets --public \\\n  --workdir runs/try-001 --reward-dir results/try-001\n```\n\n`--public` 使用公开工况。每次使用新的或空的工作目录。`results/try-001/details.json` 给出每项要求的数值与余量、每个工况的磁场误差和分数。探索时可以先用更少的求积点和部分工况快速迭代；SIMSOPT 的有限截面优化示例见 `/app/upstream/README.md`。\n\n## 9. 精确定义\n\n- **有限截面磁场**：每个截面用 N×N 个 Gauss–Legendre 节点上的细丝表示，细丝电流按求积权重分配；截面宽度沿旋转后的法向，高度沿旋转后的副法向。\n- **磁场误差的数值估计**：评估器在逐级加密的目标面网格、中心线采样和截面求积上计算 e_k，并对名义状态和每批最坏工况做错位加密复核。e_k 取最密一级的值加上各级之间的差，是保守估计；各级差别过大时判为未收敛。\n- **几何量**：用中心线 Fourier 系数给出采样间隙内的保守界；距离再扣除允许的装配位移和截面外接半径（0.3606 m）。\n- **导体峰值磁场**：在名义装配下，沿每条线圈 64 个截面，在截面边界外侧取点求场，外推回边界，并用加密一级复核。\n- **电磁线力**：名义装配下矩形截面的正则化自力加其余线圈的互作用力，取沿线最大值。这是机械载荷的代理量，不是结构应力。\n\n完整的数值设置以 `background/eval.py` 和 `background/assets/case.json` 为准。\n\n## 10. 延伸阅读\n\n- [SIMSOPT 有限截面线圈与优化示例](https://github.com/hiddenSymmetries/simsopt/blob/v1.10.6/examples/3_Advanced/stage_two_optimization_finitebuild.py)\n- [Singh 等：有限截面仿星器线圈优化](https://doi.org/10.1017/S0022377820000756)\n- [McGreivy、Hudson、Zhu：有限截面线圈优化](https://arxiv.org/abs/2009.00196)\n- [Wechsung 等：线圈误差与随机优化](https://arxiv.org/abs/2203.10164)\n- [Landreman–Paul：精确准对称磁场](https://doi.org/10.1103/PhysRevLett.128.035001)\n- [Landreman、Hurwitz、Antonsen：有限截面线圈的场与电磁力](https://doi.org/10.1088/1741-4326/adb04e)\n",
+  "contentGated": false,
+  "datasets": [],
+  "difficulty": 1,
+  "disc": null,
+  "figureData": {
+    "basePath": "figures/challenge-44c6e035",
+    "figures": []
+  },
+  "figures": [
+    0,
+    0
+  ],
+  "hackathon": null,
+  "hackathonSeasonId": null,
+  "hasContent": true,
+  "id": "challenge-44c6e035",
+  "origin": "community",
+  "resources": [
+    {
+      "description": "C0 全部固定条件、约束、误差分布及数值网格；有限截面与刚体装配协议",
+      "kind": "data",
+      "name": "physical-case"
+    },
+    {
+      "description": "公开中心线缩放到阶数8，附零初始截面旋转；不是已达标绕组",
+      "kind": "data",
+      "name": "fixed-target-and-real-coils"
+    },
+    {
+      "description": "原始公开 QA 目标；eval.py 按 case.json 固定倍率读取和缩放",
+      "kind": "data",
+      "name": "fixed-QA-target"
+    },
+    {
+      "description": "原始文件 SHA256、MIT 来源、长度和电流转换倍率",
+      "kind": "documentation",
+      "name": "fixed-data-provenance"
+    },
+    {
+      "description": "两组各 64 个公开独立刚体装配工况；errors 数组形状 128×16×6",
+      "kind": "data",
+      "name": "search-assembly-scenarios"
+    },
+    {
+      "description": "由维护源码生成的公开评估器、固定输入及说明；不包含正式保留误差向量",
+      "kind": "tool",
+      "name": "public-evaluator-background"
+    },
+    {
+      "description": "实际物理测量和正式评分门禁、输入路径及原生输出读取",
+      "kind": "documentation",
+      "name": "background-guide"
+    },
+    {
+      "description": "固定上游原生名义优化示例；题包不复制优化流程，使用前配置本题公开输入与条件",
+      "kind": "source",
+      "name": "upstream-native-examples",
+      "url": "https://github.com/hiddenSymmetries/simsopt/blob/9e027eac38028d57aa23777be52a781aa860e347/examples/2_Intermediate/stage_two_optimization.py"
+    },
+    {
+      "description": "固定上游随机优化位置；本题明确刚体误差，不能照搬示例形状误差",
+      "kind": "source",
+      "name": "upstream-stochastic-example",
+      "url": "https://github.com/hiddenSymmetries/simsopt/blob/9e027eac38028d57aa23777be52a781aa860e347/examples/2_Intermediate/stage_two_optimization_stochastic.py"
+    },
+    {
+      "description": "原生示例位置与目标尺度、误差、全环及验收条件中容易用错的事实",
+      "kind": "documentation",
+      "name": "native-example-usage"
+    },
+    {
+      "description": "随题固定输入和上游示例的 MIT 许可全文",
+      "kind": "documentation",
+      "name": "upstream-license"
+    },
+    {
+      "description": "固定镜像、原生依赖和正式工况身份",
+      "kind": "data",
+      "name": "runtime-identity"
+    },
+    {
+      "description": "维护中的Biot-Savart、Fourier曲线与原生诊断；固定原生依赖；已知答案与工程检查见任务报告",
+      "kind": "tool",
+      "name": "simsopt-maintained-package",
+      "url": "https://pypi.org/project/simsopt/1.10.6/"
+    },
+    {
+      "description": "线圈制造误差、随机优化与装配后调整的研究；阈值不直接照搬论文成绩",
+      "kind": "paper",
+      "name": "coil-error-paper",
+      "url": "https://arxiv.org/abs/2203.10164"
+    },
+    {
+      "description": "非平面线圈框架制造偏差的实测和统计建模；本题不采用此测量分布",
+      "kind": "paper",
+      "name": "actual-manufacturing-scan-paper",
+      "url": "https://arxiv.org/abs/2507.22516"
+    },
+    {
+      "description": "原生有限截面与旋转优化示例，按题目固定截面和装配规则配置",
+      "kind": "source",
+      "name": "native-finite-build-example",
+      "url": "https://github.com/hiddenSymmetries/simsopt/blob/v1.10.6/examples/3_Advanced/stage_two_optimization_finitebuild.py"
+    },
+    {
+      "dataset_id": "fusionx-c0-20261028",
+      "retrieval_ref": "wenyon://dataset/fusionx-c0-20261028@1",
+      "role": "task-public-data",
+      "source": "wenyon",
+      "version_id": "1"
+    }
+  ],
+  "reviewStatus": "approved",
+  "roundEndAt": null,
+  "roundId": null,
+  "roundSeq": null,
+  "roundStartAt": null,
+  "scoring": {
+    "expected_metrics": [],
+    "formula_summary": "No automated scoring; reviewers grade attempts manually.",
+    "grader_name": null,
+    "protocol_url": "/api/protocol",
+    "score_range": [
+      0,
+      100
+    ],
+    "strategy": "human_review_only"
+  },
+  "stars": 0,
+  "status": "open",
+  "submittedBy": "bohrium_21221",
+  "tags": [],
+  "title": "让理想磁场走向工程实现，提升实体线圈在装配偏差下的磁场精度",
+  "title_zh": null,
+  "visibility": "public"
+}

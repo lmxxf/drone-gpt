@@ -1,0 +1,164 @@
+{
+  "schema": "fusionx-t0-case/v0.1",
+  "state": "frozen",
+  "versions": {
+    "torax": "1.4.3",
+    "gymtorax": "1.1.1",
+    "onnx": "1.20.1",
+    "onnxruntime": "1.24.4",
+    "jax": "0.11.2",
+    "jaxlib": "0.11.2",
+    "fusion_surrogates": "0.4.6",
+    "pydantic": "2.13.5"
+  },
+  "horizon_s": 30.0,
+  "control_dt_s": 0.5,
+  "sensor_delay_s": 0.5,
+  "actuator_delay_s": 0.5,
+  "memory_dim": 32,
+  "actuator": {
+    "initial_MW": [
+      28.0,
+      15.0
+    ],
+    "lower_MW": [
+      0.0,
+      0.0
+    ],
+    "upper_MW": [
+      33.0,
+      20.0
+    ],
+    "ramp_MW_per_s": [
+      4.0,
+      4.0
+    ],
+    "deposition": [
+      [
+        0.25,
+        0.25
+      ],
+      [
+        0.15,
+        0.15
+      ]
+    ]
+  },
+  "numerics": {
+    "coarse": {
+      "n_rho": 200,
+      "fixed_dt_s": 0.005
+    },
+    "fine": {
+      "n_rho": 400,
+      "fixed_dt_s": 0.0025
+    },
+    "relative_objective_tolerance": 0.02,
+    "relative_power_tolerance": 0.02,
+    "safety_margins": {
+      "q_min": 0.02,
+      "q95": 0.02,
+      "beta_N": 0.02
+    },
+    "adaptive_dt": false,
+    "domain_check": "initial and every accepted native state; no claim between accepted states"
+  },
+  "constraints": {
+    "fusion_rms_relative_upper": 0.1,
+    "fusion_peak_relative_upper": 0.25,
+    "beta_N_upper": 2.8,
+    "temperature_keV_upper": 35.0,
+    "terminal_energy_deficit_fraction_upper": 0.02,
+    "terminal_energy_reference": "Final W_thermal_total of the same nominal fine native run that defines the target",
+    "fusion_energy_requirement": "Trapezoidal integral of P_fusion over all accepted native steps of the nominal fine reference run; no allowed production shortfall",
+    "fusion_target_source": "reference/baseline.json: shared measured reference_time_s/reference_fusion_W/required_fusion_energy_J"
+  },
+  "objective": "worst-case supplied heat: native trapezoidal E_external_total difference (auxiliary plus ohmic) plus accepted-step theta=1 right-endpoint integral of positive native pedestal heat; negative pedestal heat is not credited",
+  "observation": {
+    "channels": [
+      "P_fusion_W",
+      "W_thermal_total_J",
+      "T_e_axis_keV",
+      "T_i_axis_keV",
+      "n_e_axis_m3",
+      "q_min",
+      "q95",
+      "beta_N",
+      "n_e_line_average_m3"
+    ],
+    "noise_relative_sigma": [
+      0.01,
+      0.01,
+      0.005,
+      0.005,
+      0.005,
+      0.001,
+      0.001,
+      0.001,
+      0.005
+    ],
+    "noise_clip_sigma": 3.0,
+    "reference_preview_s": 0.0
+  },
+  "scenario_distribution": {
+    "Z_eff_initial": 1.6,
+    "Z_eff_after_event_range": [
+      1.55,
+      1.75
+    ],
+    "event_start_s_range": [
+      8.0,
+      16.0
+    ],
+    "event_ramp_s": 2.0,
+    "initial_temperature_multiplier_range": [
+      0.98,
+      1.02
+    ],
+    "development_seeds": [
+      2026100801,
+      2026100802,
+      2026100803,
+      2026100804
+    ],
+    "scoring_seeds_count": 16,
+    "scoring_seed_manifest_state": "frozen"
+  },
+  "upstream_config_sha256": "0b2ee110defc5979b78be8ecf5807a04d329fc71ad310873e176fecfd9712f79",
+  "geometry_sha256": "11d43613bf3b508b1b3d41c63ddefe642d725bf9de8dc0da230ffd3223400e08",
+  "transport_model_identifier": "qlknn_7_11_v1",
+  "definition_version": "thermal-feedback-supplied-heat-20261008-v4",
+  "scope": "Evolving electron/ion heat with prescribed time-independent electron-density and current backgrounds; native quasineutrality/composition determines main-ion and impurity densities; no particle/current control claim",
+  "background_admission": {
+    "q_min_lower": 1.0,
+    "q95_lower": 3.0,
+    "density_greenwald_upper": 1.0
+  },
+  "target_definition": {
+    "native_level": "fine",
+    "initial_temperature_multiplier": 1.0,
+    "Z_eff_constant": 1.6,
+    "physical_event": "none",
+    "controller": "reference/controller.onnx",
+    "power_trace_sampling_dt_s": 0.5,
+    "required_fusion_energy_quadrature": "trapezoidal over all accepted native steps, including t=0 and horizon",
+    "terminal_energy": "same native run final W_thermal_total",
+    "shared_between_levels_and_ensembles": true,
+    "provenance_required": [
+      "accepted-step trace",
+      "case hash",
+      "native config hash",
+      "controller hash",
+      "native runtime hashes"
+    ]
+  },
+  "energy_accounting": {
+    "external": "native E_external_total, independently checked against accepted-step trapezoidal power integral",
+    "pedestal_positive": "sum_k max(P_pedestal(t_k),0)*(t_k-t_{k-1}), k>=1, native theta=1 source coefficients",
+    "pedestal_negative": "reported separately; no objective credit",
+    "initial_state": "t0 source is diagnostic only, not an executed implicit step; trapezoidal positive source integral also reported",
+    "external_right_endpoint": "reported alongside native trapezoidal value and their signed difference; no claim of exact full-system energy conservation"
+  },
+  "native_config_sha256": "a5bab5a0f66c184380419886718d458999f10e833c4babdd6f15bc30f2e22b52",
+  "reference_calibration": "reference/baseline.json"
+}

@@ -1,0 +1,32 @@
+{
+  "challenge_id": "challenge-44c6e035",
+  "attempt_id": "111198",
+  "job_id": 85546,
+  "submit_status": "submitted",
+  "worker_acceptance_status": "queued",
+  "attempt_url": "https://play.bohrium.com/#challenge/challenge-44c6e035",
+  "bundle": "/home/lmxxf/work/drone/contest-20261125/challenge-44c6e035/playground-arm.zip",
+  "bundle_sha256": "a257036f9f3fae74808cea7eb0fd06a1f04cc2e30f734fcd3cfd57de399d38d7",
+  "submitted_native_trace_sha256": "6cc2c596af89091389ff6081382fec4eb00a16b20330d05190910c6fc5bfadc8",
+  "latest_status": "submitted",
+  "latest_scoring_state": {
+    "actionNeeded": false,
+    "displayScore": null,
+    "overrideInEffect": false,
+    "provisionalScore": null,
+    "scoreIsFinal": false,
+    "scoreMax": 100,
+    "state": "queued",
+    "workerStatus": "queued",
+    "zeroEvidence": {},
+    "zeroReason": null
+  },
+  "latest_scoring_queue": {
+    "notReceivedAfterMinutes": 30,
+    "queuePosition": 6183,
+    "stage": "queued",
+    "submittedAt": "2026-11-25T14:13:57+00:00",
+    "waitingSeconds": 28,
+    "workerReceivedAt": null
+  }
+}

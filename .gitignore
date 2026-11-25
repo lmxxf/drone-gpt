@@ -1,0 +1,16 @@
+# Virtual envs and caches
+.venv/
+__pycache__/
+*.pyc
+
+# Heavy downloaded datasets and intermediate run dumps
+contest-20261125/*/datasets/
+contest-20261125/*/workspace/runs/
+contest-20261125/*/workspace/results/
+contest-20261125/*/workspace/*.log
+contest-20261125/*/workspace/*.npz
+contest-20261125/*/workspace/iterhybrid.mat2cols
+contest-20261125/*/workspace/runtime-lock.json
+contest-20261125/*/workspace/reference/calibration/
+contest-20261125/*/session_trace.jsonl
+contest-20261125/*/*.zip

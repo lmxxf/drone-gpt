@@ -1,0 +1,88 @@
+{
+  "schema": "fusionx-task-background/v1",
+  "task": "fusionx/compact-vacuum-stellarator",
+  "source_root": "Frontend-Question/task_A",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3527,
+      "sha256": "682a367e62d6a3a8409faeeced32525f1463a563ff6adcf5137fa7c478e7a3ca",
+      "sources": [
+        "environment/background-guide.md"
+      ]
+    },
+    {
+      "path": "eval.py",
+      "bytes": 38318,
+      "sha256": "f8af3835fd88130409385891a695f21c774d0ce3d0c990fdf5ca5af7b6bcd83a",
+      "sources": [
+        "tests/eval.py"
+      ]
+    },
+    {
+      "path": "image-reference.json",
+      "bytes": 1169,
+      "sha256": "7468f961dfeb30c4eb4fa5425d6a86b148d785c80a9575cd680efb3ac5196cdd",
+      "sources": [
+        "task.toml",
+        "environment/resources.yaml"
+      ]
+    },
+    {
+      "path": "instruction.md",
+      "bytes": 31482,
+      "sha256": "a1c3359da751ba8905b2ed7c2eff1e39a4e3821f9ad722f653ac9e2d95c2adcb",
+      "sources": [
+        "instruction.md"
+      ]
+    },
+    {
+      "path": "reference_configurations/ESTELL.json",
+      "bytes": 2263,
+      "sha256": "994dc05300337a702cba3279b75590336093dfe8054e0ff693f0ac60f3e3c9b2",
+      "sources": [
+        "environment/reference_configurations/ESTELL.json"
+      ]
+    },
+    {
+      "path": "reference_configurations/QHS46.json",
+      "bytes": 1592,
+      "sha256": "b57af5a0322bccd99dfa1fd6c9ebf9582e78e1f783a8c955ff5743c3d07149e4",
+      "sources": [
+        "environment/reference_configurations/QHS46.json"
+      ]
+    },
+    {
+      "path": "reference_configurations/landreman_paul_2022_QA.json",
+      "bytes": 5863,
+      "sha256": "6e8e20bf16954cf7228bbecfba4c0dd91bc9c8a9d2b51feb1d86717b5fcd2699",
+      "sources": [
+        "environment/reference_configurations/landreman_paul_2022_QA.json"
+      ]
+    },
+    {
+      "path": "reference_configurations/landreman_paul_2022_QA_well.json",
+      "bytes": 5857,
+      "sha256": "8a692fc6654deb6c793a91a904f4f98091ad1dd7ee643c7687762af0ead52db5",
+      "sources": [
+        "environment/reference_configurations/landreman_paul_2022_QA_well.json"
+      ]
+    },
+    {
+      "path": "reference_configurations/landreman_paul_2022_QH_well.json",
+      "bytes": 5859,
+      "sha256": "bd366ca4ebd9554946956d2dd8f7695a00f5084b9cd1c60327843d8377cf4d3e",
+      "sources": [
+        "environment/reference_configurations/landreman_paul_2022_QH_well.json"
+      ]
+    },
+    {
+      "path": "resources.yaml",
+      "bytes": 13423,
+      "sha256": "4ade4f2e5e3776b5f750a6296d2c9e530d05944e70dadc3563175bca3ca8fc1b",
+      "sources": [
+        "environment/resources.yaml"
+      ]
+    }
+  ]
+}

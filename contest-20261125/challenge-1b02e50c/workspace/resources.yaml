@@ -1,0 +1,70 @@
+resources:
+- name: landreman-paul-2022-qa-well
+  kind: data
+  source: bundled
+  path: reference_configurations/landreman_paul_2022_QA_well.json
+  version: doi:10.5281/zenodo.5645413
+  checksum: sha256:8a692fc6654deb6c793a91a904f4f98091ad1dd7ee643c7687762af0ead52db5
+  format: boundary JSON
+  description: 真实公开磁边界；未预设它在本题中的 GX 热流。
+- name: vmec2000
+  kind: tool
+  source: preinstalled
+  command: /opt/stellarator/bin/xvmec2000
+  version: STELLOPT 780f5db557eacc7ca1160f4ca5a10a80922e4f26
+  description: A 基础镜像中的固定边界平衡程序。
+- name: neo
+  kind: tool
+  source: preinstalled
+  command: /opt/stellarator/bin/xneo
+  version: STELLOPT 780f5db557eacc7ca1160f4ca5a10a80922e4f26
+  description: 有效波纹度；沿用 A 中登记的 abs(iota) 手性修正。
+- name: simple
+  kind: tool
+  source: preinstalled
+  command: /opt/stellarator/bin/simple.x
+  version: SIMPLE 9269e8614e581ede8768e0bccb003b52db87e3be; libneo f1bef44e80c4508f04594d4d2ca120eaf17564f8
+  description: 确定性浮点构建的原生导心轨道追踪程序。
+- name: booz-xform-and-simsopt
+  kind: tool
+  source: preinstalled
+  command: /opt/stellarator/env/bin/python
+  version: booz_xform 21aff118735de4255641aa1b64fc7ab35e8c9767; simsopt 1.10.6
+  description: Boozer 变换和磁场梯度诊断；Python 物理环境随基础镜像固定。
+- name: gx
+  kind: tool
+  source: preinstalled
+  command: /opt/gx/bin/gx
+  version: b88d763a7e622b6597531bfabc8696161a791979
+  description: 已构建D0独立镜像中的原生CUDA程序；新GPU沙箱复测和完整参考待校准。
+- name: gx-geometry
+  kind: tool
+  source: preinstalled
+  command: /opt/stellarator/env/bin/python
+  version: d080a16deaca328aa970f4f0036e61786ac4d67e
+  description: 独立镜像预装的维护方VMEC通量管导出接口；模块gx_geometry。
+- name: nonlinear-optimization
+  kind: document
+  source: external
+  uri: https://arxiv.org/abs/2310.18842
+  description: 直接优化非线性仿星器湍流。
+- name: gx-validation
+  kind: document
+  source: external
+  uri: https://doi.org/10.1017/S0022377824000631
+  description: GX 模型、离散方法和原生验证。
+- name: geometry-and-itg-data
+  kind: data
+  source: external
+  uri: https://doi.org/10.5281/zenodo.14867776
+  description: 2025 年几何与 ITG 热流公开数据；用于研究与搜索，不替代新边界的原生评分。
+- name: geometry-and-itg-paper
+  kind: document
+  source: external
+  uri: https://arxiv.org/abs/2502.11657
+  description: 四个场线中心、75a 管长与典型梯度的来源。
+- name: gx-build-and-inputs
+  kind: document
+  source: external
+  uri: https://gx.readthedocs.io/en/latest/Install.html
+  description: 官方构建说明；具体输入接口以锁定提交的原生源码为准。

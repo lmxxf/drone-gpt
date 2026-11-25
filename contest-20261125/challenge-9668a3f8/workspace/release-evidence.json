@@ -1,0 +1,128 @@
+{
+  "known_zero_drive": {
+    "state": "passed",
+    "artifacts": [
+      {
+        "path": "validation/zero-drive.json",
+        "sha256": "06d3c9168506a24125842ec60bdfc9b402263eab05c51462f36af2d796c84707"
+      }
+    ]
+  },
+  "causality": {
+    "state": "passed",
+    "artifacts": [
+      {
+        "path": "validation/contracts.json",
+        "sha256": "4cfacea836c687a342911cbe754d0348b93b51c576297ad10d56523cdf061b9c"
+      }
+    ]
+  },
+  "native_baseline": {
+    "state": "passed",
+    "artifacts": [
+      {
+        "path": "reference/baseline.json",
+        "sha256": "8c76101e5ad08bf81f95d5db0bff2f0baf7e7ea1903d0986ae6c2c621d564680"
+      },
+      {
+        "path": "validation/ensemble.json",
+        "sha256": "a58c0f408482aa50b2a58588b5a3e6a0fe0c54eb0924933c2243dac1d655951b"
+      }
+    ]
+  },
+  "time_resolution": {
+    "state": "passed",
+    "artifacts": [
+      {
+        "path": "validation/time-resolution.json",
+        "sha256": "06d3b93035de9560da4257682802885543063de4a53ef9f8d53ed5a115e37545"
+      }
+    ]
+  },
+  "radial_resolution": {
+    "state": "passed",
+    "artifacts": [
+      {
+        "path": "validation/ensemble.json",
+        "sha256": "a58c0f408482aa50b2a58588b5a3e6a0fe0c54eb0924933c2243dac1d655951b"
+      },
+      {
+        "path": "validation/nominal-radial-resolution.json",
+        "sha256": "5ba1eedc01e31ed12c57affc463ed369284e260605595ca37c5f4434904e06f3"
+      }
+    ]
+  },
+  "transport_domain": {
+    "state": "passed",
+    "artifacts": [
+      {
+        "path": "validation/ensemble.json",
+        "sha256": "a58c0f408482aa50b2a58588b5a3e6a0fe0c54eb0924933c2243dac1d655951b"
+      }
+    ]
+  },
+  "energy_balance": {
+    "state": "passed",
+    "artifacts": [
+      {
+        "path": "validation/energy-budget.json",
+        "sha256": "ab9871fdbfb75104a4d92a3b6fd385d064bb7d84c1b17d99a02a532fa5924b12"
+      },
+      {
+        "path": "validation/pedestal-diagnostic-equivalence.json",
+        "sha256": "280792edf669ebd59e1b43aa9fb29b71a02b56eec0caad7920991804246c373e"
+      }
+    ]
+  },
+  "complete_oracle": {
+    "state": "passed",
+    "artifacts": [
+      {
+        "path": "validation/ensemble.json",
+        "sha256": "a58c0f408482aa50b2a58588b5a3e6a0fe0c54eb0924933c2243dac1d655951b"
+      },
+      {
+        "path": "validation/formal-verifier.json",
+        "sha256": "cd84d3098e5d4acce7428397b1a0cb1a16d3bc728d6ebf42472469af44e1e6c1"
+      }
+    ]
+  },
+  "runtime_isolation": {
+    "state": "passed",
+    "artifacts": [
+      {
+        "path": "validation/independent-replay.json",
+        "sha256": "6434f4d7de4d615bcb195dd96a7775d5145930a5e24278ec736a6ecb3012c21b"
+      },
+      {
+        "path": "validation/formal-verifier.json",
+        "sha256": "cd84d3098e5d4acce7428397b1a0cb1a16d3bc728d6ebf42472469af44e1e6c1"
+      }
+    ]
+  },
+  "definition_inputs": {
+    "state": "passed",
+    "artifacts": [
+      {
+        "path": "case.json",
+        "sha256": "62a01a79b1045bdf57edadb4a0840d8efea4f7fb4e755eaf3e2bab7f8ae8d767"
+      },
+      {
+        "path": "torax-config.json",
+        "sha256": "a5bab5a0f66c184380419886718d458999f10e833c4babdd6f15bc30f2e22b52"
+      },
+      {
+        "path": "qlknn-core-domain.json",
+        "sha256": "c24c8c0357ff618c58d59463b6d0d8c84db6f1da7ca7c30f4f48c02fc6fdaa8f"
+      },
+      {
+        "path": "iterhybrid.mat2cols",
+        "sha256": "11d43613bf3b508b1b3d41c63ddefe642d725bf9de8dc0da230ffd3223400e08"
+      },
+      {
+        "path": "reference/controller.onnx",
+        "sha256": "80b91e778e621eb959aab5af145b96ce1da64afb581a4335db9ca232776fe5b8"
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+--- /workspace/.devbox-local/fusion-question-quality/d0-eik-close-image-20261008/eik_files.original.py	2026-10-08 12:19:17.147676506 -0700
++++ /workspace/.devbox-local/fusion-question-quality/d0-eik-close-image-20261008/eik_files.py	2026-10-08 12:19:50.815045000 -0700
+@@ -226,3 +226,5 @@
+     for varname in vars:
+         var = file.createVariable(varname, np.float64, ("z",))
+         var[:] = 0.0
++
++    file.close()

@@ -1,0 +1,16 @@
+{
+  "case_sha256": "d79b918322b490004c2327127d513d7b5181ebeeb7ab833a8024c29d101abe16",
+  "evaluator_sha256": "8ecdca4deb4995d4a1c09fd26cd77ca1b1d695bd998378a91fdb2ab37090784d",
+  "scenarios_sha256": "9b0812e3437900627ee653a59a27005ffb74fb5898538a23f38d9e16a1d931be",
+  "submission_sha256": "ae29ab36d7e262ff83435afd5ff9ae8500979db7831daf2f8c5bb0a2e5a272eb",
+  "simsopt_version": "1.10.6",
+  "wall_seconds": 949.083741819486,
+  "state": "calibrated",
+  "J_ref_search": 0.0008788357674327196,
+  "reference_feasible": false,
+  "reference_violations": [
+    "pack_radius_min_lower_m"
+  ],
+  "measurement_sha256": "18dad5560c574f0fa4e213f671d093e73cbd6c407f53166017690a9b456eab2b",
+  "scope": "public search bank; full native measurement including dense shifted audit; local host, 8 OpenMP threads"
+}

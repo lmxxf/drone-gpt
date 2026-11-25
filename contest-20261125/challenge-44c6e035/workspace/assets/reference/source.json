@@ -1,0 +1,27 @@
+{
+  "repository": "https://github.com/hiddenSymmetries/simsopt",
+  "commit": "9e027eac38028d57aa23777be52a781aa860e347",
+  "target_path": "tests/test_files/input.LandremanPaul2021_QA",
+  "target_sha256": "4c6ba4bc391a69b5b6a5e84ff82df9b0ce92e20c42f2a47f89a9283fd5bc3458",
+  "coils_path": "examples/1_Simple/inputs/biot_savart_opt.json",
+  "coils_sha256": "e7e6705385f6d000605d5b911038b9116116a75d6dbf3cb587e26263d44db928",
+  "license": "MIT",
+  "conversion": "native loading; pad Fourier order 5 to 8 with zeros; scale lengths and ampere-turns",
+  "length_scale": 10.100286074838271,
+  "current_scale": 191.6700461524802,
+  "source_nominal_e": 0.0005095881557321693,
+  "source_brms_T": 0.3003684288820899,
+  "historical_filament_conversion_sha256": "bc63b73ddb2fad47605e29d7a9bfa499ab1097b6cc929fda385919fddd65baff",
+  "converted_coils_sha256": "361fc275ae491b302f8f536b9206659ec37471186600e0c5d0419f56c2401774",
+  "finite_build_extension": {
+    "version": "0.3.1",
+    "rotation_initialization": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scope": "Upstream optimized centerlines; newly added zero pack rotations are not an optimized finite-build design."
+  }
+}

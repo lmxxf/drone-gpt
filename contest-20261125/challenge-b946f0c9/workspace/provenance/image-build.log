@@ -1,0 +1,595 @@
+=== starting buildctl ===
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 14.03kB done
+#1 DONE 0.0s
+
+#2 [auth] dptech/ubuntu:pull token for registry.dp.tech
+#2 DONE 0.0s
+
+#3 [internal] load metadata for registry.dp.tech/dptech/ubuntu:22.04-py3.10
+#3 DONE 0.2s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.0s
+
+#5 [1/7] FROM registry.dp.tech/dptech/ubuntu:22.04-py3.10@sha256:04f22fc88163b7266697c2017e391f131c73a1f18139f5f80c016f68fd40f038
+#5 resolve registry.dp.tech/dptech/ubuntu:22.04-py3.10@sha256:04f22fc88163b7266697c2017e391f131c73a1f18139f5f80c016f68fd40f038 done
+#5 CACHED
+
+#6 [2/7] RUN /opt/mamba/bin/python -c 'import base64,zlib,json,pathlib;root=pathlib.Path("/opt/neutronics");files=json.loads(zlib.decompress(base64.b64decode("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")));[(root.joinpath(name).parent.mkdir(parents=True,exist_ok=True),root.joinpath(name).write_text(value)) for name,value in files.items()]'
+#6 DONE 0.3s
+
+#7 [3/7] RUN HTTPS_PROXY=http://pai.ga.op.xdptech.com:3128 HTTP_PROXY=http://pai.ga.op.xdptech.com:3128 CONDA_SSL_VERIFY=true /opt/mamba/bin/mamba create --yes --prefix /opt/neutronics/env --file /opt/neutronics/provenance/conda-explicit-md5.txt
+#7 1.018 
+#7 1.018 Downloading and Extracting Packages
+#7 1.018 
+ca-certificates-2026 |            |   0% 
+ca-certificates-2026 | #2         |  12% 
+ca-certificates-2026 | ########## | 100% 
+ca-certificates-2026 | ########## | 100% 
+#7 1.567 
+eigen-abi-3.4.0.100  |            |   0% 
+eigen-abi-3.4.0.100  | ########## | 100% 
+#7 1.651 
+libgomp-16.2.0       |            |   0% 
+libgomp-16.2.0       | #5         |  15% 
+libgomp-16.2.0       | ########## | 100% 
+libgomp-16.2.0       | ########## | 100% 
+#7 1.860 
+libzlib-1.3.2        |            |   0% 
+libzlib-1.3.2        | ########## | 100% 
+#7 1.944 
+python_abi-3.12      |            |   0% 
+python_abi-3.12      | ########## | 100% 
+#7 2.025 
+tzdata-2026c         |            |   0% 
+tzdata-2026c         | ########## | 100% 
+tzdata-2026c         | ########## | 100% 
+#7 2.138 
+_openmp_mutex-4.5    |            |   0% 
+_openmp_mutex-4.5    | ########## | 100% 
+#7 2.226 
+zlib-1.3.2           |            |   0% 
+zlib-1.3.2           | ########## | 100% 
+#7 2.314 
+zstd-1.5.7           |            |   0% 
+zstd-1.5.7           | #########5 |  95% 
+zstd-1.5.7           | ########## | 100% 
+#7 2.428 
+ld_impl_linux-64-2.4 |            |   0% 
+ld_impl_linux-64-2.4 | ######5    |  66% 
+ld_impl_linux-64-2.4 | ########## | 100% 
+#7 2.554 
+libgcc-16.2.0        |            |   0% 
+libgcc-16.2.0        | ####3      |  43% 
+libgcc-16.2.0        | ########## | 100% 
+#7 2.698 
+bzip2-1.0.8          |            |   0% 
+bzip2-1.0.8          | ########## | 100% 
+#7 2.790 
+c-ares-1.34.8        |            |   0% 
+c-ares-1.34.8        | ########## | 100% 
+#7 2.884 
+keyutils-1.6.3       |            |   0% 
+keyutils-1.6.3       | ########## | 100% 
+#7 2.979 
+libbrotlicommon-1.2. |            |   0% 
+libbrotlicommon-1.2. | ########## | 100% 
+#7 3.063 
+libdeflate-1.25      |            |   0% 
+libdeflate-1.25      | ########## | 100% 
+#7 3.151 
+libev-4.33           |            |   0% 
+libev-4.33           | ########## | 100% 
+#7 3.237 
+libexpat-2.8.5       |            |   0% 
+libexpat-2.8.5       | ########## | 100% 
+#7 3.318 
+libffi-3.7.0         |            |   0% 
+libffi-3.7.0         | ########## | 100% 
+#7 3.405 
+libgcc-ng-16.2.0     |            |   0% 
+libgcc-ng-16.2.0     | ########## | 100% 
+#7 3.487 
+libgfortran5-16.2.0  |            |   0% 
+libgfortran5-16.2.0  | ###5       |  36% 
+libgfortran5-16.2.0  | ########## | 100% 
+#7 3.679 
+libiconv-1.18        |            |   0% 
+libiconv-1.18        | ########## | 100% 
+libiconv-1.18        | ########## | 100% 
+#7 3.781 
+libjpeg-turbo-3.2.0  |            |   0% 
+libjpeg-turbo-3.2.0  | ########## | 100% 
+#7 3.877 
+liblzma-5.8.3        |            |   0% 
+liblzma-5.8.3        | ########## | 100% 
+#7 3.965 
+libnsl-2.0.1         |            |   0% 
+libnsl-2.0.1         | ########## | 100% 
+#7 4.050 
+libpng-1.6.59        |            |   0% 
+libpng-1.6.59        | ########## | 100% 
+#7 4.136 
+libsqlite-3.53.4     |            |   0% 
+libsqlite-3.53.4     | ########## | 100% 
+libsqlite-3.53.4     | ########## | 100% 
+#7 4.241 
+libstdcxx-16.2.0     |            |   0% 
+libstdcxx-16.2.0     | ####       |  40% 
+libstdcxx-16.2.0     | ########## | 100% 
+libstdcxx-16.2.0     | ########## | 100% 
+#7 4.479 
+libuuid-2.42.4       |            |   0% 
+libuuid-2.42.4       | ########## | 100% 
+#7 4.560 
+libwebp-base-1.6.0   |            |   0% 
+libwebp-base-1.6.0   | ########## | 100% 
+#7 4.651 
+libxcrypt-4.4.38     |            |   0% 
+libxcrypt-4.4.38     | ########## | 100% 
+#7 4.743 
+mcpl-lib-2.2.8       |            |   0% 
+mcpl-lib-2.2.8       | ########## | 100% 
+#7 4.829 
+ncurses-6.6          |            |   0% 
+ncurses-6.6          | ########## | 100% 
+ncurses-6.6          | ########## | 100% 
+#7 5.049 
+openssl-3.6.5        |            |   0% 
+openssl-3.6.5        | ########## | 100% 
+openssl-3.6.5        | ########## | 100% 
+#7 5.193 
+pthread-stubs-0.4    |            |   0% 
+pthread-stubs-0.4    | ########## | 100% 
+#7 5.277 
+tk-8.6.13            |            |   0% 
+tk-8.6.13            | #5         |  15% 
+tk-8.6.13            | ########## | 100% 
+#7 5.458 
+xorg-libxau-1.0.12   |            |   0% 
+xorg-libxau-1.0.12   | ########## | 100% 
+#7 5.554 
+xorg-libxdmcp-1.1.5  |            |   0% 
+xorg-libxdmcp-1.1.5  | ########## | 100% 
+#7 5.637 
+yaml-0.2.5           |            |   0% 
+yaml-0.2.5           | ########## | 100% 
+#7 5.721 
+lerc-4.2.0           |            |   0% 
+lerc-4.2.0           | ########## | 100% 
+#7 5.808 
+libaec-1.1.5         |            |   0% 
+libaec-1.1.5         | ########## | 100% 
+#7 5.903 
+libbrotlidec-1.2.0   |            |   0% 
+libbrotlidec-1.2.0   | ########## | 100% 
+#7 5.988 
+libbrotlienc-1.2.0   |            |   0% 
+libbrotlienc-1.2.0   | ########## | 100% 
+#7 6.075 
+libedit-3.1.20260512 |            |   0% 
+libedit-3.1.20260512 | ########## | 100% 
+#7 6.159 
+libfreetype6-2.14.3  |            |   0% 
+libfreetype6-2.14.3  | ########## | 100% 
+#7 6.247 
+libgfortran-16.2.0   |            |   0% 
+libgfortran-16.2.0   | ########## | 100% 
+#7 6.332 
+libnghttp2-1.68.1    |            |   0% 
+libnghttp2-1.68.1    | ########## | 100% 
+#7 6.424 
+libpython-3.12.15    |            |   0% 
+libpython-3.12.15    | ######9    |  70% 
+libpython-3.12.15    | ########## | 100% 
+#7 6.663 
+libssh2-1.11.1       |            |   0% 
+libssh2-1.11.1       | ########## | 100% 
+#7 6.759 
+libstdcxx-ng-16.2.0  |            |   0% 
+libstdcxx-ng-16.2.0  | ########## | 100% 
+#7 6.843 
+libxcb-1.17.0        |            |   0% 
+libxcb-1.17.0        | ########## | 100% 
+#7 6.937 
+libxml2-16-2.15.4    |            |   0% 
+libxml2-16-2.15.4    | ########## | 100% 
+#7 7.030 
+metis-5.1.0          |            |   0% 
+metis-5.1.0          | ########## | 100% 
+metis-5.1.0          | ########## | 100% 
+#7 7.180 
+ncrystal-lib-4.4.6   |            |   0% 
+ncrystal-lib-4.4.6   | ########## | 100% 
+ncrystal-lib-4.4.6   | ########## | 100% 
+#7 7.318 
+readline-8.3         |            |   0% 
+readline-8.3         | ########## | 100% 
+#7 7.407 
+zlib-ng-2.3.3        |            |   0% 
+zlib-ng-2.3.3        | ########## | 100% 
+#7 7.488 
+brotli-bin-1.2.0     |            |   0% 
+brotli-bin-1.2.0     | ########## | 100% 
+#7 7.569 
+krb5-1.22.2          |            |   0% 
+krb5-1.22.2          | ########## | 100% 
+krb5-1.22.2          | ########## | 100% 
+#7 7.696 
+libfreetype-2.14.3   |            |   0% 
+libfreetype-2.14.3   | ########## | 100% 
+#7 7.775 
+libopenblas-0.3.34   |            |   0% 
+libopenblas-0.3.34   | #########1 |  91% 
+libopenblas-0.3.34   | ########## | 100% 
+#7 7.972 
+libtiff-4.7.2        |            |   0% 
+libtiff-4.7.2        | ########## | 100% 
+#7 8.067 
+libxml2-2.15.4       |            |   0% 
+libxml2-2.15.4       | ########## | 100% 
+#7 8.150 
+python-3.12.15       |            |   0% 
+python-3.12.15       | ##1        |  22% 
+python-3.12.15       | ########2  |  83% 
+python-3.12.15       | ########## | 100% 
+#7 8.786 
+qhull-2020.2         |            |   0% 
+qhull-2020.2         | ########## | 100% 
+qhull-2020.2         | ########## | 100% 
+#7 8.886 
+asttokens-3.0.2      |            |   0% 
+asttokens-3.0.2      | ########## | 100% 
+#7 8.968 
+brotli-1.2.0         |            |   0% 
+brotli-1.2.0         | ########## | 100% 
+#7 9.052 
+cached_property-2.0. |            |   0% 
+cached_property-2.0. | ########## | 100% 
+#7 9.136 
+cpython-3.12.15      |            |   0% 
+cpython-3.12.15      | ########## | 100% 
+#7 9.218 
+cycler-0.12.1        |            |   0% 
+cycler-0.12.1        | ########## | 100% 
+#7 9.298 
+executing-2.2.1      |            |   0% 
+executing-2.2.1      | ########## | 100% 
+#7 9.376 
+freetype-2.14.3      |            |   0% 
+freetype-2.14.3      | ########## | 100% 
+#7 9.463 
+future-1.0.0         |            |   0% 
+future-1.0.0         | ########## | 100% 
+#7 9.562 
+kiwisolver-1.5.1     |            |   0% 
+kiwisolver-1.5.1     | ########## | 100% 
+#7 9.646 
+lcms2-2.19.1         |            |   0% 
+lcms2-2.19.1         | ########## | 100% 
+#7 9.734 
+libblas-3.11.0       |            |   0% 
+libblas-3.11.0       | ########## | 100% 
+#7 9.817 
+libcurl-8.21.0       |            |   0% 
+libcurl-8.21.0       | ########## | 100% 
+#7 9.906 
+libhwloc-2.15.0      |            |   0% 
+libhwloc-2.15.0      | ########## | 100% 
+libhwloc-2.15.0      | ########## | 100% 
+#7 10.04 
+libxslt-1.1.45       |            |   0% 
+libxslt-1.1.45       | ########## | 100% 
+#7 10.13 
+mcpl-core-2.2.8      |            |   0% 
+mcpl-core-2.2.8      | ########## | 100% 
+#7 10.21 
+munkres-1.1.4        |            |   0% 
+munkres-1.1.4        | ########## | 100% 
+#7 10.30 
+ncrystal-core-4.4.6  |            |   0% 
+ncrystal-core-4.4.6  | ########## | 100% 
+#7 10.38 
+njoy2016-2016.78     |            |   0% 
+njoy2016-2016.78     | ########## | 100% 
+njoy2016-2016.78     | ########## | 100% 
+#7 10.48 
+openjpeg-2.5.4       |            |   0% 
+openjpeg-2.5.4       | ########## | 100% 
+#7 10.57 
+packaging-26.3       |            |   0% 
+packaging-26.3       | ########## | 100% 
+#7 10.65 
+parso-0.8.7          |            |   0% 
+parso-0.8.7          | ########## | 100% 
+#7 10.74 
+psutil-7.2.2         |            |   0% 
+psutil-7.2.2         | ########## | 100% 
+#7 10.82 
+ptyprocess-0.7.0     |            |   0% 
+ptyprocess-0.7.0     | ########## | 100% 
+#7 10.91 
+pure_eval-0.2.4      |            |   0% 
+pure_eval-0.2.4      | ########## | 100% 
+#7 10.99 
+pygments-2.21.0      |            |   0% 
+pygments-2.21.0      | ########## | 100% 
+pygments-2.21.0      | ########## | 100% 
+#7 11.12 
+pyparsing-3.3.3      |            |   0% 
+pyparsing-3.3.3      | ########## | 100% 
+#7 11.20 
+pyyaml-6.0.3         |            |   0% 
+pyyaml-6.0.3         | ########## | 100% 
+#7 11.29 
+setuptools-84.0.0    |            |   0% 
+setuptools-84.0.0    | ########## | 100% 
+setuptools-84.0.0    | ########## | 100% 
+#7 11.40 
+six-1.17.0           |            |   0% 
+six-1.17.0           | ########## | 100% 
+#7 11.48 
+traitlets-5.16.1     |            |   0% 
+traitlets-5.16.1     | ########## | 100% 
+#7 11.57 
+typing_extensions-4. |            |   0% 
+typing_extensions-4. | ########## | 100% 
+#7 11.66 
+unicodedata2-18.0.0  |            |   0% 
+unicodedata2-18.0.0  | ########## | 100% 
+#7 11.75 
+cached-property-2.0. |            |   0% 
+cached-property-2.0. | ########## | 100% 
+#7 11.83 
+fonttools-4.66.1     |            |   0% 
+fonttools-4.66.1     | ########## | 100% 
+fonttools-4.66.1     | ########## | 100% 
+#7 12.01 
+hdf5-1.14.6          |            |   0% 
+hdf5-1.14.6          | ########## | 100% 
+hdf5-1.14.6          | ########## | 100% 
+#7 12.16 
+ipython_pygments_lex |            |   0% 
+ipython_pygments_lex | ########## | 100% 
+#7 12.24 
+jedi-0.20.0          |            |   0% 
+jedi-0.20.0          | ########## | 100% 
+jedi-0.20.0          | ########## | 100% 
+#7 12.72 
+libcblas-3.11.0      |            |   0% 
+libcblas-3.11.0      | ########## | 100% 
+#7 12.80 
+liblapack-3.11.0     |            |   0% 
+liblapack-3.11.0     | ########## | 100% 
+#7 12.89 
+lxml-6.1.3           |            |   0% 
+lxml-6.1.3           | #######8   |  78% 
+lxml-6.1.3           | ########## | 100% 
+#7 13.06 
+matplotlib-inline-0. |            |   0% 
+matplotlib-inline-0. | ########## | 100% 
+#7 13.14 
+pexpect-4.9.0        |            |   0% 
+pexpect-4.9.0        | ########## | 100% 
+#7 13.22 
+pillow-12.3.0        |            |   0% 
+pillow-12.3.0        | ########## | 100% 
+pillow-12.3.0        | ########## | 100% 
+#7 13.33 
+python-dateutil-2.9. |            |   0% 
+python-dateutil-2.9. | ########## | 100% 
+#7 13.42 
+python-gil-3.12.15   |            |   0% 
+python-gil-3.12.15   | ########## | 100% 
+#7 13.51 
+stack_data-0.6.3     |            |   0% 
+stack_data-0.6.3     | ########## | 100% 
+#7 13.60 
+tbb-2023.1.0         |            |   0% 
+tbb-2023.1.0         | ########## | 100% 
+#7 13.69 
+wheel-0.48.0         |            |   0% 
+wheel-0.48.0         | ########## | 100% 
+#7 13.78 
+_python_abi3_support |            |   0% 
+_python_abi3_support | ########## | 100% 
+#7 13.87 
+embree-4.4.1         |            |   0% 
+embree-4.4.1         | ###        |  31% 
+embree-4.4.1         | ########## | 100% 
+embree-4.4.1         | ########## | 100% 
+#7 14.18 
+moab-5.6.0           |            |   0% 
+moab-5.6.0           | ########8  |  89% 
+moab-5.6.0           | ########## | 100% 
+#7 14.34 
+numpy-2.5.3          |            |   0% 
+numpy-2.5.3          | #####9     |  59% 
+numpy-2.5.3          | ########## | 100% 
+#7 14.67 
+pip-26.2.1           |            |   0% 
+pip-26.2.1           | ########## | 100% 
+pip-26.2.1           | ########## | 100% 
+#7 14.80 
+contourpy-1.4.0      |            |   0% 
+contourpy-1.4.0      | ########## | 100% 
+#7 14.89 
+double-down-1.1.0    |            |   0% 
+double-down-1.1.0    | ########## | 100% 
+#7 14.97 
+h5py-3.16.0          |            |   0% 
+h5py-3.16.0          | ########## | 100% 
+h5py-3.16.0          | ########## | 100% 
+#7 15.09 
+mcpl-python-2.2.8    |            |   0% 
+mcpl-python-2.2.8    | ########## | 100% 
+#7 15.18 
+ncrystal-python-4.4. |            |   0% 
+ncrystal-python-4.4. | ########## | 100% 
+#7 15.27 
+pandas-3.0.6         |            |   0% 
+pandas-3.0.6         | #3         |  13% 
+pandas-3.0.6         | ########## | 100% 
+pandas-3.0.6         | ########## | 100% 
+#7 15.81 
+python-abi3-3.12     |            |   0% 
+python-abi3-3.12     | ########## | 100% 
+#7 15.90 
+scipy-1.18.1         |            |   0% 
+scipy-1.18.1         | ###4       |  35% 
+scipy-1.18.1         | ########## | 100% 
+scipy-1.18.1         | ########## | 100% 
+#7 16.36 
+uncertainties-3.2.3  |            |   0% 
+uncertainties-3.2.3  | ########## | 100% 
+#7 16.45 
+dagmc-3.2.4          |            |   0% 
+dagmc-3.2.4          | ##4        |  24% 
+dagmc-3.2.4          | ########## | 100% 
+dagmc-3.2.4          | ########## | 100% 
+#7 16.75 
+endf-0.1.12          |            |   0% 
+endf-0.1.12          | ########## | 100% 
+#7 16.84 
+matplotlib-base-3.10 |            |   0% 
+matplotlib-base-3.10 | #####6     |  57% 
+matplotlib-base-3.10 | ########## | 100% 
+#7 17.12 
+mcpl-2.2.8           |            |   0% 
+mcpl-2.2.8           | ########## | 100% 
+#7 17.20 
+ncrystal-4.4.6       |            |   0% 
+ncrystal-4.4.6       | ########## | 100% 
+#7 17.28 
+wcwidth-0.9.2        |            |   0% 
+wcwidth-0.9.2        | ########## | 100% 
+#7 17.37 
+prompt-toolkit-3.0.5 |            |   0% 
+prompt-toolkit-3.0.5 | ########## | 100% 
+#7 17.47 
+ipython-9.17.1       |            |   0% 
+ipython-9.17.1       | ########## | 100% 
+ipython-9.17.1       | ########## | 100% 
+#7 17.57 
+openmc-0.16.0        |            |   0% 
+openmc-0.16.0        | ########4  |  84% 
+openmc-0.16.0        | ########## | 100% 
+#7 17.91 Preparing transaction: ...working... done
+#7 18.75 Verifying transaction: ...working... done
+#7 21.86 Executing transaction: ...working... done
+#7 DONE 29.0s
+
+#8 [4/7] RUN HTTPS_PROXY=http://pai.ga.op.xdptech.com:3128 HTTP_PROXY=http://pai.ga.op.xdptech.com:3128 CONDA_SSL_VERIFY=true /opt/neutronics/env/bin/python /opt/neutronics/install/download.py
+#8 2.135 verified ENDFB-8.0-NNDC_He4.h5 2361ccfb51592cc659861849b5dc0ea47101dfca8f4923454954f63c436d06dc
+#8 3.987 verified ENDFB-8.0-NNDC_Li6.h5 3e85c1a46c73ddf8e49f14ac3da0f48b9540bcc1fc17a55f9582fbe605212e7a
+#8 5.582 verified ENDFB-8.0-NNDC_Li7.h5 c0f0908c935dffc6f9f4745cac0fde06bd3efbdf1092a1b570c793eaebeafc9c
+#8 7.625 verified ENDFB-8.0-NNDC_Be9.h5 a5ac958413c16b11ff42f5a362abeecdcbc4802e5cf69c3708ff9a1d97c821fa
+#8 10.15 verified ENDFB-8.0-NNDC_O16.h5 86d87c47de9260c887c3574a0d12fefc365326931934e4d24c081719a5379b3a
+#8 12.35 verified ENDFB-8.0-NNDC_O17.h5 111c44db0d7b7249f1d0050f3361b1be6d66555bf1dd10da688ad5c6b95db991
+#8 14.13 verified ENDFB-8.0-NNDC_O18.h5 f116042acb3d5e281b99518a9793eff61307679155b211a24122812cf5f7207f
+#8 16.75 verified ENDFB-8.0-NNDC_Si28.h5 2b8a5195649c2d7bdfd503db933a6c7b39cca4945daca15023c8854ec1ed82f8
+#8 19.07 verified ENDFB-8.0-NNDC_Si29.h5 9e0b2597cec49565801e98021e541f7e5eb1d437621b23c81feaee781da38958
+#8 21.16 verified ENDFB-8.0-NNDC_Si30.h5 d4b1b000312cf1ee3818e6ef86e24f5a9f640f97be0e1416b118d44b2a56b53a
+#8 25.42 verified ENDFB-8.0-NNDC_Fe54.h5 4ba04cd0c8810e3c8efbb775e2cb4c52292819c9a58578a0e1dd4c4974bf1ff0
+#8 30.43 verified ENDFB-8.0-NNDC_Fe56.h5 c9757aeb4dbf0cc560a04cd4ba395dc2d797d8dce2c2bc5f62d177b5be8561eb
+#8 33.42 verified ENDFB-8.0-NNDC_Fe57.h5 5568f95057b38abae110cd8876597aedb118b6e96eb4cdda6f0c16544a8f5427
+#8 36.15 verified ENDFB-8.0-NNDC_Fe58.h5 30c7672fde0f672f5cdad33e2ec54610f59fc82852fa0416301d608a772f6550
+#8 38.60 verified ENDFB-8.0-NNDC_W180.h5 927a3385b325156c765a832e82e8564a71d751d32bf6d1d3421eb94ceee4c2f0
+#8 42.49 verified ENDFB-8.0-NNDC_W182.h5 60b686215134788ee3d050e3dc7b5b27f4e8240e2641bed4ea9f2a3502c9ded7
+#8 47.88 verified ENDFB-8.0-NNDC_W183.h5 5c434b6c49880e0653ad39672274be93e3109ee508bb86a0f100d1718430da73
+#8 50.54 verified ENDFB-8.0-NNDC_W184.h5 a2e97d5db19214f96848a7b94fafa44d48766b2776cac8b860bf0e63dd81142c
+#8 53.44 verified ENDFB-8.0-NNDC_W186.h5 ce253a17f396dd5d86833ad4f5a51a2032c418fa00de18357544a1757622ec0b
+#8 53.88 verified retry-0.9.2-py2.py3-none-any.whl ccddf89761fa2c726ab29391837d4327f819ea14d244c232a1d24c67a2f98606
+#8 54.41 verified py-1.11.0-py2.py3-none-any.whl 607c53218732647dff4acdfcd50cb62615cedf612e72d1724fb1a0cc6405b378
+#8 54.85 verified decorator-5.3.1-py3-none-any.whl f47fe6fdbd2edd623ecfe36875d37aba411624e2670dd395dddae1358689bb3c
+#8 55.26 verified openmc_data_downloader-0.6.2-py3-none-any.whl 1965211b9dd7877b551d4e7e4e5a1335be7db765c3b441214e8942f606ab51c3
+#8 DONE 55.4s
+
+#9 [5/7] RUN /opt/neutronics/env/bin/python -m pip install --no-deps --no-index /opt/neutronics/install/wheels/*.whl
+#9 0.365 Processing ./opt/neutronics/install/wheels/decorator-5.3.1-py3-none-any.whl
+#9 0.370 Processing ./opt/neutronics/install/wheels/openmc_data_downloader-0.6.2-py3-none-any.whl
+#9 0.373 Processing ./opt/neutronics/install/wheels/py-1.11.0-py2.py3-none-any.whl
+#9 0.375 Processing ./opt/neutronics/install/wheels/retry-0.9.2-py2.py3-none-any.whl
+#9 0.388 Installing collected packages: retry, py, openmc-data-downloader, decorator
+#9 0.493 
+#9 0.497 Successfully installed decorator-5.3.1 openmc-data-downloader-0.6.2 py-1.11.0 retry-0.9.2
+#9 0.497 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+#9 DONE 0.6s
+
+#10 [6/7] RUN /opt/neutronics/env/bin/python -c "import openmc; assert openmc.__version__ == '0.16.0'; print(openmc.__version__)" && /opt/neutronics/env/bin/openmc --version && rm -rf /opt/neutronics/install && /opt/mamba/bin/mamba clean --all --yes
+#10 1.238 0.16.0
+#10 1.351 OpenMC version 0.16.0
+#10 1.351 Commit hash: 617d35a5063c57796b43428bc401e627d2011046
+#10 1.351 Copyright (c) 2011-2026 MIT, UChicago Argonne LLC, and contributors
+#10 1.351 MIT/X license at <https://docs.openmc.org/en/latest/license.html>
+#10 1.351 Build type:            Release
+#10 1.351 Compiler ID:           GNU 15.3.0
+#10 1.351 MPI enabled:           no
+#10 1.351 Parallel HDF5 enabled: no
+#10 1.351 PNG support:           yes
+#10 1.351 DAGMC support:         yes
+#10 1.351 libMesh support:       no
+#10 1.351 Coverage testing:      no
+#10 1.351 Profiling flags:       no
+#10 1.351 UWUW support:          no
+#10 1.351 Strict FP:             no
+#10 3.731 Will remove 201 (255.9 MB) tarball(s).
+#10 3.731 Will remove 1 index cache(s).
+#10 3.731 Will remove 23 (4.5 MB) package(s).
+#10 3.731 There are no tempfile(s) to remove.
+#10 3.731 There are no logfile(s) to remove.
+#10 DONE 3.8s
+
+#11 [7/7] WORKDIR /app
+#11 DONE 0.0s
+
+#12 exporting to image
+#12 exporting layers
+#12 exporting layers 44.0s done
+#12 ...
+
+#13 [auth] dptech/dp/native/prod-4727808/4650601/fusionx-n0-openmc0160-endfb8:pull,push token for registry.dp.tech
+#13 DONE 0.0s
+
+#12 exporting to image
+#12 exporting manifest sha256:cdaa2b6889ad6c25905da642b48c196cd72c1f574c34ca05d7045988739b8f8a done
+#12 exporting config sha256:27b9c1261d79e07b304e01e6d959fd4e92bf5ff8f51527764bdcbdf1c401594a done
+#12 pushing layers
+#12 ...
+
+#14 [auth] dptech/dp/native/prod-4727808/4650601/fusionx-c0-rigid-coils-20261008-v03:pull dptech/dp/native/prod-4727808/4650601/fusionx-n0-openmc0160-endfb8:pull,push token for registry.dp.tech
+#14 DONE 0.0s
+
+#12 exporting to image
+#12 pushing layers 4.8s done
+#12 pushing manifest for registry.dp.tech/dptech/dp/native/prod-4727808/4650601/fusionx-n0-openmc0160-endfb8:20261008-build1@sha256:cdaa2b6889ad6c25905da642b48c196cd72c1f574c34ca05d7045988739b8f8a
+#12 pushing manifest for registry.dp.tech/dptech/dp/native/prod-4727808/4650601/fusionx-n0-openmc0160-endfb8:20261008-build1@sha256:cdaa2b6889ad6c25905da642b48c196cd72c1f574c34ca05d7045988739b8f8a 0.5s done
+#12 DONE 49.2s
+
+=== BUILD SUMMARY ===
+image_id=172839 user_id=4650601 tag=20261008-build1 repo=prod-4727808/4650601/fusionx-n0-openmc0160-endfb8
+image_path=registry.dp.tech/dptech/dp/native/prod-4727808/4650601/fusionx-n0-openmc0160-endfb8:20261008-build1
+outcome=success
+start_time=2026-10-08T21:40:23+08:00
+end_time=2026-10-08T21:42:57+08:00
+total_duration_sec=155
+cache_ref=registry.dp.tech/dptech/dp/native/prod-4727808/4650601/fusionx-n0-openmc0160-endfb8:buildkit-cache
+cache_import=disabled
+cache_export=false
+stages:
+  #1 (internal) DONE 0.0s
+  #2 (internal) DONE 0.0s
+  #3 (internal) DONE 0.2s
+  #4 (internal) DONE 0.0s
+  #6 [2/7] RUN /opt/mamba/bin/python -c 'import base64,zlib,json,pathlib;root=pathlib.Path("/opt/neutronics");files=json.loads(zlib.decompress(base64.b64decode("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")));[(root.joinpath(name).parent.mkdir(parents=True,exist_ok=True),root.joinpath(name).write_text(value)) for name,value in files.items()]' DONE 0.3s
+  #7 [3/7] RUN HTTPS_PROXY=http://pai.ga.op.xdptech.com:3128 HTTP_PROXY=http://pai.ga.op.xdptech.com:3128 CONDA_SSL_VERIFY=true /opt/mamba/bin/mamba create --yes --prefix /opt/neutronics/env --file /opt/neutronics/provenance/conda-explicit-md5.txt DONE 29.0s
+  #8 [4/7] RUN HTTPS_PROXY=http://pai.ga.op.xdptech.com:3128 HTTP_PROXY=http://pai.ga.op.xdptech.com:3128 CONDA_SSL_VERIFY=true /opt/neutronics/env/bin/python /opt/neutronics/install/download.py DONE 55.4s
+  #9 [5/7] RUN /opt/neutronics/env/bin/python -m pip install --no-deps --no-index /opt/neutronics/install/wheels/*.whl DONE 0.6s
+  #10 [6/7] RUN /opt/neutronics/env/bin/python -c "import openmc; assert openmc.__version__ == '0.16.0'; print(openmc.__version__)" && /opt/neutronics/env/bin/openmc --version && rm -rf /opt/neutronics/install && /opt/mamba/bin/mamba clean --all --yes DONE 3.8s
+  #11 [7/7] WORKDIR /app DONE 0.0s
+  #12 (internal) DONE 49.2s
+  #13 (internal) DONE 0.0s
+  #14 (internal) DONE 0.0s
+=== END BUILD SUMMARY ===

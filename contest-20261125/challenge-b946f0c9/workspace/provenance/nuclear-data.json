@@ -1,0 +1,676 @@
+{
+  "library_label": "ENDFB-8.0-NNDC",
+  "repository": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC",
+  "repository_commit": "466ab3042f70e60b693fbbd3f6f15f30dba7cd1d",
+  "downloader_version": "0.6.2",
+  "downloader_wheel_sha256": "1965211b9dd7877b551d4e7e4e5a1335be7db765c3b441214e8942f606ab51c3",
+  "processing_provenance": "Repository upload.py identifies download_nndc b8.0; the exact processing tool version is not recorded there. No equivalence to the OpenMC official NJOY2016.68 archive is assumed.",
+  "nuclear_data_uncertainty": "Data library fixed for comparative scoring; covariance and processing uncertainty are outside sampling CI.",
+  "neutron_files": [
+    {
+      "isotope": "He4",
+      "path": "/opt/neutronics/data/ENDFB-8.0-NNDC_He4.h5",
+      "bytes": 295776,
+      "sha256": "2361ccfb51592cc659861849b5dc0ea47101dfca8f4923454954f63c436d06dc",
+      "git_blob_sha1": "f0204d18e1d8fe1f658a4a1c0edd5fe312203809",
+      "upstream_path": "h5_files/neutron/He4.h5",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/He4.h5",
+      "temperature_keys": [
+        "1200K",
+        "2500K",
+        "250K",
+        "294K",
+        "600K",
+        "900K"
+      ],
+      "temperature_K": [
+        1200.023218969711,
+        2499.9613389676515,
+        249.99613389676514,
+        293.59430848016336,
+        600.0000049667337,
+        900.0000074501006
+      ],
+      "hdf5_format_version": [
+        3,
+        0
+      ],
+      "nuclide_attributes": {
+        "A": 4,
+        "Z": 2,
+        "atomic_weight_ratio": 3.968219,
+        "metastable": 0
+      }
+    },
+    {
+      "isotope": "Li6",
+      "path": "/opt/neutronics/data/ENDFB-8.0-NNDC_Li6.h5",
+      "bytes": 1386016,
+      "sha256": "3e85c1a46c73ddf8e49f14ac3da0f48b9540bcc1fc17a55f9582fbe605212e7a",
+      "git_blob_sha1": "1cadddd5be1b90dc59e480c40e0afb0ff1094dd2",
+      "upstream_path": "h5_files/neutron/Li6.h5",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/Li6.h5",
+      "temperature_keys": [
+        "1200K",
+        "2500K",
+        "250K",
+        "294K",
+        "600K",
+        "900K"
+      ],
+      "temperature_K": [
+        1200.023218969711,
+        2499.9613389676515,
+        249.99613389676514,
+        293.59430848016336,
+        600.0000049667337,
+        900.0000074501006
+      ],
+      "hdf5_format_version": [
+        3,
+        0
+      ],
+      "nuclide_attributes": {
+        "A": 6,
+        "Z": 3,
+        "atomic_weight_ratio": 5.961817,
+        "metastable": 0
+      }
+    },
+    {
+      "isotope": "Li7",
+      "path": "/opt/neutronics/data/ENDFB-8.0-NNDC_Li7.h5",
+      "bytes": 1198568,
+      "sha256": "c0f0908c935dffc6f9f4745cac0fde06bd3efbdf1092a1b570c793eaebeafc9c",
+      "git_blob_sha1": "e91a9021fa27e53b0a0eca73ce1443b23ae56de5",
+      "upstream_path": "h5_files/neutron/Li7.h5",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/Li7.h5",
+      "temperature_keys": [
+        "1200K",
+        "2500K",
+        "250K",
+        "294K",
+        "600K",
+        "900K"
+      ],
+      "temperature_K": [
+        1200.023218969711,
+        2499.9613389676515,
+        249.99613389676514,
+        293.59430848016336,
+        600.0000049667337,
+        900.0000074501006
+      ],
+      "hdf5_format_version": [
+        3,
+        0
+      ],
+      "nuclide_attributes": {
+        "A": 7,
+        "Z": 3,
+        "atomic_weight_ratio": 6.955732,
+        "metastable": 0
+      }
+    },
+    {
+      "isotope": "Be9",
+      "path": "/opt/neutronics/data/ENDFB-8.0-NNDC_Be9.h5",
+      "bytes": 1345792,
+      "sha256": "a5ac958413c16b11ff42f5a362abeecdcbc4802e5cf69c3708ff9a1d97c821fa",
+      "git_blob_sha1": "f0242dbd78ece394acbdbd5bc0a5c722d27d099f",
+      "upstream_path": "h5_files/neutron/Be9.h5",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/Be9.h5",
+      "temperature_keys": [
+        "1200K",
+        "2500K",
+        "250K",
+        "294K",
+        "600K",
+        "900K"
+      ],
+      "temperature_K": [
+        1200.023218969711,
+        2499.9613389676515,
+        249.99613389676514,
+        293.59430848016336,
+        600.0000049667337,
+        900.0000074501006
+      ],
+      "hdf5_format_version": [
+        3,
+        0
+      ],
+      "nuclide_attributes": {
+        "A": 9,
+        "Z": 4,
+        "atomic_weight_ratio": 8.93478,
+        "metastable": 0
+      }
+    },
+    {
+      "isotope": "O16",
+      "path": "/opt/neutronics/data/ENDFB-8.0-NNDC_O16.h5",
+      "bytes": 8650648,
+      "sha256": "86d87c47de9260c887c3574a0d12fefc365326931934e4d24c081719a5379b3a",
+      "git_blob_sha1": "6ef4356319093f61496614a2375926358e13f5de",
+      "upstream_path": "h5_files/neutron/O16.h5",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/O16.h5",
+      "temperature_keys": [
+        "1200K",
+        "2500K",
+        "250K",
+        "294K",
+        "600K",
+        "900K"
+      ],
+      "temperature_K": [
+        1200.023218969711,
+        2499.9613389676515,
+        249.99613389676514,
+        293.59430848016336,
+        600.0000049667337,
+        900.0000074501006
+      ],
+      "hdf5_format_version": [
+        3,
+        0
+      ],
+      "nuclide_attributes": {
+        "A": 16,
+        "Z": 8,
+        "atomic_weight_ratio": 15.85751,
+        "metastable": 0
+      }
+    },
+    {
+      "isotope": "O17",
+      "path": "/opt/neutronics/data/ENDFB-8.0-NNDC_O17.h5",
+      "bytes": 741832,
+      "sha256": "111c44db0d7b7249f1d0050f3361b1be6d66555bf1dd10da688ad5c6b95db991",
+      "git_blob_sha1": "36dbe64d225e282cc8b6822aa754dbb321909835",
+      "upstream_path": "h5_files/neutron/O17.h5",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/O17.h5",
+      "temperature_keys": [
+        "1200K",
+        "2500K",
+        "250K",
+        "294K",
+        "600K",
+        "900K"
+      ],
+      "temperature_K": [
+        1200.023218969711,
+        2499.9613389676515,
+        249.99613389676514,
+        293.59430848016336,
+        600.0000049667337,
+        900.0000074501006
+      ],
+      "hdf5_format_version": [
+        3,
+        0
+      ],
+      "nuclide_attributes": {
+        "A": 17,
+        "Z": 8,
+        "atomic_weight_ratio": 16.8531,
+        "metastable": 0
+      }
+    },
+    {
+      "isotope": "O18",
+      "path": "/opt/neutronics/data/ENDFB-8.0-NNDC_O18.h5",
+      "bytes": 645416,
+      "sha256": "f116042acb3d5e281b99518a9793eff61307679155b211a24122812cf5f7207f",
+      "git_blob_sha1": "a0cd5d9c0a355d452b4af27395fd973195e8d673",
+      "upstream_path": "h5_files/neutron/O18.h5",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/O18.h5",
+      "temperature_keys": [
+        "1200K",
+        "2500K",
+        "250K",
+        "294K",
+        "600K",
+        "900K"
+      ],
+      "temperature_K": [
+        1200.023218969711,
+        2499.9613389676515,
+        249.99613389676514,
+        293.59430848016336,
+        600.0000049667337,
+        900.0000074501006
+      ],
+      "hdf5_format_version": [
+        3,
+        0
+      ],
+      "nuclide_attributes": {
+        "A": 18,
+        "Z": 8,
+        "atomic_weight_ratio": 17.8445,
+        "metastable": 0
+      }
+    },
+    {
+      "isotope": "Si28",
+      "path": "/opt/neutronics/data/ENDFB-8.0-NNDC_Si28.h5",
+      "bytes": 8036808,
+      "sha256": "2b8a5195649c2d7bdfd503db933a6c7b39cca4945daca15023c8854ec1ed82f8",
+      "git_blob_sha1": "f928ca530284fcf6d84895e1baa041f3b9547aef",
+      "upstream_path": "h5_files/neutron/Si28.h5",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/Si28.h5",
+      "temperature_keys": [
+        "1200K",
+        "2500K",
+        "250K",
+        "294K",
+        "600K",
+        "900K"
+      ],
+      "temperature_K": [
+        1200.023218969711,
+        2499.9613389676515,
+        249.99613389676514,
+        293.59430848016336,
+        600.0000049667337,
+        900.0000074501006
+      ],
+      "hdf5_format_version": [
+        3,
+        0
+      ],
+      "nuclide_attributes": {
+        "A": 28,
+        "Z": 14,
+        "atomic_weight_ratio": 27.737,
+        "metastable": 0
+      }
+    },
+    {
+      "isotope": "Si29",
+      "path": "/opt/neutronics/data/ENDFB-8.0-NNDC_Si29.h5",
+      "bytes": 7794520,
+      "sha256": "9e0b2597cec49565801e98021e541f7e5eb1d437621b23c81feaee781da38958",
+      "git_blob_sha1": "71ab8ee02fabfe711c7c3de8922abe96e6b738a8",
+      "upstream_path": "h5_files/neutron/Si29.h5",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/Si29.h5",
+      "temperature_keys": [
+        "1200K",
+        "2500K",
+        "250K",
+        "294K",
+        "600K",
+        "900K"
+      ],
+      "temperature_K": [
+        1200.023218969711,
+        2499.9613389676515,
+        249.99613389676514,
+        293.59430848016336,
+        600.0000049667337,
+        900.0000074501006
+      ],
+      "hdf5_format_version": [
+        3,
+        0
+      ],
+      "nuclide_attributes": {
+        "A": 29,
+        "Z": 14,
+        "atomic_weight_ratio": 28.728,
+        "metastable": 0
+      }
+    },
+    {
+      "isotope": "Si30",
+      "path": "/opt/neutronics/data/ENDFB-8.0-NNDC_Si30.h5",
+      "bytes": 4892920,
+      "sha256": "d4b1b000312cf1ee3818e6ef86e24f5a9f640f97be0e1416b118d44b2a56b53a",
+      "git_blob_sha1": "eedbd1ee0e0c8b8a9241c7a1855a855d396d7ed0",
+      "upstream_path": "h5_files/neutron/Si30.h5",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/Si30.h5",
+      "temperature_keys": [
+        "1200K",
+        "2500K",
+        "250K",
+        "294K",
+        "600K",
+        "900K"
+      ],
+      "temperature_K": [
+        1200.023218969711,
+        2499.9613389676515,
+        249.99613389676514,
+        293.59430848016336,
+        600.0000049667337,
+        900.0000074501006
+      ],
+      "hdf5_format_version": [
+        3,
+        0
+      ],
+      "nuclide_attributes": {
+        "A": 30,
+        "Z": 14,
+        "atomic_weight_ratio": 29.716,
+        "metastable": 0
+      }
+    },
+    {
+      "isotope": "Fe54",
+      "path": "/opt/neutronics/data/ENDFB-8.0-NNDC_Fe54.h5",
+      "bytes": 44368272,
+      "sha256": "4ba04cd0c8810e3c8efbb775e2cb4c52292819c9a58578a0e1dd4c4974bf1ff0",
+      "git_blob_sha1": "3287ab62483291aa40a476f1ab60a2d6238ec925",
+      "upstream_path": "h5_files/neutron/Fe54.h5",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/Fe54.h5",
+      "temperature_keys": [
+        "1200K",
+        "2500K",
+        "250K",
+        "294K",
+        "600K",
+        "900K"
+      ],
+      "temperature_K": [
+        1200.023218969711,
+        2499.9613389676515,
+        249.99613389676514,
+        293.59430848016336,
+        600.0000049667337,
+        900.0000074501006
+      ],
+      "hdf5_format_version": [
+        3,
+        0
+      ],
+      "nuclide_attributes": {
+        "A": 54,
+        "Z": 26,
+        "atomic_weight_ratio": 53.47624,
+        "metastable": 0
+      }
+    },
+    {
+      "isotope": "Fe56",
+      "path": "/opt/neutronics/data/ENDFB-8.0-NNDC_Fe56.h5",
+      "bytes": 57405104,
+      "sha256": "c9757aeb4dbf0cc560a04cd4ba395dc2d797d8dce2c2bc5f62d177b5be8561eb",
+      "git_blob_sha1": "43afecad18a8483916eee6189de4c051cadcb85a",
+      "upstream_path": "h5_files/neutron/Fe56.h5",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/Fe56.h5",
+      "temperature_keys": [
+        "1200K",
+        "2500K",
+        "250K",
+        "294K",
+        "600K",
+        "900K"
+      ],
+      "temperature_K": [
+        1200.023218969711,
+        2499.9613389676515,
+        249.99613389676514,
+        293.59430848016336,
+        600.0000049667337,
+        900.0000074501006
+      ],
+      "hdf5_format_version": [
+        3,
+        0
+      ],
+      "nuclide_attributes": {
+        "A": 56,
+        "Z": 26,
+        "atomic_weight_ratio": 55.45443,
+        "metastable": 0
+      }
+    },
+    {
+      "isotope": "Fe57",
+      "path": "/opt/neutronics/data/ENDFB-8.0-NNDC_Fe57.h5",
+      "bytes": 22030176,
+      "sha256": "5568f95057b38abae110cd8876597aedb118b6e96eb4cdda6f0c16544a8f5427",
+      "git_blob_sha1": "3834760716304f3f196203032b4aa2708e04d878",
+      "upstream_path": "h5_files/neutron/Fe57.h5",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/Fe57.h5",
+      "temperature_keys": [
+        "1200K",
+        "2500K",
+        "250K",
+        "294K",
+        "600K",
+        "900K"
+      ],
+      "temperature_K": [
+        1200.023218969711,
+        2499.9613389676515,
+        249.99613389676514,
+        293.59430848016336,
+        600.0000049667337,
+        900.0000074501006
+      ],
+      "hdf5_format_version": [
+        3,
+        0
+      ],
+      "nuclide_attributes": {
+        "A": 57,
+        "Z": 26,
+        "atomic_weight_ratio": 56.44629,
+        "metastable": 0
+      }
+    },
+    {
+      "isotope": "Fe58",
+      "path": "/opt/neutronics/data/ENDFB-8.0-NNDC_Fe58.h5",
+      "bytes": 24452440,
+      "sha256": "30c7672fde0f672f5cdad33e2ec54610f59fc82852fa0416301d608a772f6550",
+      "git_blob_sha1": "99ecde90de3776c2ea7073f2ac34fadd7d9515e8",
+      "upstream_path": "h5_files/neutron/Fe58.h5",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/Fe58.h5",
+      "temperature_keys": [
+        "1200K",
+        "2500K",
+        "250K",
+        "294K",
+        "600K",
+        "900K"
+      ],
+      "temperature_K": [
+        1200.023218969711,
+        2499.9613389676515,
+        249.99613389676514,
+        293.59430848016336,
+        600.0000049667337,
+        900.0000074501006
+      ],
+      "hdf5_format_version": [
+        3,
+        0
+      ],
+      "nuclide_attributes": {
+        "A": 58,
+        "Z": 26,
+        "atomic_weight_ratio": 57.4356,
+        "metastable": 0
+      }
+    },
+    {
+      "isotope": "W180",
+      "path": "/opt/neutronics/data/ENDFB-8.0-NNDC_W180.h5",
+      "bytes": 13224256,
+      "sha256": "927a3385b325156c765a832e82e8564a71d751d32bf6d1d3421eb94ceee4c2f0",
+      "git_blob_sha1": "1cb1df960b6c496698164b4ca7d957e865fb85e8",
+      "upstream_path": "h5_files/neutron/W180.h5",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/W180.h5",
+      "temperature_keys": [
+        "1200K",
+        "2500K",
+        "250K",
+        "294K",
+        "600K",
+        "900K"
+      ],
+      "temperature_K": [
+        1200.023218969711,
+        2499.9613389676515,
+        249.99613389676514,
+        293.59430848016336,
+        600.0000049667337,
+        900.0000074501006
+      ],
+      "hdf5_format_version": [
+        3,
+        0
+      ],
+      "nuclide_attributes": {
+        "A": 180,
+        "Z": 74,
+        "atomic_weight_ratio": 178.401,
+        "metastable": 0
+      }
+    },
+    {
+      "isotope": "W182",
+      "path": "/opt/neutronics/data/ENDFB-8.0-NNDC_W182.h5",
+      "bytes": 30027328,
+      "sha256": "60b686215134788ee3d050e3dc7b5b27f4e8240e2641bed4ea9f2a3502c9ded7",
+      "git_blob_sha1": "c9bd93718e1002cd6a401e9dd6aca1b823ce5ecb",
+      "upstream_path": "h5_files/neutron/W182.h5",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/W182.h5",
+      "temperature_keys": [
+        "1200K",
+        "2500K",
+        "250K",
+        "294K",
+        "600K",
+        "900K"
+      ],
+      "temperature_K": [
+        1200.023218969711,
+        2499.9613389676515,
+        249.99613389676514,
+        293.59430848016336,
+        600.0000049667337,
+        900.0000074501006
+      ],
+      "hdf5_format_version": [
+        3,
+        0
+      ],
+      "nuclide_attributes": {
+        "A": 182,
+        "Z": 74,
+        "atomic_weight_ratio": 180.385,
+        "metastable": 0
+      }
+    },
+    {
+      "isotope": "W183",
+      "path": "/opt/neutronics/data/ENDFB-8.0-NNDC_W183.h5",
+      "bytes": 51768312,
+      "sha256": "5c434b6c49880e0653ad39672274be93e3109ee508bb86a0f100d1718430da73",
+      "git_blob_sha1": "2428063efa666d807cfbd04e6c0762dd94fdda61",
+      "upstream_path": "h5_files/neutron/W183.h5",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/W183.h5",
+      "temperature_keys": [
+        "1200K",
+        "2500K",
+        "250K",
+        "294K",
+        "600K",
+        "900K"
+      ],
+      "temperature_K": [
+        1200.023218969711,
+        2499.9613389676515,
+        249.99613389676514,
+        293.59430848016336,
+        600.0000049667337,
+        900.0000074501006
+      ],
+      "hdf5_format_version": [
+        3,
+        0
+      ],
+      "nuclide_attributes": {
+        "A": 183,
+        "Z": 74,
+        "atomic_weight_ratio": 181.379,
+        "metastable": 0
+      }
+    },
+    {
+      "isotope": "W184",
+      "path": "/opt/neutronics/data/ENDFB-8.0-NNDC_W184.h5",
+      "bytes": 18631224,
+      "sha256": "a2e97d5db19214f96848a7b94fafa44d48766b2776cac8b860bf0e63dd81142c",
+      "git_blob_sha1": "be2b6db315334e7f105de40eca05c7ab5a8038b5",
+      "upstream_path": "h5_files/neutron/W184.h5",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/W184.h5",
+      "temperature_keys": [
+        "1200K",
+        "2500K",
+        "250K",
+        "294K",
+        "600K",
+        "900K"
+      ],
+      "temperature_K": [
+        1200.023218969711,
+        2499.9613389676515,
+        249.99613389676514,
+        293.59430848016336,
+        600.0000049667337,
+        900.0000074501006
+      ],
+      "hdf5_format_version": [
+        3,
+        0
+      ],
+      "nuclide_attributes": {
+        "A": 184,
+        "Z": 74,
+        "atomic_weight_ratio": 182.371,
+        "metastable": 0
+      }
+    },
+    {
+      "isotope": "W186",
+      "path": "/opt/neutronics/data/ENDFB-8.0-NNDC_W186.h5",
+      "bytes": 19449512,
+      "sha256": "ce253a17f396dd5d86833ad4f5a51a2032c418fa00de18357544a1757622ec0b",
+      "git_blob_sha1": "88f851bde82be56800c595aec29da80f0c0f71bc",
+      "upstream_path": "h5_files/neutron/W186.h5",
+      "upstream_url": "https://github.com/openmc-data-storage/ENDF-B-VIII.0-NNDC/raw/466ab3042f70e60b693fbbd3f6f15f30dba7cd1d/h5_files/neutron/W186.h5",
+      "temperature_keys": [
+        "1200K",
+        "2500K",
+        "250K",
+        "294K",
+        "600K",
+        "900K"
+      ],
+      "temperature_K": [
+        1200.023218969711,
+        2499.9613389676515,
+        249.99613389676514,
+        293.59430848016336,
+        600.0000049667337,
+        900.0000074501006
+      ],
+      "hdf5_format_version": [
+        3,
+        0
+      ],
+      "nuclide_attributes": {
+        "A": 186,
+        "Z": 74,
+        "atomic_weight_ratio": 184.357,
+        "metastable": 0
+      }
+    }
+  ]
+}

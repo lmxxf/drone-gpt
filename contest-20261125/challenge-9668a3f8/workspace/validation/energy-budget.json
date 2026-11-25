@@ -1,0 +1,45 @@
+{
+  "state": "passed",
+  "scope": "Full native pedestal budgets for all40 episodes; native FVM/source closure sampled on nominal coarse/fine/timehalf. This is not exact continuous energy conservation",
+  "max_sample_native_terms_closure_W": 0.00020872056484222412,
+  "max_sample_rate_residual_relative_to_heat": 0.000423051439588786,
+  "nominal_budgets": [
+    {
+      "accepted_states": 6001,
+      "minimum_power_W": -5833333333.333286,
+      "maximum_power_W": -37897842.74125003,
+      "positive_right_endpoint_J": 0.0,
+      "negative_right_endpoint_J": -1263764231.6792698,
+      "positive_trapezoidal_J": 0.0,
+      "negative_trapezoidal_J": -1278243160.284223,
+      "quadrature_scope": "Right endpoint follows native theta=1 implicit source; trapezoid also shown, but can overestimate the unresolved initial stiff boundary relaxation.",
+      "positive_right_endpoint_over_external": 0.0,
+      "external_energy_J": 1311745390.6366057
+    },
+    {
+      "accepted_states": 12001,
+      "minimum_power_W": -563331384.9394021,
+      "maximum_power_W": 5374999999.999807,
+      "positive_right_endpoint_J": 0.0,
+      "negative_right_endpoint_J": -1257485706.6515732,
+      "positive_trapezoidal_J": 6718749.99999976,
+      "negative_trapezoidal_J": -1257439226.82964,
+      "quadrature_scope": "Right endpoint follows native theta=1 implicit source; trapezoid also shown, but can overestimate the unresolved initial stiff boundary relaxation.",
+      "positive_right_endpoint_over_external": 0.0,
+      "external_energy_J": 1311490908.4210725
+    },
+    {
+      "accepted_states": 24001,
+      "minimum_power_W": -627256419.9738929,
+      "maximum_power_W": 5374999999.999807,
+      "positive_right_endpoint_J": 0.0,
+      "negative_right_endpoint_J": -1258279129.2305365,
+      "positive_trapezoidal_J": 3359374.99999988,
+      "negative_trapezoidal_J": -1258253718.9023247,
+      "quadrature_scope": "Right endpoint follows native theta=1 implicit source; trapezoid also shown, but can overestimate the unresolved initial stiff boundary relaxation.",
+      "positive_right_endpoint_over_external": 0.0,
+      "external_energy_J": 1311484073.9840999
+    }
+  ],
+  "all40_positive_implicit_J": 0.0
+}

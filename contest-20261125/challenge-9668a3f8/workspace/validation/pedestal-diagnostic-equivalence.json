@@ -1,0 +1,25 @@
+{
+  "state": "passed",
+  "scope": "Full30s fine online supplied-heat diagnostic; all12001 prior physical diagnostics exactly unchanged",
+  "accepted_states": 12001,
+  "metrics": {
+    "fusion_energy_J": 3335475163.399209,
+    "fusion_energy_deficit_fraction": 0.0014511754749689798,
+    "fusion_rms_relative": 0.007193489902009563,
+    "fusion_peak_relative": 0.023644804636682344,
+    "q_min": 1.8279795705948267,
+    "q95_min": 4.979431417148658,
+    "beta_N_max": 1.3821462813669836,
+    "temperature_max_keV": 16.553400346135852,
+    "fgw_max": 0.8168140899333461,
+    "terminal_energy_deficit_fraction": 0.0,
+    "E_external_total_J": 1311560277.481825,
+    "E_external_right_endpoint_J": 1311560301.764835,
+    "E_external_quadrature_difference_J": 24.28300976753235,
+    "E_pedestal_positive_J": 0.0,
+    "E_pedestal_negative_J": -1252528664.7843146,
+    "E_pedestal_positive_trapezoidal_J": 10675860.50340028,
+    "J_supplied_total_J": 1311560277.481825
+  },
+  "online_minus_full_state_negative_pedestal_J": 1.430511474609375e-06
+}

@@ -1,0 +1,157 @@
+[
+  {
+    "path": "UPSTREAM.md",
+    "sha256": "34e4c5db644e396d70f89adcc19ddd9aea9fbd649a4101330a2eedf43e9c3cd6",
+    "bytes": 2294
+  },
+  {
+    "path": "background-guide.md",
+    "sha256": "f545a09e79fe69ddd543e533c61c898de97c88691b407dd47ca2c94506c29e14",
+    "bytes": 1534
+  },
+  {
+    "path": "case.json",
+    "sha256": "dcf39f16d3d51f60983eb7f06e86b1435a07ff91d6525f5c15f242405031e75d",
+    "bytes": 1775
+  },
+  {
+    "path": "eval.py",
+    "sha256": "3f0a3c291c384986a2ca6a11d3263130f6394d92c487d409b4da5ccbbf6e111c",
+    "bytes": 29274
+  },
+  {
+    "path": "image-reference.json",
+    "sha256": "5b439b5cb4e2bc901f820742c005b2e1ef33d6fd2eade57b8839e7542c1a32a8",
+    "bytes": 228
+  },
+  {
+    "path": "instruction.md",
+    "sha256": "d11e1768c49ba647b9bb4d2baa9fce98c409071bd882c94850ea17fc9e3627f2",
+    "bytes": 15120
+  },
+  {
+    "path": "provenance/conda-explicit-md5.txt",
+    "sha256": "0e211d9a2c78901e6c3016c5bfcd7321d6b4d29684f15c88adf8404d9aa5911b",
+    "bytes": 15771
+  },
+  {
+    "path": "provenance/conda-explicit.txt",
+    "sha256": "1194cbec3ebf18c6a39fed1f3ecfb50f2388574f2a291fa943469b4ecc28dc1e",
+    "bytes": 11316
+  },
+  {
+    "path": "provenance/image-build.json",
+    "sha256": "8321110e3736709a368129de6372d9e9bb0d3160142d64443b9637f5598f2054",
+    "bytes": 1030
+  },
+  {
+    "path": "provenance/image-build.log",
+    "sha256": "7f65830a864218bdbd4d2fa656828af72164bda043c631af49df4a4228d7fa02",
+    "bytes": 49326
+  },
+  {
+    "path": "provenance/nuclear-data.json",
+    "sha256": "506199b8226e7a134b87fce00fcc2dc460e965de2a4007ea3b87eabcea3c922f",
+    "bytes": 19797
+  },
+  {
+    "path": "provenance/pinned-wheels.json",
+    "sha256": "e8ad6bd0a2995f37f548921b31db37fbeda03edf283bbd0bd3d02d98ab7000f9",
+    "bytes": 1408
+  },
+  {
+    "path": "provenance/pip-freeze.txt",
+    "sha256": "bfe438a97e317bb76fb4507de05891027fb559878887f8f215fbb0b292626ea3",
+    "bytes": 4945
+  },
+  {
+    "path": "reference/baseline.json",
+    "sha256": "5cc9885b58e2030073f5a953191d874dcc06bcc316d27935228f6603e910532d",
+    "bytes": 13144
+  },
+  {
+    "path": "reference/calibration/comparisons.json",
+    "sha256": "a3abede52a47bd7a38cf1a9c5f7c411e0358944c5af95545923eb1fe9961cbaa",
+    "bytes": 5333
+  },
+  {
+    "path": "reference/calibration/history/baseline-before-300k-freeze.json",
+    "sha256": "6b2ca204e1286aeb87a015dcc75f9fe1d08a4fd5d538fcf5b67ee2277be6c46e",
+    "bytes": 607
+  },
+  {
+    "path": "reference/calibration/history/measurement-status-before-300k-freeze.json",
+    "sha256": "ba20bcc6ff2b353876cecf22b0f5030100accbe79543af0138523b8f99d89215",
+    "bytes": 599
+  },
+  {
+    "path": "reference/calibration/history/runtime-lock-before-300k-freeze.json",
+    "sha256": "4fd7feea1071add86f28c41b22ad6a7a8633ee9674087ee18709844fc01cb4e8",
+    "bytes": 4379975
+  },
+  {
+    "path": "reference/calibration/independent.json",
+    "sha256": "368185ae10572ffc2268285b49abf24bc4d7bcf272a55ccdd4aeaa920ee199c8",
+    "bytes": 81628
+  },
+  {
+    "path": "reference/calibration/known-checks.json",
+    "sha256": "7b7a6234531c9f67e37d241e36397afb06415824912b6b23e3ee61a69a9c8c00",
+    "bytes": 5816
+  },
+  {
+    "path": "reference/calibration/measured-100k.json",
+    "sha256": "d49bb1e5820372eb12499fb0135adc4803b3cfe343c3260a04f97fdd2a1d57b4",
+    "bytes": 82743
+  },
+  {
+    "path": "reference/calibration/measured-200k.json",
+    "sha256": "cc613990ea66785e710e6f1b6da60597039c8ebf13d3652814fcb7785bd9790c",
+    "bytes": 83036
+  },
+  {
+    "path": "reference/calibration/measurement-case.json",
+    "sha256": "0dec9584ffb7a61b51d99230db06b4b42115d45b3ae0043244503f29d0e9722d",
+    "bytes": 1795
+  },
+  {
+    "path": "reference/calibration/measurement-status.json",
+    "sha256": "f7c676a78421ff07ee4b516e4134fdc024c45f0361b0091862c88eb1ed6d3240",
+    "bytes": 963
+  },
+  {
+    "path": "reference/calibration/official-replay-summary.json",
+    "sha256": "a700e1d8e67404ae1459c6a626b3bbaac6520952e7f2d92a4e368eece0fe324f",
+    "bytes": 1339
+  },
+  {
+    "path": "reference/calibration/reference.json",
+    "sha256": "b330b6da61b0b5eea2f5ea4d6661226e129fcc553a856cfc0940d059c7653937",
+    "bytes": 84372
+  },
+  {
+    "path": "reference/calibration/refinement.json",
+    "sha256": "cc613990ea66785e710e6f1b6da60597039c8ebf13d3652814fcb7785bd9790c",
+    "bytes": 83036
+  },
+  {
+    "path": "reference/calibration/runtime-audit.json",
+    "sha256": "3257f08f21fb138f772c405416222f074d3b68ad40cd6bc0ee7df73ca644f432",
+    "bytes": 723
+  },
+  {
+    "path": "reference/calibration/runtime-isolation.json",
+    "sha256": "3257f08f21fb138f772c405416222f074d3b68ad40cd6bc0ee7df73ca644f432",
+    "bytes": 723
+  },
+  {
+    "path": "reference_configurations/uniform.json",
+    "sha256": "d264d76287fa5511177ce921e20cb43696636ccc65b6b1985965602f62d97d6c",
+    "bytes": 9608
+  },
+  {
+    "path": "runtime-lock.json",
+    "sha256": "3e7cd751d1863e5137837548e851579a00b922409f98be3b064669ba28a8dde3",
+    "bytes": 4379976
+  }
+]
