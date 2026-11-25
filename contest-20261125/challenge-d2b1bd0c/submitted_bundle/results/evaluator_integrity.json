@@ -1,0 +1,22 @@
+{
+  "eval.py": {
+    "sha256": "78da6fc17da86259581fbeee00e787f6853441337f54b650a839088070723b01",
+    "matches_resource_archive": true
+  },
+  "equilibrium.py": {
+    "sha256": "5cb2cee8a0c803e634836ca91b6ea68ac905bfd7dde4633628d9c2c9a6886f37",
+    "matches_resource_archive": true
+  },
+  "dcon.py": {
+    "sha256": "fdd3239c6a60ace1b02b7cc5393965dd69f9e92e564f8e739df44233893f6d2c",
+    "matches_resource_archive": true
+  },
+  "geometry.py": {
+    "sha256": "bc5d18c20658b05ded5b629c1c8518da22e70b7f58cbf4e01950788a4480c6a8",
+    "matches_resource_archive": true
+  },
+  "assets/protocol.json": {
+    "sha256": "2a6f4b6366509627b2d29d022c3146ff80af6de14e7b51340bcb4f6654d8baaf",
+    "matches_resource_archive": true
+  }
+}

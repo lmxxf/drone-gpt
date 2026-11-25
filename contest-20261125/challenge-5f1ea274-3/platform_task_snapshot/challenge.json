@@ -1,0 +1,310 @@
+{
+  "armiId": "arm:challenge-5f1ea274-3@57564d8237a2",
+  "attempts": 1,
+  "benchmarkId": null,
+  "content": "# 用三维形状留住聚变粒子：寻找更紧凑的仿星器\n\n**能不能让聚变装置更紧凑，同时留住高能粒子？** 仿星器用外部线圈产生三维磁场，把极热的燃料——等离子体——约束在环形区域里。这道题请你优化这个磁场“容器”的形状。\n\n**你只需提交一份 `boundary.json`，描述等离子体的外边界。** 评估器会重新求解磁场、追踪粒子：满足六项物理与几何要求后，纵横比 A 越小，成绩越好。题目提供五个公开构型和可复现的评估器，供你开始改进。\n\n## 1. 为什么形状值得优化？\n\n### 1.1 用形状留住粒子\n\n磁场围成一个环，还不足以留住燃料。磁力线需要一边绕大圆走，一边绕截面扭转。托卡马克主要依靠等离子体中的大电流提供所需扭转；仿星器则把这项工作交给外部线圈的三维形状，减少对大等离子体电流的依赖，为持续运行提供基础。\n\n粒子也不会严格沿着磁力线走。磁场的弯曲和强弱变化会让它们向内、向外漂移；如果总是向外多挪一点，最终就可能逃逸。**形状优化的巧妙之处，是让这些偏移尽量抵消。** 准轴对称（QA）、准螺旋对称（QH）和准等动力（QI）是常见设计方向；[Landreman–Paul 的研究](https://arxiv.org/abs/2108.03711)展示了通过优化形状改善约束的可能性。\n\n### 1.2 缩小这个环，难在哪里？\n\n先把燃料区域想成一个粗圆环：大半径 R 描述环绕得有多大，小半径 a 描述环有多粗，纵横比就是 A=R/a。三维形状用面积和体积定义对应的有效半径。本题固定有效小半径 a=1.70 m、轴上磁场 5.70 T，要求把环绕得更紧，同时保住约束性能。\n\n难点是几项要求会互相牵制：环更紧，粒子可能更容易逃逸；调整形状来改善约束，又可能让截面过度拉长，或要求线圈靠得更近。但线圈与燃料之间还要容纳包层和屏蔽，用来接收中子能量、产生氚燃料并保护线圈。**缩小的同时，还得留得住粒子，并给包层、屏蔽和线圈留出空间。**\n\n### 1.3 做成意味着什么？\n\n五个参考构型中，全部达标的最小 A 是 6。如果做到 A=4、仍全部达标，有效大半径就从 **10.2 米降到 6.8 米，减少三分之一**，而有效小半径和轴上磁场保持相同。\n\n这样的结果，会提供一个可以独立复算的紧凑设计起点。研究者能据此加入等离子体压强、检验运行性能，并继续设计真实线圈。\n\n## 2. 粒子约束、磁场结构与线圈空间\n\n设计对象是等离子体最外层磁面的形状，称为“边界”。给出边界后，评估器求解边界内的固定边界真空平衡；你不需要提交线圈文件或自己报告的磁场。\n\n统一条件如下：\n\n| 条件 | 本题的取值与含义 |\n|---|---|\n| 压强与电流 | p=0，各磁面包围的净环向电流 I_t(s)=0；只考察外部成形提供的真空磁场 |\n| 大小与场强 | 有效小半径 a=1.70 m，轴上 Boozer 零模 B₀₀(0)=5.70 T |\n| 粒子 | 3.5 MeV α 粒子，无碰撞导心轨道，径向电场 E_r=0，测试粒子近似 |\n| 径向位置 | s 是归一化环向磁通，磁轴为 0、边界为 1；ρ=√s |\n| 可改变的量 | 仿星器对称边界的 Fourier 系数，以及 1–6 的场周期数 N_FP |\n\n“真空”是设计中的第一步：先求解没有压强和净环向电流的磁场，单独检查外部成形的效果。实际电站运行时，压强与电流会进一步改变这个磁场，需要在后续计算中加入。\n\n下面六项要求把这个挑战拆成可以计算的问题：粒子留不留得住，磁场是否具备所需的扭转和磁阱，形状是否过度拉长，线圈有没有机会退得开。六项必须同时满足；满足后，A 越小，分数越高。本题不限制提交边界的 A 上限。\n\n| 要求 | 达标条件 | 希望得到的性能 |\n|---|---|---|\n| 留住聚变产生的高能粒子 | 核心 α 损失 f_α≤5%：从 s=0.25 发射，追踪 0.2 s | 让聚变产生的 α 粒子更多地留在环内加热燃料，减少逃逸粒子对壁面的冲击 |\n| 压低磁场形状带来的新经典输运 | 五个指定磁面的最大有效波纹度 ε_eff≤1% | 让热粒子少沿磁场的波纹向外漂移，减少这一路径带走的粒子和热量 |\n| 保持足够的磁力线扭转 | s∈[0.05,0.95] 上 min(abs(ι))≥0.30 | 让外部磁场提供约束所需的扭转，减少对大等离子体电流的依赖，为持续运行提供基础 |\n| 在考察区间保持真空磁阱 | 逐面磁阱指标 W≥0 | 为后续提高等离子体压强、保持稳定约束，准备更有利的磁场形状 |\n| 避免截面过度拉长 | 最大伸长率 κ_max≤8 | 让截面两个方向的尺寸不过分悬殊，避免靠极端细长的形状换取更小的环 |\n| 保留线圈远离等离子体的可能性 | 边界上 min(L_∇B)≥2.4 m | 让磁场更有可能由较远的线圈产生，为增殖包层和保护线圈的屏蔽留出空间 |\n\n六项要求各有分工。α 粒子携带聚变释放的一部分能量，留在环内才能继续加热燃料；有效波纹度衡量磁场形状引起的一类新经典输运（1/ν 输运）。旋转变换描述磁力线的扭转程度，磁阱为后续提高压强提供有利的稳定性条件，伸长率则限制截面过度拉长（圆截面的 κ=1）。\n\n线圈空间用磁场梯度尺度 L_∇B 作为代理量：边界附近的磁场变化越缓，越有可能用较远的线圈产生。2.4 m 门槛来自特定 REGCOIL 设定下与约 1.2 m 线圈距离的经验关系，实际距离仍需设计线圈后验证，见 [Kappel 等的研究](https://arxiv.org/abs/2309.11342)。\n\n各项指标的精确定义与数值设置见第 7 节。\n\n这些要求之间的牵制，在已有构型上就能看见。\n\n## 3. 从公开构型出发\n\n五个公开构型的边界文件放在 `/app/reference_configurations/`，可以直接读取、修改或提交。下表是用本题评估器计算的结果。\n\n| 构型（文件） | 类别 | N_FP | A | f_α | ε_eff 最大 | ι_min | W | κ_max | L_∇B (m) | S | 未过的约束 |\n|---|---|---|---|---|---|---|---|---|---|---|---|\n| Landreman–Paul 2022 QA+well（`landreman_paul_2022_QA_well.json`） | QA | 2 | 6.00 | 0.00% | 0.002% | 0.416 | +0.0021 | 4.94 | 5.56 | 0.560 | 无 |\n| Landreman–Paul 2022 QH+well（`landreman_paul_2022_QH_well.json`） | QH | 4 | 8.00 | 0.00% | 0.064% | 1.214 | +0.0007 | 3.71 | 3.19 | 0.509 | 无 |\n| Landreman–Paul 2022 QA（`landreman_paul_2022_QA.json`） | QA | 2 | 6.00 | 0.22% | 0.001% | 0.416 | -0.0313 | 3.95 | 5.30 | 0.121 | W |\n| QHS46（`QHS46.json`） | QH | 4 | 6.70 | 6.08% | 1.328% | 1.015 | -0.0014 | 3.11 | 2.88 | 0.272 | f_α、ε_eff、W |\n| ESTELL（`ESTELL.json`） | QA | 2 | 5.29 | 25.27% | 0.762% | 0.206 | -0.0285 | 2.71 | 3.09 | 0.018 | f_α、ι_min、W |\n\n先看两个纵横比同为 6 的 Landreman–Paul QA 边界：它们都很好地约束了 α 粒子，却因磁阱不同得到很不一样的分数。再看 ESTELL：环已经更紧凑了，约四分之一的测试 α 粒子却没能留下来。更小的环和更好的约束，各自做到并不够，难处是把它们放在同一个形状里。\n\n在这五个构型中，Landreman–Paul QA+well 以 A=6 满足了全部要求，是一个明确的改进起点。找到 A<6、仍满足全部要求的边界，就能在这套条件下取得更紧凑的结果。A=6 是这组已测构型的最好结果，整个领域还有其他值得探索的设计。\n\n你可以从这些边界出发，逐步调整形状，也可以生成新的候选。无论采用哪种方法，交给评估器的都是同一种几何描述。\n\n## 4. 用 JSON 描述边界形状\n\n最终产物只有一个文件：工作目录中的 **`boundary.json`（即 `/app/boundary.json`）**。\n\n可以把它理解为一份几何配方：每一行给出一种形状分量，以及加多少。评估器把这些 Fourier 模叠加起来，得到等离子体外边界，再求解边界内的磁场。文件只需要这份几何描述。\n\n下面是最小的格式示例：\n\n```json\n{\n  \"nfp\": 2,\n  \"modes\": [\n    {\"m\": 0, \"n\": 0, \"rbc\": 1.0, \"zbs\": 0.0},\n    {\"m\": 1, \"n\": 0, \"rbc\": 0.17, \"zbs\": 0.17}\n  ]\n}\n```\n\n| 字段 | 含义 |\n|---|---|\n| `nfp` | 绕整台装置一圈，磁场与边界重复的场周期数 N_FP；不是线圈数量 |\n| `modes` | 用来叠加出边界的形状分量；未列出的分量为零 |\n| `m` | 极向模数，控制绕截面一圈的变化 |\n| `n` | 环向模数，控制一个场周期内的变化；实际公式中还有 N_FP 因子 |\n| `rbc` | 柱坐标半径 R 的余弦分量系数 |\n| `zbs` | 高度 Z 的正弦分量系数；与 `rbc` 使用同一长度单位 |\n\n具体展开为：\n\n```text\nR(θ, φ) = Σ rbc(m,n) cos(mθ − n N_FP φ)\nZ(θ, φ) = Σ zbs(m,n) sin(mθ − n N_FP φ)\n(x, y, z) = (R cos φ, R sin φ, Z)\n```\n\nφ 是绕装置大圆方向的柱坐标角，θ 是绕截面的参数角。两者都用弧度；θ 是描述边界用的角，不是评估器后面计算的 Boozer 角。\n\n在这个示例中，第一项给出 R=1 的中心位置，第二项画出半径 0.17 的圆截面。因为所有 n 都为零，截面沿环向不变：它只是一个普通圆环，没有仿星器所需的三维扭转，**只用于理解格式，不是达标构型**。当 rbc(1,0) 与 zbs(1,0) 不同时，截面成为椭圆；加入 n≠0 的模，截面的形状或位置就会沿环向变化。多个模共同决定完整边界。\n\n输入必须满足以下要求：\n\n- 顶层恰有 `nfp`、`modes` 两个键；`nfp` 是 1–6 的整数，`modes` 是非空数组。\n- 每个模恰有 `m`、`n`、`rbc`、`zbs` 四个键。m、n 为整数，rbc、zbs 为有限数，不使用 NaN 或 Infinity。\n- 0≤m≤12，abs(n)≤12；m=0 时只保留 n≥0。同一 (m,n) 只能出现一次。\n- rbc(0,0)>0，zbs(0,0)=0；边界闭合、无自交、处处 R>0。这个余弦/正弦表示规定了仿星器对称性。\n- 系数使用任意一致的长度单位；评估器先整体缩放到有效小半径 a=1.70 m。把所有系数乘以同一个数，不会改善纵横比。\n\n对于已有 VMEC 输入，JSON 中的 n 不含 N_FP 因子，与 `RBC(n,m)`、`ZBS(n,m)` 的 n、m 一致；注意 VMEC 下标先 n 后 m，JSON 字段按名字读取。\n\n得到第一个可用边界后就写入 `boundary.json`，之后用更好的边界替换。替换时先写临时文件再改名，避免文件只写了一半。正常结束或 48 小时时限到达后，正式评估只读取当时的这个文件；评估开始前会停止容器里仍在运行的解题进程。\n\n## 5. 评测流程与评分\n\n### 5.1 从几何到粒子轨道\n\n一次完整评测沿着以下流程进行：\n\n1. **读取和检查边界。** 检查 JSON 与几何，统一缩放到 a=1.70 m，计算 A 和截面伸长率。\n2. **求解真空平衡。** VMEC2000 根据这个边界求解内部磁场，检查收敛与坐标有效性，读取旋转变换和磁阱；SIMSOPT 计算边界的磁场梯度尺度。\n3. **检查热粒子输运指标。** booz_xform 将磁场转换到 Boozer 坐标，NEO 在五个指定磁面计算有效波纹度。坐标变换让程序能够分析同一个磁场的强度规律，没有改变你的边界。\n4. **追踪聚变高能粒子。** 磁场归一到轴上 5.70 T 后，SIMPLE 从 s=0.25 按固定抽样程序和种子发射 4096 个 3.5 MeV α 粒子，追踪 0.2 s，统计越过边界的轨道。\n5. **应用公开的评分公式。** 用六项指标判断是否达标，再计算分数。\n\n### 5.2 先满足六项要求，再比较紧凑程度\n\n分数 S∈[0,1]，有三种情况：\n\n| 结果 | 分数 | 含义 |\n|---|---|---|\n| 无法得到有效评测 | S=0 | 文件错误、平衡或诊断未完成，或数值未解析轨道过多等；查看失败原因 |\n| 评测有效，至少一项要求未过 | 0≤S<0.5 | 六项完成度共同决定分数，支持衡量未达标的进展 |\n| 满足全部六项要求 | 0.5<S<1 | 分数只随 A 变化，A 越小越好 |\n\n六项完成度 q 都不超过 1；q=1 表示该项达标：\n\n```text\n上限指标（f_α、ε_eff、κ_max）：q = min(1, 上限/实际值)\n                                      实际值为 0 时 q = 1\n下限指标（ι_min、L_∇B）：    q = min(1, 实际值/下限)\n磁阱：W ≥ 0 时 q = 1；W < 0 时 q = 1/(1 + (−W)/0.01)\n\n无效：       S = 0\n有效未达标： S = 0.5 × q_α × q_ε × q_ι × q_W × q_κ × q_L\n全部达标：   S = 0.5 + 0.5/(1 + e^(A−4))\n```\n\n例如，其他五项都满足要求、只有 α 损失为 10%，则 q_α=5%/10%=0.5，得分 0.25。即使这个边界的 A 很小，也还处在未达标区间。满足全部要求后，A=6、5、4、3 分别得到约 0.560、0.634、0.750、0.866 分。\n\n满足全部要求后，分数奖励更小的 A。单项指标超过门槛的部分不再额外加分。\n\n### 5.3 分数与诊断结果\n\n评估器生成两个文件：\n\n| 文件 | 内容 |\n|---|---|\n| `reward.json` | `reward` 是分数；`valid` 表示评测是否有效；`feasible` 表示是否满足全部六项要求；`evaluator_error` 标记评估器本身的错误。三个标记均为 0 或 1 |\n| `details.json` | `metrics` 是最终物理量，`completion` 是各项完成度，`stages` 保存各阶段诊断；失败时有 `invalid` 或 `evaluator_error` 原因 |\n\n查看结果时，先看 `valid` 和 `feasible`，再根据各项完成度选择下一步调整。\n\n`metrics` 中的字段为 `aspect_ratio`、`f_alpha`、`eps_eff_max`、`iota_min`、`well`、`kappa_max` 和 `lgradb_min`。其中 f_alpha 与 eps_eff_max 用比例表示：0.05 是 5%，0.01 是 1%；lgradb_min 的单位是米。五个磁面的波纹度、α 损失数 N_L、未解析数 N_U 及 95% 置信区间在阶段诊断中报告。同分依次比较较小 A、f_α、ε_eff，仍同则并列。\n\n正式评分输出在 `/logs/verifier/`。手动复现可以通过 `--reward-dir` 指定自己的结果目录。\n\n## 6. 第一次动手：从一个公开边界开始\n\n可以联网查文献、下载公开构型和安装软件。工具、计算资源与时限见 `/app/background-guide.md`。\n\nVMEC2000、booz_xform、NEO、SIMPLE、SIMSOPT 已按评测版本预装在 `/opt/stellarator`。请保持这个评测环境的内容；需要其他软件时另建 conda 环境或 venv。SIMSOPT、DESC、VMEC++、pyQSC、pyQIC 等可用于你自己的搜索与优化，最终成绩仍按第 7 节的评估器条件复算。\n\n从一份公开边界开始，把模系数还原成几个环向截面，就能看见系数对应的形状。先复算这个构型，再改变它，每一步都能比较 A 的变化和各项指标的改善或退化。\n\n还可以从 [QUASR](https://quasr.flatironinstitute.org/) 的真空准对称构型及线圈、[ConStellaration](https://huggingface.co/datasets/proxima-fusion/constellaration) 的 QI 类边界，以及 [vmec_equilibria](https://github.com/landreman/vmec_equilibria) 的历史平衡中寻找起点。选取边界后，按本题的真空磁场条件复算。\n\n### 6.1 公开评测背景包\n\n`/app/background.zip` 包含公开评估器、五个参考边界和复算指南。物理程序已在任务环境中安装，解压后即可运行以下评估命令。\n\n### 6.2 在任务环境里跑第一遍\n\n从 `/app` 执行：\n\n```bash\npython -m zipfile -e background.zip background\n/opt/stellarator/env/bin/python -I background/eval.py \\\n  reference_configurations/landreman_paul_2022_QA_well.json \\\n  --workdir runs/qa-well-001 \\\n  --reward-dir results/qa-well-001 \\\n  --threads 96\n```\n\n每次评测使用一个不存在或为空的 `--workdir`。结果写入 `results/qa-well-001/reward.json` 与 `details.json`。当你有自己的候选后，把命令中的参考 JSON 换成 `boundary.json` 即可；最终设计保存为 `/app/boundary.json`。\n\n搜索阶段可以使用计算量较小的目标或较低分辨率筛选候选，再对有希望的边界进行完整复算。\n\n## 7. 精确定义与数值设置\n\n### 7.1 各项指标的精确定义\n\n有效半径由环向平均截面积 S̄ 和体积 Vol 定义，对圆截面圆环恢复通常的 R 和 a。旋转变换按每个完整环向周回定义，取绝对值，不除以 N_FP；检查区间为 s∈[0.05,0.95]。\n\n有效波纹度在最接近 s=0.2、0.4、0.6、0.8 的半网格面及最外半网格面上计算，取最大值。磁阱按这个区间内每个整网格面上的 V′ 导数判断。磁阱与 Mercier 判据的关系见 [Landreman–Jorge](https://arxiv.org/abs/2006.14881)。\n\n定义（[几何](https://simsopt.readthedocs.io/v0.2.0-alpha/simsopt.geo.html#simsopt.geo.surface.Surface.aspect_ratio)、\n[NEO](https://princetonuniversity.github.io/STELLOPT/NEO.html)、\n[磁阱与 Mercier](https://arxiv.org/abs/2006.14881)、\n[L_∇B](https://arxiv.org/abs/2309.11342)）：\n\n- `a=√(S̄/π)`、`R_eff=Vol/(2πS̄)`、`A=R_eff/a`，S̄ 为环向平均截面积，Vol 为体积。\n- `κ_max=max_φ √(λ_max(C)/λ_min(C))`，C 为固定 φ 的 R–Z 截面关于面积均匀测度的\n  二阶中心矩阵。\n- `ε_eff=EPSTOT^(2/3)`，EPSTOT 为 NEO 输出的 ε_eff^(3/2)，参考场取磁面上的最大 B。\n- `W=min_s(−(dV′/ds)/V′(0))`，V′=dVol/ds 取自平衡的半网格面；dV′/ds 由相邻两个\n  半网格面的差分给出，位于两者之间的整网格面上，取 0.05≤s≤0.95 的整网格面；V′(0)\n  由最内两个半网格点线性外推。\n- `L_∇B=√2 abs(B)/‖∇B‖_F`，‖·‖_F 为磁场梯度张量的 Frobenius 范数，在边界 s=1 上\n  取最小值（SIMSOPT 由半网格数据外推到 s=1，直接在 ρ=1 上计算的程序会略有差别）。\n\n### 7.2 程序设置、有效性与计算成本\n\n| 步骤 | 设置 |\n|---|---|\n| 几何 | 提交边界先整体缩放到 a=1.70 m；一个场周期内 256 个等距环向截面 × 每截面 512 个极向点做面积、体积、伸长率与自交检查 |\n| 真空平衡 | VMEC2000 固定边界，仿星器对称，p=0、I_t=0；MPOL=2m_max+5、NTOR=2n_max+4，且 MPOL≥13、NTOR≥12（m_max、n_max 为提交边界中 rbc 或 zbs 非零的最高模数，数值极小的系数也计入）；角网格 96×96；TCON0=2；磁轴初值由 VMEC 自行估计；三个力残差均 ≤1e−16。末级径向面数先取 257，解不出依次降到 201、101，取能解出的最大面数；每个面数按固定序列重试（降 DELT、加长迭代、加密径向阶梯、末级 GMRES 预条件）；全部尝试共用 4 小时，用尽记为平衡未解出 |\n| 场强归一 | 真空解随环向磁通线性缩放，几何、ι、Boozer 角与 ε_eff、W 不变：取 c=5.70 T/B₀₀(0)，B₀₀(0) 由最内两个半网格的 Boozer (0,0) 模线性外推；轨道计算中磁场整体乘 c，不重求平衡 |\n| Boozer 变换 | booz_xform；从 mboz=2·MPOL、nboz=2·NTOR 起逐次加倍，直到 φ=0 与 φ=π/N_FP 两个平面上同一物理点处 Boozer 谱与 VMEC 给出的 abs(B) 之差（以 B₀₀(0) 归一）e_B ≤1e−12，上限 mboz=256、nboz=192 |\n| 有效波纹度 | NEO（STELLOPT；近有理面修正按 abs(ι) 计场周期数）；最接近 s=0.2、0.4、0.6、0.8 的半网格面（等距取较小 s）和最外半网格面按 s 升序在一次运行中计算：B_ref 取各面最大 B，R_ref 取首面（s≈0.2）的 Boozer R₀₀，与 STELLOPT 调用 NEO 的方式相同；角网格 300×300，npart=150，acc_req=0.005，全部 Boozer 模 |\n| α 轨道 | SIMPLE，4096 条无碰撞导心轨道，α 质量 3.9726 m_p；s=0.25 薄磁通壳内体积均匀（VMEC 角上密度 ∝abs(√g)，等价于 Boozer 角上 ∝1/B²），ξ=v_∥/v 均匀于 [−1,1]；Boozer 正则坐标、辛欧拉积分（integmode=1）、npoiper2=256、relerr=1e−13、multharm=5、ns_s=ns_tp=5；关闭提前分类，不跳过深通行粒子（contr_pp=−1e10）；追踪 0.2 s，首次越过 s=1 计损失；逐粒子读退出码：1、2 为损失，0 为约束，其余（包括 SIMPLE 自己按约束计的数值失败码 4）为数值未解析；抽样程序与种子固定 |\n| 线圈空间 | SIMSOPT `vmec_compute_geometry` 由平衡输出计算 s=1 上的 L_∇B，一个场周期内 θ×φ=128×128 取最小值 |\n| 时限与内存 | 整次评价限时 12 小时，其中平衡 4 小时、NEO 1 小时，其余留给 α 轨道。SIMPLE 的场样条约占 1.0×10⁻⁵ GiB × ns × (5(MPOL−1)+1) × (5·NTOR·N_FP+1)，超过 110 GiB 的边界无法评价：ns=257、m 与 n 同为最高模数时，N_FP=1、2 不受限，N_FP=3、4、5、6 分别至多 9、8、7、6 |\n\n**有效性。** 平衡输出完整、VMEC 收敛标志正确、三项残差达标、最终网格 Jacobian\n符号一致；Boozer 变换到上限仍 e_B>1e−8 时记为数值未解析，无有效 ε_eff。\n\n**α 统计。** SIMPLE 的数值失败轨道计入损失并单独报告：`f_α=(N_L+N_U)/4096`，\nN_U/4096>0.001 时无有效轨道成绩。计数步长 0.0244 个百分点，5% 处二项标准误约\n0.34 个百分点。\n\nL_∇B 的 2.4 m 门槛所采用的经验标定：Kappel 等把 45 个构型缩放到 a=1.704 m，用 REGCOIL 在均匀偏移的绕组面上求线圈距离，场误差 B_RMS=0.01 T、面电流密度上限按 ARIES-CS 的线圈间距取，得到 R²=0.94；该设定下线圈距离约 1.2 m 对应 L_∇B≈2.4 m。\n\n## 8. 继续阅读\n\n从 [IPP 的仿星器介绍](https://www.ipp.mpg.de/14779/stellarator)了解路线；从 Landreman–Paul 的论文与数据理解题目中的 QA/QH 起点；从 Kappel 等的论文理解线圈空间代理量。程序及更多数据资源的固定版本、路径和链接见 `resources.yaml`。\n\n- Landreman & Paul 2022，[精确准对称磁场](https://doi.org/10.1103/PhysRevLett.128.035001)；\n  数据 [doi:10.5281/zenodo.5645413](https://doi.org/10.5281/zenodo.5645413)。\n- Wechsung 等 2022，[用线圈实现精确准对称](https://doi.org/10.1073/pnas.2202084119)。\n- Landreman 2022，[用近轴展开绘制准对称位形空间](https://doi.org/10.1017/S0022377822001258)。\n- Giuliani 等 2024，[QUASR 数据库](https://arxiv.org/abs/2409.04826)。\n- Kappel、Landreman、Malhotra 2024，[磁场梯度尺度与线圈距离](https://doi.org/10.1088/1361-6587/ad1a3e)；\n  Kappel 等 2026，[L_∇B 与离散线圈、作为优化目标](https://arxiv.org/abs/2602.18974)。\n- Bindel、Landreman、Padidar 2023，[直接优化快离子约束](https://doi.org/10.1088/1361-6587/acd141)。\n- Paul 等 2022，[近准对称反应堆平衡中的高能粒子损失机制](https://doi.org/10.1088/1741-4326/ac9b07)。\n- Nemov 等 1999，[1/ν 输运与有效波纹度](https://doi.org/10.1063/1.873749)。\n- Albert、Kasilov、Kernbichler 2020，[α 粒子损失的快速计算（SIMPLE）](https://doi.org/10.1017/S0022377820000203)。\n- Najmabadi 等，[ARIES-CS 紧凑仿星器电站](https://www-pub.iaea.org/MTCD/Meetings/FEC2006/ft_p5-26.pdf)。\n- Alonso 等 2022，[高场仿星器反应堆的物理设计点](https://arxiv.org/abs/2109.15189)。\n- Cadena 等 2025，[ConStellaration 数据集与优化基准](https://arxiv.org/abs/2506.19583)。\n",
+  "contentGated": false,
+  "datasets": [],
+  "difficulty": 1,
+  "disc": null,
+  "figureData": {
+    "basePath": "figures/challenge-5f1ea274-3",
+    "figures": []
+  },
+  "figures": [
+    0,
+    0
+  ],
+  "hackathon": null,
+  "hackathonSeasonId": null,
+  "hasContent": true,
+  "id": "challenge-5f1ea274-3",
+  "origin": "community",
+  "resources": [
+    {
+      "description": "How to reproduce the full evaluation in the task environment or with the fixed container image, and how to read the physical metrics and score.",
+      "kind": "document",
+      "name": "evaluation-background-guide"
+    },
+    {
+      "description": "Public reproducibility package: eval.py, the task brief, fixed image reference and software inventory, five public boundaries, resources.yaml and a SHA-256 file manifest. Extract with python -m zipfile -e background.zip background; see background-guide.md for the evaluation command. The container image is pulled separately.",
+      "kind": "data",
+      "name": "evaluation-background-package"
+    },
+    {
+      "description": "VMEC2000 fixed-boundary equilibrium solver at /opt/stellarator/bin/xvmec2000. Usage: mpirun --allow-run-as-root -np 8 xvmec2000 input.NAME, writes wout_NAME.nc.",
+      "kind": "tool",
+      "name": "vmec2000"
+    },
+    {
+      "description": "NEO effective-ripple code (Nemov version in STELLOPT) at /opt/stellarator/bin/xneo. Usage: xneo NAME, reads the control file neo_in.NAME and the boozmn file it names. One line differs from upstream: in NEO/Sources/flint_bo.f90 the correction for near-rational surfaces takes abs(iota); upstream uses the signed value and returns NaN on such surfaces when iota < 0.",
+      "kind": "tool",
+      "name": "neo"
+    },
+    {
+      "description": "SIMPLE guiding-centre orbit tracer at /opt/stellarator/bin/simple.x, built with SIMPLE_DETERMINISTIC_FP=ON. Usage: simple.x simple.in (Fortran namelist config), per-orbit results in orbit_exit_code.dat.",
+      "kind": "tool",
+      "name": "simple"
+    },
+    {
+      "description": "Boozer-coordinate transform of a VMEC wout, as a Python module (Booz_xform: read_wout, run, write_boozmn).",
+      "kind": "tool",
+      "name": "booz_xform"
+    },
+    {
+      "description": "SIMSOPT; the evaluation takes the boundary L_grad(B) from simsopt.mhd.vmec_diagnostics.vmec_compute_geometry on the VMEC output.",
+      "kind": "tool",
+      "name": "simsopt"
+    },
+    {
+      "description": "The pinned sources the programs were built from are in /opt/stellarator/src, one directory per repository at the commit above, without git history; fortnum, fortio, fortplot and pyplot-fortran are the libraries SIMPLE builds with. NEO/Sources/flint_bo.f90 carries the one-line change described for NEO. Compilers and build tools are in the environment below, so the programs can be rebuilt or modified in a copy.",
+      "kind": "tool",
+      "name": "sources-and-toolchain"
+    },
+    {
+      "description": "Conda environment at /opt/stellarator/env holding the programs above; the evaluation runs in it, so pip refuses to change it. Install further packages into a new environment: conda create (conda of Miniforge 26.7.2 at /opt/miniforge3/bin/conda, on PATH, conda-forge channel) or python -m venv.",
+      "kind": "tool",
+      "name": "python-env"
+    },
+    {
+      "description": "Landreman and Paul 2022, precise QA (N_FP=2); boundary of doi:10.5281/zenodo.5645413, configurations/new_QA.",
+      "kind": "data",
+      "name": "landreman-paul-2022-qa"
+    },
+    {
+      "description": "Landreman and Paul 2022, precise QA with magnetic well (N_FP=2); boundary of doi:10.5281/zenodo.5645413, configurations/new_QA_well.",
+      "kind": "data",
+      "name": "landreman-paul-2022-qa-well"
+    },
+    {
+      "description": "Landreman and Paul 2022, precise QH with magnetic well (N_FP=4); boundary of doi:10.5281/zenodo.5645413, configurations/new_QH_well.",
+      "kind": "data",
+      "name": "landreman-paul-2022-qh-well"
+    },
+    {
+      "description": "ESTELL quasi-toroidally symmetric stellarator (N_FP=2); last closed surface of https://github.com/landreman/vmec_equilibria/tree/41fcf8beb9fb743f0ee6e9c1397981e7ac7b29aa/ESTELL/ns201.",
+      "kind": "data",
+      "name": "estell"
+    },
+    {
+      "description": "QHS46 quasi-helically symmetric stellarator (N_FP=4); last closed surface of https://github.com/landreman/vmec_equilibria/tree/41fcf8beb9fb743f0ee6e9c1397981e7ac7b29aa/QHS46/ns201.",
+      "kind": "data",
+      "name": "qhs46"
+    },
+    {
+      "description": "Data of Magnetic fields with precise quasisymmetry: VMEC inputs of the QA, QA+well, QH and QH+well configurations under configurations/.",
+      "kind": "data",
+      "name": "landreman-paul-2022-data"
+    },
+    {
+      "description": "Wistell-A VMEC inputs; download each file from the record page.",
+      "kind": "data",
+      "name": "wistell-a-data"
+    },
+    {
+      "description": "QUASR repository of quasisymmetric stellarators with their coils.",
+      "kind": "data",
+      "name": "quasr-data"
+    },
+    {
+      "description": "Collection of historical stellarator VMEC equilibria (ARIES-CS, NCSX, W7-X, HSX, QHS46, ESTELL and others).",
+      "kind": "data",
+      "name": "vmec-equilibria"
+    },
+    {
+      "description": "QUASR browser of quasisymmetric vacuum configurations with coils.",
+      "kind": "data",
+      "name": "quasr-website"
+    },
+    {
+      "description": "ConStellaration dataset of QI-like stellarator boundaries.",
+      "kind": "data",
+      "name": "constellaration-dataset"
+    },
+    {
+      "description": "STELLOPT source, including VMEC2000 and NEO.",
+      "kind": "tool",
+      "name": "stellopt-code"
+    },
+    {
+      "description": "VMEC++, a C++ reimplementation of VMEC with a Python interface.",
+      "kind": "tool",
+      "name": "vmecpp-code"
+    },
+    {
+      "description": "SIMSOPT stellarator optimization framework.",
+      "kind": "tool",
+      "name": "simsopt-code"
+    },
+    {
+      "description": "DESC, JAX-based equilibrium solver and optimizer.",
+      "kind": "tool",
+      "name": "desc-code"
+    },
+    {
+      "description": "booz_xform source.",
+      "kind": "tool",
+      "name": "booz-xform-code"
+    },
+    {
+      "description": "SIMPLE source and documentation.",
+      "kind": "tool",
+      "name": "simple-code"
+    },
+    {
+      "description": "pyQSC near-axis quasisymmetric configurations.",
+      "kind": "tool",
+      "name": "pyqsc-code"
+    },
+    {
+      "description": "pyQIC near-axis quasi-isodynamic configurations.",
+      "kind": "tool",
+      "name": "pyqic-code"
+    },
+    {
+      "description": "REGCOIL winding-surface current potential for a given coil distance.",
+      "kind": "tool",
+      "name": "regcoil-code"
+    },
+    {
+      "description": "ConStellaration dataset tools and evaluator.",
+      "kind": "tool",
+      "name": "constellaration-code"
+    },
+    {
+      "description": "Landreman and Paul, Magnetic fields with precise quasisymmetry for plasma confinement, PRL 128, 035001 (2022).",
+      "kind": "document",
+      "name": "landreman-paul-2022"
+    },
+    {
+      "description": "Wechsung et al., Precise stellarator quasi-symmetry can be achieved with electromagnetic coils, PNAS 119 (2022).",
+      "kind": "document",
+      "name": "wechsung-2022"
+    },
+    {
+      "description": "Landreman, Mapping the space of quasisymmetric stellarators using optimized near-axis expansion, JPP (2022).",
+      "kind": "document",
+      "name": "landreman-2022-near-axis"
+    },
+    {
+      "description": "Giuliani et al. 2024, the QUASR database.",
+      "kind": "document",
+      "name": "quasr-paper"
+    },
+    {
+      "description": "Kappel, Landreman and Malhotra, The magnetic gradient scale length explains why certain plasmas require close external magnetic coils, PPCF 66, 025018 (2024), doi:10.1088/1361-6587/ad1a3e; appendix D tabulates L_grad(B) and coil distance of 45 configurations.",
+      "kind": "document",
+      "name": "kappel-2024-lgradb"
+    },
+    {
+      "description": "Kappel, Landreman, Jurašić and Henneberg 2026, How does the magnetic gradient scale length influence complexity of filamentary coils in stellarators?",
+      "kind": "document",
+      "name": "kappel-2026-lgradb"
+    },
+    {
+      "description": "Bindel, Landreman and Padidar, Direct optimization of fast-ion confinement in stellarators, PPCF (2023).",
+      "kind": "document",
+      "name": "bindel-2023"
+    },
+    {
+      "description": "Paul et al., Energetic particle loss mechanisms in reactor-scale equilibria close to quasisymmetry, Nucl. Fusion (2022).",
+      "kind": "document",
+      "name": "paul-2022-losses"
+    },
+    {
+      "description": "Nemov et al., Evaluation of 1/nu neoclassical transport in stellarators, Phys. Plasmas 6, 4622 (1999).",
+      "kind": "document",
+      "name": "nemov-1999"
+    },
+    {
+      "description": "Albert, Kasilov and Kernbichler, accelerated methods for direct computation of fusion alpha particle losses (SIMPLE), JPP (2020).",
+      "kind": "document",
+      "name": "albert-2020-simple"
+    },
+    {
+      "description": "Najmabadi et al., ARIES-CS compact stellarator power plant, including the radial build between plasma and coils.",
+      "kind": "document",
+      "name": "aries-cs"
+    },
+    {
+      "description": "Alonso et al. 2022, Physics design point of high-field stellarator reactors; section 4.1.2 gives the effective-ripple requirement.",
+      "kind": "document",
+      "name": "alonso-reactor-requirements"
+    },
+    {
+      "description": "Cadena et al. 2025, ConStellaration dataset and optimization benchmarks.",
+      "kind": "document",
+      "name": "constellaration-paper"
+    },
+    {
+      "description": "Magnetic well and Mercier stability near the magnetic axis.",
+      "kind": "document",
+      "name": "magnetic-well-mercier"
+    },
+    {
+      "description": "Thea Energy 2025, Helios stellarator power plant (finite pressure).",
+      "kind": "document",
+      "name": "helios"
+    },
+    {
+      "description": "Schuett and Henneberg 2024, compact QA stellarator with self-consistent bootstrap current.",
+      "kind": "document",
+      "name": "schuett-henneberg-2024"
+    },
+    {
+      "description": "SIMSOPT definitions of the effective minor radius, major radius and aspect ratio used by the task.",
+      "kind": "document",
+      "name": "simsopt-geometry-doc"
+    },
+    {
+      "description": "VMEC2000 input namelist.",
+      "kind": "document",
+      "name": "vmec-input-doc"
+    },
+    {
+      "description": "NEO documentation.",
+      "kind": "document",
+      "name": "neo-doc"
+    },
+    {
+      "description": "booz_xform documentation.",
+      "kind": "document",
+      "name": "booz-xform-doc"
+    },
+    {
+      "description": "Python package index. The sandbox has internet access, so conda-forge and other public sources are reachable as well.",
+      "kind": "service",
+      "name": "pypi"
+    },
+    {
+      "dataset_id": "fusionx-a-20261028",
+      "retrieval_ref": "wenyon://dataset/fusionx-a-20261028@1",
+      "role": "task-public-data",
+      "source": "wenyon",
+      "version_id": "1"
+    }
+  ],
+  "reviewStatus": "approved",
+  "roundEndAt": null,
+  "roundId": null,
+  "roundSeq": null,
+  "roundStartAt": null,
+  "scoring": {
+    "expected_metrics": [],
+    "formula_summary": "No automated scoring; reviewers grade attempts manually.",
+    "grader_name": null,
+    "protocol_url": "/api/protocol",
+    "score_range": [
+      0,
+      100
+    ],
+    "strategy": "human_review_only"
+  },
+  "stars": 0,
+  "status": "open",
+  "submittedBy": "bohrium_21221",
+  "tags": [],
+  "title": "用三维形状留住聚变粒子：寻找更紧凑的仿星器",
+  "title_zh": null,
+  "visibility": "public"
+}

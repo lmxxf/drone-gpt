@@ -1,0 +1,47 @@
+{
+  "python_packages": {
+    "numpy": "2.5.5",
+    "scipy": "1.18.1",
+    "simsopt": "1.10.6",
+    "booz_xform": "0.1.0",
+    "vmecpp": "0.9.4",
+    "netCDF4": "1.7.5.1.post1"
+  },
+  "machine": "aarch64",
+  "cpu_affinity": [
+    12,
+    13,
+    14,
+    15
+  ],
+  "pinned_sources": {
+    "VMEC2000_NEO": "780f5db557eacc7ca1160f4ca5a10a80922e4f26",
+    "SIMPLE": "9269e8614e581ede8768e0bccb003b52db87e3be",
+    "libneo": "f1bef44e80c4508f04594d4d2ca120eaf17564f8",
+    "booz_xform": "21aff118735de4255641aa1b64fc7ab35e8c9767"
+  },
+  "compiler": "GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "notes": [
+    "Native ARM64 rebuild; original image inaccessible.",
+    "SIMPLE_DETERMINISTIC_FP=ON",
+    "NEO near-rational correction uses abs(iota_bar_fp).",
+    "Compiler and numeric-library versions differ from original image.",
+    "Screening runs before environment pinning used simsopt 1.11.1 and PyPI booz_xform 0.1.0."
+  ],
+  "eval_sha256": "f8af3835fd88130409385891a695f21c774d0ce3d0c990fdf5ca5af7b6bcd83a",
+  "binary_sha256": {
+    "xvmec2000": "62204e33722f67965e01f8a8ee491720932057d515b0374d18ee9525e9c687b9",
+    "xneo": "21240275040e4fbadc400a0a0f5d2538432e9ed2dee4641259372ea7cb0be155",
+    "simple.x": "171b2daa6d1b3f406c3f20947006670bc0f89e90590240192e484d61179bc68e"
+  },
+  "source_archive_sha256": {
+    "fortplot.tar.gz": "d2e14ddb8ee1c157ad373b570845b7e32d518802d3b8840a6d217b6e75c4da45",
+    "stellopt.tar.gz": "95d533ab310a0ab59f9411e20cb99ae07aed0145201646079d221814ebdb869d",
+    "fortio.tar.gz": "98159ba784c8a9a1155dcad1116b911914cea0cbc9274b8a1e4c721c53ec5bf0",
+    "simple.tar.gz": "472c2cba6c4c94797ff7e29cbc3238ed434e2cc02093f795fdecaf6da9df2cf8",
+    "fortnum.tar.gz": "fb1e125123b8611aa323f4b664050e495a28a6104c9722b35f6012a0e8c33ef4",
+    "booz_xform.tar.gz": "76e758bdc6a6ebbde92eda6147cc509817ed3f8d610270f1a6a39d9d2ee06942",
+    "libneo.tar.gz": "44ff8e8c2242a1a72f98afabaf7f42bab4d0faa06f8d42c4ea9871f3ffde1ce0"
+  },
+  "version_banner_note": "Source archives have no .git directory. The build version banners inherited the enclosing workspace git description; pinned source identity is recorded by archive URL/commit and SHA256, not by those banners."
+}

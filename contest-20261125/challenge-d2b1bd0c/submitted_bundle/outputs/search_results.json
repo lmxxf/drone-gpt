@@ -1,0 +1,7607 @@
+{
+  "screens": [
+    {
+      "design": {
+        "kappa": 1.72,
+        "delta": 0.32000000000000006,
+        "c2": -0.025,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1374000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.3619210033694501,
+        "q": 0.019785491871429084,
+        "mercier": 0.24104120521884492,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 315267.53464492306,
+      "seconds": 35.37881865398958,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/040f4242cca3bf42/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 2.2,
+        "delta": 0.6,
+        "c2": -0.1,
+        "c3": 0.0,
+        "s2": 0.08,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1250000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.6300044476301416,
+        "q": 0.17179009564631653,
+        "mercier": -5.1346207171393035,
+        "nodes": -2,
+        "crossings": 0
+      },
+      "pressure": 292274.39533069625,
+      "seconds": 32.03589611710049,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected",
+          "Mercier margin fails",
+          "Mercier-unstable surfaces were not integrated for ballooning"
+        ]
+      },
+      "source_report": "runs/screen/04b86bdb3cb836dd/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.7353867325830201,
+        "delta": 0.3141314905081442,
+        "c2": 0.003401010728102033,
+        "c3": -0.07710835868395183,
+        "s2": 0.010356150962223601,
+        "s3": -0.09113974572541576,
+        "axis_pressure_Pa": 1465611.984292917
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.7920934039218319,
+        "q": 0.0067992102071858795,
+        "mercier": -16.717257025717576,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 343512.7395119546,
+      "seconds": 42.910580151947215,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected",
+          "Mercier margin fails",
+          "Mercier-unstable surfaces were not integrated for ballooning"
+        ]
+      },
+      "source_report": "runs/screen/06c450e84e0e5774/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.0625,
+        "c3": -0.025,
+        "s2": -0.09000000000000001,
+        "s3": -0.0825,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.015532151781177273,
+        "q": 0.01052774144726798,
+        "mercier": 0.24115362173966848,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 332438.18446878163,
+      "seconds": 74.52000497304834,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/07cf0e76aad90142/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1350000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.005930149574289036,
+        "q": 0.014578702674065358,
+        "mercier": 0.24105296328233483,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 300483.8558046594,
+      "seconds": 61.02750418893993,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": []
+      },
+      "source_report": "runs/screen/081bfd5bf64d2de3/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1400000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.746736303987514,
+        "q": 0.052786901193104585,
+        "mercier": 0.2413206098048995,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 336126.20769369917,
+      "seconds": 26.552347742021084,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/096a4699b0f09c0c/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.5,
+        "delta": 0.32000000000000006,
+        "c2": -0.0625,
+        "c3": -0.025,
+        "s2": -0.09000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": -0.010474712890677145,
+        "q": 0.011400608621322084,
+        "mercier": 0.24115975960934954,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 332039.0870264617,
+      "seconds": 80.4989088519942,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected",
+          "n=1: insufficient ideal-MHD energy margin"
+        ],
+        "peaked": [
+          "n=1: insufficient ideal-MHD energy margin"
+        ]
+      },
+      "source_report": "runs/screen/0bb3989a89a8e8fe/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.76,
+        "delta": 0.36000000000000004,
+        "c2": -0.025,
+        "c3": 0.0,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.6000487039942004,
+        "q": 0.009867811301690566,
+        "mercier": 0.24112350205278993,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 315260.1716224546,
+      "seconds": 89.79201906104572,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/0bbce9e8bbeeaec1/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.44,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1175000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 1.2862925512909271,
+        "q": 0.09635142604314173,
+        "mercier": 0.24108779911708356,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 283406.22762202716,
+      "seconds": 84.53438789583743,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/0ebb11ebe987e227/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.84,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "NumericalFailure",
+      "reason": "DCON reconstructed equilibrium residual exceeds the calibrated bound",
+      "seconds": 42.72875337302685,
+      "completed_native_modes_by_scenario": {},
+      "case_violations": {},
+      "source_report": "runs/screen/0eed430f4865be06/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.0625,
+        "c3": -0.025,
+        "s2": -0.09000000000000001,
+        "s3": -0.085,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": -0.004180773343035578,
+        "q": 0.010723440995368927,
+        "mercier": 0.24115023027893934,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 332103.79709587444,
+      "seconds": 80.02391464612447,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "n=1: insufficient ideal-MHD energy margin"
+        ],
+        "peaked": [
+          "n=1: insufficient ideal-MHD energy margin"
+        ]
+      },
+      "source_report": "runs/screen/0f8532000f5be89c/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.72,
+        "delta": 0.32000000000000006,
+        "c2": -0.025,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.31352090062929194,
+        "q": 0.012510887265224646,
+        "mercier": 0.24106156478020285,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 320459.82735583815,
+      "seconds": 75.34927388303913,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/100e11ec6f2c85f4/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.6,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1325000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.7316376497135247,
+        "q": 0.040234719935183794,
+        "mercier": 0.24119266345288204,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 311714.99252918,
+      "seconds": 113.02470239903778,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/111fade547c37dcd/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.4,
+        "delta": 0.32000000000000006,
+        "c2": -0.1125,
+        "c3": -0.025,
+        "s2": -0.09000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 1.3796035600106482,
+        "q": 0.009711863793298692,
+        "mercier": 0.24125949088598986,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 337700.7407455424,
+      "seconds": 34.96550011099316,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/1141004536e1600c/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1385000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.10369303287993266,
+        "q": 0.004321980839103734,
+        "mercier": 0.24108264784766875,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 307525.8772454115,
+      "seconds": 65.66271786298603,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/12a2279b60e9142c/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.0625,
+        "c3": -0.025,
+        "s2": -0.07,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.8884887277289192,
+        "q": 0.012097847005775098,
+        "mercier": 0.24116627937275203,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 334901.55614163185,
+      "seconds": 33.840532602975145,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/12e21f1db441a6ae/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.0625,
+        "c3": -0.025,
+        "s2": -0.09000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1395875.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.044807552931243264,
+        "q": 0.011245696219755796,
+        "mercier": 0.24115600453868907,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 332099.6164017484,
+      "seconds": 75.69263968593441,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/139a2775ba43a682/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.36000000000000004,
+        "c2": -0.025,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "InvalidDesign",
+      "reason": "Normalized plasma section exceeds the fixed spatial envelope",
+      "seconds": 0.0021323291584849358,
+      "completed_native_modes_by_scenario": {},
+      "case_violations": {},
+      "source_report": "runs/screen/13e2b0a3554b9ab7/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 800000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": -0.01704337728874981,
+        "q": 0.25133574189424857,
+        "mercier": 0.24073765000049963,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 199674.2103159393,
+      "seconds": 36.7953255570028,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1,
+          5
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "n=5: insufficient ideal-MHD energy margin"
+        ]
+      },
+      "source_report": "runs/screen/14d4707cadf92cb3/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 2.0,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1250000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.11543059287042017,
+        "q": 0.11752269671204751,
+        "mercier": 0.24118805448323316,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 296889.74067391205,
+      "seconds": 33.21848384779878,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/14febbb4ee9db87c/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.0625,
+        "c3": -0.025,
+        "s2": -0.09000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "level": "fine",
+      "status": "pass",
+      "margins": {
+        "energy": 0.042154557510314744,
+        "q": 0.010315390369642463,
+        "mercier": 0.24115934919391047,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 332770.8175573579,
+      "seconds": 486.6009896390606,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "nominal": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "nominal": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/16c913d033d33a7e/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.76,
+        "delta": 0.36000000000000004,
+        "c2": -0.025,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1374000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.39762056077029745,
+        "q": 0.015472836385963529,
+        "mercier": 0.24106484425163477,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 311774.17954705004,
+      "seconds": 79.06551760504954,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/189ecc62d6258b3f/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 2.0,
+        "delta": 0.6,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1000000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.03917955185364448,
+        "q": 0.16010897966068405,
+        "mercier": 0.2409271742638266,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 235949.84070234484,
+      "seconds": 156.46524734492414,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1,
+          5
+        ]
+      },
+      "case_violations": {
+        "broad": []
+      },
+      "source_report": "runs/screen/192f2ddcf3028274/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.44,
+        "delta": 0.32000000000000006,
+        "c2": -0.05,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "InvalidDesign",
+      "reason": "Normalized plasma section exceeds the fixed spatial envelope",
+      "seconds": 0.004328076960518956,
+      "completed_native_modes_by_scenario": {},
+      "case_violations": {},
+      "source_report": "runs/screen/1bfa02fed47ad307/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.68,
+        "delta": 0.32000000000000006,
+        "c2": -0.025,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1374000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 1.1427087435145216,
+        "q": 0.018878366919272915,
+        "mercier": 0.24103895750708038,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 316866.1877350327,
+      "seconds": 35.55053612194024,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/1d3f08b1d5ac988f/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.76,
+        "delta": 0.36000000000000004,
+        "c2": -0.025,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.34287668511574027,
+        "q": 0.008220857528409953,
+        "mercier": 0.2410857923576642,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 316906.8759748835,
+      "seconds": 83.9424370850902,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/1ec1010d6a4c2496/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.44,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": -0.02,
+        "axis_pressure_Pa": 1200000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.07376120102781628,
+        "q": 0.08265125514884564,
+        "mercier": 0.24105657129895663,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 286203.1139113308,
+      "seconds": 109.83601169008762,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/1f20c1159f80c279/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.7231845754772532,
+        "delta": -0.07330079471315493,
+        "c2": -0.011585647314078115,
+        "c3": 0.0066179380827385,
+        "s2": 0.011883591639518978,
+        "s3": 0.07169494585542566,
+        "axis_pressure_Pa": 1150126.5764073648
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.2669306978586258,
+        "q": 0.17931203180365252,
+        "mercier": -138.2955708746188,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 297792.32066435076,
+      "seconds": 49.0763933849521,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected",
+          "Mercier margin fails",
+          "Mercier-unstable surfaces were not integrated for ballooning"
+        ]
+      },
+      "source_report": "runs/screen/2039c628ccba320d/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.68,
+        "delta": 0.32000000000000006,
+        "c2": -0.025,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 1.14523925557032,
+        "q": 0.011560647277922609,
+        "mercier": 0.24105925238862147,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 322082.13677704765,
+      "seconds": 35.46697247913107,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/207a8b520da7c6f5/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.4,
+        "delta": 0.32000000000000006,
+        "c2": -0.1125,
+        "c3": -0.037500000000000006,
+        "s2": -0.09000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 1.1978353259268195,
+        "q": 0.007055562964596307,
+        "mercier": 0.2412250838675521,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 338026.19788450986,
+      "seconds": 34.90921224607155,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/207adeaf6ef4bc55/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.68,
+        "delta": 0.32000000000000006,
+        "c2": -0.025,
+        "c3": -0.05,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.6659782039766386,
+        "q": 0.008769892498721621,
+        "mercier": 0.2410180880902995,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 323437.8837046418,
+      "seconds": 36.84989240206778,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/216aef1c8321bb32/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.0625,
+        "c3": -0.03125,
+        "s2": -0.09000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.024209106360832938,
+        "q": 0.009101911711718813,
+        "mercier": 0.2411473764574381,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 333005.1147312436,
+      "seconds": 88.35150863579474,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/217ab6f7669f2a78/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.05,
+        "c3": 0.0,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.22789394729239829,
+        "q": 0.013475359461359915,
+        "mercier": 0.2411857866250729,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 330004.1057374138,
+      "seconds": 31.316931162029505,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/2204c825f9425dfd/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.4,
+        "c2": -0.1,
+        "c3": -0.1,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1300000.0
+      },
+      "screen_only": true,
+      "status": "invalidated_blas",
+      "margins": {
+        "energy": -0.010778546426422819,
+        "q": 0.11591613104537957,
+        "mercier": -77.67342437934788,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 320285.2519902448,
+      "seconds": 39.288710589986295,
+      "invalidated_library_experiment": true,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected",
+          "Mercier margin fails",
+          "Mercier-unstable surfaces were not integrated for ballooning",
+          "n=1: insufficient ideal-MHD energy margin"
+        ]
+      },
+      "source_report": "runs/screen/2301998a8eb6c578/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1250000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.2928231172785946,
+        "q": 0.09130100371184735,
+        "mercier": 0.24117021832681906,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 302491.6234729054,
+      "seconds": 120.29354578093626,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/2318dbfedd920848/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.6,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1300000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.6539083172436019,
+        "q": 0.05929500055460957,
+        "mercier": 0.24121700233328291,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 320044.1900759593,
+      "seconds": 63.2903814218007,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/238a6a6111d2af2d/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.68,
+        "delta": 0.2800000000000001,
+        "c2": -0.025,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.07891626852025405,
+        "q": 0.01633158686362668,
+        "mercier": 0.24104232874169162,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 324044.412693769,
+      "seconds": 35.51096783205867,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": []
+      },
+      "source_report": "runs/screen/239e813517895816/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.4355561923469287,
+        "delta": 0.32000000000000006,
+        "c2": -0.0625,
+        "c3": -0.025,
+        "s2": -0.09000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.2920462245054584,
+        "q": 0.0077980380959630224,
+        "mercier": 0.2411677385569817,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 334357.65362117783,
+      "seconds": 33.81122018303722,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": []
+      },
+      "source_report": "runs/screen/25b4112b00074ec8/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.0625,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.23096928136166714,
+        "q": 0.00963839335233474,
+        "mercier": 0.24115487021362902,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 331659.3199032847,
+      "seconds": 33.726941547123715,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/25e18922bdc616e7/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.72,
+        "delta": 0.36000000000000004,
+        "c2": -0.025,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.9682106955872363,
+        "q": 0.0075220486785851914,
+        "mercier": 0.24108024227653607,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 318508.10160344146,
+      "seconds": 73.8934658661019,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/27c51a9018596fc0/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1398000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.13405794658371417,
+        "q": 0.0005642498700488829,
+        "mercier": 0.2410938289809843,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 310132.85195314494,
+      "seconds": 83.75838462100364,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/27ffcc4408b793cb/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.0625,
+        "c3": -0.037500000000000006,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.43305834423918727,
+        "q": 0.007109899987545409,
+        "mercier": 0.24112354508956557,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 332138.9221009041,
+      "seconds": 34.19847038015723,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/28c92b8210bd581f/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1300000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": -0.016041887926299746,
+        "q": 0.029556227333869645,
+        "mercier": 0.24101061433807958,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 290364.4438206656,
+      "seconds": 53.79450024897233,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "n=1: insufficient ideal-MHD energy margin"
+        ]
+      },
+      "source_report": "runs/screen/2952bf8cf2a8c059/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.9270551656511208,
+        "delta": -0.16399432817791704,
+        "c2": -0.10510778113447715,
+        "c3": 0.08591693138496398,
+        "s2": -0.016315727376780262,
+        "s3": -0.06992642025038459,
+        "axis_pressure_Pa": 1385295.9440492943
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.30056672445305477,
+        "q": 0.14002011116199498,
+        "mercier": -726.5097880748393,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 333682.32431094925,
+      "seconds": 34.47705624788068,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected",
+          "Mercier margin fails",
+          "Mercier-unstable surfaces were not integrated for ballooning"
+        ]
+      },
+      "source_report": "runs/screen/295cf740d092af9a/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.0625,
+        "c3": -0.025,
+        "s2": -0.09500000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": -0.016916039699749176,
+        "q": 0.009987842633210287,
+        "mercier": 0.24115979410271293,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 332218.86909669737,
+      "seconds": 83.79256595298648,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected",
+          "n=1: insufficient ideal-MHD energy margin"
+        ],
+        "peaked": [
+          "n=1: insufficient ideal-MHD energy margin"
+        ]
+      },
+      "source_report": "runs/screen/2961f221e9af7f25/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.0625,
+        "c3": -0.025,
+        "s2": -0.09000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1392750.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.047288095351021506,
+        "q": 0.012197126197963648,
+        "mercier": 0.24115333080787504,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 331428.05042244977,
+      "seconds": 78.30679994705133,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/299c2e46037688b2/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.44,
+        "c2": 0.0,
+        "c3": 0.025,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1200000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 1.1608874571358494,
+        "q": 0.09011766529198928,
+        "mercier": 0.24116146280654416,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 288229.22238775593,
+      "seconds": 124.91841217689216,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/2a6a27eb53f66521/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.05,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.06,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.012736315412180458,
+        "q": 0.0062392356769365165,
+        "mercier": 0.24115181702674504,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 333703.8876040032,
+      "seconds": 33.98003348102793,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/2acedb05f563d880/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.15,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.3984713961309931,
+        "q": 0.01899249426308569,
+        "mercier": 0.24130240706595718,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 335472.9021426779,
+      "seconds": 30.807621576124802,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/2bf7728e9b76b3fa/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1200000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.1509147350719529,
+        "q": 0.09941774728356778,
+        "mercier": 0.24111912105454997,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 290709.1929853978,
+      "seconds": 99.49363670218736,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/2d389273f928c9ed/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.68,
+        "delta": 0.32000000000000006,
+        "c2": -0.025,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.1,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.006694694606111266,
+        "q": 0.010756750783157187,
+        "mercier": 0.2410298541788995,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 318778.0611133495,
+      "seconds": 41.65873193508014,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/2df20b379fdc29a1/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 2.132318533391193,
+        "delta": -0.13064424880761333,
+        "c2": 0.05883296027562751,
+        "c3": -0.10350160690573712,
+        "s2": 0.024273590826167465,
+        "s3": -0.059139897122934264,
+        "axis_pressure_Pa": 1444237.322303481
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 1.1522647212871466,
+        "q": 0.0690755693664471,
+        "mercier": -370.1991026122241,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 332935.07568401826,
+      "seconds": 40.45496873580851,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected",
+          "Mercier margin fails",
+          "Mercier-unstable surfaces were not integrated for ballooning"
+        ]
+      },
+      "source_report": "runs/screen/2e0cfbbbe6ba478e/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.68,
+        "delta": 0.36000000000000004,
+        "c2": -0.025,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.21173219004754978,
+        "q": 0.0068930833560256755,
+        "mercier": 0.2410784743913394,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 320097.3525160365,
+      "seconds": 35.6475110410247,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/30524b578c4b05ea/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.3,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1300000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.07852787606591398,
+        "q": 0.04200731196553953,
+        "mercier": 0.24093434483332787,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 294881.2382988832,
+      "seconds": 55.49199466104619,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": []
+      },
+      "source_report": "runs/screen/307215666d86c5ac/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 2.2,
+        "delta": 0.65,
+        "c2": -0.08,
+        "c3": 0.0,
+        "s2": 0.06,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1500000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": -0.01987251135484615,
+        "q": 0.06657780967536864,
+        "mercier": -109.52076047302754,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 340713.4863402752,
+      "seconds": 31.52361313509755,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Mercier margin fails",
+          "Mercier-unstable surfaces were not integrated for ballooning",
+          "n=1: insufficient ideal-MHD energy margin"
+        ]
+      },
+      "source_report": "runs/screen/330bce1284d00518/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.52,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1300000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 1.0839210280123959,
+        "q": 0.060281525946010106,
+        "mercier": 0.24119696581619726,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 309367.19596613175,
+      "seconds": 64.85614055488259,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/33d9de5adebc6b07/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.5599999999999998,
+        "delta": 0.32000000000000006,
+        "c2": -0.025,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.24859071195479168,
+        "q": 0.008242651929047495,
+        "mercier": 0.24106077068893528,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 326841.57822640834,
+      "seconds": 33.84741702210158,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/34fdfbd47c737a19/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.84,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1325000.0
+      },
+      "screen_only": true,
+      "status": "NumericalFailure",
+      "reason": "DCON reconstructed equilibrium residual exceeds the calibrated bound",
+      "seconds": 44.17639260087162,
+      "completed_native_modes_by_scenario": {},
+      "case_violations": {},
+      "source_report": "runs/screen/3541c05436ddb19d/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.059375,
+        "c3": -0.025,
+        "s2": -0.09000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.026064689525219637,
+        "q": 0.009963113769449805,
+        "mercier": 0.2411545704095115,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 332627.2628223895,
+      "seconds": 77.11471535312012,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/372f0981e1911d8e/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.72,
+        "delta": 0.32000000000000006,
+        "c2": 0.0,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": -0.01939966405633772,
+        "q": 0.007855020668792845,
+        "mercier": 0.24099860805311385,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 319204.3732374145,
+      "seconds": 75.38326587318443,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "n=1: insufficient ideal-MHD energy margin"
+        ],
+        "peaked": [
+          "n=1: insufficient ideal-MHD energy margin"
+        ]
+      },
+      "source_report": "runs/screen/374c334a10ad814e/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.6554031518207764,
+        "delta": -0.0642971517622572,
+        "c2": 0.015665167616428527,
+        "c3": -0.06504587396564845,
+        "s2": -0.08723610680916545,
+        "s3": -0.0534114667471332,
+        "axis_pressure_Pa": 1211570.2307007925
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.5515900542674426,
+        "q": 0.09486696989443377,
+        "mercier": -8.202313052903689,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 300400.6549998889,
+      "seconds": 41.5923462160863,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Mercier margin fails",
+          "Mercier-unstable surfaces were not integrated for ballooning"
+        ]
+      },
+      "source_report": "runs/screen/38277b51cbe4b1e8/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.05625,
+        "c3": -0.025,
+        "s2": -0.09000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.011958124556503209,
+        "q": 0.009560758556120152,
+        "mercier": 0.24114846111483057,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 332483.06761926354,
+      "seconds": 74.04744546185248,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": []
+      },
+      "source_report": "runs/screen/387ee99e81562e31/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.0625,
+        "c3": -0.025,
+        "s2": -0.09000000000000001,
+        "s3": -0.09,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": -0.020134274915686937,
+        "q": 0.011247722977498098,
+        "mercier": 0.24114506598719193,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 331430.1723497947,
+      "seconds": 33.55866259080358,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "n=1: insufficient ideal-MHD energy margin"
+        ],
+        "peaked": [
+          "n=1: insufficient ideal-MHD energy margin"
+        ]
+      },
+      "source_report": "runs/screen/38819cb67ce907ff/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.0625,
+        "c3": -0.025,
+        "s2": -0.09250000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.0036207594092089804,
+        "q": 0.010126406712210656,
+        "mercier": 0.24116047871992402,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 332495.8244071593,
+      "seconds": 77.56040983600542,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": []
+      },
+      "source_report": "runs/screen/3969ca2bed260e9c/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.72,
+        "delta": 0.32000000000000006,
+        "c2": -0.05,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 1.1593442280129302,
+        "q": 0.017441386113506985,
+        "mercier": 0.24112119811563015,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 321717.9826501388,
+      "seconds": 68.09235208900645,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": []
+      },
+      "source_report": "runs/screen/3c3f80b42f06fe2a/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.76,
+        "delta": 0.36000000000000004,
+        "c2": -0.025,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1424000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.29197276794768623,
+        "q": 0.0010602442283058622,
+        "mercier": 0.24110696749641736,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 322022.18392648577,
+      "seconds": 89.53261644695885,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": []
+      },
+      "source_report": "runs/screen/3e3720770a8a02c8/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.0625,
+        "c3": -0.021875000000000002,
+        "s2": -0.09000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.05201094565075086,
+        "q": 0.010917557100791564,
+        "mercier": 0.24116702473038953,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 332651.6583584567,
+      "seconds": 82.31669837119989,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": []
+      },
+      "source_report": "runs/screen/40a89fbdda2a5dea/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 2.1,
+        "delta": 0.5,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1250000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 1.1729809681276893,
+        "q": 0.10672188861319998,
+        "mercier": 0.24121157624404616,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 290421.42425097537,
+      "seconds": 34.19456159113906,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/428b4bbe134f9c81/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.05,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.5712001242779003,
+        "q": 0.008318995626736658,
+        "mercier": 0.24112626412804683,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 331073.8629366472,
+      "seconds": 32.72096641198732,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/437d36b35df81474/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.76,
+        "delta": 0.36000000000000004,
+        "c2": -0.025,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.1,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.7834557750780866,
+        "q": 0.006639844697404307,
+        "mercier": 0.2410678037645263,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 313393.73896451626,
+      "seconds": 79.15102253993973,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/461be599759cd848/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.05,
+        "c3": -0.025,
+        "s2": -0.08,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.21050608590764186,
+        "q": 0.00957815814274321,
+        "mercier": 0.2411355649174468,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 333280.8637563204,
+      "seconds": 33.804493460804224,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/472037d16798dadb/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.0,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1300000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.6246558436186818,
+        "q": 0.12957225361180935,
+        "mercier": -241.076315218131,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 325283.40268473193,
+      "seconds": 41.66510751191527,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected",
+          "Mercier margin fails",
+          "Mercier-unstable surfaces were not integrated for ballooning"
+        ]
+      },
+      "source_report": "runs/screen/48323dcd7d8ff520/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.05,
+        "c3": -0.05,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 1.1100628706876152,
+        "q": 0.003188849726543763,
+        "mercier": 0.2410694867455367,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 332054.94678973214,
+      "seconds": 31.265829848125577,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/4d3bc79ead91051b/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1405000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.15050456010793237,
+        "q": -0.001447683722902715,
+        "mercier": 0.2410997722359302,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 311534.68129728973,
+      "seconds": 82.90282164211385,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "n=1: q minimum below the specified operating bound"
+        ],
+        "peaked": []
+      },
+      "source_report": "runs/screen/510b7c54f082592b/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1200000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.1509147350719529,
+        "q": 0.11303224765524877,
+        "mercier": 0.24112288863001752,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 291855.1352427466,
+      "seconds": 57.21620406303555,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1,
+          5
+        ]
+      },
+      "case_violations": {
+        "broad": []
+      },
+      "source_report": "runs/screen/51545d8ec8d2000d/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.0625,
+        "c3": -0.025,
+        "s2": -0.09000000000000001,
+        "s3": -0.075,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.11541583367339193,
+        "q": 0.0099434282019768,
+        "mercier": 0.24116742828423782,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 333431.02074509615,
+      "seconds": 74.95248494716361,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/5380837ce38c4fdc/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.0625,
+        "c3": -0.025,
+        "s2": -0.08750000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.09831265727643841,
+        "q": 0.010485201102979014,
+        "mercier": 0.24116128998699932,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 333044.0334534815,
+      "seconds": 76.62789642205462,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": []
+      },
+      "source_report": "runs/screen/5530b8fd846c6b47/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.0625,
+        "c3": -0.025,
+        "s2": -0.09000000000000001,
+        "s3": -0.0775,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.07586961824931034,
+        "q": 0.010023473104065816,
+        "mercier": 0.24116253188187364,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 333101.8424035741,
+      "seconds": 95.46837768191472,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": []
+      },
+      "source_report": "runs/screen/5570715b67e9727d/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.1125,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.11181687432600242,
+        "q": 0.014958993621378758,
+        "mercier": 0.24125009248881224,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 333903.0118948634,
+      "seconds": 33.758305167080835,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/5bfcddd93f19d5af/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.36000000000000004,
+        "c2": -0.025,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": -0.014978938402915814,
+        "q": 0.008792923002215458,
+        "mercier": 0.24109121536150524,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 315296.9385465731,
+      "seconds": 75.75643302500248,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected",
+          "n=1: insufficient ideal-MHD energy margin"
+        ],
+        "peaked": [
+          "n=1: insufficient ideal-MHD energy margin"
+        ]
+      },
+      "source_report": "runs/screen/5c38040be6a79baa/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.44,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.02,
+        "axis_pressure_Pa": 1200000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.22045701468391057,
+        "q": 0.1016701394358388,
+        "mercier": 0.241161631446506,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 292154.5264411388,
+      "seconds": 76.92374421702698,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/5c3bfbad03c7c910/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.05,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1374000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.49014036448735454,
+        "q": 0.015988650456319142,
+        "mercier": 0.2411045169400199,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 325727.34649835085,
+      "seconds": 33.8967500180006,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/5c9bf6a5bc6b5bf1/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1200000.0
+      },
+      "screen_only": true,
+      "status": "invalidated_blas",
+      "reason": "Native calculation failed (1): modes.log",
+      "seconds": 225.7606693280395,
+      "invalidated_library_experiment": true,
+      "completed_native_modes_by_scenario": {},
+      "case_violations": {},
+      "source_report": "runs/screen/5e6fa4e6f85f47af/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1800000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 1.0338863753017336,
+        "q": -0.05284130732427372,
+        "mercier": -566.2310810759203,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 421322.1360842684,
+      "seconds": 40.993342929985374,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected",
+          "Mercier margin fails",
+          "Mercier-unstable surfaces were not integrated for ballooning",
+          "n=1: q minimum below the specified operating bound"
+        ]
+      },
+      "source_report": "runs/screen/5e9f5d821039bf7d/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.72,
+        "delta": 0.32000000000000006,
+        "c2": -0.025,
+        "c3": -0.05,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.10319894895048635,
+        "q": 0.010272967400248412,
+        "mercier": 0.24102205451957787,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 321869.0811497959,
+      "seconds": 61.748058579163626,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/5ef19b27dedd43ba/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.6,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1000000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": -0.01857513106371937,
+        "q": 0.14773882496595991,
+        "mercier": 0.2408829250749126,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 240632.74694643874,
+      "seconds": 205.1520592579618,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1,
+          5
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "n=5: insufficient ideal-MHD energy margin"
+        ]
+      },
+      "source_report": "runs/screen/5f0da687d138460f/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.44,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1200000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 1.209817280428708,
+        "q": 0.0922209017161133,
+        "mercier": 0.24111293047592292,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 289273.60605194856,
+      "seconds": 81.71823721309192,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/60eba42bc0dba714/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.0625,
+        "c3": -0.025,
+        "s2": -0.09000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.04239153407248991,
+        "q": 0.010295737949084671,
+        "mercier": 0.2411587694967866,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 332770.8832571167,
+      "seconds": 33.88235521502793,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/614b3f808a6d24db/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.05,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.1,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 1.0600359456991097,
+        "q": 0.0108123291958091,
+        "mercier": 0.24109119733088064,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 328337.684429512,
+      "seconds": 33.935737502994016,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/6195b15ce4e6b1c7/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1000000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.003910505480403777,
+        "q": 0.17906668119379088,
+        "mercier": 0.24092874793018632,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 246388.74884248135,
+      "seconds": 48.17169672483578,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1,
+          5
+        ]
+      },
+      "case_violations": {
+        "broad": []
+      },
+      "source_report": "runs/screen/632e84a35322c6c9/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 2.2,
+        "delta": 0.6,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1000000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.12033645276063186,
+        "q": 0.1720498389698819,
+        "mercier": 0.24098410484656285,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 231156.84049448586,
+      "seconds": 265.18535341508687,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1,
+          5
+        ]
+      },
+      "case_violations": {
+        "broad": []
+      },
+      "source_report": "runs/screen/6455fb2187252df2/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.52,
+        "delta": 0.32000000000000006,
+        "c2": -0.05,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 1.0866714422275185,
+        "q": 0.010057728068576077,
+        "mercier": 0.2411212744110851,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 329585.56914326764,
+      "seconds": 31.469774361001328,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/64894455d1cb1095/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.0875,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": -0.0033062874497482263,
+        "q": 0.012281017891717871,
+        "mercier": 0.2412025500440254,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 332801.63445332664,
+      "seconds": 33.94253346696496,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected",
+          "n=1: insufficient ideal-MHD energy margin"
+        ],
+        "peaked": [
+          "n=1: insufficient ideal-MHD energy margin"
+        ]
+      },
+      "source_report": "runs/screen/6670b785aedcdd64/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1395000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.12700362576653668,
+        "q": 0.0014289640166693651,
+        "mercier": 0.24109112318867787,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 309531.65559245745,
+      "seconds": 77.01827864185907,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/6821305594021ab7/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 2.2,
+        "delta": 0.6,
+        "c2": 0.0,
+        "c3": 0.1,
+        "s2": 0.0,
+        "s3": 0.08,
+        "axis_pressure_Pa": 1250000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.40487950078614593,
+        "q": 0.12259743975419068,
+        "mercier": 0.2414536189186472,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 292080.2562621834,
+      "seconds": 34.596794955898076,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/686dd0b4bff3ed09/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.65,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1350000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 1.0009344757089174,
+        "q": 0.02585142773069604,
+        "mercier": 0.24119995371860864,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 315217.68498803006,
+      "seconds": 102.30364160705358,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/68becdc9fb5730d5/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.72,
+        "delta": 0.32000000000000006,
+        "c2": -0.025,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1424000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.26823751727669015,
+        "q": 0.005308553422076034,
+        "mercier": 0.24108201157269388,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 325634.47902079433,
+      "seconds": 35.779542888049036,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": []
+      },
+      "source_report": "runs/screen/68d56860cc75667b/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1125000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": -0.020177498198657787,
+        "q": 0.11148292629146805,
+        "mercier": 0.24104324196887617,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 272959.69942440494,
+      "seconds": 81.29820076585747,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "n=1: insufficient ideal-MHD energy margin"
+        ],
+        "peaked": []
+      },
+      "source_report": "runs/screen/690335b83036b67c/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 600000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.2846640090964236,
+        "q": 0.330192285682986,
+        "mercier": 0.2405496712794663,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 151672.23741434168,
+      "seconds": 32.54923864803277,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1,
+          5
+        ]
+      },
+      "case_violations": {
+        "broad": []
+      },
+      "source_report": "runs/screen/6baf1c430048557f/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.2800000000000001,
+        "c2": -0.025,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.10751680460758466,
+        "q": 0.008652293539723077,
+        "mercier": 0.24106190119293097,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 331993.5448881736,
+      "seconds": 57.237229795893654,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": []
+      },
+      "source_report": "runs/screen/6ca3d45b4cb7b9be/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.9937791912393956,
+        "delta": 0.3409220020768285,
+        "c2": 0.11152698842768674,
+        "c3": 0.03994506108949514,
+        "s2": 0.03560853050315743,
+        "s3": -0.006486117938030195,
+        "axis_pressure_Pa": 1330028.0490113809
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.13120018169202594,
+        "q": 0.0690490071759895,
+        "mercier": 0.24077577117421461,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 311757.3847758263,
+      "seconds": 44.45033379807137,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/6ee87562408f9655/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.44,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1225000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 1.141161909370648,
+        "q": 0.08809184815219195,
+        "mercier": 0.2411380984363199,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 295130.5316713577,
+      "seconds": 119.22414061799645,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/700a27fcd41355f3/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.1,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.04292177598330961,
+        "q": 0.01366069381457824,
+        "mercier": 0.24122932114984613,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 333357.6232102711,
+      "seconds": 30.90842202701606,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": []
+      },
+      "source_report": "runs/screen/726ed3e945852e1f/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.0625,
+        "c3": -0.025,
+        "s2": -0.09000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1411500.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.03317553268475314,
+        "q": 0.006510481047597105,
+        "mercier": 0.24116991991472186,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 335452.9647947118,
+      "seconds": 33.494817974977195,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": []
+      },
+      "source_report": "runs/screen/77895ea42633c4a9/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8009244783036145,
+        "delta": 0.12740092033945594,
+        "c2": -0.04680837239249187,
+        "c3": -0.09154511392744641,
+        "s2": -0.0927837741736332,
+        "s3": -0.022156131220820816,
+        "axis_pressure_Pa": 1229874.2422754536
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.1424453261907238,
+        "q": 0.11447408719199559,
+        "mercier": 0.24088593469825392,
+        "nodes": -2,
+        "crossings": 0
+      },
+      "pressure": 301132.93757845886,
+      "seconds": 39.937292377930135,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/77a1e9898ed6666b/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.44,
+        "c2": -0.025,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1200000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 1.2158218679868493,
+        "q": 0.09930040254821648,
+        "mercier": 0.24115689430233073,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 290109.79198439,
+      "seconds": 61.63133853999898,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/780d67e59cad42d9/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.0625,
+        "c3": -0.025,
+        "s2": -0.09000000000000001,
+        "s3": -0.07,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.2106803770536334,
+        "q": 0.0094940240948731,
+        "mercier": 0.24117564080938064,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 334083.78343630995,
+      "seconds": 33.74556200602092,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/788973f789e97ee4/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 2.1100146794793777,
+        "delta": 0.11036020607827818,
+        "c2": -0.07545573921680668,
+        "c3": -0.01894680118303256,
+        "s2": 0.08406949993868648,
+        "s3": 0.03363321278093637,
+        "axis_pressure_Pa": 1309965.1947609277
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": -0.59526251467666,
+        "q": 0.2338740161628512,
+        "mercier": -659.9814681794072,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 324441.7578609903,
+      "seconds": 54.221579659031704,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected",
+          "Mercier margin fails",
+          "Mercier-unstable surfaces were not integrated for ballooning",
+          "n=1: insufficient ideal-MHD energy margin"
+        ]
+      },
+      "source_report": "runs/screen/7b2d0d538970b4ff/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.785011259154613,
+        "delta": 0.049867617873469994,
+        "c2": -0.024198064158129987,
+        "c3": 0.020453381344151284,
+        "s2": 0.09446652834200228,
+        "s3": 0.01036743304843897,
+        "axis_pressure_Pa": 1271934.5630786868
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.02761100054256516,
+        "q": 0.1472952560680767,
+        "mercier": -467.01477044067474,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 320356.40135074017,
+      "seconds": 40.35148985218257,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected",
+          "Mercier margin fails",
+          "Mercier-unstable surfaces were not integrated for ballooning"
+        ]
+      },
+      "source_report": "runs/screen/7cc5c8991630acd7/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.4,
+        "delta": 0.32000000000000006,
+        "c2": -0.15,
+        "c3": -0.037500000000000006,
+        "s2": -0.09000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 1.2574350498879332,
+        "q": 0.010298827118445875,
+        "mercier": 0.2412741454515689,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 339428.28401713324,
+      "seconds": 33.89049454405904,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/7de83f68ce6af220/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.44,
+        "c2": 0.0,
+        "c3": -0.025,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1200000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 1.155527793298659,
+        "q": 0.093982947841458,
+        "mercier": 0.2410591181651474,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 290225.5253806288,
+      "seconds": 82.01138827484101,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/827762ce1393e5a4/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.05,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1424000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.6547476749027562,
+        "q": 0.0007402871721184923,
+        "mercier": 0.24114871351171457,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 336401.2080400838,
+      "seconds": 34.09708312922157,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/8355a40091338057/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.68,
+        "delta": 0.32000000000000006,
+        "c2": 0.0,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.2622298184613666,
+        "q": 0.007079985446975856,
+        "mercier": 0.24099697816732202,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 320829.7722203527,
+      "seconds": 35.59793634386733,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/83a68b67bc982e9b/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.49,
+        "delta": 0.32000000000000006,
+        "c2": -0.0625,
+        "c3": -0.025,
+        "s2": -0.09000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.0104899806797852,
+        "q": 0.010888306900907585,
+        "mercier": 0.24115740649818956,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 332406.26583056623,
+      "seconds": 76.72765479399823,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": []
+      },
+      "source_report": "runs/screen/83b7ac57340eb639/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.56,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1300000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.021616334029574007,
+        "q": 0.05244240128289568,
+        "mercier": 0.2411832819299709,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 307712.41217460076,
+      "seconds": 116.77533964812756,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/855562c54984d8b9/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.13633165660920882,
+        "q": 0.0002763413780908497,
+        "mercier": 0.2410945025567166,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 310333.1957259178,
+      "seconds": 74.37413118290715,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/860cb57e315ede35/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 2.2,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1000000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.12926763754321918,
+        "q": 0.21573826105777827,
+        "mercier": 0.24096306254084632,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 236330.86436011514,
+      "seconds": 94.91784136090428,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1,
+          5
+        ]
+      },
+      "case_violations": {
+        "broad": []
+      },
+      "source_report": "runs/screen/871d81c563c31578/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 2.0,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1400000.0
+      },
+      "screen_only": true,
+      "status": "InvalidDesign",
+      "reason": "Normalized plasma section exceeds the fixed spatial envelope",
+      "seconds": 0.0018254001624882221,
+      "completed_native_modes_by_scenario": {},
+      "case_violations": {},
+      "source_report": "runs/screen/87d43bbfa6d79a6a/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.31000000000000005,
+        "c2": -0.0625,
+        "c3": -0.025,
+        "s2": -0.09000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.20927668379950698,
+        "q": 0.011239710400062553,
+        "mercier": 0.24116022123027725,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 333294.21261985844,
+      "seconds": 73.19100181688555,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/87f315c4020bb7d0/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.47,
+        "delta": 0.32000000000000006,
+        "c2": -0.0625,
+        "c3": -0.025,
+        "s2": -0.09000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.0842986223201517,
+        "q": 0.009763977169189753,
+        "mercier": 0.24116219182289111,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 333132.84241284325,
+      "seconds": 80.25635564909317,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": []
+      },
+      "source_report": "runs/screen/8abd00790bac5f07/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": -0.2,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1300000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.09249438551335604,
+        "q": 0.13318429561580003,
+        "mercier": -503.944657486099,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 326756.4390011983,
+      "seconds": 33.79782784706913,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected",
+          "Mercier margin fails",
+          "Mercier-unstable surfaces were not integrated for ballooning"
+        ]
+      },
+      "source_report": "runs/screen/8bd187e96fc5e156/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 2.0,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1000000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.07702523820062028,
+        "q": 0.19833715606220514,
+        "mercier": 0.2409413755010541,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 241415.1550582546,
+      "seconds": 50.87596618197858,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1,
+          5
+        ]
+      },
+      "case_violations": {
+        "broad": []
+      },
+      "source_report": "runs/screen/8d91a653b853a544/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 2.068494045488559,
+        "delta": 0.484071376910536,
+        "c2": 0.047673309642445566,
+        "c3": -0.11019170136767728,
+        "s2": -0.04943306205186485,
+        "s3": 0.02901451386727741,
+        "axis_pressure_Pa": 1302768.7751427693
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.3182091474446897,
+        "q": 0.0882811997376245,
+        "mercier": 0.24083779066750238,
+        "nodes": -2,
+        "crossings": 0
+      },
+      "pressure": 308766.3019852075,
+      "seconds": 63.696026250952855,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/8ebc6dfe1548351f/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.33000000000000007,
+        "c2": -0.0625,
+        "c3": -0.025,
+        "s2": -0.09000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": -0.020015860186719088,
+        "q": 0.009411713443747471,
+        "mercier": 0.2411614752129395,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 332244.74705349386,
+      "seconds": 79.54188721999526,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected",
+          "n=1: insufficient ideal-MHD energy margin"
+        ],
+        "peaked": [
+          "n=1: insufficient ideal-MHD energy margin"
+        ]
+      },
+      "source_report": "runs/screen/8ed7574fb4e1ef27/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.9312171286793722,
+        "delta": -0.25651484206458414,
+        "c2": -0.10017718811530048,
+        "c3": 0.09857112652170044,
+        "s2": -0.003577150751282107,
+        "s3": 0.05575843995465993,
+        "axis_pressure_Pa": 1828089.8195943206
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": -18.71906899224078,
+        "q": 0.07012932693509333,
+        "mercier": -832.4064649259591,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 450348.53420448245,
+      "seconds": 24.23475502501242,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected",
+          "Mercier margin fails",
+          "Mercier-unstable surfaces were not integrated for ballooning",
+          "n=1: insufficient ideal-MHD energy margin"
+        ]
+      },
+      "source_report": "runs/screen/90a9553e6f3a12cb/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1150000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.01274570480839245,
+        "q": 0.10747326028629156,
+        "mercier": 0.24106859070860398,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 278886.1112237829,
+      "seconds": 127.95482129091397,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/90aeb036de948b2d/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.68,
+        "delta": 0.32000000000000006,
+        "c2": -0.025,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1424000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 1.0331422852916494,
+        "q": 0.004321862126086762,
+        "mercier": 0.24108011289916592,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 327280.2081734956,
+      "seconds": 35.50453509809449,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": []
+      },
+      "source_report": "runs/screen/90b06c1b1cf19d2a/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 2.1,
+        "delta": 0.2,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1000000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.0006375495392881986,
+        "q": 0.24190792915490578,
+        "mercier": 0.24087658211127455,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 243458.7202082348,
+      "seconds": 119.46153964404948,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1,
+          5
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/915b65fb99042814/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.42488401882479,
+        "delta": 0.32000000000000006,
+        "c2": -0.075,
+        "c3": -0.025,
+        "s2": -0.09000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.5277671898046122,
+        "q": 0.008384496461914193,
+        "mercier": 0.24119071907484246,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 335284.3103031844,
+      "seconds": 34.34134201495908,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/91dfbec625257065/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1375000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.08061943353123037,
+        "q": 0.007231552684665132,
+        "mercier": 0.24107416794238984,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 305517.3379483622,
+      "seconds": 35.899241235805675,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/92df19e30d181bd4/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1350000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.5568517576724562,
+        "q": 0.0673085808902536,
+        "mercier": 0.24127099476026748,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 325167.3139030591,
+      "seconds": 108.81938437581994,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/9316d1bf163c9c12/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.76,
+        "delta": 0.44,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "NumericalFailure",
+      "reason": "DCON reconstructed equilibrium residual exceeds the calibrated bound",
+      "seconds": 43.37016873480752,
+      "completed_native_modes_by_scenario": {},
+      "case_violations": {},
+      "source_report": "runs/screen/9b6480316493c33a/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 2.2,
+        "delta": 0.6,
+        "c2": 0.1,
+        "c3": 0.0,
+        "s2": -0.08,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1250000.0
+      },
+      "screen_only": true,
+      "status": "InvalidDesign",
+      "reason": "Normalized plasma section exceeds the fixed spatial envelope",
+      "seconds": 0.006070494186133146,
+      "completed_native_modes_by_scenario": {},
+      "case_violations": {},
+      "source_report": "runs/screen/9d19a7d685d02ad6/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.44,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.02,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1200000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.17174425993498058,
+        "q": 0.10126689797449329,
+        "mercier": 0.24113282999372876,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 290792.2990927293,
+      "seconds": 107.62686550803483,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/9fc61046e065d17e/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.64,
+        "delta": 0.32000000000000006,
+        "c2": -0.025,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.5628338033994879,
+        "q": 0.01052125439625251,
+        "mercier": 0.24105919593016634,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 323689.3678076187,
+      "seconds": 32.99504936905578,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/a01947816f287584/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.84,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1350000.0
+      },
+      "screen_only": true,
+      "status": "NumericalFailure",
+      "reason": "DCON reconstructed equilibrium residual exceeds the calibrated bound",
+      "seconds": 48.37962081003934,
+      "completed_native_modes_by_scenario": {},
+      "case_violations": {},
+      "source_report": "runs/screen/a1511ca0340a4b7e/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.76,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1200000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": -0.003976279643302383,
+        "q": 0.0945276559067898,
+        "mercier": 0.24111868401818726,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 291802.477794244,
+      "seconds": 85.282898606034,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": [
+          "Ideal ballooning mode detected",
+          "n=1: insufficient ideal-MHD energy margin"
+        ]
+      },
+      "source_report": "runs/screen/a189ec625ea4dd4f/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1300000.0
+      },
+      "screen_only": true,
+      "status": "invalidated_blas",
+      "reason": "Native calculation failed (1): modes.log",
+      "seconds": 83.47508137207478,
+      "invalidated_library_experiment": true,
+      "completed_native_modes_by_scenario": {},
+      "case_violations": {},
+      "source_report": "runs/screen/a1cceb6324062347/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 2.2,
+        "delta": 0.65,
+        "c2": 0.08,
+        "c3": 0.0,
+        "s2": -0.06,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1500000.0
+      },
+      "screen_only": true,
+      "status": "InvalidDesign",
+      "reason": "Normalized plasma section exceeds the fixed spatial envelope",
+      "seconds": 0.004664047854021192,
+      "completed_native_modes_by_scenario": {},
+      "case_violations": {},
+      "source_report": "runs/screen/a29e4376dbd9e22a/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.84,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1200000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.7553156119165712,
+        "q": 0.10417542083945452,
+        "mercier": 0.24112090714348772,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 289601.7747945057,
+      "seconds": 136.10566496499814,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/a4469dd695c8224a/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.0625,
+        "c3": -0.025,
+        "s2": -0.09000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1386500.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.05235844585720631,
+        "q": 0.014104210168749853,
+        "mercier": 0.24114749358959608,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 330084.0200261794,
+      "seconds": 33.79233625996858,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/a49083c023c71219/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.0625,
+        "c3": -0.018750000000000003,
+        "s2": -0.09000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.0618834786449247,
+        "q": 0.011547298817711216,
+        "mercier": 0.24117185036535316,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 332531.00684875646,
+      "seconds": 78.81876359810121,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/a5531b019e2dbc5b/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.76,
+        "delta": 0.36000000000000004,
+        "c2": -0.025,
+        "c3": 0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.8643748339446944,
+        "q": 0.011588585701436394,
+        "mercier": 0.24115619265829025,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 313511.8542591235,
+      "seconds": 89.24939149501733,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/a8f57ece34e95c15/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.037500000000000006,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.9978304424601312,
+        "q": 0.00696915904522033,
+        "mercier": 0.24110044050067836,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 330479.54834566085,
+      "seconds": 34.13628292316571,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/acd6f85a21904433/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1600000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 1.1709329635284393,
+        "q": -0.0024160866557869642,
+        "mercier": -29.273910516744643,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 379261.36419410334,
+      "seconds": 34.86812459095381,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected",
+          "Mercier margin fails",
+          "Mercier-unstable surfaces were not integrated for ballooning",
+          "n=1: q minimum below the specified operating bound"
+        ]
+      },
+      "source_report": "runs/screen/ae36134cfa0d43e5/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.68,
+        "delta": 0.32000000000000006,
+        "c2": -0.05,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.5222840135453676,
+        "q": 0.016047483937730256,
+        "mercier": 0.24112103350524094,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 323331.9103834074,
+      "seconds": 35.39651631913148,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": []
+      },
+      "source_report": "runs/screen/b324178dfd1dffc9/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.05,
+        "c3": -0.025,
+        "s2": -0.12,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.5186351039984378,
+        "q": 0.007632674926725924,
+        "mercier": 0.24111954954596204,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 328745.4112371536,
+      "seconds": 34.15089997090399,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/b342bbd2b9a4a0f3/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.72,
+        "delta": 0.32000000000000006,
+        "c2": -0.025,
+        "c3": 0.0,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.553017504082123,
+        "q": 0.014819152320691975,
+        "mercier": 0.24109557666579223,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 318954.73840869276,
+      "seconds": 58.82927838410251,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/b47fe120817df8c5/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.68,
+        "delta": 0.32000000000000006,
+        "c2": -0.025,
+        "c3": 0.0,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 1.0719377585548282,
+        "q": 0.014206403386622268,
+        "mercier": 0.2410993835747004,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 320630.9372991112,
+      "seconds": 36.84466574387625,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/b4f607578f1ae848/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 2.0393228477679433,
+        "delta": 0.021930168691462748,
+        "c2": -0.027282316091091594,
+        "c3": 0.10936466634638667,
+        "s2": -0.028338407605499064,
+        "s3": 0.05117873413078328,
+        "axis_pressure_Pa": 1422604.0582124705
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.003985193881094681,
+        "q": 0.13909361766807926,
+        "mercier": -105.70553677893074,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 346321.8002569588,
+      "seconds": 31.02200629399158,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected",
+          "Mercier margin fails",
+          "Mercier-unstable surfaces were not integrated for ballooning"
+        ]
+      },
+      "source_report": "runs/screen/b543952fd54676b7/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": 0.0,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "InvalidDesign",
+      "reason": "Normalized plasma section exceeds the fixed spatial envelope",
+      "seconds": 0.0012612300924956799,
+      "completed_native_modes_by_scenario": {},
+      "case_violations": {},
+      "source_report": "runs/screen/b5e2e27fa38116bc/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.48,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1250000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.05847483023335261,
+        "q": 0.07648435504100948,
+        "mercier": 0.2411562774158308,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 299431.5507464507,
+      "seconds": 59.53766832198016,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/b6af9d3f47c730f1/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.1,
+        "s3": 0.08,
+        "axis_pressure_Pa": 1300000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.9718332840509705,
+        "q": 0.14964270051464346,
+        "mercier": -160.7513152076631,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 328090.5966408919,
+      "seconds": 44.82349758897908,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected",
+          "Mercier margin fails",
+          "Mercier-unstable surfaces were not integrated for ballooning"
+        ]
+      },
+      "source_report": "runs/screen/ba373849b61649a0/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.0625,
+        "c3": -0.028125,
+        "s2": -0.09000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.03309380928049284,
+        "q": 0.009739686092592015,
+        "mercier": 0.24115248884058754,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 332888.69813861843,
+      "seconds": 81.10299767786637,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/bcd7709f6be0876c/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.46,
+        "delta": 0.32000000000000006,
+        "c2": -0.0625,
+        "c3": -0.025,
+        "s2": -0.09000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.13523981655770204,
+        "q": 0.009136041257834515,
+        "mercier": 0.2411607695832665,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 333492.02643635054,
+      "seconds": 90.93915166496299,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": []
+      },
+      "source_report": "runs/screen/be2f83558b7e88e3/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8267246169464832,
+        "delta": 0.511721712196938,
+        "c2": 0.03561052633002132,
+        "c3": 0.05886656671460341,
+        "s2": 0.04545308305372259,
+        "s3": 0.01607642202170516,
+        "axis_pressure_Pa": 1195680.8670064427
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 1.1548941597635536,
+        "q": 0.10889454541319354,
+        "mercier": 0.24119201841468152,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 288318.9391318802,
+      "seconds": 53.1292181101162,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": []
+      },
+      "source_report": "runs/screen/becc217e81e1666c/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.76,
+        "delta": 0.36000000000000004,
+        "c2": -0.025,
+        "c3": -0.025,
+        "s2": -0.08,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.05416795383373334,
+        "q": 0.012152537754996695,
+        "mercier": 0.24108147384785206,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 319244.5682360331,
+      "seconds": 78.48394805495627,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/c15e08c1f481ec3a/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 2.2,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1500000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.007444446155211271,
+        "q": 0.06339043592113902,
+        "mercier": -142.47457848842933,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 343098.4032263196,
+      "seconds": 31.473027177155018,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected",
+          "Mercier margin fails",
+          "Mercier-unstable surfaces were not integrated for ballooning"
+        ]
+      },
+      "source_report": "runs/screen/c3cb3c0c12ce9405/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.68,
+        "delta": 0.32000000000000006,
+        "c2": -0.025,
+        "c3": -0.025,
+        "s2": -0.08,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.005090358203803685,
+        "q": 0.014732770251542293,
+        "mercier": 0.24106027654734924,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 324362.1025269021,
+      "seconds": 31.80614423705265,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": []
+      },
+      "source_report": "runs/screen/c44418e0b6689f04/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.5,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1300000.0
+      },
+      "screen_only": true,
+      "status": "NumericalFailure",
+      "reason": "DCON reconstructed equilibrium residual exceeds the calibrated bound",
+      "seconds": 55.57588136289269,
+      "completed_native_modes_by_scenario": {},
+      "case_violations": {},
+      "source_report": "runs/screen/c57513fe9ed24ec0/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.4131132771271344,
+        "delta": 0.32000000000000006,
+        "c2": -0.0875,
+        "c3": -0.037500000000000006,
+        "s2": -0.09000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.6965653417429052,
+        "q": 0.005971144968876629,
+        "mercier": 0.2411828684694844,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 336600.0579588627,
+      "seconds": 33.33680989197455,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/c76147b854ea360e/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.30000000000000004,
+        "c2": -0.05,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.01848981647305772,
+        "q": 0.009984356680535766,
+        "mercier": 0.2411261779200698,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 332135.74567593803,
+      "seconds": 33.797759901033714,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": []
+      },
+      "source_report": "runs/screen/c80d8ad07b746af2/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.065625,
+        "c3": -0.025,
+        "s2": -0.09000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.060782968494839384,
+        "q": 0.010705816426479942,
+        "mercier": 0.24116866619678623,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 332913.91812477063,
+      "seconds": 69.4065821999684,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": []
+      },
+      "source_report": "runs/screen/c80e5bc98926b388/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.76,
+        "delta": 0.32000000000000006,
+        "c2": -0.025,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": -0.012976636240576128,
+        "q": 0.013471638079998849,
+        "mercier": 0.24106289442026047,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 318826.1295130552,
+      "seconds": 35.45003506913781,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "n=1: insufficient ideal-MHD energy margin"
+        ],
+        "peaked": [
+          "n=1: insufficient ideal-MHD energy margin"
+        ]
+      },
+      "source_report": "runs/screen/c8dc221008f9d7ae/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.0625,
+        "c3": -0.025,
+        "s2": -0.085,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.17030817774092466,
+        "q": 0.010663017676908693,
+        "mercier": 0.241164354143933,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 333315.26236264413,
+      "seconds": 89.95786063093692,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": []
+      },
+      "source_report": "runs/screen/c93cb1571c1e5692/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.0625,
+        "c3": -0.025,
+        "s2": -0.09000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1402125.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.04000298896029722,
+        "q": 0.009347279091498129,
+        "mercier": 0.24116169686016403,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 333441.8512569659,
+      "seconds": 75.86287496285513,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": []
+      },
+      "source_report": "runs/screen/c9c4e3677a18da3c/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.897854083613523,
+        "delta": 0.1651290239941201,
+        "c2": 0.08263375502287229,
+        "c3": -0.04272049567367489,
+        "s2": -0.03917209741375902,
+        "s3": -0.03234980000026262,
+        "axis_pressure_Pa": 1483150.7770120667
+      },
+      "screen_only": true,
+      "status": "invalidated_blas",
+      "reason": "Native calculation failed (1): modes.log",
+      "seconds": 135.9164608400315,
+      "invalidated_library_experiment": true,
+      "completed_native_modes_by_scenario": {},
+      "case_violations": {},
+      "source_report": "runs/screen/cc2f4c9e320659ce/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.0625,
+        "c3": -0.025,
+        "s2": -0.11,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 1.2197524259367378,
+        "q": 0.00917709704546521,
+        "mercier": 0.24115116642286633,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 330518.0559094923,
+      "seconds": 34.1340184090659,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/cd9f8324ecfe6591/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1400000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.1387115114094149,
+        "q": -1.1408810216995136e-05,
+        "mercier": 0.24109556843526703,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 310533.5120053656,
+      "seconds": 73.08760400488973,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "n=1: q minimum below the specified operating bound"
+        ],
+        "peaked": []
+      },
+      "source_report": "runs/screen/cdc4adfd129d9fe0/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.72,
+        "delta": 0.32000000000000006,
+        "c2": -0.025,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.06,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.7515133149767808,
+        "q": 0.014737072973838972,
+        "mercier": 0.24109113044513047,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 323776.9664842435,
+      "seconds": 35.59430418186821,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/cf89e007481ddcab/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.76,
+        "delta": 0.36000000000000004,
+        "c2": 0.025,
+        "c3": 0.0,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.9393622622597244,
+        "q": 0.0011694935554895647,
+        "mercier": 0.24098964521701371,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 312637.3670799923,
+      "seconds": 81.47100457781926,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/d1225a18da485443/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.76,
+        "delta": 0.36000000000000004,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.008685445858466357,
+        "q": 0.005452045147598117,
+        "mercier": 0.24105717339610494,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 313939.4285926004,
+      "seconds": 87.26079514692537,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/d1d9ba79dc331232/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8675184790402455,
+        "delta": 0.5637278785461985,
+        "c2": 0.06971912161112398,
+        "c3": 0.0672763344366186,
+        "s2": -0.06969699602962949,
+        "s3": -0.03506062026185407,
+        "axis_pressure_Pa": 1173668.0472698798
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.22298427717628413,
+        "q": 0.04789912571054766,
+        "mercier": 0.24098165801030857,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 259669.80155040658,
+      "seconds": 56.15855871583335,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": []
+      },
+      "source_report": "runs/screen/d2643f7336b30873/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.6,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1350000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.6634037925208174,
+        "q": 0.034911905713014724,
+        "mercier": 0.24121790010976774,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 317271.63549778814,
+      "seconds": 133.0726597290486,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/d2fd50b732b0dc14/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.72,
+        "delta": 0.32000000000000006,
+        "c2": -0.025,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.1,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.5946084114536953,
+        "q": 0.011140741601764814,
+        "mercier": 0.2410333372565971,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 317075.18763699685,
+      "seconds": 35.84492552001029,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/d4136a6db98e4a4e/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1175000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.08134188119553186,
+        "q": 0.10345770765720963,
+        "mercier": 0.24109361346164854,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 284802.660439274,
+      "seconds": 118.5784467230551,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/d5f83182e1b1f799/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.76,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.1828825530251909,
+        "q": 0.0006818763041152032,
+        "mercier": 0.24108690346529854,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 311950.0176745934,
+      "seconds": 82.76155824307352,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/d6956751ddc973db/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.06875,
+        "c3": -0.025,
+        "s2": -0.09000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.08111866108390853,
+        "q": 0.011088010893880895,
+        "mercier": 0.24117296504310398,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 333056.3564819306,
+      "seconds": 86.4345321059227,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/d759aa3c8b3b6666/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 2.2,
+        "delta": 0.65,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1500000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.002049090515592593,
+        "q": 0.011588626825175474,
+        "mercier": 0.2415241633197071,
+        "nodes": -2,
+        "crossings": 0
+      },
+      "pressure": 333501.2495442325,
+      "seconds": 30.715427733026445,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/d9d68f59743c1155/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.5,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1275000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.3159569528860038,
+        "q": 0.0683562211205504,
+        "mercier": 0.24117653483980472,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 304426.61210895644,
+      "seconds": 124.11835305788554,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/dce1846f33f188dc/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.4234923880702677,
+        "delta": 0.32000000000000006,
+        "c2": -0.075,
+        "c3": -0.037500000000000006,
+        "s2": -0.09000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.4442908674385586,
+        "q": 0.005513449846040741,
+        "mercier": 0.24115593425995424,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 335732.72237364855,
+      "seconds": 33.74029878084548,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/dceac686c8f89236/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.4,
+        "delta": 0.32000000000000006,
+        "c2": -0.15,
+        "c3": -0.025,
+        "s2": -0.09000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 1.2365426896042508,
+        "q": 0.012788808960718878,
+        "mercier": 0.24131043737971153,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 339155.60662940535,
+      "seconds": 33.64356240211055,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/de720b14c36af09d/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.0625,
+        "c3": -0.025,
+        "s2": -0.09000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1405250.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.037704733555788045,
+        "q": 0.008400317509890787,
+        "mercier": 0.24116444902035183,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 334112.52066683315,
+      "seconds": 82.85963201383129,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": []
+      },
+      "source_report": "runs/screen/e0ee38d681fb0946/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.6831360700784221,
+        "delta": 0.20642715749007684,
+        "c2": -0.10790604530409058,
+        "c3": 0.1025722236821962,
+        "s2": 0.05779610524956383,
+        "s3": 0.06405821748607848,
+        "axis_pressure_Pa": 1374715.059613609
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.8208051918220519,
+        "q": 0.11008654855319411,
+        "mercier": -346.29355594560525,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 348715.26382239844,
+      "seconds": 25.26380966207944,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected",
+          "Mercier margin fails",
+          "Mercier-unstable surfaces were not integrated for ballooning"
+        ]
+      },
+      "source_report": "runs/screen/e3e4e37a44a888f8/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.0625,
+        "c3": -0.025,
+        "s2": -0.05000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.6623162946852245,
+        "q": 0.014389901163009977,
+        "mercier": 0.24117790487561325,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 336903.55420913105,
+      "seconds": 33.787354877917096,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/e44f0b10f1ae80df/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.4,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1325000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": -0.02017946177941173,
+        "q": 0.0162925683155144,
+        "mercier": 0.24103113882424393,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 294891.69101494766,
+      "seconds": 85.283532993868,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "n=1: insufficient ideal-MHD energy margin"
+        ],
+        "peaked": [
+          "n=1: insufficient ideal-MHD energy margin"
+        ]
+      },
+      "source_report": "runs/screen/e622f8bc7cc08bbe/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.4,
+        "delta": 0.32000000000000006,
+        "c2": -0.025,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "InvalidDesign",
+      "reason": "Normalized plasma section exceeds the fixed spatial envelope",
+      "seconds": 0.0014833451714366674,
+      "completed_native_modes_by_scenario": {},
+      "case_violations": {},
+      "source_report": "runs/screen/e66a03e748a7b572/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.44,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": -0.02,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1200000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.07987428918148975,
+        "q": 0.08303760517556147,
+        "mercier": 0.24108804488677055,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 287577.2645745117,
+      "seconds": 87.6821152700577,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/e6f40b14b740328e/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.025,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 1.0840199297004276,
+        "q": 0.005648977209995465,
+        "mercier": 0.24106626027844863,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 329877.0004178231,
+      "seconds": 34.09203866310418,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/e947e29584220b34/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.44,
+        "c2": 0.025,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1200000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.7353849991589717,
+        "q": 0.08507985516944316,
+        "mercier": 0.24106286859142606,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 288440.9757485427,
+      "seconds": 75.64547139988281,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/ea0490c54e7b2175/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.434134538447241,
+        "delta": 0.32000000000000006,
+        "c2": -0.0625,
+        "c3": -0.037500000000000006,
+        "s2": -0.09000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.22495075244295276,
+        "q": 0.004990918239425435,
+        "mercier": 0.2411335245604535,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 334836.1542762502,
+      "seconds": 33.70366846094839,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/eaca06886feff0ad/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.4,
+        "c2": 0.1,
+        "c3": 0.1,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1300000.0
+      },
+      "screen_only": true,
+      "status": "invalidated_blas",
+      "reason": "Native calculation failed (1): modes.log",
+      "seconds": 136.89782827999443,
+      "invalidated_library_experiment": true,
+      "completed_native_modes_by_scenario": {},
+      "case_violations": {},
+      "source_report": "runs/screen/eae817d7ffcc4a32/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.72,
+        "delta": 0.32000000000000006,
+        "c2": -0.025,
+        "c3": -0.025,
+        "s2": -0.08,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.4720021135973421,
+        "q": 0.016232029973626494,
+        "mercier": 0.24106078622121052,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 322746.8255671811,
+      "seconds": 32.04536943696439,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/eb60bc8ae553682e/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.76,
+        "delta": 0.36000000000000004,
+        "c2": -0.025,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.06,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.2844060101156525,
+        "q": 0.010556747532524113,
+        "mercier": 0.24110674233276835,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 320365.7615073965,
+      "seconds": 86.17752219503745,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": []
+      },
+      "source_report": "runs/screen/ed613cef03e0e020/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.68,
+        "delta": 0.32000000000000006,
+        "c2": -0.025,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.06,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": -0.01999540011503587,
+        "q": 0.013011949795229683,
+        "mercier": 0.24109178695977518,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 325312.32663814217,
+      "seconds": 39.49832072597928,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected",
+          "n=1: insufficient ideal-MHD energy margin"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected",
+          "n=1: insufficient ideal-MHD energy margin"
+        ]
+      },
+      "source_report": "runs/screen/ef1d256267be7e4d/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.8,
+        "delta": 0.36000000000000004,
+        "c2": 0.0,
+        "c3": 0.0,
+        "s2": 0.0,
+        "s3": 0.0,
+        "axis_pressure_Pa": 1200000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.22717043344954727,
+        "q": 0.10642492007198956,
+        "mercier": 0.24112466313804115,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 292104.62705039355,
+      "seconds": 77.17956635914743,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/ef747550e906cf11/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 2.2,
+        "delta": 0.6,
+        "c2": 0.0,
+        "c3": -0.1,
+        "s2": 0.0,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1250000.0
+      },
+      "screen_only": true,
+      "status": "InvalidDesign",
+      "reason": "Normalized plasma section exceeds the fixed spatial envelope",
+      "seconds": 0.008285125019028783,
+      "completed_native_modes_by_scenario": {},
+      "case_violations": {},
+      "source_report": "runs/screen/f24c0f034d3b9ae1/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.9755857233585827,
+        "delta": 0.42186647255489546,
+        "c2": -0.06545636899974129,
+        "c3": 0.041778034355692245,
+        "s2": -0.057798038574667636,
+        "s3": 0.09315024618832463,
+        "axis_pressure_Pa": 1416032.9724558317
+      },
+      "screen_only": true,
+      "status": "invalidated_blas",
+      "margins": {
+        "energy": 0.9877845631604909,
+        "q": 0.0859000280431077,
+        "mercier": -39.515991767392215,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 341547.2537461883,
+      "seconds": 43.53644299507141,
+      "invalidated_library_experiment": true,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected",
+          "Mercier margin fails",
+          "Mercier-unstable surfaces were not integrated for ballooning"
+        ]
+      },
+      "source_report": "runs/screen/f271be8cb175eb74/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.4144749226915176,
+        "delta": 0.32000000000000006,
+        "c2": -0.0875,
+        "c3": -0.025,
+        "s2": -0.09000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.7922429876648079,
+        "q": 0.008729402897693639,
+        "mercier": 0.2412146632808001,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 336181.01468984794,
+      "seconds": 33.42903901892714,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/f42f99b28a5ac75a/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.931992775185594,
+        "delta": 0.4443506684051884,
+        "c2": -0.09139515490089045,
+        "c3": -0.033595371266437635,
+        "s2": 0.075440990255603,
+        "s3": 0.08634498252462483,
+        "axis_pressure_Pa": 1265506.8082967417
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.18003758519517707,
+        "q": 0.20557217056854893,
+        "mercier": -193.2442834548173,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 318499.2855453239,
+      "seconds": 54.87514284695499,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected",
+          "Mercier margin fails",
+          "Mercier-unstable surfaces were not integrated for ballooning"
+        ]
+      },
+      "source_report": "runs/screen/f4f0e765681e60cb/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32500000000000007,
+        "c2": -0.0625,
+        "c3": -0.025,
+        "s2": -0.09000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": -0.0028726239039824387,
+        "q": 0.009900222023925265,
+        "mercier": 0.24116151817215054,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 332508.1610194589,
+      "seconds": 77.61332403216511,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected",
+          "n=1: insufficient ideal-MHD energy margin"
+        ],
+        "peaked": [
+          "n=1: insufficient ideal-MHD energy margin"
+        ]
+      },
+      "source_report": "runs/screen/f745854396e13d1e/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.32000000000000006,
+        "c2": -0.0625,
+        "c3": -0.0125,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.06282587232167092,
+        "q": 0.012136834188866796,
+        "mercier": 0.24118562655717474,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 331158.02923096105,
+      "seconds": 34.09283882309683,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/f7b393de503ee8d0/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 2.0182107639571605,
+        "delta": 0.2566851916260512,
+        "c2": 0.10160346551886992,
+        "c3": -0.01256303608226221,
+        "s2": -0.003169210786507781,
+        "s3": -0.08168316126159174,
+        "axis_pressure_Pa": 1347362.2232652358
+      },
+      "screen_only": true,
+      "status": "InvalidDesign",
+      "reason": "Normalized plasma section exceeds the fixed spatial envelope",
+      "seconds": 0.005466128932312131,
+      "completed_native_modes_by_scenario": {},
+      "case_violations": {},
+      "source_report": "runs/screen/f85b1124285edbfe/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.3400000000000001,
+        "c2": -0.05,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 1.1547018790231436,
+        "q": 0.006686086826585669,
+        "mercier": 0.24113007418076188,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 330001.5938261402,
+      "seconds": 34.04281835700385,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/f9725c377699af7c/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.72,
+        "delta": 0.4,
+        "c2": -0.025,
+        "c3": -0.025,
+        "s2": -0.1,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "pass",
+      "margins": {
+        "energy": 0.3525432858934171,
+        "q": 0.0026202618218322815,
+        "mercier": 0.24110247394308076,
+        "nodes": 0,
+        "crossings": 0
+      },
+      "pressure": 316547.3998738562,
+      "seconds": 72.60715492093004,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [],
+        "peaked": []
+      },
+      "source_report": "runs/screen/fadd36c612bdb95d/screen.json"
+    },
+    {
+      "design": {
+        "kappa": 1.48,
+        "delta": 0.31500000000000006,
+        "c2": -0.0625,
+        "c3": -0.025,
+        "s2": -0.09000000000000001,
+        "s3": -0.08,
+        "axis_pressure_Pa": 1399000.0
+      },
+      "screen_only": true,
+      "status": "infeasible",
+      "margins": {
+        "energy": 0.11380300156717647,
+        "q": 0.010804498889690928,
+        "mercier": 0.2411616209152328,
+        "nodes": -1,
+        "crossings": 0
+      },
+      "pressure": 333032.9077439297,
+      "seconds": 84.77916983212344,
+      "completed_native_modes_by_scenario": {
+        "broad": [
+          1
+        ],
+        "peaked": [
+          1
+        ]
+      },
+      "case_violations": {
+        "broad": [
+          "Ideal ballooning mode detected"
+        ],
+        "peaked": [
+          "Ideal ballooning mode detected"
+        ]
+      },
+      "source_report": "runs/screen/ff5d49b2499d93fa/screen.json"
+    }
+  ],
+  "equilibrium_only_high_pressure_probes": [
+    {
+      "design": {
+        "kappa": 1.9312171286793722,
+        "delta": -0.25651484206458414,
+        "c2": -0.10017718811530048,
+        "c3": 0.09857112652170044,
+        "s2": -0.003577150751282107,
+        "s3": 0.05575843995465993,
+        "axis_pressure_Pa": 1828089.8195943206
+      },
+      "screen_only": true,
+      "status": "equilibrium_only",
+      "q_axis": 1.1897061416301766,
+      "pressure": 450348.53420448245,
+      "equilibrium": {
+        "status": "equilibrium_solved",
+        "iterations": 27,
+        "stats": {
+          "Ip": 8099999.99964721,
+          "Ip_centroid": [
+            4.249243373536691,
+            9.833928034023183e-10
+          ],
+          "kappa": 1.823344216707441,
+          "kappaU": 1.8233410341011609,
+          "kappaL": 1.8233473993137206,
+          "delta": -0.3320951697648228,
+          "deltaU": -0.33209497437755764,
+          "deltaL": -0.3320953651520872,
+          "R_geo": 4.000431992069383,
+          "a_geo": 1.2258547163212794,
+          "vol": 239.99999999999952,
+          "q_0": 1.1897061416301766,
+          "q_95": 4.4145055352532605,
+          "P_ax": 1824435.4681637401,
+          "P_max": 1824435.4681637401,
+          "W_MHD": 162125472.31361336,
+          "beta_pol": 150.75793629184344,
+          "dflux": -0.24877611399341332,
+          "tflux": 67.31266052400674,
+          "l_i": 1.0443858898744762,
+          "beta_tor": 2.3103955213371337,
+          "beta_n": 2.447323931602682
+        },
+        "geometry": {
+          "minor_scale_m": 1.2268428903133495,
+          "volume_m3": 240.00000000000182,
+          "area_m2": 9.471191992119183,
+          "perimeter_m": 11.761862452542891,
+          "bounds_m": [
+            2.7731571096866503,
+            -2.2373126214150565,
+            5.22684289031335,
+            2.2373126214150565
+          ]
+        },
+        "average_pressure_Pa": 450348.53420448245,
+        "exported_current_A": 8100000.0,
+        "exported_axis_pressure_Pa": 1828089.82,
+        "elapsed_seconds": 19.50649850210175
+      }
+    },
+    {
+      "design": {
+        "kappa": 1.5245017938351115,
+        "delta": 0.16799869312607046,
+        "c2": -0.13933436159182921,
+        "c3": -0.11058466739707136,
+        "s2": 0.00898302015553884,
+        "s3": -0.11711513366223436,
+        "axis_pressure_Pa": 2728619.1025678553
+      },
+      "screen_only": true,
+      "status": "equilibrium_only",
+      "q_axis": 0.8852747546132002,
+      "pressure": 626099.9660439661,
+      "equilibrium": {
+        "status": "equilibrium_solved",
+        "iterations": 24,
+        "stats": {
+          "Ip": 8100000.003488949,
+          "Ip_centroid": [
+            4.339136858900262,
+            1.2768243233549717e-09
+          ],
+          "kappa": 1.700984308946239,
+          "kappaU": 1.7009892158373183,
+          "kappaL": 1.7009794020551596,
+          "delta": 0.2573655724541666,
+          "deltaU": 0.2573671090074067,
+          "deltaL": 0.2573640359009264,
+          "R_geo": 4.000833898019117,
+          "a_geo": 1.3593817773077546,
+          "vol": 239.99999999999773,
+          "q_0": 0.8852747546132002,
+          "q_95": 4.873234808201987,
+          "P_ax": 2723164.592000317,
+          "P_max": 2723164.592000317,
+          "W_MHD": 225395987.77582568,
+          "beta_pol": 207.90498716412208,
+          "dflux": -0.47799142583033843,
+          "tflux": 69.66854798469647,
+          "l_i": 1.1996508273546609,
+          "beta_tor": 3.212687767374899,
+          "beta_n": 3.7733966068227693
+        },
+        "geometry": {
+          "minor_scale_m": 1.3608016024636358,
+          "volume_m3": 239.99999999999943,
+          "area_m2": 9.638391090880473,
+          "perimeter_m": 11.72199292860947,
+          "bounds_m": [
+            2.639198397536364,
+            -2.317667581018237,
+            5.360801602463636,
+            2.317667581018237
+          ]
+        },
+        "average_pressure_Pa": 626099.9660439661,
+        "exported_current_A": 8100000.0,
+        "exported_axis_pressure_Pa": 2728619.1,
+        "elapsed_seconds": 33.36583448690362
+      }
+    },
+    {
+      "design": {
+        "kappa": 2.0849530208873768,
+        "delta": 0.2613334361269925,
+        "c2": 0.12397418791910261,
+        "c3": 0.06789762524242521,
+        "s2": 0.05711824306606106,
+        "s3": -0.010230053548740764,
+        "axis_pressure_Pa": 3565029.647270048
+      },
+      "screen_only": true,
+      "status": "equilibrium_only",
+      "q_axis": 0.7723478250374772,
+      "pressure": 731037.7747482491,
+      "equilibrium": {
+        "status": "equilibrium_solved",
+        "iterations": 25,
+        "stats": {
+          "Ip": 8100000.002640563,
+          "Ip_centroid": [
+            4.323413788552758,
+            -4.131398152060386e-09
+          ],
+          "kappa": 2.1091523654408255,
+          "kappaU": 2.1091303498128227,
+          "kappaL": 2.1091743810688284,
+          "delta": 0.1255890436513443,
+          "deltaU": 0.12558494717457475,
+          "deltaL": 0.1255931401281142,
+          "R_geo": 4.000640161627603,
+          "a_geo": 1.2627586066102219,
+          "vol": 239.99999999999773,
+          "q_0": 0.7723478250374772,
+          "q_95": 5.672501386789202,
+          "P_ax": 3557903.1520210933,
+          "P_max": 3557903.1520210933,
+          "W_MHD": 263173598.90936717,
+          "beta_pol": 272.32969102082865,
+          "dflux": -0.677393424325176,
+          "tflux": 70.52033475196525,
+          "l_i": 1.3311380736273077,
+          "beta_tor": 3.750788679831264,
+          "beta_n": 4.092478963732729
+        },
+        "geometry": {
+          "minor_scale_m": 1.2639746129906977,
+          "volume_m3": 239.99999999999932,
+          "area_m2": 9.733871374353967,
+          "perimeter_m": 12.43948995305641,
+          "bounds_m": [
+            2.7360253870093025,
+            -2.6778299330145487,
+            5.2639746129906975,
+            2.6778299330145487
+          ]
+        },
+        "average_pressure_Pa": 731037.7747482491,
+        "exported_current_A": 8100000.0,
+        "exported_axis_pressure_Pa": 3565029.65,
+        "elapsed_seconds": 26.41961337509565
+      }
+    },
+    {
+      "design": {
+        "kappa": 1.4087675685012881,
+        "delta": 0.004594583436088928,
+        "c2": 0.08198490209809425,
+        "c3": -0.05693358962241603,
+        "s2": 0.07858363767512849,
+        "s3": -0.05772470056163473,
+        "axis_pressure_Pa": 2495079.522453897
+      },
+      "screen_only": true,
+      "status": "equilibrium_only",
+      "q_axis": 0.8749303977871689,
+      "pressure": 592964.435636387,
+      "equilibrium": {
+        "status": "equilibrium_solved",
+        "iterations": 25,
+        "stats": {
+          "Ip": 8100000.001721931,
+          "Ip_centroid": [
+            4.41801267589289,
+            2.4448675145867193e-09
+          ],
+          "kappa": 1.5007906458525078,
+          "kappaU": 1.5007902618985738,
+          "kappaL": 1.500791029806442,
+          "delta": -0.028315043598339317,
+          "deltaU": -0.028315115074700154,
+          "deltaL": -0.02831497212197848,
+          "R_geo": 4.001531274725149,
+          "a_geo": 1.4861307878058165,
+          "vol": 239.9999999733594,
+          "q_0": 0.8749303977871689,
+          "q_95": 4.167520372362525,
+          "P_ax": 2490091.858010939,
+          "P_max": 2490091.858010939,
+          "W_MHD": 213467196.8054039,
+          "beta_pol": 186.1748060438678,
+          "dflux": -0.40430951916190544,
+          "tflux": 65.81568373758144,
+          "l_i": 1.1577073775764244,
+          "beta_tor": 3.0437212366956303,
+          "beta_n": 3.907587419664302
+        },
+        "geometry": {
+          "minor_scale_m": 1.4882828696303898,
+          "volume_m3": 240.00000000000045,
+          "area_m2": 9.356224870633907,
+          "perimeter_m": 11.394282114519687,
+          "bounds_m": [
+            2.51171713036961,
+            -2.234531303664616,
+            5.48828286963039,
+            2.234531303664616
+          ]
+        },
+        "average_pressure_Pa": 592964.435636387,
+        "exported_current_A": 8100000.0,
+        "exported_axis_pressure_Pa": 2495079.52,
+        "elapsed_seconds": 41.81246537598781
+      }
+    },
+    {
+      "design": {
+        "kappa": 1.7789750942508047,
+        "delta": -0.09645358397428883,
+        "c2": 0.012111344894001896,
+        "c3": 0.12129887142854925,
+        "s2": -0.06263322280974704,
+        "s3": 0.0626724586935617,
+        "axis_pressure_Pa": 2078296.5089200241
+      },
+      "screen_only": true,
+      "status": "equilibrium_only",
+      "q_axis": 1.0510878793095975,
+      "pressure": 497765.4565025508,
+      "equilibrium": {
+        "status": "equilibrium_solved",
+        "iterations": 24,
+        "stats": {
+          "Ip": 8100000.003862645,
+          "Ip_centroid": [
+            4.238443073337066,
+            -2.1171140918923065e-09
+          ],
+          "kappa": 1.6952003454107722,
+          "kappaU": 1.695198098581525,
+          "kappaL": 1.6952025922400191,
+          "delta": 0.048070233273282116,
+          "deltaU": 0.04806987319234613,
+          "deltaL": 0.048070593354218434,
+          "R_geo": 4.000481279470608,
+          "a_geo": 1.3103385483644703,
+          "vol": 240.00000000000114,
+          "q_0": 1.0510878793095975,
+          "q_95": 4.736886400564998,
+          "P_ax": 2074141.9932312435,
+          "P_max": 2074141.9932312435,
+          "W_MHD": 179195564.34091914,
+          "beta_pol": 164.01931916396595,
+          "dflux": -0.2945142062906886,
+          "tflux": 70.46852195963362,
+          "l_i": 1.1006293408132055,
+          "beta_tor": 2.5537185807559255,
+          "beta_n": 2.891460899202797
+        },
+        "geometry": {
+          "minor_scale_m": 1.3114421183282725,
+          "volume_m3": 240.00000000000028,
+          "area_m2": 9.679255853906184,
+          "perimeter_m": 11.669846973583914,
+          "bounds_m": [
+            2.6885578816717275,
+            -2.2237168772198,
+            5.311442118328273,
+            2.2237168772198
+          ]
+        },
+        "average_pressure_Pa": 497765.4565025508,
+        "exported_current_A": 8100000.0,
+        "exported_axis_pressure_Pa": 2078296.51,
+        "elapsed_seconds": 29.541758103994653
+      }
+    },
+    {
+      "design": {
+        "kappa": 1.8557871130590804,
+        "delta": 0.5043636670750176,
+        "c2": -0.019991472089815582,
+        "c3": -0.020119636415131592,
+        "s2": -0.10974689101057289,
+        "s3": 0.01657804084678091,
+        "axis_pressure_Pa": 3983507.971315417
+      },
+      "screen_only": true,
+      "status": "equilibrium_only",
+      "q_axis": 0.6723033075010113,
+      "pressure": 792096.0038708567,
+      "equilibrium": {
+        "status": "equilibrium_solved",
+        "iterations": 25,
+        "stats": {
+          "Ip": 8100000.00109069,
+          "Ip_centroid": [
+            4.360475131823133,
+            1.221284951072507e-09
+          ],
+          "kappa": 1.849703114047109,
+          "kappaU": 1.8497111433322808,
+          "kappaL": 1.8496950847619376,
+          "delta": 0.6690828127077811,
+          "deltaU": 0.6690869243743928,
+          "deltaL": 0.6690787010411694,
+          "R_geo": 4.000747939175996,
+          "a_geo": 1.3710577676020486,
+          "vol": 240.00000000000293,
+          "q_0": 0.6723033075010113,
+          "q_95": 6.227203221838675,
+          "P_ax": 3975544.9386013993,
+          "P_max": 3975544.9386013993,
+          "W_MHD": 285154561.3935119,
+          "beta_pol": 306.31221892998286,
+          "dflux": -0.7171732386057228,
+          "tflux": 76.92012714864173,
+          "l_i": 1.53457924571162,
+          "beta_tor": 4.064283552165257,
+          "beta_n": 4.814725982698605
+        },
+        "geometry": {
+          "minor_scale_m": 1.3724271449391574,
+          "volume_m3": 239.99999999999966,
+          "area_m2": 10.115960481740565,
+          "perimeter_m": 12.753178897448594,
+          "bounds_m": [
+            2.6275728550608424,
+            -2.571389787777857,
+            5.372427144939158,
+            2.571389787777857
+          ]
+        },
+        "average_pressure_Pa": 792096.0038708567,
+        "exported_current_A": 8100000.0,
+        "exported_axis_pressure_Pa": 3983507.97,
+        "elapsed_seconds": 32.17240717308596
+      }
+    },
+    {
+      "design": {
+        "kappa": 1.6721748199840452,
+        "delta": 0.3026879475195739,
+        "c2": 0.06845476944937468,
+        "c3": -0.14714561920524197,
+        "s2": 0.1090429196056247,
+        "s3": 0.09159659171438495,
+        "axis_pressure_Pa": 3279921.1897372417
+      },
+      "screen_only": true,
+      "status": "equilibrium_only",
+      "q_axis": 0.8559050790182162,
+      "pressure": 762563.3832204331,
+      "equilibrium": {
+        "status": "equilibrium_solved",
+        "iterations": 26,
+        "stats": {
+          "Ip": 8100000.002043945,
+          "Ip_centroid": [
+            4.443876390794976,
+            -9.828472414544256e-11
+          ],
+          "kappa": 1.6158372153945426,
+          "kappaU": 1.6158362637697583,
+          "kappaL": 1.6158381670193265,
+          "delta": -0.04276477839344861,
+          "deltaU": -0.0427649369880756,
+          "deltaL": -0.04276461979882095,
+          "R_geo": 4.00094760840074,
+          "a_geo": 1.326933324299614,
+          "vol": 239.99999999999585,
+          "q_0": 0.8559050790182162,
+          "q_95": 4.448149964381431,
+          "P_ax": 3273364.626721198,
+          "P_max": 3273364.626721198,
+          "W_MHD": 274522817.9593512,
+          "beta_pol": 242.0603205231527,
+          "dflux": -0.7134790250750005,
+          "tflux": 66.86050592693516,
+          "l_i": 1.1716220211495398,
+          "beta_tor": 3.9131407877754443,
+          "beta_n": 4.486262921886282
+        },
+        "geometry": {
+          "minor_scale_m": 1.328411544190764,
+          "volume_m3": 240.0000000000003,
+          "area_m2": 9.460873091051598,
+          "perimeter_m": 11.454715531552988,
+          "bounds_m": [
+            2.671588455809236,
+            -2.1464217412696853,
+            5.3284115441907645,
+            2.1464217412696853
+          ]
+        },
+        "average_pressure_Pa": 762563.3832204331,
+        "exported_current_A": 8100000.0,
+        "exported_axis_pressure_Pa": 3279921.19,
+        "elapsed_seconds": 25.120343300048262
+      }
+    },
+    {
+      "design": {
+        "kappa": 2.17042844019149,
+        "delta": 0.614534036444317,
+        "c2": -0.06616027024103056,
+        "c3": 0.01564447415986625,
+        "s2": -0.057789544657513875,
+        "s3": -0.08445286940643704,
+        "axis_pressure_Pa": 2865475.119214101
+      },
+      "screen_only": true,
+      "status": "InvalidDesign",
+      "reason": "Normalized plasma section exceeds the fixed spatial envelope"
+    }
+  ],
+  "note": "Screen-only results are not formal feasibility certificates. Library-experiment records are explicitly invalidated."
+}

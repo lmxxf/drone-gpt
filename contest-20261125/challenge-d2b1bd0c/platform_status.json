@@ -1,0 +1,10 @@
+{
+  "bundlePath": null,
+  "bundleStatus": null,
+  "scorecard": null,
+  "generated_skill": {
+    "status": "unavailable",
+    "reason": "not_authorized",
+    "next_actions": {}
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "design_sha256": "da8730662883d8f8e5ed7b4f51de35fa2f7103b410814ae9f383b04468829acd",
+  "formal_details_sha256": "19f6a8f0c7ee2bf1062be9e86f2d6cda37b6ed933f89fd943645aa0513e60de8",
+  "native_dcon_sha256": "bb732ae14bbaed9e7ca140975efcf664908a83bfc5d1d56dd8dbce24c6a6a51a",
+  "native_oftpy_sha256": "25850e4eb45c1fb3830598b44da18e46b8174e42c76e1735339fa8bb5ab1d878",
+  "source_archives": {
+    "gpec-source.tar.gz": "35c08f36361199636b188e4992a082294d1fbc8e661b6ad874841e20009556b3",
+    "oft-source.tar.gz": "ccb49ba66cc2b9b8f06f438e74198ff9fe0a99b02e3d86d1b5dce149d2351d67"
+  },
+  "files": {
+    "baseline_formal_details.json": "b8f0c047eae7aa8ba6e49a57bf3ad5208a94ad9579a9070ecbdcaa6da69602e8",
+    "formal_details.json": "19f6a8f0c7ee2bf1062be9e86f2d6cda37b6ed933f89fd943645aa0513e60de8",
+    "report_plasma.py": "4493f81af73ca49737b9d5d97d117a0786e3152d40c75783bf8340c6e5a4fc62",
+    "evaluator_integrity.json": "948c07dca1cbfac1764c1cf8f6de4ed6cee0e2f9962ca4faaabcd45807034e17",
+    "package_submission.py": "7c587f3a84475bb84cb0815a5a293872f4d679eae25d6e0622a462f27bfa1f1e",
+    "solve_plasma.py": "f1f0eaeeb58700b3687d7cb70a537fb1b3b57f26827bfd9148a033da7b9a62b6",
+    "env.sh": "6e5a00fa14ddeeebc7c84aee654fa41c7614ea12c80a741c384cb328667b559e",
+    "REPORT.md": "9175a16fe88db8f27a8a736ec741b2a44be558f60b7c5c94386ac5c1eddb5111",
+    "search_results.json": "569710dd5f477746a6d56ccb65fb8b56ddae56f749cc6c5ceb0b077e8a246d5f",
+    "evaluation_report.json": "cb2adc4a47867f5e1cd574185914d561d4f819e644098088c57a9452e708fabf",
+    "build-notes.txt": "bb7f3fc05d4375fa237dd6f61dc0bb5537b50468dd0c14059cbdf37bc1362fcb",
+    "protocol.json": "2a6f4b6366509627b2d29d022c3146ff80af6de14e7b51340bcb4f6654d8baaf",
+    "build_native.sh": "98dccf0c5e003304b52b0b9a2206f8162fa82d5775ed8e63cd086f8751ed6b5d",
+    "formal_reward.json": "0cf5922e0566e88f6345515843ce298b3cc58873ceab69f711f83f24f3d2a345",
+    "requirements-lock.txt": "a8384e4c0c574e94fc9e33205925a10f28e45eee900b2ea30b6e85de6a984b8a",
+    "UPSTREAM_SOURCES.md": "7b437da12b71a594b46a43959cca661db878cf62a215eb322dbb6209d01a78fa",
+    "plasma.json": "da8730662883d8f8e5ed7b4f51de35fa2f7103b410814ae9f383b04468829acd"
+  }
+}

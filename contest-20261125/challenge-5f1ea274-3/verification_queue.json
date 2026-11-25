@@ -1,0 +1,12 @@
+[
+  {
+    "aspect_ratio": 5.511730669244115,
+    "boundary": "runs/opt_3ee0d0cbeffc/boundary.json",
+    "sha256": "062640a28051d29d44f07ae434d9106a4d5723ad6397960304f4a1a0a2079a96"
+  },
+  {
+    "aspect_ratio": 5.826384922981157,
+    "boundary": "runs/opt_973788a6f325/boundary.json",
+    "sha256": "9f35dcdce0271b99c2deaa9bdbc3b6bcf085dead136c095061b8e987e12b29a1"
+  }
+]

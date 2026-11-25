@@ -1,0 +1,44 @@
+{
+  "user_directive": "Do not end the turn prematurely. First submission completed; stay in conversation until background full verification and SIMPLE finish. Submit a second attempt only for a higher-scoring certified result.",
+  "root": "/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3",
+  "cpu_affinity": [
+    12,
+    13,
+    14,
+    15
+  ],
+  "first_attempt_id": "111815",
+  "first_A": 5.542969181639843,
+  "first_boundary": "runs/opt_397f76eabadd/boundary.json",
+  "first_neo": "runs/neo_first_submission/diagnostics.json",
+  "first_receipt": "first_submission_receipt.txt",
+  "workflow": "run_workflow.py (detached, state workflow_status.json, PID workflow.lock)",
+  "manual_submission_control": true,
+  "full_candidate_A": 5.511730669244115,
+  "current_full_run": "runs/certify_062640a28051",
+  "full_eval_log": "runs/certify_062640a28051/log.txt",
+  "monitor_command": ".venv/bin/python tools/monitor.py --brief",
+  "platform_scoring": "Latest downloaded platform_task_snapshot/challenge.json confirms human_review_only; no automated grader. First status worker evaluation_failed, scoreIsFinal=false. Do not claim score 0 is final.",
+  "trace": "/home/lmxxf/.codex/sessions/2026/11/26/rollout-2026-11-26T00-36-37-01a21390-f861-7282-ae9b-d35ef063f98d.jsonl",
+  "outputs": [
+    "boundary.json",
+    "solve_boundary.py",
+    "stage_report.json"
+  ],
+  "current_physics_stage": "SIMPLE, 4096 particles, 0.2 seconds, no early classification; about 12% complete at last observation",
+  "full_vmec_status": "Converged first attempt on ns=257; ier_flag=0; residuals 9.991344921946081e-17,2.0470521384619836e-17,3.711316917578511e-17",
+  "five_constraints_full_resolution": {
+    "kappa_max": 4.657356348736811,
+    "iota_min": 0.4328232969516683,
+    "well": 0.000277160232408905,
+    "eps_eff_max": 7.545377972983769e-05,
+    "lgradb_min": 4.9542221336601
+  },
+  "full_checkpoints": [
+    "runs/certify_062640a28051/full_profile_checkpoint.json",
+    "runs/certify_062640a28051/full_transport_checkpoint.json"
+  ],
+  "monitor_note": "SIMPLE source prints progress only at the end. Helper tools/read_simple_progress.py uses sudo -n and read-only /proc memory reads of n_done_shared/n_total/t_start for the exact candidate executable and cwd. It does not change the simulation or infer losses.",
+  "first_snapshot": "submissions/111815/ contains original boundary, solver, report, bundle, receipt; bundle SHA verified.",
+  "submission_control": "manual_submission_control marker prevents automatic second submission. Once workflow_status is certified_ready_for_submission, read certified_result.json and its details; compare physical score to first A=5.542969181639843 feasible upper bound. If improved, update stage_report.json with full proof and submit via explicit CLI, then back up trace and report. Stay in turn until full workflow finishes."
+}

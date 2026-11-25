@@ -1,0 +1,326 @@
+{
+  "arm_version": "1.1",
+  "paper": {
+    "title": "challenge-d2b1bd0c",
+    "url": ""
+  },
+  "entrypoint": "src/reproduce.py",
+  "environment": {
+    "dependencies": "requirements.txt"
+  },
+  "execution": {
+    "ran_at": "2026-11-25T16:38:51Z",
+    "wall_time_s": 10362.927,
+    "log_path": "execution/run.log",
+    "artifacts": [
+      {
+        "id": "artifact-1",
+        "path": "outputs/REPORT.md",
+        "kind": "output",
+        "type": "data",
+        "format": "txt"
+      },
+      {
+        "id": "artifact-2",
+        "path": "outputs/UPSTREAM_SOURCES.md",
+        "kind": "output",
+        "type": "data",
+        "format": "txt"
+      },
+      {
+        "id": "artifact-3",
+        "path": "outputs/baseline_formal_details.json",
+        "kind": "output",
+        "type": "data",
+        "format": "json"
+      },
+      {
+        "id": "artifact-4",
+        "path": "outputs/build-notes.txt",
+        "kind": "output",
+        "type": "data",
+        "format": "txt"
+      },
+      {
+        "id": "artifact-5",
+        "path": "outputs/build_native.sh",
+        "kind": "output",
+        "type": "data",
+        "format": "other"
+      },
+      {
+        "id": "artifact-6",
+        "path": "outputs/env.sh",
+        "kind": "output",
+        "type": "data",
+        "format": "other"
+      },
+      {
+        "id": "artifact-7",
+        "path": "outputs/evaluation_report.json",
+        "kind": "output",
+        "type": "data",
+        "format": "json"
+      },
+      {
+        "id": "artifact-8",
+        "path": "outputs/evaluator_integrity.json",
+        "kind": "output",
+        "type": "data",
+        "format": "json"
+      },
+      {
+        "id": "artifact-9",
+        "path": "outputs/formal_details.json",
+        "kind": "output",
+        "type": "data",
+        "format": "json"
+      },
+      {
+        "id": "artifact-10",
+        "path": "outputs/formal_reward.json",
+        "kind": "output",
+        "type": "data",
+        "format": "json"
+      },
+      {
+        "id": "artifact-11",
+        "path": "outputs/manifest.json",
+        "kind": "output",
+        "type": "data",
+        "format": "json"
+      },
+      {
+        "id": "artifact-12",
+        "path": "outputs/package_submission.py",
+        "kind": "output",
+        "type": "data",
+        "format": "other"
+      },
+      {
+        "id": "artifact-13",
+        "path": "outputs/plasma.json",
+        "kind": "output",
+        "type": "data",
+        "format": "json"
+      },
+      {
+        "id": "artifact-14",
+        "path": "outputs/protocol.json",
+        "kind": "output",
+        "type": "data",
+        "format": "json"
+      },
+      {
+        "id": "artifact-15",
+        "path": "outputs/report_plasma.py",
+        "kind": "output",
+        "type": "data",
+        "format": "other"
+      },
+      {
+        "id": "artifact-16",
+        "path": "outputs/requirements-lock.txt",
+        "kind": "output",
+        "type": "data",
+        "format": "txt"
+      },
+      {
+        "id": "artifact-17",
+        "path": "outputs/search_results.json",
+        "kind": "output",
+        "type": "data",
+        "format": "json"
+      },
+      {
+        "id": "artifact-18",
+        "path": "outputs/solve_plasma.py",
+        "kind": "output",
+        "type": "data",
+        "format": "other"
+      }
+    ]
+  },
+  "expected_outputs": [
+    {
+      "name": "REPORT.md",
+      "path": "outputs/REPORT.md",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-1"
+      ]
+    },
+    {
+      "name": "UPSTREAM_SOURCES.md",
+      "path": "outputs/UPSTREAM_SOURCES.md",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-2"
+      ]
+    },
+    {
+      "name": "baseline_formal_details.json",
+      "path": "outputs/baseline_formal_details.json",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-3"
+      ]
+    },
+    {
+      "name": "build-notes.txt",
+      "path": "outputs/build-notes.txt",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-4"
+      ]
+    },
+    {
+      "name": "build_native.sh",
+      "path": "outputs/build_native.sh",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-5"
+      ]
+    },
+    {
+      "name": "env.sh",
+      "path": "outputs/env.sh",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-6"
+      ]
+    },
+    {
+      "name": "evaluation_report.json",
+      "path": "outputs/evaluation_report.json",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-7"
+      ]
+    },
+    {
+      "name": "evaluator_integrity.json",
+      "path": "outputs/evaluator_integrity.json",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-8"
+      ]
+    },
+    {
+      "name": "formal_details.json",
+      "path": "outputs/formal_details.json",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-9"
+      ]
+    },
+    {
+      "name": "formal_reward.json",
+      "path": "outputs/formal_reward.json",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-10"
+      ]
+    },
+    {
+      "name": "manifest.json",
+      "path": "outputs/manifest.json",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-11"
+      ]
+    },
+    {
+      "name": "package_submission.py",
+      "path": "outputs/package_submission.py",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-12"
+      ]
+    },
+    {
+      "name": "plasma.json",
+      "path": "outputs/plasma.json",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-13"
+      ]
+    },
+    {
+      "name": "protocol.json",
+      "path": "outputs/protocol.json",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-14"
+      ]
+    },
+    {
+      "name": "report_plasma.py",
+      "path": "outputs/report_plasma.py",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-15"
+      ]
+    },
+    {
+      "name": "requirements-lock.txt",
+      "path": "outputs/requirements-lock.txt",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-16"
+      ]
+    },
+    {
+      "name": "search_results.json",
+      "path": "outputs/search_results.json",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-17"
+      ]
+    },
+    {
+      "name": "solve_plasma.py",
+      "path": "outputs/solve_plasma.py",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-18"
+      ]
+    }
+  ],
+  "characterization": "characterization.json",
+  "trace": "traces/trace.jsonl",
+  "provenance": {
+    "created_by": "agent",
+    "toolchain": "@paper2arm/playground-cli 0.1.58",
+    "created_at": "2026-11-25T19:31:34Z",
+    "challenge_id": "challenge-d2b1bd0c",
+    "task_id": "challenge-d2b1bd0c",
+    "run_id": "local-20261125t193134z-7e242599",
+    "model": "unknown",
+    "harness": "opencode",
+    "declared_model": "",
+    "declared_harness": "",
+    "detected_model": "",
+    "detected_harness": "opencode",
+    "model_source": "fallback",
+    "harness_source": "detected"
+  }
+}

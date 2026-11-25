@@ -27,3 +27,5 @@ contest-20261125/*/search/
 contest-20261125/*/public_resources/
 contest-20261125/*/**/summary.h5
 contest-20261125/challenge-b946f0c9/**/evaluation_report.json
+contest-20261125/*/tools/build*/
+contest-20261125/*/submissions/*/*.zip

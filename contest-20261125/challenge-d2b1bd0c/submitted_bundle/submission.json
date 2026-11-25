@@ -1,0 +1,95 @@
+{
+  "schema_version": "playground-submission/v0",
+  "task_id": "challenge-d2b1bd0c",
+  "challenge_id": "challenge-d2b1bd0c",
+  "run_id": "local-20261125t193134z-7e242599",
+  "created_at": "2026-11-25T19:31:34Z",
+  "task_url": "",
+  "agent": {
+    "name": "playground-cli",
+    "version": "0.1.58",
+    "model": "unknown"
+  },
+  "harness": {
+    "name": "opencode",
+    "native_trace_format": "auto"
+  },
+  "artifacts": [
+    {
+      "path": "outputs/REPORT.md",
+      "sha256": "9175a16fe88db8f27a8a736ec741b2a44be558f60b7c5c94386ac5c1eddb5111"
+    },
+    {
+      "path": "outputs/UPSTREAM_SOURCES.md",
+      "sha256": "7b437da12b71a594b46a43959cca661db878cf62a215eb322dbb6209d01a78fa"
+    },
+    {
+      "path": "outputs/baseline_formal_details.json",
+      "sha256": "b8f0c047eae7aa8ba6e49a57bf3ad5208a94ad9579a9070ecbdcaa6da69602e8"
+    },
+    {
+      "path": "outputs/build-notes.txt",
+      "sha256": "bb7f3fc05d4375fa237dd6f61dc0bb5537b50468dd0c14059cbdf37bc1362fcb"
+    },
+    {
+      "path": "outputs/build_native.sh",
+      "sha256": "98dccf0c5e003304b52b0b9a2206f8162fa82d5775ed8e63cd086f8751ed6b5d"
+    },
+    {
+      "path": "outputs/env.sh",
+      "sha256": "6e5a00fa14ddeeebc7c84aee654fa41c7614ea12c80a741c384cb328667b559e"
+    },
+    {
+      "path": "outputs/evaluation_report.json",
+      "sha256": "cb2adc4a47867f5e1cd574185914d561d4f819e644098088c57a9452e708fabf"
+    },
+    {
+      "path": "outputs/evaluator_integrity.json",
+      "sha256": "948c07dca1cbfac1764c1cf8f6de4ed6cee0e2f9962ca4faaabcd45807034e17"
+    },
+    {
+      "path": "outputs/formal_details.json",
+      "sha256": "19f6a8f0c7ee2bf1062be9e86f2d6cda37b6ed933f89fd943645aa0513e60de8"
+    },
+    {
+      "path": "outputs/formal_reward.json",
+      "sha256": "0cf5922e0566e88f6345515843ce298b3cc58873ceab69f711f83f24f3d2a345"
+    },
+    {
+      "path": "outputs/manifest.json",
+      "sha256": "9b7e60889a6b0beec5cf7ee6c8636a21ca98d04fd3555a5eed3e6d7b66a68ac9"
+    },
+    {
+      "path": "outputs/package_submission.py",
+      "sha256": "7c587f3a84475bb84cb0815a5a293872f4d679eae25d6e0622a462f27bfa1f1e"
+    },
+    {
+      "path": "outputs/plasma.json",
+      "sha256": "da8730662883d8f8e5ed7b4f51de35fa2f7103b410814ae9f383b04468829acd"
+    },
+    {
+      "path": "outputs/protocol.json",
+      "sha256": "2a6f4b6366509627b2d29d022c3146ff80af6de14e7b51340bcb4f6654d8baaf"
+    },
+    {
+      "path": "outputs/report_plasma.py",
+      "sha256": "4493f81af73ca49737b9d5d97d117a0786e3152d40c75783bf8340c6e5a4fc62"
+    },
+    {
+      "path": "outputs/requirements-lock.txt",
+      "sha256": "a8384e4c0c574e94fc9e33205925a10f28e45eee900b2ea30b6e85de6a984b8a"
+    },
+    {
+      "path": "outputs/search_results.json",
+      "sha256": "569710dd5f477746a6d56ccb65fb8b56ddae56f749cc6c5ceb0b077e8a246d5f"
+    },
+    {
+      "path": "outputs/solve_plasma.py",
+      "sha256": "f1f0eaeeb58700b3687d7cb70a537fb1b3b57f26827bfd9148a033da7b9a62b6"
+    }
+  ],
+  "privacy": {
+    "redaction": "playground-cli-secret-scan-v0",
+    "contains_raw_credentials": false
+  }
+}

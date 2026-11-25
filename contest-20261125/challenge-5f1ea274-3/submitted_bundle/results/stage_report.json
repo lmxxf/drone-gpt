@@ -1,0 +1,423 @@
+{
+  "created_at": "2026-11-26T01:03:55.628320+08:00",
+  "stage": "first platform submission: low-resolution screening and NEO passed; full-resolution VMEC and 4096-particle 0.2-second SIMPLE acceptance pending",
+  "boundary_sha256": "96c7cfd7f170edf62b81e87d1db5ff19a6997f7bfe7d4c438d4f02adb34e26da",
+  "screen": {
+    "geometry": {
+      "aspect_ratio": 5.542969181639843,
+      "minor_radius": 0.18194920336607803,
+      "major_radius": 1.008538826882091,
+      "volume": 0.6590565496035243,
+      "kappa_max": 4.716362643013252,
+      "kappa_max_phi": 2.834796496012665,
+      "min_R": 0.6138267370934923
+    },
+    "full_verified": false,
+    "residuals": [
+      9.976168235865324e-13,
+      2.1491502752078169e-13,
+      1.603044468412684e-13
+    ],
+    "profile": {
+      "iota_min": 0.42847320893503354,
+      "iota_min_s": 0.0546875,
+      "iota_axis_side": 0.42852841455273466,
+      "iota_edge_side": 0.4357643192392911,
+      "well": 0.00029296665170292483,
+      "well_worst_s": 0.9375,
+      "vmec_aspect": 5.542969181639799,
+      "volume_from_vp_rel_error": 4.3910758584786436e-08
+    },
+    "coil": {
+      "lgradb_min": 5.024387825185997,
+      "theta": 3.5342917352885173,
+      "phi": 0.22089323345553233
+    },
+    "qs_rms": 0.0030969278417480864,
+    "seconds": 37.003014087677,
+    "screen_pass": true
+  },
+  "neo_diagnostics": {
+    "full_verified": false,
+    "source_boundary": "runs/opt_397f76eabadd/boundary.json",
+    "resolution": "65 radial surfaces, MPOL=8 NTOR=6",
+    "boozer": {
+      "B00_axis": 6.119443409032859,
+      "e_B": 1.2757840521312974e-13,
+      "history": [
+        {
+          "mboz": 16,
+          "nboz": 12,
+          "e_B": 3.882406678813681e-06,
+          "seconds": 0.13511872291564941
+        },
+        {
+          "mboz": 32,
+          "nboz": 24,
+          "e_B": 4.173787759810516e-11,
+          "seconds": 0.4892616271972656
+        },
+        {
+          "mboz": 64,
+          "nboz": 48,
+          "e_B": 1.2757840521312974e-13,
+          "seconds": 2.9403390884399414
+        }
+      ],
+      "s_neo": [
+        0.1953125,
+        0.3984375,
+        0.6015625,
+        0.8046875,
+        0.9921875
+      ]
+    },
+    "neo": {
+      "s": [
+        0.1953125,
+        0.3984375,
+        0.6015625,
+        0.8046875,
+        0.9921875
+      ],
+      "eps_eff": [
+        5.6867741365388095e-05,
+        5.507975560051068e-05,
+        5.8834269455925244e-05,
+        6.438078160843584e-05,
+        7.085848860512202e-05
+      ],
+      "eps_eff_max": 7.085848860512202e-05,
+      "B_ref": [
+        6.373843404,
+        6.480914753,
+        6.564427467,
+        6.635881832,
+        6.694849686
+      ],
+      "R_ref": [
+        9.693323159,
+        9.693323159,
+        9.693323159,
+        9.693323159,
+        9.693323159
+      ],
+      "seconds": 13.27948784828186
+    }
+  },
+  "full_verified": false,
+  "alpha_acceptance": {
+    "status": "not yet evaluated for this candidate",
+    "required_particles": 4096,
+    "required_trace_time_s": 0.2,
+    "loss_limit": 0.05
+  },
+  "baseline_geometry": {
+    "ESTELL": {
+      "aspect_ratio": 5.292771089479805,
+      "minor_radius": 0.26356768664040103,
+      "major_radius": 1.3950034319713873,
+      "volume": 1.9128871361032065,
+      "kappa_max": 2.713546142245043,
+      "kappa_max_phi": 1.5707963267948966,
+      "min_R": 0.9617722441600003
+    },
+    "QHS46": {
+      "aspect_ratio": 6.698251293157688,
+      "minor_radius": 0.8993141623499332,
+      "major_radius": 6.023832250915463,
+      "volume": 96.16686883898325,
+      "kappa_max": 3.1136126125740593,
+      "kappa_max_phi": 0.0,
+      "min_R": 4.091402738508366
+    },
+    "landreman_paul_2022_QA": {
+      "aspect_ratio": 6.000007793589545,
+      "minor_radius": 0.16831206437162438,
+      "major_radius": 1.0098736979848915,
+      "volume": 0.5647123630248435,
+      "kappa_max": 3.9545239816237783,
+      "kappa_max_phi": 0.0,
+      "min_R": 0.6132803165099162
+    },
+    "landreman_paul_2022_QA_well": {
+      "aspect_ratio": 6.000011993448135,
+      "minor_radius": 0.1678936537871179,
+      "major_radius": 1.0073639363465363,
+      "volume": 0.5605117242681908,
+      "kappa_max": 4.938149338816292,
+      "kappa_max_phi": 0.2454369260617026,
+      "min_R": 0.6350580962679652
+    },
+    "landreman_paul_2022_QH_well": {
+      "aspect_ratio": 8.000083181696457,
+      "minor_radius": 0.12364531229728631,
+      "major_radius": 0.9891727834051263,
+      "volume": 0.29850884986889015,
+      "kappa_max": 3.707531351033222,
+      "kappa_max_phi": 1.5401167110371838,
+      "min_R": 0.6831248500792274
+    }
+  },
+  "baseline_screening": [
+    {
+      "seed": "ESTELL.json",
+      "parameters": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "folder": "runs/ESTELL_0ac45f713e62",
+      "geometry": {
+        "aspect_ratio": 5.292771089479805,
+        "minor_radius": 0.26356768664040103,
+        "major_radius": 1.3950034319713873,
+        "volume": 1.9128871361032065,
+        "kappa_max": 2.713546142245043,
+        "kappa_max_phi": 1.5707963267948966,
+        "min_R": 0.9617722441600003
+      },
+      "full_verified": false,
+      "residuals": [
+        9.944993309132269e-13,
+        3.7447244090159085e-13,
+        1.0652176140484916e-14
+      ],
+      "profile": {
+        "iota_min": 0.2053477254084865,
+        "iota_min_s": 0.0546875,
+        "iota_axis_side": 0.20363482684546258,
+        "iota_edge_side": 0.23940309944167815,
+        "well": -0.019298492445393875,
+        "well_worst_s": 0.140625,
+        "vmec_aspect": 5.292771089479786,
+        "volume_from_vp_rel_error": 6.389632467573847e-08
+      },
+      "coil": {
+        "lgradb_min": 2.9389144200808337,
+        "theta": 0.0,
+        "phi": 0.0
+      },
+      "qs_rms": 0.015679127926733524,
+      "seconds": 26.777503728866577,
+      "screen_pass": false
+    },
+    {
+      "seed": "QHS46.json",
+      "parameters": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "folder": "runs/QHS46_fd496d9315b7",
+      "geometry": {
+        "aspect_ratio": 6.698251293157688,
+        "minor_radius": 0.8993141623499332,
+        "major_radius": 6.023832250915463,
+        "volume": 96.16686883898325,
+        "kappa_max": 3.1136126125740593,
+        "kappa_max_phi": 0.0,
+        "min_R": 4.091402738508366
+      },
+      "full_verified": false,
+      "residuals": [
+        9.901047618870762e-13,
+        2.6989333453359187e-13,
+        2.423746554451009e-15
+      ],
+      "profile": {
+        "iota_min": 1.014944372295834,
+        "iota_min_s": 0.0546875,
+        "iota_axis_side": 1.0138699874960586,
+        "iota_edge_side": 1.2448519410630146,
+        "well": -0.0014867198321787082,
+        "well_worst_s": 0.9375,
+        "vmec_aspect": 6.698251293157718,
+        "volume_from_vp_rel_error": 1.2407106009248992e-08
+      },
+      "coil": {
+        "lgradb_min": 2.9596763702963647,
+        "theta": 3.1906800388021335,
+        "phi": 1.030835089459151
+      },
+      "qs_rms": 0.056209793960265604,
+      "seconds": 41.76828360557556,
+      "screen_pass": false
+    },
+    {
+      "seed": "landreman_paul_2022_QA.json",
+      "parameters": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "folder": "runs/landreman_paul_2022_QA_472ca8c11762",
+      "geometry": {
+        "aspect_ratio": 6.000007793589545,
+        "minor_radius": 0.16831206437162438,
+        "major_radius": 1.0098736979848915,
+        "volume": 0.5647123630248435,
+        "kappa_max": 3.9545239816237783,
+        "kappa_max_phi": 0.0,
+        "min_R": 0.6132803165099162
+      },
+      "full_verified": false,
+      "residuals": [
+        9.962453712012036e-13,
+        4.856588025531802e-13,
+        5.37596209981408e-13
+      ],
+      "profile": {
+        "iota_min": 0.4160979538686915,
+        "iota_min_s": 0.9453125,
+        "iota_axis_side": 0.4230383776459613,
+        "iota_edge_side": 0.4157920338544225,
+        "well": -0.031249742935206163,
+        "well_worst_s": 0.9375,
+        "vmec_aspect": 6.000007793589564,
+        "volume_from_vp_rel_error": 3.39849393071745e-09
+      },
+      "coil": {
+        "lgradb_min": 5.293044594222649,
+        "theta": 3.141592653589793,
+        "phi": 0.0
+      },
+      "qs_rms": 0.0001279194407723168,
+      "seconds": 19.09086847305298,
+      "screen_pass": false
+    },
+    {
+      "seed": "landreman_paul_2022_QA_well.json",
+      "parameters": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "folder": "runs/landreman_paul_2022_QA_well_3ab0202fe85b",
+      "geometry": {
+        "aspect_ratio": 6.000011993448135,
+        "minor_radius": 0.1678936537871179,
+        "major_radius": 1.0073639363465363,
+        "volume": 0.5605117242681908,
+        "kappa_max": 4.938149338816292,
+        "kappa_max_phi": 0.2454369260617026,
+        "min_R": 0.6350580962679652
+      },
+      "full_verified": false,
+      "residuals": [
+        9.969973773531204e-13,
+        1.731682479027419e-13,
+        1.9197441513439772e-13
+      ],
+      "profile": {
+        "iota_min": 0.41692081872213976,
+        "iota_min_s": 0.0546875,
+        "iota_axis_side": 0.4170507100963687,
+        "iota_edge_side": 0.4236700144440158,
+        "well": 0.0021670500395592736,
+        "well_worst_s": 0.9375,
+        "vmec_aspect": 6.000011993448128,
+        "volume_from_vp_rel_error": 3.6431870409359135e-08
+      },
+      "coil": {
+        "lgradb_min": 5.552800584364763,
+        "theta": 3.5342917352885173,
+        "phi": 0.22089323345553233
+      },
+      "qs_rms": 0.00023207616071721897,
+      "seconds": 28.524195671081543,
+      "screen_pass": true
+    },
+    {
+      "seed": "landreman_paul_2022_QH_well.json",
+      "parameters": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "folder": "runs/landreman_paul_2022_QH_well_9eb8d685202c",
+      "geometry": {
+        "aspect_ratio": 8.000083181696457,
+        "minor_radius": 0.12364531229728631,
+        "major_radius": 0.9891727834051263,
+        "volume": 0.29850884986889015,
+        "kappa_max": 3.707531351033222,
+        "kappa_max_phi": 1.5401167110371838,
+        "min_R": 0.6831248500792274
+      },
+      "full_verified": false,
+      "residuals": [
+        9.967142082581388e-13,
+        4.933806327752943e-13,
+        4.2761016544411855e-14
+      ],
+      "profile": {
+        "iota_min": 1.2142002713135631,
+        "iota_min_s": 0.7109375,
+        "iota_axis_side": 1.2139688248791458,
+        "iota_edge_side": 1.2186579658835393,
+        "well": 0.0007030535229422234,
+        "well_worst_s": 0.6875,
+        "vmec_aspect": 8.0000831816964,
+        "volume_from_vp_rel_error": 4.8038943267769696e-08
+      },
+      "coil": {
+        "lgradb_min": 3.1672320111333883,
+        "theta": 3.141592653589793,
+        "phi": 0.0
+      },
+      "qs_rms": 0.0031986736566283237,
+      "seconds": 50.832090616226196,
+      "screen_pass": true,
+      "qs_helicity": -1
+    }
+  ],
+  "toolchain": {
+    "python_packages": {
+      "numpy": "2.5.5",
+      "scipy": "1.18.1",
+      "simsopt": "1.10.6",
+      "booz_xform": "0.1.0",
+      "vmecpp": "0.9.4",
+      "netCDF4": "1.7.5.1.post1"
+    },
+    "machine": "aarch64",
+    "cpu_affinity": [
+      12,
+      13,
+      14,
+      15
+    ],
+    "pinned_sources": {
+      "VMEC2000_NEO": "780f5db557eacc7ca1160f4ca5a10a80922e4f26",
+      "SIMPLE": "9269e8614e581ede8768e0bccb003b52db87e3be",
+      "libneo": "f1bef44e80c4508f04594d4d2ca120eaf17564f8",
+      "booz_xform": "21aff118735de4255641aa1b64fc7ab35e8c9767"
+    },
+    "compiler": "GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+    "notes": [
+      "Native ARM64 rebuild; original image inaccessible.",
+      "SIMPLE_DETERMINISTIC_FP=ON",
+      "NEO near-rational correction uses abs(iota_bar_fp).",
+      "Compiler and numeric-library versions differ from original image.",
+      "Screening runs before environment pinning used simsopt 1.11.1 and PyPI booz_xform 0.1.0."
+    ],
+    "eval_sha256": "f8af3835fd88130409385891a695f21c774d0ce3d0c990fdf5ca5af7b6bcd83a",
+    "binary_sha256": {
+      "xvmec2000": "62204e33722f67965e01f8a8ee491720932057d515b0374d18ee9525e9c687b9",
+      "xneo": "21240275040e4fbadc400a0a0f5d2538432e9ed2dee4641259372ea7cb0be155",
+      "simple.x": "171b2daa6d1b3f406c3f20947006670bc0f89e90590240192e484d61179bc68e"
+    }
+  },
+  "ongoing_workflow": "run_workflow.py; CPU affinity 12-15; serial full evaluator after reduced optimization",
+  "caveats": [
+    "All reported screening physics use 65 radial surfaces and reduced Fourier resolution.",
+    "QS RMS is a screening proxy, not epsilon_eff. Epsilon_eff here is independently computed by NEO.",
+    "The small alpha timing probe was on the reference boundary, not this submission, and is not an acceptance test."
+  ]
+}

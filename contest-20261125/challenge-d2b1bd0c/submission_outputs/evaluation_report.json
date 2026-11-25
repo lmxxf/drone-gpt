@@ -1,0 +1,520 @@
+{
+  "design": {
+    "kappa": 1.48,
+    "delta": 0.32000000000000006,
+    "c2": -0.0625,
+    "c3": -0.025,
+    "s2": -0.09000000000000001,
+    "s3": -0.08,
+    "axis_pressure_Pa": 1399000.0
+  },
+  "formal": {
+    "status": "feasible",
+    "mode": "formal",
+    "reward": 0.6246040634940218,
+    "worst_average_pressure_Pa": 332770.8175573579,
+    "violations": [],
+    "all_cases_evaluated": true,
+    "protocol_state": "calibrated",
+    "elapsed_seconds": 2261.2745660881046,
+    "max_child_process_rss_KiB": 1669112,
+    "cases": {
+      "broad/coarse": {
+        "average_pressure_Pa": 332770.8832571167,
+        "q_min": 1.1102957379490848,
+        "minimum_energy_by_n": {
+          "1": 0.062391534072489915,
+          "2": 0.14349883319409634,
+          "3": 0.2235004750453474,
+          "4": 0.31591115865830205,
+          "5": 0.2784880444231225
+        },
+        "minimum_energy_all_phases": 0.062391534072489915,
+        "mercier_max": -0.2511587694967866,
+        "ballooning_nodes_max": 0,
+        "internal_zero_crossings": 0,
+        "incomplete_ballooning_integrations": 0,
+        "gs_rms_max": 0.00010113086318597198,
+        "gs_error_max": 0.007451471872627735,
+        "dcon_runs": 9,
+        "violations": []
+      },
+      "broad/fine": {
+        "average_pressure_Pa": 332770.8175573579,
+        "q_min": 1.1103153903696426,
+        "minimum_energy_by_n": {
+          "1": 0.06215455751031474,
+          "2": 0.14335529167379077,
+          "3": 0.22325420793706044,
+          "4": 0.3157382897127902,
+          "5": 0.2784522266307606
+        },
+        "minimum_energy_all_phases": 0.06215455751031474,
+        "mercier_max": -0.2511593491939105,
+        "ballooning_nodes_max": 0,
+        "internal_zero_crossings": 0,
+        "incomplete_ballooning_integrations": 0,
+        "gs_rms_max": 5.172640521777794e-05,
+        "gs_error_max": 0.0033130610827356577,
+        "dcon_runs": 21,
+        "violations": []
+      },
+      "nominal/coarse": {
+        "average_pressure_Pa": 333001.744728242,
+        "q_min": 1.1124933032050985,
+        "minimum_energy_by_n": {
+          "1": 0.06439533013812127,
+          "2": 0.14806927821153149,
+          "3": 0.23067208451988247,
+          "4": 0.3285810858062128,
+          "5": 0.29058230427919907
+        },
+        "minimum_energy_all_phases": 0.06439533013812127,
+        "mercier_max": -0.25115982788577457,
+        "ballooning_nodes_max": 0,
+        "internal_zero_crossings": 0,
+        "incomplete_ballooning_integrations": 0,
+        "gs_rms_max": 0.00010140062659047544,
+        "gs_error_max": 0.00746251130476594,
+        "dcon_runs": 9,
+        "violations": []
+      },
+      "nominal/fine": {
+        "average_pressure_Pa": 333001.67839413014,
+        "q_min": 1.1125143635979164,
+        "minimum_energy_by_n": {
+          "1": 0.0640523320814311,
+          "2": 0.1478757877748279,
+          "3": 0.23046392892283837,
+          "4": 0.32826106257588744,
+          "5": 0.2904726169737931
+        },
+        "minimum_energy_all_phases": 0.0640523320814311,
+        "mercier_max": -0.25116010972702724,
+        "ballooning_nodes_max": 0,
+        "internal_zero_crossings": 0,
+        "incomplete_ballooning_integrations": 0,
+        "gs_rms_max": 5.191453965380788e-05,
+        "gs_error_max": 0.0033907738979905844,
+        "dcon_runs": 21,
+        "violations": []
+      },
+      "peaked/coarse": {
+        "average_pressure_Pa": 333309.64655004744,
+        "q_min": 1.115429010271335,
+        "minimum_energy_by_n": {
+          "1": 0.06712700525998122,
+          "2": 0.15426045691950843,
+          "3": 0.24045154477996272,
+          "4": 0.3468891221311896,
+          "5": 0.28509305280454883
+        },
+        "minimum_energy_all_phases": 0.06712700525998122,
+        "mercier_max": -0.2511607931673813,
+        "ballooning_nodes_max": 0,
+        "internal_zero_crossings": 0,
+        "incomplete_ballooning_integrations": 0,
+        "gs_rms_max": 0.00010175300121773034,
+        "gs_error_max": 0.007468227297067642,
+        "dcon_runs": 9,
+        "violations": []
+      },
+      "peaked/fine": {
+        "average_pressure_Pa": 333309.5813878081,
+        "q_min": 1.1154519354156378,
+        "minimum_energy_by_n": {
+          "1": 0.06683115549806636,
+          "2": 0.15408316338303166,
+          "3": 0.24033744815267413,
+          "4": 0.34657105652791853,
+          "5": 0.28855507511560957
+        },
+        "minimum_energy_all_phases": 0.06683115549806636,
+        "mercier_max": -0.25116129766882134,
+        "ballooning_nodes_max": 0,
+        "internal_zero_crossings": 0,
+        "incomplete_ballooning_integrations": 0,
+        "gs_rms_max": 5.245923239272088e-05,
+        "gs_error_max": 0.0033946428447961807,
+        "dcon_runs": 21,
+        "violations": []
+      }
+    },
+    "refinement": {
+      "broad": {
+        "pressure_relative": 1.9743241408409773e-07,
+        "q_absolute_max": 1.9652420557791928e-05,
+        "energy_absolute_by_n": {
+          "1": 0.00023697656217517432,
+          "2": 0.00014354152030557343,
+          "3": 0.0002462671082869572,
+          "4": 0.0001728689455118282,
+          "5": 3.5817792361947376e-05
+        }
+      },
+      "nominal": {
+        "pressure_relative": 1.9920049343369328e-07,
+        "q_absolute_max": 2.1060392817906504e-05,
+        "energy_absolute_by_n": {
+          "1": 0.0003429980566901636,
+          "2": 0.00019349043670358057,
+          "3": 0.00020815559704409625,
+          "4": 0.0003200232303253725,
+          "5": 0.00010968730540594773
+        }
+      },
+      "peaked": {
+        "pressure_relative": 1.955006104781276e-07,
+        "q_absolute_max": 2.2925144302909928e-05,
+        "energy_absolute_by_n": {
+          "1": 0.00029584976191486534,
+          "2": 0.0001772935364767747,
+          "3": 0.00011409662728859016,
+          "4": 0.00031806560327107825,
+          "5": 0.0034620223110607418
+        }
+      }
+    }
+  },
+  "baseline_formal": {
+    "status": "feasible",
+    "mode": "formal",
+    "reward": 0.32831613828028383,
+    "worst_average_pressure_Pa": 97759.12657472344,
+    "violations": [],
+    "all_cases_evaluated": true,
+    "protocol_state": "calibrated",
+    "elapsed_seconds": 2392.730258223135,
+    "max_child_process_rss_KiB": 1628768,
+    "cases": {
+      "broad/coarse": {
+        "average_pressure_Pa": 102367.4635020102,
+        "q_min": 1.515977211011723,
+        "minimum_energy_by_n": {
+          "1": 0.7440344533947195,
+          "2": 0.2157458252786676,
+          "3": 0.19232775324294116,
+          "4": 0.2218142533158739,
+          "5": 0.06744206730896068
+        },
+        "minimum_energy_all_phases": 0.06744206730896068,
+        "mercier_max": -0.25036486010429637,
+        "ballooning_nodes_max": 0,
+        "internal_zero_crossings": 0,
+        "incomplete_ballooning_integrations": 0,
+        "gs_rms_max": 0.00029793320572935045,
+        "gs_error_max": 0.010559475980699062,
+        "dcon_runs": 9,
+        "violations": []
+      },
+      "broad/fine": {
+        "average_pressure_Pa": 102367.469050379,
+        "q_min": 1.5159881421279175,
+        "minimum_energy_by_n": {
+          "1": 0.745643974484031,
+          "2": 0.21546705963988472,
+          "3": 0.19300251265600707,
+          "4": 0.22152700640728418,
+          "5": 0.06749004216347387
+        },
+        "minimum_energy_all_phases": 0.06749004216347387,
+        "mercier_max": -0.2503668268090104,
+        "ballooning_nodes_max": 0,
+        "internal_zero_crossings": 0,
+        "incomplete_ballooning_integrations": 0,
+        "gs_rms_max": 0.00012182922364445403,
+        "gs_error_max": 0.006213166750967503,
+        "dcon_runs": 21,
+        "violations": []
+      },
+      "nominal/coarse": {
+        "average_pressure_Pa": 100261.52015415503,
+        "q_min": 1.422845372122452,
+        "minimum_energy_by_n": {
+          "1": 0.5579485792041617,
+          "2": 0.5440098200573249,
+          "3": 0.042270850167592085,
+          "4": 0.35568833015796736,
+          "5": 0.04035916727980922
+        },
+        "minimum_energy_all_phases": 0.04035916727980922,
+        "mercier_max": -0.2503587328315189,
+        "ballooning_nodes_max": 0,
+        "internal_zero_crossings": 0,
+        "incomplete_ballooning_integrations": 0,
+        "gs_rms_max": 0.00028747390024363995,
+        "gs_error_max": 0.010322770103812218,
+        "dcon_runs": 9,
+        "violations": []
+      },
+      "nominal/fine": {
+        "average_pressure_Pa": 100261.51541940859,
+        "q_min": 1.4228761153373026,
+        "minimum_energy_by_n": {
+          "1": 0.5596222576490631,
+          "2": 0.5427183807412548,
+          "3": 0.042271073763168424,
+          "4": 0.3561121498965517,
+          "5": 0.04032074930518971
+        },
+        "minimum_energy_all_phases": 0.04032074930518971,
+        "mercier_max": -0.250360839708549,
+        "ballooning_nodes_max": 0,
+        "internal_zero_crossings": 0,
+        "incomplete_ballooning_integrations": 0,
+        "gs_rms_max": 0.00010918206680798903,
+        "gs_error_max": 0.005491058342158794,
+        "dcon_runs": 21,
+        "violations": []
+      },
+      "peaked/coarse": {
+        "average_pressure_Pa": 97759.14893496153,
+        "q_min": 1.318482210615418,
+        "minimum_energy_by_n": {
+          "1": 0.35601792159590284,
+          "2": 0.7882647761428621,
+          "3": 0.10322459771290407,
+          "4": 0.06427553250753162,
+          "5": 0.27389229518838915
+        },
+        "minimum_energy_all_phases": 0.06427553250753162,
+        "mercier_max": -0.25035195934050447,
+        "ballooning_nodes_max": 0,
+        "internal_zero_crossings": 0,
+        "incomplete_ballooning_integrations": 0,
+        "gs_rms_max": 0.00026891002198681235,
+        "gs_error_max": 0.009420330636203289,
+        "dcon_runs": 9,
+        "violations": []
+      },
+      "peaked/fine": {
+        "average_pressure_Pa": 97759.12657472344,
+        "q_min": 1.3185297983979094,
+        "minimum_energy_by_n": {
+          "1": 0.3556702742300222,
+          "2": 0.786562749983505,
+          "3": 0.10309799949097398,
+          "4": 0.06429091727271162,
+          "5": 0.27400718041953953
+        },
+        "minimum_energy_all_phases": 0.06429091727271162,
+        "mercier_max": -0.250353790412772,
+        "ballooning_nodes_max": 0,
+        "internal_zero_crossings": 0,
+        "incomplete_ballooning_integrations": 0,
+        "gs_rms_max": 9.77057425188832e-05,
+        "gs_error_max": 0.004435531795024872,
+        "dcon_runs": 21,
+        "violations": []
+      }
+    },
+    "refinement": {
+      "broad": {
+        "pressure_relative": 5.420051074622734e-08,
+        "q_absolute_max": 1.093111619465681e-05,
+        "energy_absolute_by_n": {
+          "1": 0.0016095210893114498,
+          "2": 0.0002787656387828741,
+          "3": 0.0006747594130659118,
+          "4": 0.00028724690858972224,
+          "5": 4.7974854513188614e-05
+        }
+      },
+      "nominal": {
+        "pressure_relative": 4.722396429457376e-08,
+        "q_absolute_max": 3.0743214850526e-05,
+        "energy_absolute_by_n": {
+          "1": 0.0016736784449014053,
+          "2": 0.0012914393160701199,
+          "3": 2.2359557633883087e-07,
+          "4": 0.0004238197385843523,
+          "5": 3.841797461950902e-05
+        }
+      },
+      "peaked": {
+        "pressure_relative": 2.2872783089766813e-07,
+        "q_absolute_max": 4.7587782491476105e-05,
+        "energy_absolute_by_n": {
+          "1": 0.0003476473658806656,
+          "2": 0.0017020261593571062,
+          "3": 0.00012659822193009096,
+          "4": 1.5384765179995985e-05,
+          "5": 0.00011488523115038562
+        }
+      }
+    }
+  },
+  "baseline_search": {
+    "status": "feasible",
+    "mode": "search",
+    "reward": 0.32831618872041685,
+    "worst_average_pressure_Pa": 97759.14893496153,
+    "violations": [],
+    "all_cases_evaluated": true,
+    "protocol_state": "calibrated",
+    "elapsed_seconds": 209.13641928206198,
+    "max_child_process_rss_KiB": 478004,
+    "cases": {
+      "broad/coarse": {
+        "average_pressure_Pa": 102367.4635020102,
+        "q_min": 1.515977211011723,
+        "minimum_energy_by_n": {
+          "1": 0.7440344533947195,
+          "2": 0.2157458252786676,
+          "3": 0.19232775324294116,
+          "4": 0.2218142533158739,
+          "5": 0.06744206730896068
+        },
+        "minimum_energy_all_phases": 0.06744206730896068,
+        "mercier_max": -0.25036486010429637,
+        "ballooning_nodes_max": 0,
+        "internal_zero_crossings": 0,
+        "incomplete_ballooning_integrations": 0,
+        "gs_rms_max": 0.00029793320572935045,
+        "gs_error_max": 0.010559475980699062,
+        "dcon_runs": 9,
+        "violations": []
+      },
+      "nominal/coarse": {
+        "average_pressure_Pa": 100261.52015415503,
+        "q_min": 1.422845372122452,
+        "minimum_energy_by_n": {
+          "1": 0.5579485792041617,
+          "2": 0.5440098200573249,
+          "3": 0.042270850167592085,
+          "4": 0.35568833015796736,
+          "5": 0.04035916727980922
+        },
+        "minimum_energy_all_phases": 0.04035916727980922,
+        "mercier_max": -0.2503587328315189,
+        "ballooning_nodes_max": 0,
+        "internal_zero_crossings": 0,
+        "incomplete_ballooning_integrations": 0,
+        "gs_rms_max": 0.00028747390024363995,
+        "gs_error_max": 0.010322770103812218,
+        "dcon_runs": 9,
+        "violations": []
+      },
+      "peaked/coarse": {
+        "average_pressure_Pa": 97759.14893496153,
+        "q_min": 1.318482210615418,
+        "minimum_energy_by_n": {
+          "1": 0.35601792159590284,
+          "2": 0.7882647761428621,
+          "3": 0.10322459771290407,
+          "4": 0.06427553250753162,
+          "5": 0.27389229518838915
+        },
+        "minimum_energy_all_phases": 0.06427553250753162,
+        "mercier_max": -0.25035195934050447,
+        "ballooning_nodes_max": 0,
+        "internal_zero_crossings": 0,
+        "incomplete_ballooning_integrations": 0,
+        "gs_rms_max": 0.00026891002198681235,
+        "gs_error_max": 0.009420330636203289,
+        "dcon_runs": 9,
+        "violations": []
+      }
+    },
+    "refinement": {}
+  },
+  "final_candidate_search": {
+    "status": "feasible",
+    "mode": "search",
+    "reward": 0.6246041097867591,
+    "worst_average_pressure_Pa": 332770.8832571167,
+    "violations": [],
+    "all_cases_evaluated": true,
+    "protocol_state": "calibrated",
+    "elapsed_seconds": 573.6525124148466,
+    "max_child_process_rss_KiB": 487516,
+    "cases": {
+      "broad/coarse": {
+        "average_pressure_Pa": 332770.8832571167,
+        "q_min": 1.1102957379490848,
+        "minimum_energy_by_n": {
+          "1": 0.062391534072489915,
+          "2": 0.14349883319409634,
+          "3": 0.2235004750453474,
+          "4": 0.31591115865830205,
+          "5": 0.2784880444231225
+        },
+        "minimum_energy_all_phases": 0.062391534072489915,
+        "mercier_max": -0.2511587694967866,
+        "ballooning_nodes_max": 0,
+        "internal_zero_crossings": 0,
+        "incomplete_ballooning_integrations": 0,
+        "gs_rms_max": 0.00010113086318597198,
+        "gs_error_max": 0.007451471872627735,
+        "dcon_runs": 9,
+        "violations": []
+      },
+      "nominal/coarse": {
+        "average_pressure_Pa": 333001.74472824216,
+        "q_min": 1.1124933025460149,
+        "minimum_energy_by_n": {
+          "1": 0.0643926176316457,
+          "2": 0.14806907720835974,
+          "3": 0.23067181302231984,
+          "4": 0.32858408710394543,
+          "5": 0.2905841912722126
+        },
+        "minimum_energy_all_phases": 0.0643926176316457,
+        "mercier_max": -0.25115987133572815,
+        "ballooning_nodes_max": 0,
+        "internal_zero_crossings": 0,
+        "incomplete_ballooning_integrations": 0,
+        "gs_rms_max": 0.00010138016659766436,
+        "gs_error_max": 0.007446669973433018,
+        "dcon_runs": 9,
+        "violations": []
+      },
+      "peaked/coarse": {
+        "average_pressure_Pa": 333309.64655004744,
+        "q_min": 1.115429010271335,
+        "minimum_energy_by_n": {
+          "1": 0.06712700525998122,
+          "2": 0.15426045691950843,
+          "3": 0.24045154477996272,
+          "4": 0.3468891221311896,
+          "5": 0.28509305280454883
+        },
+        "minimum_energy_all_phases": 0.06712700525998122,
+        "mercier_max": -0.2511607931673813,
+        "ballooning_nodes_max": 0,
+        "internal_zero_crossings": 0,
+        "incomplete_ballooning_integrations": 0,
+        "gs_rms_max": 0.00010175300121773034,
+        "gs_error_max": 0.007468227297067642,
+        "dcon_runs": 9,
+        "violations": []
+      }
+    },
+    "refinement": {}
+  },
+  "optimizer_convergence": {
+    "iteration": 4,
+    "improved": false,
+    "steps": [
+      0.005,
+      0.0025,
+      0.0015625,
+      0.0015625,
+      0.00125,
+      0.00125,
+      1562.5
+    ]
+  },
+  "independent_packaging_checks": {
+    "native_dcon_runs": 90,
+    "completed_ballooning_integrations": 19674,
+    "job_hashes": {
+      "runs/top333-formal/broad-coarse/job.json": "ce20b03a2db1f6064dd09efe5965dca673aead1b98146159cf969903b1b90cee",
+      "runs/top333-formal/broad-fine/job.json": "7d7928636ef8242c32e573d581bde5af573bcbdc21d32707db77975578c76358",
+      "runs/top333-formal/nominal-coarse/job.json": "83091f21dc14a02068ee1c677a661be6b32afc517c9c0af146c6982cb2b123e5",
+      "runs/top333-formal/nominal-fine/job.json": "f01950b4bc6fd4ba1e9304d578856d4ea37aec4da3e8a3c799b4f7f5a674672b",
+      "runs/top333-formal/peaked-coarse/job.json": "09524ea5c353a03a620bae420014785ac2c5a583b8dc358933967ab7270ba8c0",
+      "runs/top333-formal/peaked-fine/job.json": "ff934b9b14d8fe4965d3fe5dc69edcfe490496079a0f72db43d74acc6709b12e"
+    }
+  }
+}

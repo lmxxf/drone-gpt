@@ -1,0 +1,34 @@
+Source hashes verified against upstream/SOURCES.md. Local GNU 13.3 toolchain,
+Ubuntu Noble ARM64 HDF5 1.10.10, METIS 5, SuperLU 6, ARPACK, NetCDF C/Fortran.
+All dependencies extracted from apt-get download into native/deps, no system installation.
+OFT: CMake Release, OpenMP, no LTO, Python wrapper, serial SuperLU.
+Compatibility change: enable optional persistent HDF5 free-space tracking only
+with HDF5 >=1.12, since Noble's 1.10 Fortran module lacks the strategy constant.
+This file-storage feature is not used by equilibrium.py and no physics changed.
+Ninja build targets compiled in sequence: oftbase oftgrid oftla oftfem oftphysics all.
+Full install's example-copy step fails because upstream archive intentionally omits
+example directories. Complete native libraries and generated Python bindings are
+used directly from native/oft-build via a .venv site-packages .pth file.
+DCON: make -j4 dcon FC=gfortran CC=gcc with extracted NetCDF and system BLAS/LAPACK.
+Read env.sh before running. Restrict processes with taskset -c 4-7.
+OpenBLAS experiment was rejected: replay of the identical baseline GEQDSK
+produced spurious internal crossings relative to reference BLAS. The local
+libblas.so.3/liblapack.so.3 override links were removed. Affected runs were
+isolated and formal evaluations restarted using system reference BLAS/LAPACK.
+Window and affected processes: runs/openblas-window.json, openblas_affected.json.
+Final certificates must come from the restarted, uncontaminated runs.
+Further isolated backend audit (no global library changes): a two-element
+Fortran complex dot test expected ZDOTC=(70,-8), ZDOTU=(-18,68).
+Reference BLAS and BLIS serial returned the expected values; this machine's
+OpenBLAS build returned ZDOTC=(46,-8), ZDOTU=(186,68), so it was rejected.
+BLIS + reference LAPACK replayed baseline broad/coarse n=5 normally, no internal
+crossings, W=0.06744246483117224 versus reference 0.06744206730896068.
+Native CPU time was 21 s versus reference 14 s in this comparison, so BLIS
+was not adopted. All final evaluations continue with reference BLAS/LAPACK.
+An isolated GPEC build with -O3 -fexternal-blas and BLIS was also tested.
+Complex MATMUL microbenchmark (80x80 times 80x160, 200 iterations) CPU seconds:
+intrinsic 0.0776, external/reference BLAS 0.117631, external/BLIS 0.029659;
+checksums agreed to floating-point precision. Full DCON results did not show
+an overall speedup: baseline coarse n=5 CPU 13 vs reference 14 seconds;
+known high-pressure fine n=5 CPU 143 vs reference 137 seconds. The compiler
+variant was not adopted. Its files remain isolated under native/compiler-check.

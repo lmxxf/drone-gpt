@@ -1,0 +1,3451 @@
+{
+  "status": "feasible",
+  "mode": "formal",
+  "reward": 0.6246040634940218,
+  "worst_average_pressure_Pa": 332770.8175573579,
+  "violations": [],
+  "cases": {
+    "broad": {
+      "coarse": {
+        "equilibrium": {
+          "status": "equilibrium_solved",
+          "iterations": 24,
+          "stats": {
+            "Ip": 8100000.002515749,
+            "Ip_centroid": [
+              4.077243906927048,
+              3.8255667522390915e-11
+            ],
+            "kappa": 1.6089349544058775,
+            "kappaU": 1.608930686543277,
+            "kappaL": 1.6089392222684782,
+            "delta": 0.4450799439276536,
+            "deltaU": 0.4450783676779062,
+            "deltaL": 0.4450815201774006,
+            "R_geo": 4.000314138120396,
+            "a_geo": 1.4749561914779896,
+            "vol": 240.00000000000202,
+            "q_0": 1.1292394599309181,
+            "q_95": 5.64025319379202,
+            "P_ax": 1396203.398465377,
+            "P_max": 1396203.398465377,
+            "W_MHD": 119797517.97256303,
+            "beta_pol": 117.76956849444319,
+            "dflux": -0.015421141716949808,
+            "tflux": 76.65463669089773,
+            "l_i": 1.1472045887843314,
+            "beta_tor": 1.707093507612931,
+            "beta_n": 2.1757818375914466
+          },
+          "geometry": {
+            "minor_scale_m": 1.4762116176080384,
+            "volume_m3": 239.99999999999912,
+            "area_m2": 10.043416104207981,
+            "perimeter_m": 12.104811959371435,
+            "bounds_m": [
+              2.5237883823919613,
+              -2.379937603126112,
+              5.476211617608039,
+              2.379937603126112
+            ]
+          },
+          "average_pressure_Pa": 332770.8832571167,
+          "exported_current_A": 8100000.0,
+          "exported_axis_pressure_Pa": 1399000.0,
+          "elapsed_seconds": 30.189942447002977
+        },
+        "stability": {
+          "kind": "native_stability_diagnostics",
+          "modes": {
+            "1": {
+              "exit_code": 0,
+              "elapsed_seconds": 4.930213161977008,
+              "globals": {
+                "betan": 2.1688966479326326,
+                "betat": 0.01707901433896684,
+                "bt0": 6.997194249587252,
+                "crnt": 8.099154139214143,
+                "qmin": 1.1102957379490848,
+                "q95": 5.6402485615218305,
+                "psilim": 0.995
+              },
+              "radial_points": 129,
+              "minimum_energy": [
+                0.062391534072489915,
+                2.1334456699397273e-11
+              ],
+              "mercier_di_max": -0.2511587694967866,
+              "mercier_di_max_outside_1percent": -0.2511587694967866,
+              "gs_error_max": 0.007451471872627735,
+              "gs_error_rms": 0.00010113086318597198,
+              "gs_error_shape": [
+                129,
+                257
+              ],
+              "normal_termination": true,
+              "internal_zero_crossings": 0,
+              "ballooning_integrations": 129,
+              "ballooning_nodes_max": 0,
+              "ballooning_incomplete": 0
+            },
+            "2": {
+              "exit_code": 0,
+              "elapsed_seconds": 4.78025895007886,
+              "globals": {
+                "betan": 2.1688966479326326,
+                "betat": 0.01707901433896684,
+                "bt0": 6.997194249587252,
+                "crnt": 8.099154139214143,
+                "qmin": 1.1102957379490848,
+                "q95": 5.6402485615218305,
+                "psilim": 0.995
+              },
+              "radial_points": 129,
+              "minimum_energy": [
+                0.14349883319409634,
+                7.65913865130152e-10
+              ],
+              "mercier_di_max": -0.2511587694967866,
+              "mercier_di_max_outside_1percent": -0.2511587694967866,
+              "gs_error_max": 0.007451471872627735,
+              "gs_error_rms": 0.00010113086318597198,
+              "gs_error_shape": [
+                129,
+                257
+              ],
+              "normal_termination": true,
+              "internal_zero_crossings": 0,
+              "ballooning_integrations": 129,
+              "ballooning_nodes_max": 0,
+              "ballooning_incomplete": 0
+            },
+            "3": {
+              "exit_code": 0,
+              "elapsed_seconds": 8.140985372010618,
+              "globals": {
+                "betan": 2.1688966479326326,
+                "betat": 0.01707901433896684,
+                "bt0": 6.997194249587252,
+                "crnt": 8.099154139214143,
+                "qmin": 1.1102957379490848,
+                "q95": 5.6402485615218305,
+                "psilim": 0.995
+              },
+              "radial_points": 129,
+              "minimum_energy": [
+                0.2235004750453474,
+                3.530268492889806e-09
+              ],
+              "mercier_di_max": -0.2511587694967866,
+              "mercier_di_max_outside_1percent": -0.2511587694967866,
+              "gs_error_max": 0.007451471872627735,
+              "gs_error_rms": 0.00010113086318597198,
+              "gs_error_shape": [
+                129,
+                257
+              ],
+              "normal_termination": true,
+              "internal_zero_crossings": 0,
+              "ballooning_integrations": 129,
+              "ballooning_nodes_max": 0,
+              "ballooning_incomplete": 0
+            },
+            "4": {
+              "exit_code": 0,
+              "elapsed_seconds": 14.361675471067429,
+              "globals": {
+                "betan": 2.1688966479326326,
+                "betat": 0.01707901433896684,
+                "bt0": 6.997194249587252,
+                "crnt": 8.099154139214143,
+                "qmin": 1.1102957379490848,
+                "q95": 5.6402485615218305,
+                "psilim": 0.995
+              },
+              "radial_points": 129,
+              "minimum_energy": [
+                0.31591115865830205,
+                8.263715584646211e-10
+              ],
+              "mercier_di_max": -0.2511587694967866,
+              "mercier_di_max_outside_1percent": -0.2511587694967866,
+              "gs_error_max": 0.007451471872627735,
+              "gs_error_rms": 0.00010113086318597198,
+              "gs_error_shape": [
+                129,
+                257
+              ],
+              "normal_termination": true,
+              "internal_zero_crossings": 0,
+              "ballooning_integrations": 129,
+              "ballooning_nodes_max": 0,
+              "ballooning_incomplete": 0
+            },
+            "5": {
+              "exit_code": 0,
+              "elapsed_seconds": 24.09285451215692,
+              "globals": {
+                "betan": 2.1688966479326326,
+                "betat": 0.01707901433896684,
+                "bt0": 6.997194249587252,
+                "crnt": 8.099154139214143,
+                "qmin": 1.1102957379490848,
+                "q95": 5.6402485615218305,
+                "psilim": 0.995
+              },
+              "radial_points": 129,
+              "minimum_energy": [
+                0.2784880444231225,
+                1.3135791821326656e-09
+              ],
+              "mercier_di_max": -0.2511587694967866,
+              "mercier_di_max_outside_1percent": -0.2511587694967866,
+              "gs_error_max": 0.007451471872627735,
+              "gs_error_rms": 0.00010113086318597198,
+              "gs_error_shape": [
+                129,
+                257
+              ],
+              "normal_termination": true,
+              "internal_zero_crossings": 0,
+              "ballooning_integrations": 129,
+              "ballooning_nodes_max": 0,
+              "ballooning_incomplete": 0
+            }
+          }
+        },
+        "phases": {
+          "-0.5": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 2.372031745966524,
+                "globals": {
+                  "betan": 2.1688966479326326,
+                  "betat": 0.01707901433896684,
+                  "bt0": 6.997194249587252,
+                  "crnt": 8.099154139214143,
+                  "qmin": 1.1102957379490848,
+                  "q95": 5.6402485615218305,
+                  "psilim": 0.995
+                },
+                "radial_points": 129,
+                "minimum_energy": [
+                  0.062391534072489915,
+                  2.1334456699397273e-11
+                ],
+                "mercier_di_max": -0.2511587694967866,
+                "mercier_di_max_outside_1percent": -0.2511587694967866,
+                "gs_error_max": 0.007451471872627735,
+                "gs_error_rms": 0.00010113086318597198,
+                "gs_error_shape": [
+                  129,
+                  257
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 129,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "-0.25": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 2.372151562012732,
+                "globals": {
+                  "betan": 2.1688966479326326,
+                  "betat": 0.01707901433896684,
+                  "bt0": 6.997194249587252,
+                  "crnt": 8.099154139214143,
+                  "qmin": 1.1102957379490848,
+                  "q95": 5.6402485615218305,
+                  "psilim": 0.995
+                },
+                "radial_points": 129,
+                "minimum_energy": [
+                  0.062391534072489915,
+                  2.1334456699397273e-11
+                ],
+                "mercier_di_max": -0.2511587694967866,
+                "mercier_di_max_outside_1percent": -0.2511587694967866,
+                "gs_error_max": 0.007451471872627735,
+                "gs_error_rms": 0.00010113086318597198,
+                "gs_error_shape": [
+                  129,
+                  257
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 129,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "0.25": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 2.3715451969765127,
+                "globals": {
+                  "betan": 2.1688966479326326,
+                  "betat": 0.01707901433896684,
+                  "bt0": 6.997194249587252,
+                  "crnt": 8.099154139214143,
+                  "qmin": 1.1102957379490848,
+                  "q95": 5.6402485615218305,
+                  "psilim": 0.995
+                },
+                "radial_points": 129,
+                "minimum_energy": [
+                  0.062391534072489915,
+                  2.1334456699397273e-11
+                ],
+                "mercier_di_max": -0.2511587694967866,
+                "mercier_di_max_outside_1percent": -0.2511587694967866,
+                "gs_error_max": 0.007451471872627735,
+                "gs_error_rms": 0.00010113086318597198,
+                "gs_error_shape": [
+                  129,
+                  257
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 129,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "0.5": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 2.3721590489149094,
+                "globals": {
+                  "betan": 2.1688966479326326,
+                  "betat": 0.01707901433896684,
+                  "bt0": 6.997194249587252,
+                  "crnt": 8.099154139214143,
+                  "qmin": 1.1102957379490848,
+                  "q95": 5.6402485615218305,
+                  "psilim": 0.995
+                },
+                "radial_points": 129,
+                "minimum_energy": [
+                  0.062391534072489915,
+                  2.1334456699397273e-11
+                ],
+                "mercier_di_max": -0.2511587694967866,
+                "mercier_di_max_outside_1percent": -0.2511587694967866,
+                "gs_error_max": 0.007451471872627735,
+                "gs_error_rms": 0.00010113086318597198,
+                "gs_error_shape": [
+                  129,
+                  257
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 129,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          }
+        },
+        "violations": []
+      },
+      "fine": {
+        "equilibrium": {
+          "status": "equilibrium_solved",
+          "iterations": 24,
+          "stats": {
+            "Ip": 8100000.002516679,
+            "Ip_centroid": [
+              4.077243985048054,
+              -3.7768745979019656e-14
+            ],
+            "kappa": 1.6088914991898946,
+            "kappaU": 1.6088919872690977,
+            "kappaL": 1.6088910111106909,
+            "delta": 0.44506929194282024,
+            "deltaU": 0.4450694715509326,
+            "deltaL": 0.4450691123347082,
+            "R_geo": 4.0003235672857,
+            "a_geo": 1.4749466052543998,
+            "vol": 239.9999999999996,
+            "q_0": 1.1292393399563645,
+            "q_95": 5.640254243355024,
+            "P_ax": 1396203.3984651898,
+            "P_max": 1396203.3984651898,
+            "W_MHD": 119797494.32064866,
+            "beta_pol": 117.76369608426681,
+            "dflux": -0.015421070276123001,
+            "tflux": 76.65463187699272,
+            "l_i": 1.1471475376869584,
+            "beta_tor": 1.7071012181866563,
+            "beta_n": 2.175772395419564
+          },
+          "geometry": {
+            "minor_scale_m": 1.4762107859200033,
+            "volume_m3": 240.00000000000085,
+            "area_m2": 10.043415874091638,
+            "perimeter_m": 12.104809683684646,
+            "bounds_m": [
+              2.5237892140799967,
+              -2.3799381490529328,
+              5.476210785920003,
+              2.3799381490529328
+            ]
+          },
+          "average_pressure_Pa": 332770.8175573579,
+          "exported_current_A": 8100000.0,
+          "exported_axis_pressure_Pa": 1399000.0,
+          "elapsed_seconds": 55.49724203092046
+        },
+        "stability": {
+          "kind": "native_stability_diagnostics",
+          "modes": {
+            "1": {
+              "exit_code": 0,
+              "elapsed_seconds": 9.240035516908392,
+              "globals": {
+                "betan": 2.168839845710877,
+                "betat": 0.017078955057314157,
+                "bt0": 6.9972054409899815,
+                "crnt": 8.099350269978288,
+                "qmin": 1.1103153903696426,
+                "q95": 5.640249425312161,
+                "psilim": 0.995
+              },
+              "radial_points": 257,
+              "minimum_energy": [
+                0.06215455751031474,
+                -2.2286675846529024e-09
+              ],
+              "mercier_di_max": -0.2511593491939105,
+              "mercier_di_max_outside_1percent": -0.2511593491939105,
+              "gs_error_max": 0.0033130610827356577,
+              "gs_error_rms": 5.172640521777794e-05,
+              "gs_error_shape": [
+                257,
+                513
+              ],
+              "normal_termination": true,
+              "internal_zero_crossings": 0,
+              "ballooning_integrations": 257,
+              "ballooning_nodes_max": 0,
+              "ballooning_incomplete": 0
+            },
+            "2": {
+              "exit_code": 0,
+              "elapsed_seconds": 13.153735268861055,
+              "globals": {
+                "betan": 2.168839845710877,
+                "betat": 0.017078955057314157,
+                "bt0": 6.9972054409899815,
+                "crnt": 8.099350269978288,
+                "qmin": 1.1103153903696426,
+                "q95": 5.640249425312161,
+                "psilim": 0.995
+              },
+              "radial_points": 257,
+              "minimum_energy": [
+                0.14335529167379077,
+                -8.696412416687956e-10
+              ],
+              "mercier_di_max": -0.2511593491939105,
+              "mercier_di_max_outside_1percent": -0.2511593491939105,
+              "gs_error_max": 0.0033130610827356577,
+              "gs_error_rms": 5.172640521777794e-05,
+              "gs_error_shape": [
+                257,
+                513
+              ],
+              "normal_termination": true,
+              "internal_zero_crossings": 0,
+              "ballooning_integrations": 257,
+              "ballooning_nodes_max": 0,
+              "ballooning_incomplete": 0
+            },
+            "3": {
+              "exit_code": 0,
+              "elapsed_seconds": 19.573508658912033,
+              "globals": {
+                "betan": 2.168839845710877,
+                "betat": 0.017078955057314157,
+                "bt0": 6.9972054409899815,
+                "crnt": 8.099350269978288,
+                "qmin": 1.1103153903696426,
+                "q95": 5.640249425312161,
+                "psilim": 0.995
+              },
+              "radial_points": 257,
+              "minimum_energy": [
+                0.22325420793706044,
+                9.107999708342391e-10
+              ],
+              "mercier_di_max": -0.2511593491939105,
+              "mercier_di_max_outside_1percent": -0.2511593491939105,
+              "gs_error_max": 0.0033130610827356577,
+              "gs_error_rms": 5.172640521777794e-05,
+              "gs_error_shape": [
+                257,
+                513
+              ],
+              "normal_termination": true,
+              "internal_zero_crossings": 0,
+              "ballooning_integrations": 257,
+              "ballooning_nodes_max": 0,
+              "ballooning_incomplete": 0
+            },
+            "4": {
+              "exit_code": 0,
+              "elapsed_seconds": 29.74568871106021,
+              "globals": {
+                "betan": 2.168839845710877,
+                "betat": 0.017078955057314157,
+                "bt0": 6.9972054409899815,
+                "crnt": 8.099350269978288,
+                "qmin": 1.1103153903696426,
+                "q95": 5.640249425312161,
+                "psilim": 0.995
+              },
+              "radial_points": 257,
+              "minimum_energy": [
+                0.3157382897127902,
+                -3.8269794595149736e-09
+              ],
+              "mercier_di_max": -0.2511593491939105,
+              "mercier_di_max_outside_1percent": -0.2511593491939105,
+              "gs_error_max": 0.0033130610827356577,
+              "gs_error_rms": 5.172640521777794e-05,
+              "gs_error_shape": [
+                257,
+                513
+              ],
+              "normal_termination": true,
+              "internal_zero_crossings": 0,
+              "ballooning_integrations": 257,
+              "ballooning_nodes_max": 0,
+              "ballooning_incomplete": 0
+            },
+            "5": {
+              "exit_code": 0,
+              "elapsed_seconds": 44.840220561018214,
+              "globals": {
+                "betan": 2.168839845710877,
+                "betat": 0.017078955057314157,
+                "bt0": 6.9972054409899815,
+                "crnt": 8.099350269978288,
+                "qmin": 1.1103153903696426,
+                "q95": 5.640249425312161,
+                "psilim": 0.995
+              },
+              "radial_points": 257,
+              "minimum_energy": [
+                0.2784522266307606,
+                -1.0845170902884196e-10
+              ],
+              "mercier_di_max": -0.2511593491939105,
+              "mercier_di_max_outside_1percent": -0.2511593491939105,
+              "gs_error_max": 0.0033130610827356577,
+              "gs_error_rms": 5.172640521777794e-05,
+              "gs_error_shape": [
+                257,
+                513
+              ],
+              "normal_termination": true,
+              "internal_zero_crossings": 0,
+              "ballooning_integrations": 257,
+              "ballooning_nodes_max": 0,
+              "ballooning_incomplete": 0
+            }
+          }
+        },
+        "phases": {
+          "-0.5": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 9.294581250054762,
+                "globals": {
+                  "betan": 2.168839845710877,
+                  "betat": 0.017078955057314157,
+                  "bt0": 6.9972054409899815,
+                  "crnt": 8.099350269978288,
+                  "qmin": 1.1103153903696426,
+                  "q95": 5.640249425312161,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.06215455751031474,
+                  -2.2286675846529024e-09
+                ],
+                "mercier_di_max": -0.2511593491939105,
+                "mercier_di_max_outside_1percent": -0.2511593491939105,
+                "gs_error_max": 0.0033130610827356577,
+                "gs_error_rms": 5.172640521777794e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "-0.4375": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 9.244489340111613,
+                "globals": {
+                  "betan": 2.168839845710877,
+                  "betat": 0.017078955057314157,
+                  "bt0": 6.9972054409899815,
+                  "crnt": 8.099350269978288,
+                  "qmin": 1.1103153903696426,
+                  "q95": 5.640249425312161,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.06215455751031474,
+                  -2.2286675846529024e-09
+                ],
+                "mercier_di_max": -0.2511593491939105,
+                "mercier_di_max_outside_1percent": -0.2511593491939105,
+                "gs_error_max": 0.0033130610827356577,
+                "gs_error_rms": 5.172640521777794e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "-0.375": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 9.241577358916402,
+                "globals": {
+                  "betan": 2.168839845710877,
+                  "betat": 0.017078955057314157,
+                  "bt0": 6.9972054409899815,
+                  "crnt": 8.099350269978288,
+                  "qmin": 1.1103153903696426,
+                  "q95": 5.640249425312161,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.06215455751031474,
+                  -2.2286675846529024e-09
+                ],
+                "mercier_di_max": -0.2511593491939105,
+                "mercier_di_max_outside_1percent": -0.2511593491939105,
+                "gs_error_max": 0.0033130610827356577,
+                "gs_error_rms": 5.172640521777794e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "-0.3125": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 9.795906916027889,
+                "globals": {
+                  "betan": 2.168839845710877,
+                  "betat": 0.017078955057314157,
+                  "bt0": 6.9972054409899815,
+                  "crnt": 8.099350269978288,
+                  "qmin": 1.1103153903696426,
+                  "q95": 5.640249425312161,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.06215455751031474,
+                  -2.2286675846529024e-09
+                ],
+                "mercier_di_max": -0.2511593491939105,
+                "mercier_di_max_outside_1percent": -0.2511593491939105,
+                "gs_error_max": 0.0033130610827356577,
+                "gs_error_rms": 5.172640521777794e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "-0.25": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 9.296633508056402,
+                "globals": {
+                  "betan": 2.168839845710877,
+                  "betat": 0.017078955057314157,
+                  "bt0": 6.9972054409899815,
+                  "crnt": 8.099350269978288,
+                  "qmin": 1.1103153903696426,
+                  "q95": 5.640249425312161,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.06215455751031474,
+                  -2.2286675846529024e-09
+                ],
+                "mercier_di_max": -0.2511593491939105,
+                "mercier_di_max_outside_1percent": -0.2511593491939105,
+                "gs_error_max": 0.0033130610827356577,
+                "gs_error_rms": 5.172640521777794e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "-0.1875": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 9.244698426919058,
+                "globals": {
+                  "betan": 2.168839845710877,
+                  "betat": 0.017078955057314157,
+                  "bt0": 6.9972054409899815,
+                  "crnt": 8.099350269978288,
+                  "qmin": 1.1103153903696426,
+                  "q95": 5.640249425312161,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.06215455751031474,
+                  -2.2286675846529024e-09
+                ],
+                "mercier_di_max": -0.2511593491939105,
+                "mercier_di_max_outside_1percent": -0.2511593491939105,
+                "gs_error_max": 0.0033130610827356577,
+                "gs_error_rms": 5.172640521777794e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "-0.125": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 9.293076675152406,
+                "globals": {
+                  "betan": 2.168839845710877,
+                  "betat": 0.017078955057314157,
+                  "bt0": 6.9972054409899815,
+                  "crnt": 8.099350269978288,
+                  "qmin": 1.1103153903696426,
+                  "q95": 5.640249425312161,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.06215455751031474,
+                  -2.2286675846529024e-09
+                ],
+                "mercier_di_max": -0.2511593491939105,
+                "mercier_di_max_outside_1percent": -0.2511593491939105,
+                "gs_error_max": 0.0033130610827356577,
+                "gs_error_rms": 5.172640521777794e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "-0.0625": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 9.24232817417942,
+                "globals": {
+                  "betan": 2.168839845710877,
+                  "betat": 0.017078955057314157,
+                  "bt0": 6.9972054409899815,
+                  "crnt": 8.099350269978288,
+                  "qmin": 1.1103153903696426,
+                  "q95": 5.640249425312161,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.06215455751031474,
+                  -2.2286675846529024e-09
+                ],
+                "mercier_di_max": -0.2511593491939105,
+                "mercier_di_max_outside_1percent": -0.2511593491939105,
+                "gs_error_max": 0.0033130610827356577,
+                "gs_error_rms": 5.172640521777794e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "0.0625": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 9.241134791169316,
+                "globals": {
+                  "betan": 2.168839845710877,
+                  "betat": 0.017078955057314157,
+                  "bt0": 6.9972054409899815,
+                  "crnt": 8.099350269978288,
+                  "qmin": 1.1103153903696426,
+                  "q95": 5.640249425312161,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.06215455751031474,
+                  -2.2286675846529024e-09
+                ],
+                "mercier_di_max": -0.2511593491939105,
+                "mercier_di_max_outside_1percent": -0.2511593491939105,
+                "gs_error_max": 0.0033130610827356577,
+                "gs_error_rms": 5.172640521777794e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "0.125": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 9.29502328298986,
+                "globals": {
+                  "betan": 2.168839845710877,
+                  "betat": 0.017078955057314157,
+                  "bt0": 6.9972054409899815,
+                  "crnt": 8.099350269978288,
+                  "qmin": 1.1103153903696426,
+                  "q95": 5.640249425312161,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.06215455751031474,
+                  -2.2286675846529024e-09
+                ],
+                "mercier_di_max": -0.2511593491939105,
+                "mercier_di_max_outside_1percent": -0.2511593491939105,
+                "gs_error_max": 0.0033130610827356577,
+                "gs_error_rms": 5.172640521777794e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "0.1875": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 9.293618727941066,
+                "globals": {
+                  "betan": 2.168839845710877,
+                  "betat": 0.017078955057314157,
+                  "bt0": 6.9972054409899815,
+                  "crnt": 8.099350269978288,
+                  "qmin": 1.1103153903696426,
+                  "q95": 5.640249425312161,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.06215455751031474,
+                  -2.2286675846529024e-09
+                ],
+                "mercier_di_max": -0.2511593491939105,
+                "mercier_di_max_outside_1percent": -0.2511593491939105,
+                "gs_error_max": 0.0033130610827356577,
+                "gs_error_rms": 5.172640521777794e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "0.25": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 19.817393833072856,
+                "globals": {
+                  "betan": 2.168839845710877,
+                  "betat": 0.017078955057314157,
+                  "bt0": 6.9972054409899815,
+                  "crnt": 8.099350269978288,
+                  "qmin": 1.1103153903696426,
+                  "q95": 5.640249425312161,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.06215455751031474,
+                  -2.2286675846529024e-09
+                ],
+                "mercier_di_max": -0.2511593491939105,
+                "mercier_di_max_outside_1percent": -0.2511593491939105,
+                "gs_error_max": 0.0033130610827356577,
+                "gs_error_rms": 5.172640521777794e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "0.3125": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 20.16646100091748,
+                "globals": {
+                  "betan": 2.168839845710877,
+                  "betat": 0.017078955057314157,
+                  "bt0": 6.9972054409899815,
+                  "crnt": 8.099350269978288,
+                  "qmin": 1.1103153903696426,
+                  "q95": 5.640249425312161,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.06215455751031474,
+                  -2.2286675846529024e-09
+                ],
+                "mercier_di_max": -0.2511593491939105,
+                "mercier_di_max_outside_1percent": -0.2511593491939105,
+                "gs_error_max": 0.0033130610827356577,
+                "gs_error_rms": 5.172640521777794e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "0.375": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 20.26795069500804,
+                "globals": {
+                  "betan": 2.168839845710877,
+                  "betat": 0.017078955057314157,
+                  "bt0": 6.9972054409899815,
+                  "crnt": 8.099350269978288,
+                  "qmin": 1.1103153903696426,
+                  "q95": 5.640249425312161,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.06215455751031474,
+                  -2.2286675846529024e-09
+                ],
+                "mercier_di_max": -0.2511593491939105,
+                "mercier_di_max_outside_1percent": -0.2511593491939105,
+                "gs_error_max": 0.0033130610827356577,
+                "gs_error_rms": 5.172640521777794e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "0.4375": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 20.214783678995445,
+                "globals": {
+                  "betan": 2.168839845710877,
+                  "betat": 0.017078955057314157,
+                  "bt0": 6.9972054409899815,
+                  "crnt": 8.099350269978288,
+                  "qmin": 1.1103153903696426,
+                  "q95": 5.640249425312161,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.06215455751031474,
+                  -2.2286675846529024e-09
+                ],
+                "mercier_di_max": -0.2511593491939105,
+                "mercier_di_max_outside_1percent": -0.2511593491939105,
+                "gs_error_max": 0.0033130610827356577,
+                "gs_error_rms": 5.172640521777794e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "0.5": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 20.21277504786849,
+                "globals": {
+                  "betan": 2.168839845710877,
+                  "betat": 0.017078955057314157,
+                  "bt0": 6.9972054409899815,
+                  "crnt": 8.099350269978288,
+                  "qmin": 1.1103153903696426,
+                  "q95": 5.640249425312161,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.06215455751031474,
+                  -2.2286675846529024e-09
+                ],
+                "mercier_di_max": -0.2511593491939105,
+                "mercier_di_max_outside_1percent": -0.2511593491939105,
+                "gs_error_max": 0.0033130610827356577,
+                "gs_error_rms": 5.172640521777794e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          }
+        },
+        "violations": []
+      }
+    },
+    "nominal": {
+      "coarse": {
+        "equilibrium": {
+          "status": "equilibrium_solved",
+          "iterations": 24,
+          "stats": {
+            "Ip": 8100000.00287954,
+            "Ip_centroid": [
+              4.077191298781625,
+              2.813572006684656e-12
+            ],
+            "kappa": 1.608937523543766,
+            "kappaU": 1.6089247776137239,
+            "kappaL": 1.608950269473808,
+            "delta": 0.44488346223351133,
+            "deltaU": 0.44487875478307787,
+            "deltaL": 0.4448881696839448,
+            "R_geo": 4.000313559170402,
+            "a_geo": 1.4749576643112194,
+            "vol": 240.00000000000202,
+            "q_0": 1.1314625024995377,
+            "q_95": 5.641446060042809,
+            "P_ax": 1396203.3982989276,
+            "P_max": 1396203.3982989276,
+            "W_MHD": 119880628.10216811,
+            "beta_pol": 117.85177732191814,
+            "dflux": -0.01590361813561093,
+            "tflux": 76.65415421447901,
+            "l_i": 1.1456943093211924,
+            "beta_tor": 1.7082773178404256,
+            "beta_n": 2.1772931561144135
+          },
+          "geometry": {
+            "minor_scale_m": 1.4762116176080384,
+            "volume_m3": 239.99999999999912,
+            "area_m2": 10.043416104207981,
+            "perimeter_m": 12.104811959371435,
+            "bounds_m": [
+              2.5237883823919613,
+              -2.379937603126112,
+              5.476211617608039,
+              2.379937603126112
+            ]
+          },
+          "average_pressure_Pa": 333001.744728242,
+          "exported_current_A": 8100000.0,
+          "exported_axis_pressure_Pa": 1399000.0,
+          "elapsed_seconds": 32.12276717484929
+        },
+        "stability": {
+          "kind": "native_stability_diagnostics",
+          "modes": {
+            "1": {
+              "exit_code": 0,
+              "elapsed_seconds": 5.4281173050403595,
+              "globals": {
+                "betan": 2.1704079170968416,
+                "betat": 0.01709086231037621,
+                "bt0": 6.9971942063918915,
+                "crnt": 8.099153327754385,
+                "qmin": 1.1124933032050985,
+                "q95": 5.6414471903231584,
+                "psilim": 0.995
+              },
+              "radial_points": 129,
+              "minimum_energy": [
+                0.06439533013812127,
+                1.6158422997229524e-09
+              ],
+              "mercier_di_max": -0.25115982788577457,
+              "mercier_di_max_outside_1percent": -0.25115982788577457,
+              "gs_error_max": 0.00746251130476594,
+              "gs_error_rms": 0.00010140062659047544,
+              "gs_error_shape": [
+                129,
+                257
+              ],
+              "normal_termination": true,
+              "internal_zero_crossings": 0,
+              "ballooning_integrations": 129,
+              "ballooning_nodes_max": 0,
+              "ballooning_incomplete": 0
+            },
+            "2": {
+              "exit_code": 0,
+              "elapsed_seconds": 10.942751662107185,
+              "globals": {
+                "betan": 2.1704079170968416,
+                "betat": 0.01709086231037621,
+                "bt0": 6.9971942063918915,
+                "crnt": 8.099153327754385,
+                "qmin": 1.1124933032050985,
+                "q95": 5.6414471903231584,
+                "psilim": 0.995
+              },
+              "radial_points": 129,
+              "minimum_energy": [
+                0.14806927821153149,
+                -4.849087611712076e-10
+              ],
+              "mercier_di_max": -0.25115982788577457,
+              "mercier_di_max_outside_1percent": -0.25115982788577457,
+              "gs_error_max": 0.00746251130476594,
+              "gs_error_rms": 0.00010140062659047544,
+              "gs_error_shape": [
+                129,
+                257
+              ],
+              "normal_termination": true,
+              "internal_zero_crossings": 0,
+              "ballooning_integrations": 129,
+              "ballooning_nodes_max": 0,
+              "ballooning_incomplete": 0
+            },
+            "3": {
+              "exit_code": 0,
+              "elapsed_seconds": 21.669810965890065,
+              "globals": {
+                "betan": 2.1704079170968416,
+                "betat": 0.01709086231037621,
+                "bt0": 6.9971942063918915,
+                "crnt": 8.099153327754385,
+                "qmin": 1.1124933032050985,
+                "q95": 5.6414471903231584,
+                "psilim": 0.995
+              },
+              "radial_points": 129,
+              "minimum_energy": [
+                0.23067208451988247,
+                -2.799141680537011e-09
+              ],
+              "mercier_di_max": -0.25115982788577457,
+              "mercier_di_max_outside_1percent": -0.25115982788577457,
+              "gs_error_max": 0.00746251130476594,
+              "gs_error_rms": 0.00010140062659047544,
+              "gs_error_shape": [
+                129,
+                257
+              ],
+              "normal_termination": true,
+              "internal_zero_crossings": 0,
+              "ballooning_integrations": 129,
+              "ballooning_nodes_max": 0,
+              "ballooning_incomplete": 0
+            },
+            "4": {
+              "exit_code": 0,
+              "elapsed_seconds": 38.91664693900384,
+              "globals": {
+                "betan": 2.1704079170968416,
+                "betat": 0.01709086231037621,
+                "bt0": 6.9971942063918915,
+                "crnt": 8.099153327754385,
+                "qmin": 1.1124933032050985,
+                "q95": 5.6414471903231584,
+                "psilim": 0.995
+              },
+              "radial_points": 129,
+              "minimum_energy": [
+                0.3285810858062128,
+                -2.3611654642300534e-10
+              ],
+              "mercier_di_max": -0.25115982788577457,
+              "mercier_di_max_outside_1percent": -0.25115982788577457,
+              "gs_error_max": 0.00746251130476594,
+              "gs_error_rms": 0.00010140062659047544,
+              "gs_error_shape": [
+                129,
+                257
+              ],
+              "normal_termination": true,
+              "internal_zero_crossings": 0,
+              "ballooning_integrations": 129,
+              "ballooning_nodes_max": 0,
+              "ballooning_incomplete": 0
+            },
+            "5": {
+              "exit_code": 0,
+              "elapsed_seconds": 65.83787864702754,
+              "globals": {
+                "betan": 2.1704079170968416,
+                "betat": 0.01709086231037621,
+                "bt0": 6.9971942063918915,
+                "crnt": 8.099153327754385,
+                "qmin": 1.1124933032050985,
+                "q95": 5.6414471903231584,
+                "psilim": 0.995
+              },
+              "radial_points": 129,
+              "minimum_energy": [
+                0.29058230427919907,
+                8.298618948019873e-10
+              ],
+              "mercier_di_max": -0.25115982788577457,
+              "mercier_di_max_outside_1percent": -0.25115982788577457,
+              "gs_error_max": 0.00746251130476594,
+              "gs_error_rms": 0.00010140062659047544,
+              "gs_error_shape": [
+                129,
+                257
+              ],
+              "normal_termination": true,
+              "internal_zero_crossings": 0,
+              "ballooning_integrations": 129,
+              "ballooning_nodes_max": 0,
+              "ballooning_incomplete": 0
+            }
+          }
+        },
+        "phases": {
+          "-0.5": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 5.378598331939429,
+                "globals": {
+                  "betan": 2.1704079170968416,
+                  "betat": 0.01709086231037621,
+                  "bt0": 6.9971942063918915,
+                  "crnt": 8.099153327754385,
+                  "qmin": 1.1124933032050985,
+                  "q95": 5.6414471903231584,
+                  "psilim": 0.995
+                },
+                "radial_points": 129,
+                "minimum_energy": [
+                  0.06439533013812127,
+                  1.6158422997229524e-09
+                ],
+                "mercier_di_max": -0.25115982788577457,
+                "mercier_di_max_outside_1percent": -0.25115982788577457,
+                "gs_error_max": 0.00746251130476594,
+                "gs_error_rms": 0.00010140062659047544,
+                "gs_error_shape": [
+                  129,
+                  257
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 129,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "-0.25": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 5.378031380008906,
+                "globals": {
+                  "betan": 2.1704079170968416,
+                  "betat": 0.01709086231037621,
+                  "bt0": 6.9971942063918915,
+                  "crnt": 8.099153327754385,
+                  "qmin": 1.1124933032050985,
+                  "q95": 5.6414471903231584,
+                  "psilim": 0.995
+                },
+                "radial_points": 129,
+                "minimum_energy": [
+                  0.06439533013812127,
+                  1.6158422997229524e-09
+                ],
+                "mercier_di_max": -0.25115982788577457,
+                "mercier_di_max_outside_1percent": -0.25115982788577457,
+                "gs_error_max": 0.00746251130476594,
+                "gs_error_rms": 0.00010140062659047544,
+                "gs_error_shape": [
+                  129,
+                  257
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 129,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "0.25": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 5.3777463340666145,
+                "globals": {
+                  "betan": 2.1704079170968416,
+                  "betat": 0.01709086231037621,
+                  "bt0": 6.9971942063918915,
+                  "crnt": 8.099153327754385,
+                  "qmin": 1.1124933032050985,
+                  "q95": 5.6414471903231584,
+                  "psilim": 0.995
+                },
+                "radial_points": 129,
+                "minimum_energy": [
+                  0.06439533013812127,
+                  1.6158422997229524e-09
+                ],
+                "mercier_di_max": -0.25115982788577457,
+                "mercier_di_max_outside_1percent": -0.25115982788577457,
+                "gs_error_max": 0.00746251130476594,
+                "gs_error_rms": 0.00010140062659047544,
+                "gs_error_shape": [
+                  129,
+                  257
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 129,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "0.5": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 5.377932684030384,
+                "globals": {
+                  "betan": 2.1704079170968416,
+                  "betat": 0.01709086231037621,
+                  "bt0": 6.9971942063918915,
+                  "crnt": 8.099153327754385,
+                  "qmin": 1.1124933032050985,
+                  "q95": 5.6414471903231584,
+                  "psilim": 0.995
+                },
+                "radial_points": 129,
+                "minimum_energy": [
+                  0.06439533013812127,
+                  1.6158422997229524e-09
+                ],
+                "mercier_di_max": -0.25115982788577457,
+                "mercier_di_max_outside_1percent": -0.25115982788577457,
+                "gs_error_max": 0.00746251130476594,
+                "gs_error_rms": 0.00010140062659047544,
+                "gs_error_shape": [
+                  129,
+                  257
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 129,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          }
+        },
+        "violations": []
+      },
+      "fine": {
+        "equilibrium": {
+          "status": "equilibrium_solved",
+          "iterations": 23,
+          "stats": {
+            "Ip": 8100000.007002801,
+            "Ip_centroid": [
+              4.077191373732712,
+              2.5895281873461894e-13
+            ],
+            "kappa": 1.6089006855203591,
+            "kappaU": 1.608897015380161,
+            "kappaL": 1.608904355660557,
+            "delta": 0.44487587227401254,
+            "deltaU": 0.44487451665999456,
+            "deltaL": 0.44487722788803086,
+            "R_geo": 4.000324072129206,
+            "a_geo": 1.474946988013172,
+            "vol": 239.9999999999996,
+            "q_0": 1.1314623504363694,
+            "q_95": 5.64145306569283,
+            "P_ax": 1396203.3973107394,
+            "P_max": 1396203.3973107394,
+            "W_MHD": 119880604.22188666,
+            "beta_pol": 117.84619246567776,
+            "dflux": -0.01590354802082546,
+            "tflux": 76.65414939924759,
+            "l_i": 1.1456401540452905,
+            "beta_tor": 1.708285956381437,
+            "beta_n": 2.1772826831821948
+          },
+          "geometry": {
+            "minor_scale_m": 1.4762107859200033,
+            "volume_m3": 240.00000000000085,
+            "area_m2": 10.043415874091638,
+            "perimeter_m": 12.104809683684646,
+            "bounds_m": [
+              2.5237892140799967,
+              -2.3799381490529328,
+              5.476210785920003,
+              2.3799381490529328
+            ]
+          },
+          "average_pressure_Pa": 333001.67839413014,
+          "exported_current_A": 8100000.01,
+          "exported_axis_pressure_Pa": 1399000.0,
+          "elapsed_seconds": 122.76886815414764
+        },
+        "stability": {
+          "kind": "native_stability_diagnostics",
+          "modes": {
+            "1": {
+              "exit_code": 0,
+              "elapsed_seconds": 9.19455691613257,
+              "globals": {
+                "betan": 2.170351081126473,
+                "betat": 0.01709080336489936,
+                "bt0": 6.997205069176057,
+                "crnt": 8.099349362594547,
+                "qmin": 1.1125143635979164,
+                "q95": 5.641448597778472,
+                "psilim": 0.995
+              },
+              "radial_points": 257,
+              "minimum_energy": [
+                0.0640523320814311,
+                -2.4016951436101028e-09
+              ],
+              "mercier_di_max": -0.25116010972702724,
+              "mercier_di_max_outside_1percent": -0.25116010972702724,
+              "gs_error_max": 0.0033907738979905844,
+              "gs_error_rms": 5.191453965380788e-05,
+              "gs_error_shape": [
+                257,
+                513
+              ],
+              "normal_termination": true,
+              "internal_zero_crossings": 0,
+              "ballooning_integrations": 257,
+              "ballooning_nodes_max": 0,
+              "ballooning_incomplete": 0
+            },
+            "2": {
+              "exit_code": 0,
+              "elapsed_seconds": 13.107231920817867,
+              "globals": {
+                "betan": 2.170351081126473,
+                "betat": 0.01709080336489936,
+                "bt0": 6.997205069176057,
+                "crnt": 8.099349362594547,
+                "qmin": 1.1125143635979164,
+                "q95": 5.641448597778472,
+                "psilim": 0.995
+              },
+              "radial_points": 257,
+              "minimum_energy": [
+                0.1478757877748279,
+                -2.513465983273294e-09
+              ],
+              "mercier_di_max": -0.25116010972702724,
+              "mercier_di_max_outside_1percent": -0.25116010972702724,
+              "gs_error_max": 0.0033907738979905844,
+              "gs_error_rms": 5.191453965380788e-05,
+              "gs_error_shape": [
+                257,
+                513
+              ],
+              "normal_termination": true,
+              "internal_zero_crossings": 0,
+              "ballooning_integrations": 257,
+              "ballooning_nodes_max": 0,
+              "ballooning_incomplete": 0
+            },
+            "3": {
+              "exit_code": 0,
+              "elapsed_seconds": 28.750109154963866,
+              "globals": {
+                "betan": 2.170351081126473,
+                "betat": 0.01709080336489936,
+                "bt0": 6.997205069176057,
+                "crnt": 8.099349362594547,
+                "qmin": 1.1125143635979164,
+                "q95": 5.641448597778472,
+                "psilim": 0.995
+              },
+              "radial_points": 257,
+              "minimum_energy": [
+                0.23046392892283837,
+                -2.8049248979314478e-08
+              ],
+              "mercier_di_max": -0.25116010972702724,
+              "mercier_di_max_outside_1percent": -0.25116010972702724,
+              "gs_error_max": 0.0033907738979905844,
+              "gs_error_rms": 5.191453965380788e-05,
+              "gs_error_shape": [
+                257,
+                513
+              ],
+              "normal_termination": true,
+              "internal_zero_crossings": 0,
+              "ballooning_integrations": 257,
+              "ballooning_nodes_max": 0,
+              "ballooning_incomplete": 0
+            },
+            "4": {
+              "exit_code": 0,
+              "elapsed_seconds": 77.06190498592332,
+              "globals": {
+                "betan": 2.170351081126473,
+                "betat": 0.01709080336489936,
+                "bt0": 6.997205069176057,
+                "crnt": 8.099349362594547,
+                "qmin": 1.1125143635979164,
+                "q95": 5.641448597778472,
+                "psilim": 0.995
+              },
+              "radial_points": 257,
+              "minimum_energy": [
+                0.32826106257588744,
+                -8.423971514770143e-09
+              ],
+              "mercier_di_max": -0.25116010972702724,
+              "mercier_di_max_outside_1percent": -0.25116010972702724,
+              "gs_error_max": 0.0033907738979905844,
+              "gs_error_rms": 5.191453965380788e-05,
+              "gs_error_shape": [
+                257,
+                513
+              ],
+              "normal_termination": true,
+              "internal_zero_crossings": 0,
+              "ballooning_integrations": 257,
+              "ballooning_nodes_max": 0,
+              "ballooning_incomplete": 0
+            },
+            "5": {
+              "exit_code": 0,
+              "elapsed_seconds": 118.6474523129873,
+              "globals": {
+                "betan": 2.170351081126473,
+                "betat": 0.01709080336489936,
+                "bt0": 6.997205069176057,
+                "crnt": 8.099349362594547,
+                "qmin": 1.1125143635979164,
+                "q95": 5.641448597778472,
+                "psilim": 0.995
+              },
+              "radial_points": 257,
+              "minimum_energy": [
+                0.2904726169737931,
+                3.6504166500538214e-09
+              ],
+              "mercier_di_max": -0.25116010972702724,
+              "mercier_di_max_outside_1percent": -0.25116010972702724,
+              "gs_error_max": 0.0033907738979905844,
+              "gs_error_rms": 5.191453965380788e-05,
+              "gs_error_shape": [
+                257,
+                513
+              ],
+              "normal_termination": true,
+              "internal_zero_crossings": 0,
+              "ballooning_integrations": 257,
+              "ballooning_nodes_max": 0,
+              "ballooning_incomplete": 0
+            }
+          }
+        },
+        "phases": {
+          "-0.5": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 20.270891938125715,
+                "globals": {
+                  "betan": 2.170351081126473,
+                  "betat": 0.01709080336489936,
+                  "bt0": 6.997205069176057,
+                  "crnt": 8.099349362594547,
+                  "qmin": 1.1125143635979164,
+                  "q95": 5.641448597778472,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.0640523320814311,
+                  -2.4016951436101028e-09
+                ],
+                "mercier_di_max": -0.25116010972702724,
+                "mercier_di_max_outside_1percent": -0.25116010972702724,
+                "gs_error_max": 0.0033907738979905844,
+                "gs_error_rms": 5.191453965380788e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "-0.4375": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 20.21266658604145,
+                "globals": {
+                  "betan": 2.170351081126473,
+                  "betat": 0.01709080336489936,
+                  "bt0": 6.997205069176057,
+                  "crnt": 8.099349362594547,
+                  "qmin": 1.1125143635979164,
+                  "q95": 5.641448597778472,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.0640523320814311,
+                  -2.4016951436101028e-09
+                ],
+                "mercier_di_max": -0.25116010972702724,
+                "mercier_di_max_outside_1percent": -0.25116010972702724,
+                "gs_error_max": 0.0033907738979905844,
+                "gs_error_rms": 5.191453965380788e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "-0.375": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 20.213427379960194,
+                "globals": {
+                  "betan": 2.170351081126473,
+                  "betat": 0.01709080336489936,
+                  "bt0": 6.997205069176057,
+                  "crnt": 8.099349362594547,
+                  "qmin": 1.1125143635979164,
+                  "q95": 5.641448597778472,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.0640523320814311,
+                  -2.4016951436101028e-09
+                ],
+                "mercier_di_max": -0.25116010972702724,
+                "mercier_di_max_outside_1percent": -0.25116010972702724,
+                "gs_error_max": 0.0033907738979905844,
+                "gs_error_rms": 5.191453965380788e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "-0.3125": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 20.165170195046812,
+                "globals": {
+                  "betan": 2.170351081126473,
+                  "betat": 0.01709080336489936,
+                  "bt0": 6.997205069176057,
+                  "crnt": 8.099349362594547,
+                  "qmin": 1.1125143635979164,
+                  "q95": 5.641448597778472,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.0640523320814311,
+                  -2.4016951436101028e-09
+                ],
+                "mercier_di_max": -0.25116010972702724,
+                "mercier_di_max_outside_1percent": -0.25116010972702724,
+                "gs_error_max": 0.0033907738979905844,
+                "gs_error_rms": 5.191453965380788e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "-0.25": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 20.165046255104244,
+                "globals": {
+                  "betan": 2.170351081126473,
+                  "betat": 0.01709080336489936,
+                  "bt0": 6.997205069176057,
+                  "crnt": 8.099349362594547,
+                  "qmin": 1.1125143635979164,
+                  "q95": 5.641448597778472,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.0640523320814311,
+                  -2.4016951436101028e-09
+                ],
+                "mercier_di_max": -0.25116010972702724,
+                "mercier_di_max_outside_1percent": -0.25116010972702724,
+                "gs_error_max": 0.0033907738979905844,
+                "gs_error_rms": 5.191453965380788e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "-0.1875": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 10.645342183066532,
+                "globals": {
+                  "betan": 2.170351081126473,
+                  "betat": 0.01709080336489936,
+                  "bt0": 6.997205069176057,
+                  "crnt": 8.099349362594547,
+                  "qmin": 1.1125143635979164,
+                  "q95": 5.641448597778472,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.0640523320814311,
+                  -2.4016951436101028e-09
+                ],
+                "mercier_di_max": -0.25116010972702724,
+                "mercier_di_max_outside_1percent": -0.25116010972702724,
+                "gs_error_max": 0.0033907738979905844,
+                "gs_error_rms": 5.191453965380788e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "-0.125": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 9.235687564127147,
+                "globals": {
+                  "betan": 2.170351081126473,
+                  "betat": 0.01709080336489936,
+                  "bt0": 6.997205069176057,
+                  "crnt": 8.099349362594547,
+                  "qmin": 1.1125143635979164,
+                  "q95": 5.641448597778472,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.0640523320814311,
+                  -2.4016951436101028e-09
+                ],
+                "mercier_di_max": -0.25116010972702724,
+                "mercier_di_max_outside_1percent": -0.25116010972702724,
+                "gs_error_max": 0.0033907738979905844,
+                "gs_error_rms": 5.191453965380788e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "-0.0625": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 9.19558973889798,
+                "globals": {
+                  "betan": 2.170351081126473,
+                  "betat": 0.01709080336489936,
+                  "bt0": 6.997205069176057,
+                  "crnt": 8.099349362594547,
+                  "qmin": 1.1125143635979164,
+                  "q95": 5.641448597778472,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.0640523320814311,
+                  -2.4016951436101028e-09
+                ],
+                "mercier_di_max": -0.25116010972702724,
+                "mercier_di_max_outside_1percent": -0.25116010972702724,
+                "gs_error_max": 0.0033907738979905844,
+                "gs_error_rms": 5.191453965380788e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "0.0625": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 9.241883393842727,
+                "globals": {
+                  "betan": 2.170351081126473,
+                  "betat": 0.01709080336489936,
+                  "bt0": 6.997205069176057,
+                  "crnt": 8.099349362594547,
+                  "qmin": 1.1125143635979164,
+                  "q95": 5.641448597778472,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.0640523320814311,
+                  -2.4016951436101028e-09
+                ],
+                "mercier_di_max": -0.25116010972702724,
+                "mercier_di_max_outside_1percent": -0.25116010972702724,
+                "gs_error_max": 0.0033907738979905844,
+                "gs_error_rms": 5.191453965380788e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "0.125": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 9.700616726884618,
+                "globals": {
+                  "betan": 2.170351081126473,
+                  "betat": 0.01709080336489936,
+                  "bt0": 6.997205069176057,
+                  "crnt": 8.099349362594547,
+                  "qmin": 1.1125143635979164,
+                  "q95": 5.641448597778472,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.0640523320814311,
+                  -2.4016951436101028e-09
+                ],
+                "mercier_di_max": -0.25116010972702724,
+                "mercier_di_max_outside_1percent": -0.25116010972702724,
+                "gs_error_max": 0.0033907738979905844,
+                "gs_error_rms": 5.191453965380788e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "0.1875": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 9.243568136822432,
+                "globals": {
+                  "betan": 2.170351081126473,
+                  "betat": 0.01709080336489936,
+                  "bt0": 6.997205069176057,
+                  "crnt": 8.099349362594547,
+                  "qmin": 1.1125143635979164,
+                  "q95": 5.641448597778472,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.0640523320814311,
+                  -2.4016951436101028e-09
+                ],
+                "mercier_di_max": -0.25116010972702724,
+                "mercier_di_max_outside_1percent": -0.25116010972702724,
+                "gs_error_max": 0.0033907738979905844,
+                "gs_error_rms": 5.191453965380788e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "0.25": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 18.817499623866752,
+                "globals": {
+                  "betan": 2.170351081126473,
+                  "betat": 0.01709080336489936,
+                  "bt0": 6.997205069176057,
+                  "crnt": 8.099349362594547,
+                  "qmin": 1.1125143635979164,
+                  "q95": 5.641448597778472,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.0640523320814311,
+                  -2.4016951436101028e-09
+                ],
+                "mercier_di_max": -0.25116010972702724,
+                "mercier_di_max_outside_1percent": -0.25116010972702724,
+                "gs_error_max": 0.0033907738979905844,
+                "gs_error_rms": 5.191453965380788e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "0.3125": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 20.1112558611203,
+                "globals": {
+                  "betan": 2.170351081126473,
+                  "betat": 0.01709080336489936,
+                  "bt0": 6.997205069176057,
+                  "crnt": 8.099349362594547,
+                  "qmin": 1.1125143635979164,
+                  "q95": 5.641448597778472,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.0640523320814311,
+                  -2.4016951436101028e-09
+                ],
+                "mercier_di_max": -0.25116010972702724,
+                "mercier_di_max_outside_1percent": -0.25116010972702724,
+                "gs_error_max": 0.0033907738979905844,
+                "gs_error_rms": 5.191453965380788e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "0.375": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 20.11023269011639,
+                "globals": {
+                  "betan": 2.170351081126473,
+                  "betat": 0.01709080336489936,
+                  "bt0": 6.997205069176057,
+                  "crnt": 8.099349362594547,
+                  "qmin": 1.1125143635979164,
+                  "q95": 5.641448597778472,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.0640523320814311,
+                  -2.4016951436101028e-09
+                ],
+                "mercier_di_max": -0.25116010972702724,
+                "mercier_di_max_outside_1percent": -0.25116010972702724,
+                "gs_error_max": 0.0033907738979905844,
+                "gs_error_rms": 5.191453965380788e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "0.4375": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 20.11013978603296,
+                "globals": {
+                  "betan": 2.170351081126473,
+                  "betat": 0.01709080336489936,
+                  "bt0": 6.997205069176057,
+                  "crnt": 8.099349362594547,
+                  "qmin": 1.1125143635979164,
+                  "q95": 5.641448597778472,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.0640523320814311,
+                  -2.4016951436101028e-09
+                ],
+                "mercier_di_max": -0.25116010972702724,
+                "mercier_di_max_outside_1percent": -0.25116010972702724,
+                "gs_error_max": 0.0033907738979905844,
+                "gs_error_rms": 5.191453965380788e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "0.5": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 20.162561455043033,
+                "globals": {
+                  "betan": 2.170351081126473,
+                  "betat": 0.01709080336489936,
+                  "bt0": 6.997205069176057,
+                  "crnt": 8.099349362594547,
+                  "qmin": 1.1125143635979164,
+                  "q95": 5.641448597778472,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.0640523320814311,
+                  -2.4016951436101028e-09
+                ],
+                "mercier_di_max": -0.25116010972702724,
+                "mercier_di_max_outside_1percent": -0.25116010972702724,
+                "gs_error_max": 0.0033907738979905844,
+                "gs_error_rms": 5.191453965380788e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          }
+        },
+        "violations": []
+      }
+    },
+    "peaked": {
+      "coarse": {
+        "equilibrium": {
+          "status": "equilibrium_solved",
+          "iterations": 24,
+          "stats": {
+            "Ip": 8100000.003368376,
+            "Ip_centroid": [
+              4.077121725282,
+              -7.076655085736548e-11
+            ],
+            "kappa": 1.6089551291462638,
+            "kappaU": 1.6089448404579851,
+            "kappaL": 1.6089654178345423,
+            "delta": 0.4446246607945197,
+            "deltaU": 0.444620860919939,
+            "deltaL": 0.44462846066910033,
+            "R_geo": 4.000310512208038,
+            "a_geo": 1.4749619022810165,
+            "vol": 240.00000000000202,
+            "q_0": 1.1344319785612687,
+            "q_95": 5.643045912815647,
+            "P_ax": 1396203.3979897574,
+            "P_max": 1396203.3979897574,
+            "W_MHD": 119991472.75801808,
+            "beta_pol": 117.96307581728473,
+            "dflux": -0.01654681598388544,
+            "tflux": 76.6535110166308,
+            "l_i": 1.1437012024193058,
+            "beta_tor": 1.70985422945469,
+            "beta_n": 2.179310938035529
+          },
+          "geometry": {
+            "minor_scale_m": 1.4762116176080384,
+            "volume_m3": 239.99999999999912,
+            "area_m2": 10.043416104207981,
+            "perimeter_m": 12.104811959371435,
+            "bounds_m": [
+              2.5237883823919613,
+              -2.379937603126112,
+              5.476211617608039,
+              2.379937603126112
+            ]
+          },
+          "average_pressure_Pa": 333309.64655004744,
+          "exported_current_A": 8100000.0,
+          "exported_axis_pressure_Pa": 1399000.0,
+          "elapsed_seconds": 32.033722107997164
+        },
+        "stability": {
+          "kind": "native_stability_diagnostics",
+          "modes": {
+            "1": {
+              "exit_code": 0,
+              "elapsed_seconds": 5.378146825823933,
+              "globals": {
+                "betan": 2.1724234124390978,
+                "betat": 0.01710666284911492,
+                "bt0": 6.997194044085179,
+                "crnt": 8.09915199189492,
+                "qmin": 1.115429010271335,
+                "q95": 5.643042135757828,
+                "psilim": 0.995
+              },
+              "radial_points": 129,
+              "minimum_energy": [
+                0.06712700525998122,
+                -1.231076882778046e-10
+              ],
+              "mercier_di_max": -0.2511607931673813,
+              "mercier_di_max_outside_1percent": -0.2511607931673813,
+              "gs_error_max": 0.007468227297067642,
+              "gs_error_rms": 0.00010175300121773034,
+              "gs_error_shape": [
+                129,
+                257
+              ],
+              "normal_termination": true,
+              "internal_zero_crossings": 0,
+              "ballooning_integrations": 129,
+              "ballooning_nodes_max": 0,
+              "ballooning_incomplete": 0
+            },
+            "2": {
+              "exit_code": 0,
+              "elapsed_seconds": 11.142447870923206,
+              "globals": {
+                "betan": 2.1724234124390978,
+                "betat": 0.01710666284911492,
+                "bt0": 6.997194044085179,
+                "crnt": 8.09915199189492,
+                "qmin": 1.115429010271335,
+                "q95": 5.643042135757828,
+                "psilim": 0.995
+              },
+              "radial_points": 129,
+              "minimum_energy": [
+                0.15426045691950843,
+                -5.418138625644442e-10
+              ],
+              "mercier_di_max": -0.2511607931673813,
+              "mercier_di_max_outside_1percent": -0.2511607931673813,
+              "gs_error_max": 0.007468227297067642,
+              "gs_error_rms": 0.00010175300121773034,
+              "gs_error_shape": [
+                129,
+                257
+              ],
+              "normal_termination": true,
+              "internal_zero_crossings": 0,
+              "ballooning_integrations": 129,
+              "ballooning_nodes_max": 0,
+              "ballooning_incomplete": 0
+            },
+            "3": {
+              "exit_code": 0,
+              "elapsed_seconds": 21.52000357187353,
+              "globals": {
+                "betan": 2.1724234124390978,
+                "betat": 0.01710666284911492,
+                "bt0": 6.997194044085179,
+                "crnt": 8.09915199189492,
+                "qmin": 1.115429010271335,
+                "q95": 5.643042135757828,
+                "psilim": 0.995
+              },
+              "radial_points": 129,
+              "minimum_energy": [
+                0.24045154477996272,
+                -3.5731770589092164e-09
+              ],
+              "mercier_di_max": -0.2511607931673813,
+              "mercier_di_max_outside_1percent": -0.2511607931673813,
+              "gs_error_max": 0.007468227297067642,
+              "gs_error_rms": 0.00010175300121773034,
+              "gs_error_shape": [
+                129,
+                257
+              ],
+              "normal_termination": true,
+              "internal_zero_crossings": 0,
+              "ballooning_integrations": 129,
+              "ballooning_nodes_max": 0,
+              "ballooning_incomplete": 0
+            },
+            "4": {
+              "exit_code": 0,
+              "elapsed_seconds": 38.759882488055155,
+              "globals": {
+                "betan": 2.1724234124390978,
+                "betat": 0.01710666284911492,
+                "bt0": 6.997194044085179,
+                "crnt": 8.09915199189492,
+                "qmin": 1.115429010271335,
+                "q95": 5.643042135757828,
+                "psilim": 0.995
+              },
+              "radial_points": 129,
+              "minimum_energy": [
+                0.3468891221311896,
+                2.5958513326408843e-09
+              ],
+              "mercier_di_max": -0.2511607931673813,
+              "mercier_di_max_outside_1percent": -0.2511607931673813,
+              "gs_error_max": 0.007468227297067642,
+              "gs_error_rms": 0.00010175300121773034,
+              "gs_error_shape": [
+                129,
+                257
+              ],
+              "normal_termination": true,
+              "internal_zero_crossings": 0,
+              "ballooning_integrations": 129,
+              "ballooning_nodes_max": 0,
+              "ballooning_incomplete": 0
+            },
+            "5": {
+              "exit_code": 0,
+              "elapsed_seconds": 67.2415542488452,
+              "globals": {
+                "betan": 2.1724234124390978,
+                "betat": 0.01710666284911492,
+                "bt0": 6.997194044085179,
+                "crnt": 8.09915199189492,
+                "qmin": 1.115429010271335,
+                "q95": 5.643042135757828,
+                "psilim": 0.995
+              },
+              "radial_points": 129,
+              "minimum_energy": [
+                0.28509305280454883,
+                -2.0207999744556367e-06
+              ],
+              "mercier_di_max": -0.2511607931673813,
+              "mercier_di_max_outside_1percent": -0.2511607931673813,
+              "gs_error_max": 0.007468227297067642,
+              "gs_error_rms": 0.00010175300121773034,
+              "gs_error_shape": [
+                129,
+                257
+              ],
+              "normal_termination": true,
+              "internal_zero_crossings": 0,
+              "ballooning_integrations": 129,
+              "ballooning_nodes_max": 0,
+              "ballooning_incomplete": 0
+            }
+          }
+        },
+        "phases": {
+          "-0.5": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 5.328522710828111,
+                "globals": {
+                  "betan": 2.1724234124390978,
+                  "betat": 0.01710666284911492,
+                  "bt0": 6.997194044085179,
+                  "crnt": 8.09915199189492,
+                  "qmin": 1.115429010271335,
+                  "q95": 5.643042135757828,
+                  "psilim": 0.995
+                },
+                "radial_points": 129,
+                "minimum_energy": [
+                  0.06712700525998122,
+                  -1.231076882778046e-10
+                ],
+                "mercier_di_max": -0.2511607931673813,
+                "mercier_di_max_outside_1percent": -0.2511607931673813,
+                "gs_error_max": 0.007468227297067642,
+                "gs_error_rms": 0.00010175300121773034,
+                "gs_error_shape": [
+                  129,
+                  257
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 129,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "-0.25": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 5.3790683259721845,
+                "globals": {
+                  "betan": 2.1724234124390978,
+                  "betat": 0.01710666284911492,
+                  "bt0": 6.997194044085179,
+                  "crnt": 8.09915199189492,
+                  "qmin": 1.115429010271335,
+                  "q95": 5.643042135757828,
+                  "psilim": 0.995
+                },
+                "radial_points": 129,
+                "minimum_energy": [
+                  0.06712700525998122,
+                  -1.231076882778046e-10
+                ],
+                "mercier_di_max": -0.2511607931673813,
+                "mercier_di_max_outside_1percent": -0.2511607931673813,
+                "gs_error_max": 0.007468227297067642,
+                "gs_error_rms": 0.00010175300121773034,
+                "gs_error_shape": [
+                  129,
+                  257
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 129,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "0.25": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 5.378542897989973,
+                "globals": {
+                  "betan": 2.1724234124390978,
+                  "betat": 0.01710666284911492,
+                  "bt0": 6.997194044085179,
+                  "crnt": 8.09915199189492,
+                  "qmin": 1.115429010271335,
+                  "q95": 5.643042135757828,
+                  "psilim": 0.995
+                },
+                "radial_points": 129,
+                "minimum_energy": [
+                  0.06712700525998122,
+                  -1.231076882778046e-10
+                ],
+                "mercier_di_max": -0.2511607931673813,
+                "mercier_di_max_outside_1percent": -0.2511607931673813,
+                "gs_error_max": 0.007468227297067642,
+                "gs_error_rms": 0.00010175300121773034,
+                "gs_error_shape": [
+                  129,
+                  257
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 129,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "0.5": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 5.329740535933524,
+                "globals": {
+                  "betan": 2.1724234124390978,
+                  "betat": 0.01710666284911492,
+                  "bt0": 6.997194044085179,
+                  "crnt": 8.09915199189492,
+                  "qmin": 1.115429010271335,
+                  "q95": 5.643042135757828,
+                  "psilim": 0.995
+                },
+                "radial_points": 129,
+                "minimum_energy": [
+                  0.06712700525998122,
+                  -1.231076882778046e-10
+                ],
+                "mercier_di_max": -0.2511607931673813,
+                "mercier_di_max_outside_1percent": -0.2511607931673813,
+                "gs_error_max": 0.007468227297067642,
+                "gs_error_rms": 0.00010175300121773034,
+                "gs_error_shape": [
+                  129,
+                  257
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 129,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          }
+        },
+        "violations": []
+      },
+      "fine": {
+        "equilibrium": {
+          "status": "equilibrium_solved",
+          "iterations": 24,
+          "stats": {
+            "Ip": 8100000.003363829,
+            "Ip_centroid": [
+              4.077121796245051,
+              -1.608039527254962e-11
+            ],
+            "kappa": 1.6089081082586942,
+            "kappaU": 1.6089086373748875,
+            "kappaL": 1.6089075791425007,
+            "delta": 0.44461492717923423,
+            "deltaU": 0.4446151224824666,
+            "deltaL": 0.4446147318760022,
+            "R_geo": 4.000323839538101,
+            "a_geo": 1.4749484251875216,
+            "vol": 239.9999999999996,
+            "q_0": 1.1344319592619747,
+            "q_95": 5.643048187932434,
+            "P_ax": 1396203.3979907879,
+            "P_max": 1396203.3979907879,
+            "W_MHD": 119991449.29961072,
+            "beta_pol": 117.95608586922972,
+            "dflux": -0.01654675252143775,
+            "tflux": 76.65350619474837,
+            "l_i": 1.1436335348316504,
+            "beta_tor": 1.7098652882053162,
+            "beta_n": 2.1792978595459935
+          },
+          "geometry": {
+            "minor_scale_m": 1.4762107859200033,
+            "volume_m3": 240.00000000000085,
+            "area_m2": 10.043415874091638,
+            "perimeter_m": 12.104809683684646,
+            "bounds_m": [
+              2.5237892140799967,
+              -2.3799381490529328,
+              5.476210785920003,
+              2.3799381490529328
+            ]
+          },
+          "average_pressure_Pa": 333309.5813878081,
+          "exported_current_A": 8100000.0,
+          "exported_axis_pressure_Pa": 1399000.0,
+          "elapsed_seconds": 127.24483534903266
+        },
+        "stability": {
+          "kind": "native_stability_diagnostics",
+          "modes": {
+            "1": {
+              "exit_code": 0,
+              "elapsed_seconds": 20.31194784096442,
+              "globals": {
+                "betan": 2.1723666743588694,
+                "betat": 0.017106603700568084,
+                "bt0": 6.997205239215526,
+                "crnt": 8.09934776516343,
+                "qmin": 1.1154519354156378,
+                "q95": 5.643044162309719,
+                "psilim": 0.995
+              },
+              "radial_points": 257,
+              "minimum_energy": [
+                0.06683115549806636,
+                1.0392388031262134e-09
+              ],
+              "mercier_di_max": -0.25116129766882134,
+              "mercier_di_max_outside_1percent": -0.25116129766882134,
+              "gs_error_max": 0.0033946428447961807,
+              "gs_error_rms": 5.245923239272088e-05,
+              "gs_error_shape": [
+                257,
+                513
+              ],
+              "normal_termination": true,
+              "internal_zero_crossings": 0,
+              "ballooning_integrations": 257,
+              "ballooning_nodes_max": 0,
+              "ballooning_incomplete": 0
+            },
+            "2": {
+              "exit_code": 0,
+              "elapsed_seconds": 31.64360383991152,
+              "globals": {
+                "betan": 2.1723666743588694,
+                "betat": 0.017106603700568084,
+                "bt0": 6.997205239215526,
+                "crnt": 8.09934776516343,
+                "qmin": 1.1154519354156378,
+                "q95": 5.643044162309719,
+                "psilim": 0.995
+              },
+              "radial_points": 257,
+              "minimum_energy": [
+                0.15408316338303166,
+                1.876018297572916e-09
+              ],
+              "mercier_di_max": -0.25116129766882134,
+              "mercier_di_max_outside_1percent": -0.25116129766882134,
+              "gs_error_max": 0.0033946428447961807,
+              "gs_error_rms": 5.245923239272088e-05,
+              "gs_error_shape": [
+                257,
+                513
+              ],
+              "normal_termination": true,
+              "internal_zero_crossings": 0,
+              "ballooning_integrations": 257,
+              "ballooning_nodes_max": 0,
+              "ballooning_incomplete": 0
+            },
+            "3": {
+              "exit_code": 0,
+              "elapsed_seconds": 49.69964021095075,
+              "globals": {
+                "betan": 2.1723666743588694,
+                "betat": 0.017106603700568084,
+                "bt0": 6.997205239215526,
+                "crnt": 8.09934776516343,
+                "qmin": 1.1154519354156378,
+                "q95": 5.643044162309719,
+                "psilim": 0.995
+              },
+              "radial_points": 257,
+              "minimum_energy": [
+                0.24033744815267413,
+                4.3584950507906654e-09
+              ],
+              "mercier_di_max": -0.25116129766882134,
+              "mercier_di_max_outside_1percent": -0.25116129766882134,
+              "gs_error_max": 0.0033946428447961807,
+              "gs_error_rms": 5.245923239272088e-05,
+              "gs_error_shape": [
+                257,
+                513
+              ],
+              "normal_termination": true,
+              "internal_zero_crossings": 0,
+              "ballooning_integrations": 257,
+              "ballooning_nodes_max": 0,
+              "ballooning_incomplete": 0
+            },
+            "4": {
+              "exit_code": 0,
+              "elapsed_seconds": 78.22455210704356,
+              "globals": {
+                "betan": 2.1723666743588694,
+                "betat": 0.017106603700568084,
+                "bt0": 6.997205239215526,
+                "crnt": 8.09934776516343,
+                "qmin": 1.1154519354156378,
+                "q95": 5.643044162309719,
+                "psilim": 0.995
+              },
+              "radial_points": 257,
+              "minimum_energy": [
+                0.34657105652791853,
+                1.4729604941349265e-08
+              ],
+              "mercier_di_max": -0.25116129766882134,
+              "mercier_di_max_outside_1percent": -0.25116129766882134,
+              "gs_error_max": 0.0033946428447961807,
+              "gs_error_rms": 5.245923239272088e-05,
+              "gs_error_shape": [
+                257,
+                513
+              ],
+              "normal_termination": true,
+              "internal_zero_crossings": 0,
+              "ballooning_integrations": 257,
+              "ballooning_nodes_max": 0,
+              "ballooning_incomplete": 0
+            },
+            "5": {
+              "exit_code": 0,
+              "elapsed_seconds": 120.13777432194911,
+              "globals": {
+                "betan": 2.1723666743588694,
+                "betat": 0.017106603700568084,
+                "bt0": 6.997205239215526,
+                "crnt": 8.09934776516343,
+                "qmin": 1.1154519354156378,
+                "q95": 5.643044162309719,
+                "psilim": 0.995
+              },
+              "radial_points": 257,
+              "minimum_energy": [
+                0.28855507511560957,
+                2.0672098390652452e-08
+              ],
+              "mercier_di_max": -0.25116129766882134,
+              "mercier_di_max_outside_1percent": -0.25116129766882134,
+              "gs_error_max": 0.0033946428447961807,
+              "gs_error_rms": 5.245923239272088e-05,
+              "gs_error_shape": [
+                257,
+                513
+              ],
+              "normal_termination": true,
+              "internal_zero_crossings": 0,
+              "ballooning_integrations": 257,
+              "ballooning_nodes_max": 0,
+              "ballooning_incomplete": 0
+            }
+          }
+        },
+        "phases": {
+          "-0.5": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 20.261540620122105,
+                "globals": {
+                  "betan": 2.1723666743588694,
+                  "betat": 0.017106603700568084,
+                  "bt0": 6.997205239215526,
+                  "crnt": 8.09934776516343,
+                  "qmin": 1.1154519354156378,
+                  "q95": 5.643044162309719,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.06683115549806636,
+                  1.0392388031262134e-09
+                ],
+                "mercier_di_max": -0.25116129766882134,
+                "mercier_di_max_outside_1percent": -0.25116129766882134,
+                "gs_error_max": 0.0033946428447961807,
+                "gs_error_rms": 5.245923239272088e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "-0.4375": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 20.31683876295574,
+                "globals": {
+                  "betan": 2.1723666743588694,
+                  "betat": 0.017106603700568084,
+                  "bt0": 6.997205239215526,
+                  "crnt": 8.09934776516343,
+                  "qmin": 1.1154519354156378,
+                  "q95": 5.643044162309719,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.06683115549806636,
+                  1.0392388031262134e-09
+                ],
+                "mercier_di_max": -0.25116129766882134,
+                "mercier_di_max_outside_1percent": -0.25116129766882134,
+                "gs_error_max": 0.0033946428447961807,
+                "gs_error_rms": 5.245923239272088e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "-0.375": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 20.312276505865157,
+                "globals": {
+                  "betan": 2.1723666743588694,
+                  "betat": 0.017106603700568084,
+                  "bt0": 6.997205239215526,
+                  "crnt": 8.09934776516343,
+                  "qmin": 1.1154519354156378,
+                  "q95": 5.643044162309719,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.06683115549806636,
+                  1.0392388031262134e-09
+                ],
+                "mercier_di_max": -0.25116129766882134,
+                "mercier_di_max_outside_1percent": -0.25116129766882134,
+                "gs_error_max": 0.0033946428447961807,
+                "gs_error_rms": 5.245923239272088e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "-0.3125": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 20.212933065136895,
+                "globals": {
+                  "betan": 2.1723666743588694,
+                  "betat": 0.017106603700568084,
+                  "bt0": 6.997205239215526,
+                  "crnt": 8.09934776516343,
+                  "qmin": 1.1154519354156378,
+                  "q95": 5.643044162309719,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.06683115549806636,
+                  1.0392388031262134e-09
+                ],
+                "mercier_di_max": -0.25116129766882134,
+                "mercier_di_max_outside_1percent": -0.25116129766882134,
+                "gs_error_max": 0.0033946428447961807,
+                "gs_error_rms": 5.245923239272088e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "-0.25": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 20.417214462999254,
+                "globals": {
+                  "betan": 2.1723666743588694,
+                  "betat": 0.017106603700568084,
+                  "bt0": 6.997205239215526,
+                  "crnt": 8.09934776516343,
+                  "qmin": 1.1154519354156378,
+                  "q95": 5.643044162309719,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.06683115549806636,
+                  1.0392388031262134e-09
+                ],
+                "mercier_di_max": -0.25116129766882134,
+                "mercier_di_max_outside_1percent": -0.25116129766882134,
+                "gs_error_max": 0.0033946428447961807,
+                "gs_error_rms": 5.245923239272088e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "-0.1875": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 20.365947254002094,
+                "globals": {
+                  "betan": 2.1723666743588694,
+                  "betat": 0.017106603700568084,
+                  "bt0": 6.997205239215526,
+                  "crnt": 8.09934776516343,
+                  "qmin": 1.1154519354156378,
+                  "q95": 5.643044162309719,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.06683115549806636,
+                  1.0392388031262134e-09
+                ],
+                "mercier_di_max": -0.25116129766882134,
+                "mercier_di_max_outside_1percent": -0.25116129766882134,
+                "gs_error_max": 0.0033946428447961807,
+                "gs_error_rms": 5.245923239272088e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "-0.125": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 20.41879859380424,
+                "globals": {
+                  "betan": 2.1723666743588694,
+                  "betat": 0.017106603700568084,
+                  "bt0": 6.997205239215526,
+                  "crnt": 8.09934776516343,
+                  "qmin": 1.1154519354156378,
+                  "q95": 5.643044162309719,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.06683115549806636,
+                  1.0392388031262134e-09
+                ],
+                "mercier_di_max": -0.25116129766882134,
+                "mercier_di_max_outside_1percent": -0.25116129766882134,
+                "gs_error_max": 0.0033946428447961807,
+                "gs_error_rms": 5.245923239272088e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "-0.0625": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 20.467908937018365,
+                "globals": {
+                  "betan": 2.1723666743588694,
+                  "betat": 0.017106603700568084,
+                  "bt0": 6.997205239215526,
+                  "crnt": 8.09934776516343,
+                  "qmin": 1.1154519354156378,
+                  "q95": 5.643044162309719,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.06683115549806636,
+                  1.0392388031262134e-09
+                ],
+                "mercier_di_max": -0.25116129766882134,
+                "mercier_di_max_outside_1percent": -0.25116129766882134,
+                "gs_error_max": 0.0033946428447961807,
+                "gs_error_rms": 5.245923239272088e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "0.0625": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 20.36294197710231,
+                "globals": {
+                  "betan": 2.1723666743588694,
+                  "betat": 0.017106603700568084,
+                  "bt0": 6.997205239215526,
+                  "crnt": 8.09934776516343,
+                  "qmin": 1.1154519354156378,
+                  "q95": 5.643044162309719,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.06683115549806636,
+                  1.0392388031262134e-09
+                ],
+                "mercier_di_max": -0.25116129766882134,
+                "mercier_di_max_outside_1percent": -0.25116129766882134,
+                "gs_error_max": 0.0033946428447961807,
+                "gs_error_rms": 5.245923239272088e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "0.125": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 20.47006533597596,
+                "globals": {
+                  "betan": 2.1723666743588694,
+                  "betat": 0.017106603700568084,
+                  "bt0": 6.997205239215526,
+                  "crnt": 8.09934776516343,
+                  "qmin": 1.1154519354156378,
+                  "q95": 5.643044162309719,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.06683115549806636,
+                  1.0392388031262134e-09
+                ],
+                "mercier_di_max": -0.25116129766882134,
+                "mercier_di_max_outside_1percent": -0.25116129766882134,
+                "gs_error_max": 0.0033946428447961807,
+                "gs_error_rms": 5.245923239272088e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "0.1875": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 20.466225357959047,
+                "globals": {
+                  "betan": 2.1723666743588694,
+                  "betat": 0.017106603700568084,
+                  "bt0": 6.997205239215526,
+                  "crnt": 8.09934776516343,
+                  "qmin": 1.1154519354156378,
+                  "q95": 5.643044162309719,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.06683115549806636,
+                  1.0392388031262134e-09
+                ],
+                "mercier_di_max": -0.25116129766882134,
+                "mercier_di_max_outside_1percent": -0.25116129766882134,
+                "gs_error_max": 0.0033946428447961807,
+                "gs_error_rms": 5.245923239272088e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "0.25": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 20.364400452934206,
+                "globals": {
+                  "betan": 2.1723666743588694,
+                  "betat": 0.017106603700568084,
+                  "bt0": 6.997205239215526,
+                  "crnt": 8.09934776516343,
+                  "qmin": 1.1154519354156378,
+                  "q95": 5.643044162309719,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.06683115549806636,
+                  1.0392388031262134e-09
+                ],
+                "mercier_di_max": -0.25116129766882134,
+                "mercier_di_max_outside_1percent": -0.25116129766882134,
+                "gs_error_max": 0.0033946428447961807,
+                "gs_error_rms": 5.245923239272088e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "0.3125": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 20.364935935940593,
+                "globals": {
+                  "betan": 2.1723666743588694,
+                  "betat": 0.017106603700568084,
+                  "bt0": 6.997205239215526,
+                  "crnt": 8.09934776516343,
+                  "qmin": 1.1154519354156378,
+                  "q95": 5.643044162309719,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.06683115549806636,
+                  1.0392388031262134e-09
+                ],
+                "mercier_di_max": -0.25116129766882134,
+                "mercier_di_max_outside_1percent": -0.25116129766882134,
+                "gs_error_max": 0.0033946428447961807,
+                "gs_error_rms": 5.245923239272088e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "0.375": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 20.31729120691307,
+                "globals": {
+                  "betan": 2.1723666743588694,
+                  "betat": 0.017106603700568084,
+                  "bt0": 6.997205239215526,
+                  "crnt": 8.09934776516343,
+                  "qmin": 1.1154519354156378,
+                  "q95": 5.643044162309719,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.06683115549806636,
+                  1.0392388031262134e-09
+                ],
+                "mercier_di_max": -0.25116129766882134,
+                "mercier_di_max_outside_1percent": -0.25116129766882134,
+                "gs_error_max": 0.0033946428447961807,
+                "gs_error_rms": 5.245923239272088e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "0.4375": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 20.415962297003716,
+                "globals": {
+                  "betan": 2.1723666743588694,
+                  "betat": 0.017106603700568084,
+                  "bt0": 6.997205239215526,
+                  "crnt": 8.09934776516343,
+                  "qmin": 1.1154519354156378,
+                  "q95": 5.643044162309719,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.06683115549806636,
+                  1.0392388031262134e-09
+                ],
+                "mercier_di_max": -0.25116129766882134,
+                "mercier_di_max_outside_1percent": -0.25116129766882134,
+                "gs_error_max": 0.0033946428447961807,
+                "gs_error_rms": 5.245923239272088e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          },
+          "0.5": {
+            "kind": "native_stability_diagnostics",
+            "modes": {
+              "1": {
+                "exit_code": 0,
+                "elapsed_seconds": 13.402986671077088,
+                "globals": {
+                  "betan": 2.1723666743588694,
+                  "betat": 0.017106603700568084,
+                  "bt0": 6.997205239215526,
+                  "crnt": 8.09934776516343,
+                  "qmin": 1.1154519354156378,
+                  "q95": 5.643044162309719,
+                  "psilim": 0.995
+                },
+                "radial_points": 257,
+                "minimum_energy": [
+                  0.06683115549806636,
+                  1.0392388031262134e-09
+                ],
+                "mercier_di_max": -0.25116129766882134,
+                "mercier_di_max_outside_1percent": -0.25116129766882134,
+                "gs_error_max": 0.0033946428447961807,
+                "gs_error_rms": 5.245923239272088e-05,
+                "gs_error_shape": [
+                  257,
+                  513
+                ],
+                "normal_termination": true,
+                "internal_zero_crossings": 0,
+                "ballooning_integrations": 257,
+                "ballooning_nodes_max": 0,
+                "ballooning_incomplete": 0
+              }
+            }
+          }
+        },
+        "violations": []
+      }
+    }
+  },
+  "all_cases_evaluated": true,
+  "protocol_state": "calibrated",
+  "elapsed_seconds": 2261.2745660881046,
+  "max_child_process_rss_KiB": 1669112
+}

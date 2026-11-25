@@ -1,0 +1,20 @@
+{
+  "constraints": {
+    "f_alpha_max": 0.05,
+    "eps_eff_max": 0.01,
+    "iota_min": 0.3,
+    "well_min": 0.0,
+    "kappa_max": 8.0,
+    "lgradb_min_m": 2.4
+  },
+  "normalization": {
+    "minor_radius_m": 1.7,
+    "axis_Boozer_B00_T": 5.7
+  },
+  "feasible_score": "0.5+0.5/(1+exp(aspect_ratio-4))",
+  "invalid_score": 0,
+  "nonfeasible_score": "0.5*product(completion.values())",
+  "local_status": "full evaluation running; screening candidates are uncertified",
+  "baseline_geometry": "baseline_geometry.json",
+  "thread_policy": "All physics and compilation commands pinned to CPU 12-15; original evaluator retains its fixed 8 MPI ranks on these 4 CPUs; OMP/BLAS thread limits explicitly set."
+}

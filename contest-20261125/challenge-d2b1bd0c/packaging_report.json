@@ -1,0 +1,17 @@
+{
+  "outputs": "/home/lmxxf/work/drone/contest-20261125/challenge-d2b1bd0c/submission_outputs",
+  "reward": 0.6246040634940218,
+  "pressure": 332770.8175573579,
+  "verification": {
+    "native_dcon_runs": 90,
+    "completed_ballooning_integrations": 19674,
+    "job_hashes": {
+      "runs/top333-formal/broad-coarse/job.json": "ce20b03a2db1f6064dd09efe5965dca673aead1b98146159cf969903b1b90cee",
+      "runs/top333-formal/broad-fine/job.json": "7d7928636ef8242c32e573d581bde5af573bcbdc21d32707db77975578c76358",
+      "runs/top333-formal/nominal-coarse/job.json": "83091f21dc14a02068ee1c677a661be6b32afc517c9c0af146c6982cb2b123e5",
+      "runs/top333-formal/nominal-fine/job.json": "f01950b4bc6fd4ba1e9304d578856d4ea37aec4da3e8a3c799b4f7f5a674672b",
+      "runs/top333-formal/peaked-coarse/job.json": "09524ea5c353a03a620bae420014785ac2c5a583b8dc358933967ab7270ba8c0",
+      "runs/top333-formal/peaked-fine/job.json": "ff934b9b14d8fe4965d3fe5dc69edcfe490496079a0f72db43d74acc6709b12e"
+    }
+  }
+}

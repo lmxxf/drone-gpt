@@ -1,0 +1,54 @@
+{
+  "arm_version": "1.1",
+  "paper": {
+    "title": "challenge-9668a3f8",
+    "url": ""
+  },
+  "entrypoint": "src/reproduce.py",
+  "environment": {
+    "dependencies": "requirements.txt"
+  },
+  "execution": {
+    "ran_at": "2026-11-25T14:16:11Z",
+    "wall_time_s": 12657.066,
+    "log_path": "execution/run.log",
+    "artifacts": [
+      {
+        "id": "artifact-1",
+        "path": "outputs/controller.onnx",
+        "kind": "output",
+        "type": "data",
+        "format": "other"
+      }
+    ]
+  },
+  "expected_outputs": [
+    {
+      "name": "controller.onnx",
+      "path": "outputs/controller.onnx",
+      "type": "data",
+      "comparison_method": "custom",
+      "produced_by": [
+        "artifact-1"
+      ]
+    }
+  ],
+  "characterization": "characterization.json",
+  "trace": "traces/trace.jsonl",
+  "provenance": {
+    "created_by": "agent",
+    "toolchain": "@paper2arm/playground-cli 0.1.58",
+    "created_at": "2026-11-25T17:47:08Z",
+    "challenge_id": "challenge-9668a3f8",
+    "task_id": "challenge-9668a3f8",
+    "run_id": "local-20261125t174708z-687171b4",
+    "model": "unknown",
+    "harness": "opencode",
+    "declared_model": "",
+    "declared_harness": "",
+    "detected_model": "",
+    "detected_harness": "opencode",
+    "model_source": "fallback",
+    "harness_source": "detected"
+  }
+}

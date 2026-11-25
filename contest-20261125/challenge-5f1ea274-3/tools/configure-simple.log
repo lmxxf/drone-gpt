@@ -1,0 +1,23 @@
+-- SIMPLE version: be86422
+-- CMake build type: Release
+-- Found OpenMP: TRUE (found version "4.5") found components: Fortran 
+-- Found OpenMP_Fortran: -fopenmp (found version "4.5") 
+-- Could NOT find Python (missing: Python_EXECUTABLE Python_INCLUDE_DIRS Python_NumPy_INCLUDE_DIRS Interpreter Development.Module NumPy) (found version "3.11.15")
+-- Python with NumPy not found; skipping efit_to_boozer f2py wrapper
+-- Could NOT find Python (missing: Python_EXECUTABLE Python_INCLUDE_DIRS Python_LIBRARIES Python_NumPy_INCLUDE_DIRS Interpreter Development NumPy Development.Module Development.Embed) 
+-- Python: _Python_EXECUTABLE-NOTFOUND
+-- Python version: 
+-- Python include dirs: _Python_INCLUDE_DIR-NOTFOUND
+-- Python libraries: Python_LIBRARY-NOTFOUND
+Python with NumPy not found, skipping interface build.
+-- CGAL disabled (SIMPLE_ENABLE_CGAL=OFF)
+-- Found 115 Fortran source files
+-- Found 6 C source files
+-- fortplot configured as subproject
+-- CMake build type: Release
+-- Found OpenMP_Fortran: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Deterministic FP mode: disabled fast-math for reproducibility
+-- Configuring done (1.8s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/build-simple

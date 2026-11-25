@@ -1,0 +1,14 @@
+{
+  "bundle_sha256": "10a25f4b95cfe1f1b48bb2c2e408782806eb133c680d7cc6b10a866b16b9c6b5",
+  "bundle_bytes": 10174502,
+  "uploaded_entries": {
+    "outputs/plasma.json": {
+      "bytes": 162,
+      "sha256": "da8730662883d8f8e5ed7b4f51de35fa2f7103b410814ae9f383b04468829acd"
+    },
+    "results/plasma.json": {
+      "bytes": 162,
+      "sha256": "da8730662883d8f8e5ed7b4f51de35fa2f7103b410814ae9f383b04468829acd"
+    }
+  }
+}

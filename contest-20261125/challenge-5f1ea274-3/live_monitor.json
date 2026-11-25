@@ -1,0 +1,24 @@
+{
+  "time": "2026-11-26T04:53:06.972339+08:00",
+  "workflow": {
+    "stage": "full_verification",
+    "updated": "2026-11-26T01:10:00+0800",
+    "candidate": "runs/certify_062640a28051/boundary.json",
+    "result": "runs/certify_062640a28051/result/reward.json"
+  },
+  "physics_stage": "SIMPLE",
+  "latest": "INFO: Counter initialization completed       0.000 s (Total:       35.135 s)",
+  "particles": {
+    "pid": 3675888,
+    "completed": 1815,
+    "total": 4096,
+    "fraction": 0.443115234375,
+    "observation": "read-only progress and finalized exit records; not a final acceptance test",
+    "elapsed_s": 9881.371174267959,
+    "recorded_terminal_states": 1815,
+    "observed_loss_count_lower_bound": 65,
+    "observed_unresolved_lower_bound": 0,
+    "whole_ensemble_loss_fraction_lower_bound": 0.015869140625,
+    "linear_eta_s": 12418.40641790921
+  }
+}

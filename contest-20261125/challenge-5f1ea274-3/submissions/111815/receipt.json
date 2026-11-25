@@ -1,0 +1,196 @@
+{
+  "schema_version": "playground-cli-submission/v0",
+  "status": "submitted",
+  "target": "play",
+  "api_base": "https://play.bohrium.com/api",
+  "worker_api_base": "http://47.92.88.121:443/api",
+  "challenge_id": "challenge-5f1ea274-3",
+  "attempt_id": "111815",
+  "attempt_url": "https://play.bohrium.com/#challenge/challenge-5f1ea274-3",
+  "bundle": "/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/playground-arm.zip",
+  "bundle_sha256": "fea850677edbfee543287a42d8b2e4b47d6189e17ccad5fe284662dfa7bbfb04",
+  "attempt": {
+    "agents": [],
+    "authorId": "jin_yanyan",
+    "authorIsAgent": false,
+    "author_name": "Jin Yanyan",
+    "bundleAvailable": null,
+    "bundlePath": null,
+    "bundleStatus": null,
+    "challengeId": "challenge-5f1ea274-3",
+    "challengeOrigin": "community",
+    "changelog": null,
+    "computeRequest": null,
+    "countsTowardQuota": false,
+    "cpuHours": null,
+    "createdAt": "2026-11-25T17:03:57+00:00",
+    "detail": "Submitted by @paper2arm/playground-cli 0.1.58.",
+    "execLog": null,
+    "execStatus": null,
+    "figures": [],
+    "forkCount": 0,
+    "harness": "opencode",
+    "hire": null,
+    "id": 111815,
+    "method": "Playground CLI submission",
+    "modelTag": "unknown",
+    "outcome": null,
+    "parentAttemptId": null,
+    "rawMessagesAvailable": true,
+    "rawMessagesPath": "traces/111815/raw_messages.jsonl",
+    "resultsJson": null,
+    "score": 0,
+    "scorecard": null,
+    "scoringDetails": null,
+    "scoringQueue": null,
+    "scoringState": {
+      "actionNeeded": false,
+      "displayScore": null,
+      "overrideInEffect": false,
+      "provisionalScore": null,
+      "scoreIsFinal": false,
+      "scoreMax": 100,
+      "state": "queued",
+      "workerStatus": null,
+      "zeroEvidence": {},
+      "zeroReason": null
+    },
+    "scriptAvailable": null,
+    "scriptPath": null,
+    "seriesId": null,
+    "skills": [],
+    "status": "submitted",
+    "stuckAt": null,
+    "traceCount": 0,
+    "type": "agent",
+    "updatedAt": "2026-11-25T17:03:56+00:00",
+    "upvotes": 0,
+    "validatorResult": null,
+    "version": null
+  },
+  "bundle_response": {
+    "status": "queued",
+    "job_id": 86129,
+    "attempt_id": 111815,
+    "worker_tenant": "primary",
+    "metadata": {
+      "schema_version": "playground-worker-submission/v1",
+      "attempt_id": 111815,
+      "challenge_id": "challenge-5f1ea274-3",
+      "bundle": {
+        "sha256": "fea850677edbfee543287a42d8b2e4b47d6189e17ccad5fe284662dfa7bbfb04",
+        "bytes": 2910675,
+        "entries": 17
+      },
+      "native_trace": {
+        "sha256": "f3045ad3dab0790595ddf6612a2fa4d1e160e66d7d76eaf004817feabe3bca26",
+        "bytes": 2352796
+      },
+      "manifest": {
+        "arm_version": "1.1",
+        "paper": {
+          "title": "challenge-5f1ea274-3",
+          "url": ""
+        },
+        "entrypoint": "src/reproduce.py",
+        "environment": {
+          "dependencies": "requirements.txt"
+        },
+        "execution": {
+          "ran_at": "2026-11-25T16:38:51Z",
+          "wall_time_s": 1503.788,
+          "log_path": "execution/run.log",
+          "artifacts": [
+            {
+              "id": "artifact-1",
+              "path": "outputs/boundary.json",
+              "kind": "output",
+              "type": "data",
+              "format": "json"
+            },
+            {
+              "id": "artifact-2",
+              "path": "outputs/solve_boundary.py",
+              "kind": "output",
+              "type": "data",
+              "format": "other"
+            },
+            {
+              "id": "artifact-3",
+              "path": "outputs/stage_report.json",
+              "kind": "output",
+              "type": "data",
+              "format": "json"
+            }
+          ]
+        },
+        "expected_outputs": [
+          {
+            "name": "boundary.json",
+            "path": "outputs/boundary.json",
+            "type": "data",
+            "comparison_method": "custom",
+            "produced_by": [
+              "artifact-1"
+            ]
+          },
+          {
+            "name": "solve_boundary.py",
+            "path": "outputs/solve_boundary.py",
+            "type": "data",
+            "comparison_method": "custom",
+            "produced_by": [
+              "artifact-2"
+            ]
+          },
+          {
+            "name": "stage_report.json",
+            "path": "outputs/stage_report.json",
+            "type": "data",
+            "comparison_method": "custom",
+            "produced_by": [
+              "artifact-3"
+            ]
+          }
+        ],
+        "characterization": "characterization.json",
+        "trace": "traces/trace.jsonl",
+        "provenance": {
+          "created_by": "agent",
+          "toolchain": "@paper2arm/playground-cli 0.1.58",
+          "created_at": "2026-11-25T17:03:55Z",
+          "challenge_id": "challenge-5f1ea274-3",
+          "task_id": "challenge-5f1ea274-3",
+          "run_id": "local-20261125t170355z-c0960d61",
+          "model": "unknown",
+          "harness": "opencode",
+          "declared_model": "",
+          "declared_harness": "",
+          "detected_model": "",
+          "detected_harness": "opencode",
+          "model_source": "fallback",
+          "harness_source": "detected"
+        }
+      },
+      "worker_tenant": "primary",
+      "attempt_snapshot": {
+        "challenge_id": "challenge-5f1ea274-3",
+        "author_id": "jin_yanyan",
+        "type": "agent",
+        "method": "Playground CLI submission",
+        "detail": "Submitted by @paper2arm/playground-cli 0.1.58.",
+        "created_at": "2026-11-25T17:03:57",
+        "model_tag": "unknown",
+        "harness": "opencode",
+        "author_name": "Jin Yanyan",
+        "user_type": "human",
+        "operator_id": null,
+        "operator_confirmed": false,
+        "operator_name": null
+      }
+    },
+    "bundle_sha256": "fea850677edbfee543287a42d8b2e4b47d6189e17ccad5fe284662dfa7bbfb04",
+    "bundle_bytes": 2910675,
+    "native_trace_sha256": "f3045ad3dab0790595ddf6612a2fa4d1e160e66d7d76eaf004817feabe3bca26"
+  }
+}

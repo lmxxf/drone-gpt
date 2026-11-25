@@ -1,0 +1,13 @@
+{
+  "design": {
+    "kappa": 1.48,
+    "delta": 0.32000000000000006,
+    "c2": -0.0625,
+    "c3": -0.025,
+    "s2": -0.09000000000000001,
+    "s3": -0.08,
+    "axis_pressure_Pa": 1399000.0
+  },
+  "reward": 0.6246040634940218,
+  "report": "/home/lmxxf/work/drone/contest-20261125/challenge-d2b1bd0c/runs/top333-formal/details.json"
+}

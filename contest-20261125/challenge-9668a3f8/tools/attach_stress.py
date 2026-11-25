@@ -1,0 +1,18 @@
+"""Attach independently seeded native stress evidence without relabeling its driver."""
+import argparse,json,sys,copy
+from pathlib import Path
+import numpy as np
+ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'tools'));sys.path.insert(0,str(ROOT/'workspace'))
+import eval as ev
+from library_search import replay_metrics
+from finalize_report import summary
+if __name__=='__main__':
+ p=argparse.ArgumentParser();p.add_argument('run');p.add_argument('--report',default=str(ROOT/'evaluation_report.json'));a=p.parse_args();directory=Path(a.run).resolve();path=Path(a.report);report=json.load(open(path));sha=report['artifact']['sha256'];screen=ev.read_json(directory/'summary.json');assert screen['feasible'] and len(screen['pairs'])>=16;case=ev.read_json(ROOT/'workspace/case.json');ref=ev.read_json(ROOT/'workspace/reference/baseline.json')['development'];pairs=[]
+ for row in screen['pairs']:
+  name=row['name'];rs=[ev.read_json(directory/(name+'-'+l+'.json')) for l in ['coarse','fine']];es=[];counts=[];traces=[]
+  for level,r in zip(['coarse','fine'],rs):
+   assert r['candidate_sha256']==sha and r['level']==level;d=np.load(directory/(name+'-'+level+'.npy'));n=6000 if level=='coarse' else 12000;dt=.005 if level=='coarse' else .0025;assert d.shape==(n,15) and np.isfinite(d).all();assert np.all(d[:,12:14]==0) and np.max(d[:,14])<1e-8 and abs(d[-1,0]-30)<1e-8;initial=r['trace'][0];b=case['background_admission'];assert initial['q_min']>=b['q_min_lower'] and initial['q95']>=b['q95_lower'] and initial['fgw_n_e_line_avg']<=b['density_greenwald_upper'];m,v,t=replay_metrics(d,initial,dt);assert not v and not r['violation']
+   for key,value in m.items():assert abs(value-r['metrics'][key])<=1e-8*max(1,abs(value)),key
+   es.append({'seed':r['seed'],'level':level,'metrics':m,'violation':v});counts.append(n+1);traces.append(t)
+  assert rs[0]['seed']==rs[1]['seed'] and rs[0]['physical']==rs[1]['physical'];J=ev.compare_resolutions(case,ref,[(e['metrics'],e['violation'],t) for e,t in zip(es,traces)]);pairs.append({'seed':rs[0]['seed'],'run_directory':str(directory),'driver':'Native TORAX steps batched per control window, actual original isolated ONNX Controller and delayed/noisy features','scenario':rs[0]['physical'],'physical_override':None,'J_upper_J':J,'grid_heat_difference_J':abs(es[0]['metrics']['J_supplied_total_J']-es[1]['metrics']['J_supplied_total_J']),'grid_power_difference_W':float(np.max(abs(np.array([x['P_fusion_W'] for x in traces[0]])-np.array([x['P_fusion_W'] for x in traces[1]])))),'accepted_state_counts':counts,'terminal_W_J':[t[-1]['W_thermal_total_J'] for t in traces],'episodes':es})
+ report['original_evaluator_replay']=copy.deepcopy(report['all_tested_scenarios']);report['native_stress']={**summary(pairs),'seed_generator':f"PCG64({screen.get('stress_seed_generator',966820261125)}), integers [1,2**31), {screen.get('stress_count',16)} draws; all retained; extra validation seeds={screen.get('extra_seeds',[])}",'scope':'Same native simulator and evaluation metrics, accelerated host driver; separately parity-validated against original evaluator','candidate_sha256':sha};report['native_stress_pairs']=pairs;report['all_tested_scenarios']=summary(report['pairs']+pairs);report['all_tested_scenarios']['scope']='Original evaluator replay plus separately validated native control-window batching; not the trusted runtime gate';path.write_text(json.dumps(report,indent=2,allow_nan=False)+'\n');print(json.dumps({'original_evaluator_replay':report['original_evaluator_replay'],'native_stress':report['native_stress'],'all_tested_scenarios':report['all_tested_scenarios']},indent=2))

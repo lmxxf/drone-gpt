@@ -1,0 +1,10 @@
+{
+  "attempt_id": "111815",
+  "bundle_sha256": "fea850677edbfee543287a42d8b2e4b47d6189e17ccad5fe284662dfa7bbfb04",
+  "submitted_aspect_ratio": 5.542969181639843,
+  "outputs": [
+    "boundary.json",
+    "solve_boundary.py",
+    "stage_report.json"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "playground-submission/v0",
+  "task_id": "challenge-5f1ea274-3",
+  "challenge_id": "challenge-5f1ea274-3",
+  "run_id": "local-20261125t170355z-c0960d61",
+  "created_at": "2026-11-25T17:03:55Z",
+  "task_url": "",
+  "agent": {
+    "name": "playground-cli",
+    "version": "0.1.58",
+    "model": "unknown"
+  },
+  "harness": {
+    "name": "opencode",
+    "native_trace_format": "auto"
+  },
+  "artifacts": [
+    {
+      "path": "outputs/boundary.json",
+      "sha256": "96c7cfd7f170edf62b81e87d1db5ff19a6997f7bfe7d4c438d4f02adb34e26da"
+    },
+    {
+      "path": "outputs/solve_boundary.py",
+      "sha256": "a6b0df962bdfa86ca944f24e25166d783c8a02e9f6aa83701e310262e2d8a0a8"
+    },
+    {
+      "path": "outputs/stage_report.json",
+      "sha256": "31b5fd4150196f6d3d6d7ce2416b7da8375722699fb9dd0fed1a6415ca97fced"
+    }
+  ],
+  "privacy": {
+    "redaction": "playground-cli-secret-scan-v0",
+    "contains_raw_credentials": false
+  }
+}

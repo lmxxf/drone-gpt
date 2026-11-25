@@ -1,0 +1,27 @@
+{
+  "schema_version": "playground-task-list/v0",
+  "api_base": "https://play.bohrium.com/api",
+  "total": 1,
+  "total_unfiltered": 7173,
+  "tag_filter": [],
+  "query": "challenge-5f1ea274-3",
+  "tasks": [
+    {
+      "index": 1,
+      "id": "challenge-5f1ea274-3",
+      "title": "用三维形状留住聚变粒子：寻找更紧凑的仿星器",
+      "status": "open",
+      "attempts": 1,
+      "tags": [
+        "community"
+      ],
+      "datasets": [
+        {
+          "dataset": "fusionx-a-20261028",
+          "version": "1"
+        }
+      ],
+      "download_command": "playground task download --challenge-id challenge-5f1ea274-3 --out challenge-5f1ea274-3"
+    }
+  ]
+}

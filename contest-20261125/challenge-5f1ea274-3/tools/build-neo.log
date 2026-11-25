@@ -1,0 +1,160 @@
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/STELLOPT-780f5db557eacc7ca1160f4ca5a10a80922e4f26/LIBSTELL/Sources/Ezcdf/ezcdf_GenPut.f90:764:37:
+
+  764 |     sts = nf_put_var_real(ncid,varid,varval)
+      |                                     1
+......
+  792 |     sts = nf_put_var_real(ncid,varid,varval)
+      |                                     2
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (REAL(4)/COMPLEX(4)).
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/STELLOPT-780f5db557eacc7ca1160f4ca5a10a80922e4f26/LIBSTELL/Sources/Ezcdf/ezcdf_GenPut.f90:709:39:
+
+  709 |     sts = nf_put_var_double(ncid,varid,varval)
+      |                                       1
+......
+  737 |     sts = nf_put_var_double(ncid,varid,varval)
+      |                                       2
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (REAL(8)/COMPLEX(8)).
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/STELLOPT-780f5db557eacc7ca1160f4ca5a10a80922e4f26/LIBSTELL/Sources/Ezcdf/ezcdf_GenPut.f90:605:37:
+
+  605 |     sts = nf_put_var_real(ncid,varid,varval)
+      |                                     1
+......
+  792 |     sts = nf_put_var_real(ncid,varid,varval)
+      |                                     2
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (scalar and rank-1)
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/STELLOPT-780f5db557eacc7ca1160f4ca5a10a80922e4f26/LIBSTELL/Sources/Ezcdf/ezcdf_GenPut.f90:548:39:
+
+  548 |     sts = nf_put_var_double(ncid,varid,varval)
+      |                                       1
+......
+  737 |     sts = nf_put_var_double(ncid,varid,varval)
+      |                                       2
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (scalar and rank-1)
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/STELLOPT-780f5db557eacc7ca1160f4ca5a10a80922e4f26/LIBSTELL/Sources/Ezcdf/ezcdf_GenPut.f90:463:36:
+
+  463 |     sts = nf_put_var_int(ncid,varid,varval)
+      |                                    1
+......
+  659 |     sts = nf_put_var_int(ncid,varid,varval)
+      |                                    2
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (scalar and rank-1)
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/STELLOPT-780f5db557eacc7ca1160f4ca5a10a80922e4f26/LIBSTELL/Sources/Ezcdf/ezcdf_GenPut.f90:379:49:
+
+  379 |     sts = nf_put_vara_real(ncid,varid,st,dimlens,varval)
+      |                                                 1
+......
+  408 |     sts = nf_put_vara_real(ncid,varid,st,dimlens,varval)
+      |                                                 2
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (REAL(4)/COMPLEX(4)).
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/STELLOPT-780f5db557eacc7ca1160f4ca5a10a80922e4f26/LIBSTELL/Sources/Ezcdf/ezcdf_GenPut.f90:322:51:
+
+  322 |     sts = nf_put_vara_double(ncid,varid,st,dimlens,varval)
+      |                                                   1
+......
+  351 |     sts = nf_put_vara_double(ncid,varid,st,dimlens,varval)
+      |                                                   2
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (REAL(8)/COMPLEX(8)).
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/STELLOPT-780f5db557eacc7ca1160f4ca5a10a80922e4f26/LIBSTELL/Sources/Ezcdf/ezcdf_GenGet.f90:1004:38:
+
+ 1004 |   status = nf_get_var_real(ncid,varid,varval)
+      |                                      1
+......
+ 1026 |   status = nf_get_var_real(ncid,varid,varval)
+      |                                      2
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (REAL(4)/COMPLEX(4)).
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/STELLOPT-780f5db557eacc7ca1160f4ca5a10a80922e4f26/LIBSTELL/Sources/Ezcdf/ezcdf_GenGet.f90:961:40:
+
+  961 |   status = nf_get_var_double(ncid,varid,varval)
+      |                                        1
+......
+  983 |   status = nf_get_var_double(ncid,varid,varval)
+      |                                        2
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (REAL(8)/COMPLEX(8)).
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/STELLOPT-780f5db557eacc7ca1160f4ca5a10a80922e4f26/LIBSTELL/Sources/Ezcdf/ezcdf_GenGet.f90:875:38:
+
+  875 |   status = nf_get_var_real(ncid,varid,varval)
+      |                                      1
+......
+ 1026 |   status = nf_get_var_real(ncid,varid,varval)
+      |                                      2
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (scalar and rank-1)
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/STELLOPT-780f5db557eacc7ca1160f4ca5a10a80922e4f26/LIBSTELL/Sources/Ezcdf/ezcdf_GenGet.f90:831:40:
+
+  831 |   status = nf_get_var_double(ncid,varid,varval)
+      |                                        1
+......
+  983 |   status = nf_get_var_double(ncid,varid,varval)
+      |                                        2
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (scalar and rank-1)
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/STELLOPT-780f5db557eacc7ca1160f4ca5a10a80922e4f26/LIBSTELL/Sources/Ezcdf/ezcdf_GenGet.f90:759:37:
+
+  759 |   status = nf_get_var_int(ncid,varid,varval)
+      |                                     1
+......
+  917 |   status = nf_get_var_int(ncid,varid,varval)
+      |                                     2
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (scalar and rank-1)
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/STELLOPT-780f5db557eacc7ca1160f4ca5a10a80922e4f26/LIBSTELL/Sources/Ezcdf/ezcdf_GenGet.f90:674:43:
+
+  674 |      status = nf_get_var_real(ncid, varid, varval)
+      |                                           1
+......
+ 1026 |   status = nf_get_var_real(ncid,varid,varval)
+      |                                      2     
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (scalar and rank-2)
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/STELLOPT-780f5db557eacc7ca1160f4ca5a10a80922e4f26/LIBSTELL/Sources/Ezcdf/ezcdf_GenGet.f90:559:45:
+
+  559 |      status = nf_get_var_double(ncid, varid, varval)
+      |                                             1
+......
+  983 |   status = nf_get_var_double(ncid,varid,varval)
+      |                                        2     
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (scalar and rank-2)
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/STELLOPT-780f5db557eacc7ca1160f4ca5a10a80922e4f26/LIBSTELL/Sources/Ezcdf/ezcdf_GenGet.f90:418:42:
+
+  418 |      status = nf_get_var_int(ncid, varid, varval)
+      |                                          1
+......
+  917 |   status = nf_get_var_int(ncid,varid,varval)
+      |                                     2     
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (scalar and rank-2)
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/STELLOPT-780f5db557eacc7ca1160f4ca5a10a80922e4f26/LIBSTELL/Sources/Ezcdf/ezcdf_GenGet.f90:425:42:
+
+  425 |      status = nf_get_var_int(ncid, varid, temp)
+      |                                          1
+......
+  917 |   status = nf_get_var_int(ncid,varid,varval)
+      |                                     2     
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (scalar and rank-2)
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/STELLOPT-780f5db557eacc7ca1160f4ca5a10a80922e4f26/LIBSTELL/Sources/Ezcdf/ezcdf_GenGet.f90:352:43:
+
+  352 |      status = nf_get_var_real(ncid, varid, varval)
+      |                                           1
+......
+ 1026 |   status = nf_get_var_real(ncid,varid,varval)
+      |                                      2     
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (scalar and rank-3)
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/STELLOPT-780f5db557eacc7ca1160f4ca5a10a80922e4f26/LIBSTELL/Sources/Ezcdf/ezcdf_GenGet.f90:226:45:
+
+  226 |      status = nf_get_var_double(ncid, varid, varval)
+      |                                             1
+......
+  983 |   status = nf_get_var_double(ncid,varid,varval)
+      |                                        2     
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (scalar and rank-3)
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/STELLOPT-780f5db557eacc7ca1160f4ca5a10a80922e4f26/LIBSTELL/Sources/Ezcdf/ezcdf_GenGet.f90:73:42:
+
+   73 |      status = nf_get_var_int(ncid, varid, varval)
+      |                                          1
+......
+  917 |   status = nf_get_var_int(ncid,varid,varval)
+      |                                     2     
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (scalar and rank-3)
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/STELLOPT-780f5db557eacc7ca1160f4ca5a10a80922e4f26/LIBSTELL/Sources/Ezcdf/ezcdf_GenGet.f90:80:42:
+
+   80 |      status = nf_get_var_int(ncid, varid, temp)
+      |                                          1
+......
+  917 |   status = nf_get_var_int(ncid,varid,varval)
+      |                                     2     
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (scalar and rank-3)

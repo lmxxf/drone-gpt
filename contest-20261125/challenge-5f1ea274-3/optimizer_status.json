@@ -1,0 +1,13 @@
+{
+  "success": false,
+  "message": "Return from COBYLA because the objective function has been evaluated MAXFUN times.",
+  "x": [
+    1.0837399057564632,
+    1.0037697810703525,
+    0.9644661970753774,
+    1.0382238218532092
+  ],
+  "fun": 5.5374704980289975,
+  "nfev": 24,
+  "full_verified": false
+}

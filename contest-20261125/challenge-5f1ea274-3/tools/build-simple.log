@@ -1,0 +1,1086 @@
+[  0%] Building Fortran object libneo/src/util/CMakeFiles/neo_util.dir/libneo_kinds.f90.o
+[  0%] Building Fortran object _deps/fortio-build/CMakeFiles/fortio.dir/src/fortio_posix.f90.o
+[  0%] Building Fortran object libneo/src/interpolate/CMakeFiles/interpolate.dir/acc_spline_build_order5.f90.o
+[  0%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_dawson_outer_kernel.f90.o
+[  0%] Building Fortran object libneo/src/util/CMakeFiles/neo_util.dir/rusage_type.f90.o
+[  0%] Building Fortran object _deps/fortio-build/CMakeFiles/fortio.dir/src/fortio_status.f90.o
+[  0%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/fortnum_kinds.f90.o
+[  0%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/fortnum_status.f90.o
+[  1%] Building Fortran object libneo/src/util/CMakeFiles/neo_util.dir/simpson_integration.f90.o
+[  2%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/quadrature/fortnum_integrate_gk.f90.o
+[  2%] Building Fortran object _deps/fortio-build/CMakeFiles/fortio.dir/src/fortio_deflate_checksums.f90.o
+[  2%] Building C object libneo/src/util/CMakeFiles/neo_util.dir/local_rusage.c.o
+[  2%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/fortnum_ad_backend.f90.o
+[  3%] Building Fortran object _deps/fortio-build/CMakeFiles/fortio.dir/src/fortio_checksum.f90.o
+[  3%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_det2_jvp_fortad.f90.o
+[  3%] Building Fortran object libneo/src/util/CMakeFiles/neo_util.dir/system_utility.f90.o
+[  3%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_det2_vjp_fortad.f90.o
+[  3%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_det3_jvp_fortad.f90.o
+[  3%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_det3_vjp_fortad.f90.o
+[  3%] Building C object _deps/fortio-build/CMakeFiles/fortio.dir/src/fortio_posix_io.c.o
+[  3%] Building Fortran object libneo/src/util/CMakeFiles/neo_util.dir/util.f90.o
+[  3%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_inv2_jvp_fortad.f90.o
+[  3%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_det2_jvp_kernel.f90.o
+[  4%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_det2_vjp_kernel.f90.o
+[  4%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_det3_jvp_kernel.f90.o
+[  4%] Building C object _deps/fortio-build/CMakeFiles/fortio.dir/src/fortio_deflate.c.o
+[  4%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_det3_vjp_kernel.f90.o
+[  4%] Building Fortran object libneo/src/util/CMakeFiles/neo_util.dir/arnoldi.f90.o
+[  4%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_inv2_jvp_kernel.f90.o
+[  5%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_inv2_vjp_kernel.f90.o
+[  5%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_inv3_jvp_kernel.f90.o
+[  5%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_inv3_vjp_kernel.f90.o
+[  6%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_rk54_ck_tableau.f90.o
+[  6%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_dop853_tableau.f90.o
+[  6%] Building Fortran object libneo/src/interpolate/CMakeFiles/interpolate.dir/batch_interpolate_types.f90.o
+[  6%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_erf_jvp_kernel.f90.o
+[  6%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_erf_vjp_kernel.f90.o
+[  6%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_erfc_jvp_kernel.f90.o
+[  8%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_erfc_vjp_kernel.f90.o
+[  8%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/special/fortnum_special_gamma.f90.o
+[  8%] Building Fortran object libneo/src/interpolate/CMakeFiles/interpolate.dir/cgls_dense.f90.o
+[  8%] Building Fortran object _deps/fortio-build/CMakeFiles/fortio.dir/src/fortio_bytes.f90.o
+[  9%] Building Fortran object libneo/src/util/CMakeFiles/neo_util.dir/binsrc.f90.o
+[  9%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/fortnum_version.f90.o
+[  9%] Building Fortran object libneo/src/util/CMakeFiles/neo_util.dir/math_constants.f90.o
+[  9%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_dawson_outer_value_jvp_fortad.f90.o
+[  9%] Building Fortran object libneo/src/util/CMakeFiles/neo_util.dir/plag_coeff.f90.o
+[ 10%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_dawson_outer_value_vjp_fortad.f90.o
+[ 11%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_erf_jvp_fortad.f90.o
+[ 11%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_erf_vjp_fortad.f90.o
+[ 11%] Building Fortran object _deps/fortio-build/CMakeFiles/fortio.dir/src/fortio_deflate_compress.f90.o
+[ 11%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_erfc_jvp_fortad.f90.o
+[ 11%] Linking Fortran static library libneo_util.a
+[ 11%] Building Fortran object _deps/fortio-build/CMakeFiles/fortio.dir/src/fortio_netcdf_classic.f90.o
+[ 11%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_erfc_vjp_fortad.f90.o
+[ 11%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_hypergeom_2f1_term_jvp_fortad.f90.o
+[ 12%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_hypergeom_2f1_term_vjp_fortad.f90.o
+[ 12%] Built target neo_util
+[ 12%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_implicit_root_residual_jvp_fortad.f90.o
+[ 12%] Building Fortran object libneo/src/polylag/CMakeFiles/neo_polylag.dir/polylag_5.f90.o
+[ 12%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_implicit_root_residual_vjp_fortad.f90.o
+[ 12%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_lagrange4_jvp_fortad.f90.o
+[ 12%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_lagrange4_vjp_fortad.f90.o
+[ 12%] Built target neo_polylag
+[ 13%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_legendre_recurrence_derivative_jvp_fortad.f90.o
+[ 13%] Building Fortran object libneo/src/odeint/CMakeFiles/odeint.dir/odeint_allroutines.f90.o
+[ 13%] Building Fortran object libneo/src/interpolate/CMakeFiles/interpolate.dir/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/libneo-f1bef44e80c4508f04594d4d2ca120eaf17564f8/src/spl_three_to_five.f90.o
+[ 13%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_legendre_recurrence_derivative_vjp_fortad.f90.o
+[ 13%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_legendre_recurrence_jvp_fortad.f90.o
+[ 13%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_legendre_recurrence_vjp_fortad.f90.o
+[ 13%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_multi_input_p16_jvp_fortad.f90.o
+[ 15%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_multi_input_p16_vjp_fortad.f90.o
+[ 15%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_multi_input_p2_jvp_fortad.f90.o
+[ 15%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_multi_input_p2_vjp_fortad.f90.o
+[ 15%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_multi_input_p4_jvp_fortad.f90.o
+[ 15%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_multi_input_p4_vjp_fortad.f90.o
+[ 15%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_multi_input_p8_jvp_fortad.f90.o
+[ 16%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_multi_input_p8_vjp_fortad.f90.o
+[ 16%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_scalar_root_residual_jvp_fortad.f90.o
+[ 16%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_scalar_root_residual_vjp_fortad.f90.o
+[ 16%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_scaled_jacobi_recurrence_jvp_fortad.f90.o
+[ 16%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_scaled_jacobi_recurrence_vjp_fortad.f90.o
+[ 17%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_sqrt1pm1_raw_jvp_fortad.f90.o
+[ 17%] Building Fortran object _deps/fortio-build/CMakeFiles/fortio.dir/src/fortio_deflate_decompress.f90.o
+[ 17%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_sqrt1pm1_raw_vjp_fortad.f90.o
+[ 17%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_sqrt1pm1_stable_jvp_fortad.f90.o
+[ 17%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_sqrt1pm1_stable_vjp_fortad.f90.o
+[ 17%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_toroidal_order_jvp_fortad.f90.o
+[ 17%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_toroidal_order_vjp_fortad.f90.o
+[ 17%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_bessel_outer_jvp_kernel.f90.o
+[ 18%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_dawson_outer_jvp_kernel.f90.o
+[ 18%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_dawson_outer_value_kernel.f90.o
+[ 18%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_dawson_outer_value_vjp_kernel.f90.o
+[ 18%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_dawson_outer_vjp_kernel.f90.o
+[ 18%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_hyperg_asymptotic_outer_jvp_kernel.f90.o
+[ 18%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_hyperg_asymptotic_outer_vjp_kernel.f90.o
+[ 18%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_hypergeom_2f1_term_kernel.f90.o
+[ 18%] Building Fortran object libneo/src/interpolate/CMakeFiles/interpolate.dir/batch_interpolate_1d.f90.o
+[ 18%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_implicit_root_residual_kernel.f90.o
+[ 18%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_jacobi_recurrence_kernel.f90.o
+[ 18%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_legendre_recurrence_kernel.f90.o
+[ 18%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_rk54_ck_finish_kernel.f90.o
+[ 18%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_rk54_ck_stage2_kernel.f90.o
+[ 18%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_rk54_ck_stage3_kernel.f90.o
+[ 18%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_rk54_ck_stage4_kernel.f90.o
+[ 19%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_rk54_ck_stage5_kernel.f90.o
+[ 19%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_rk54_ck_stage6_kernel.f90.o
+[ 19%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_rk54_dp_finish_kernel.f90.o
+[ 19%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_rk54_dp_stage2_kernel.f90.o
+[ 19%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_rk54_dp_stage3_kernel.f90.o
+[ 19%] Building Fortran object _deps/fortio-build/CMakeFiles/fortio.dir/src/fortio_compression.f90.o
+[ 19%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_rk54_dp_stage4_kernel.f90.o
+[ 20%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_rk54_dp_stage5_kernel.f90.o
+[ 20%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_rk54_dp_stage6_kernel.f90.o
+[ 20%] Linking Fortran static library libodeint.a
+[ 20%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_rk54_dp_stage7_kernel.f90.o
+[ 20%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_scalar_root_residual_jvp_kernel.f90.o
+[ 22%] Building Fortran object _deps/fortio-build/CMakeFiles/fortio.dir/src/fortio_deflate.f90.o
+[ 22%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_scalar_root_residual_vjp_kernel.f90.o
+[ 22%] Built target odeint
+[ 23%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_scaled_jacobi_gradient_recurrence_kernel.f90.o
+[ 24%] Building Fortran object libneo/src/field/CMakeFiles/field_base.dir/field_base.f90.o
+[ 24%] Linking Fortran static library libfield_base.a
+[ 24%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_scaled_jacobi_hessian_recurrence_kernel.f90.o
+[ 24%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_scaled_jacobi_recurrence_kernel.f90.o
+[ 24%] Built target field_base
+[ 24%] Building Fortran object libneo/src/interpolate/CMakeFiles/interpolate.dir/batch_interpolate_2d.f90.o
+[ 24%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_sqrt1pm1_raw_kernel.f90.o
+[ 24%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_sqrt1pm1_stable_kernel.f90.o
+[ 25%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_toroidal_order_kernel.f90.o
+[ 25%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_vector_root_residual_jacobian_kernel.f90.o
+[ 25%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_vector_root_residual_jvp_kernel.f90.o
+[ 25%] Building Fortran object _deps/fortio-build/CMakeFiles/fortio.dir/src/fortio_zip.f90.o
+[ 25%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortnum_vector_root_residual_vjp_kernel.f90.o
+[ 25%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/dawson_outer_value.f90.o
+[ 26%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/det2.f90.o
+[ 26%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/det3.f90.o
+[ 26%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/erf.f90.o
+[ 26%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/erfc.f90.o
+[ 26%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/fortnum_dot_sin_primal.f90.o
+[ 27%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/hypergeom_2f1_term.f90.o
+[ 27%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/implicit_root_residual.f90.o
+[ 27%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/inv2.f90.o
+[ 27%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/lagrange4.f90.o
+[ 27%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/legendre_recurrence.f90.o
+[ 29%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/multi_input_p16.f90.o
+[ 29%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/multi_input_p2.f90.o
+[ 29%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/multi_input_p4.f90.o
+[ 29%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/multi_input_p8.f90.o
+[ 29%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/scalar_root_residual.f90.o
+[ 30%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/scaled_jacobi_recurrence.f90.o
+[ 30%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/sqrt1pm1_raw.f90.o
+[ 30%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/sqrt1pm1_stable.f90.o
+[ 30%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/generated/fortad/toroidal_order.f90.o
+[ 31%] Building Fortran object _deps/fortio-build/CMakeFiles/fortio.dir/src/fortio_hdf5_writer.f90.o
+[ 31%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/quadrature/fortnum_levin.f90.o
+[ 31%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/quadrature/fortnum_quadrature.f90.o
+[ 32%] Building Fortran object libneo/src/interpolate/CMakeFiles/interpolate.dir/batch_interpolate_3d.f90.o
+[ 32%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/roots/fortnum_roots.f90.o
+[ 32%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/special/fortnum_special_bessel.f90.o
+[ 33%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/special/fortnum_special_complex_bessel.f90.o
+[ 33%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/special/fortnum_special_hypergeometric_1f1.f90.o
+[ 34%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/fft/fortnum_fft8_kernel.f90.o
+[ 34%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/interp/fortnum_interp.f90.o
+[ 34%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/interp/fortnum_polynomial.f90.o
+[ 34%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/linalg/fortnum_cholesky.f90.o
+[ 34%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/linalg/fortnum_krylov.f90.o
+[ 36%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/linalg/fortnum_tensor_product.f90.o
+[ 36%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/ode/fortnum_ode_rk54_device.f90.o
+[ 36%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/rng/fortnum_rng.f90.o
+[ 36%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/roots/fortnum_roots_complex.f90.o
+[ 36%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/special/fortnum_special_jacobi.f90.o
+[ 37%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/special/fortnum_special_legendre.f90.o
+[ 37%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/special/fortnum_special_toroidal.f90.o
+[ 37%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/testing/fortnum_oracle.f90.o
+[ 37%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/__/generated/fortnum_build_selection.f90.o
+[ 37%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/ad/fortnum_active_vector.f90.o
+[ 37%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/ad/fortnum_ad_interfaces.f90.o
+[ 37%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/quadrature/fortnum_integrate.f90.o
+[ 37%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/linalg/fortnum_linalg.f90.o
+[ 37%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/ode/fortnum_ode_cash_karp.f90.o
+[ 37%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/special/fortnum_special_erf_cbind.f90.o
+[ 37%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/special/fortnum_special_dawson.f90.o
+[ 37%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/interp/fortnum_bspline.f90.o
+[ 37%] Building Fortran object _deps/fortio-build/CMakeFiles/fortio.dir/src/fortio_hdf5_reader.f90.o
+[ 37%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/fft/fortnum_fft.f90.o
+[ 37%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/quadrature/fortnum_cquad.f90.o
+[ 37%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/roots/fortnum_multiroot_rc.f90.o
+[ 37%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/special/fortnum_special_spherical.f90.o
+[ 38%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/ad/fortnum_derivative_registry.f90.o
+[ 39%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/roots/fortnum_multiroot.f90.o
+[ 39%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/ode/fortnum_ode.f90.o
+[ 39%] Building Fortran object _deps/fortio-build/CMakeFiles/fortio.dir/src/fortio_netcdf_writer.f90.o
+[ 39%] Building Fortran object libneo/src/interpolate/CMakeFiles/interpolate.dir/batch_interpolate.f90.o
+[ 39%] Building Fortran object libneo/src/interpolate/CMakeFiles/interpolate.dir/interpolate.f90.o
+[ 40%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/interp/fortnum_bspline_lsq.f90.o
+[ 40%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/linalg/fortnum_toeplitz.f90.o
+[ 40%] Building Fortran object _deps/fortio-build/CMakeFiles/fortio.dir/src/fortio.f90.o
+[ 40%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/bindings/fortnum_capi_bspline.f90.o
+[ 41%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/ode/fortnum_ode_rk8pd.f90.o
+[ 41%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/ode/fortnum_ode_ddeabm.f90.o
+[ 41%] Building Fortran object _deps/fortio-build/CMakeFiles/fortio.dir/src/netcdf.f90.o
+[ 41%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/ode/fortnum_ode_events.f90.o
+[ 41%] Linking Fortran static library libinterpolate.a
+[ 41%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/ode/fortnum_ode_extrapolation.f90.o
+[ 41%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/ode/fortnum_ode_gauss_radau.f90.o
+[ 41%] Built target interpolate
+[ 41%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/ode/fortnum_ode_tdrk.f90.o
+[ 41%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/ode/fortnum_ode_vode.f90.o
+[ 41%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/ode/fortnum_ode_wrapper.f90.o
+[ 41%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/roots/fortnum_fixed_point.f90.o
+[ 41%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/special/fortnum_special.f90.o
+[ 43%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/ode/fortnum_ode_dop853.f90.o
+[ 43%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/bindings/fortnum_capi_rk8pd.f90.o
+[ 43%] Building Fortran object _deps/fortnum-build/src/CMakeFiles/fortnum.dir/bindings/fortnum_capi.f90.o
+[ 43%] Linking Fortran static library ../lib/libfortnum.a
+[ 43%] Built target fortnum
+[ 43%] Building Fortran object _deps/fortio-build/CMakeFiles/fortio.dir/src/hdf5_tools.f90.o
+[ 44%] Building Fortran object _deps/fortio-build/CMakeFiles/fortio.dir/src/hdf5_tools_f2003.f90.o
+[ 43%] Building Fortran object _deps/fortio-build/CMakeFiles/fortio.dir/src/h5lt.f90.o
+[ 44%] Linking Fortran static library libfortio.a
+[ 44%] Built target fortio
+[ 44%] Building Fortran object libneo/CMakeFiles/spectre_support.dir/src/spectre/spectre_reader.f90.o
+[ 44%] Building Fortran object CMakeFiles/pyplot.dir/thirdparty/pyplot_module.F90.o
+[ 66%] Building Fortran object libneo/src/nctools/CMakeFiles/nctools.dir/nctools_module.f90.o
+[ 72%] Built target fortplot
+[ 72%] Building Fortran object libneo/src/field/CMakeFiles/neo_field.dir/biotsavart.f90.o
+[ 72%] Building Fortran object libneo/src/field/CMakeFiles/neo_field.dir/circular_tokamak_field.f90.o
+[ 72%] Building Fortran object libneo/src/field/CMakeFiles/neo_field.dir/example_field.f90.o
+[ 72%] Building Fortran object libneo/src/field/CMakeFiles/neo_field.dir/mesh.f90.o
+[ 72%] Building Fortran object libneo/CMakeFiles/spectre_support.dir/src/spectre/spectre_basis.f90.o
+[ 72%] Building Fortran object libneo/src/field/CMakeFiles/neo_field.dir/mesh_2d.f90.o
+[ 72%] Linking Fortran static library libnctools.a
+[ 72%] Built target nctools
+[ 73%] Building Fortran object libneo/src/field/CMakeFiles/neo_field.dir/biotsavart_field.f90.o
+[ 73%] Building Fortran object libneo/src/vmec_support/CMakeFiles/vmec_support.dir/canonical_coordinates_mod.f90.o
+[ 73%] Building Fortran object libneo/src/vmec_support/CMakeFiles/vmec_support.dir/new_vmec_allocation_stuff.f90.o
+[ 73%] Linking Fortran static library libspectre_support.a
+[ 73%] Building Fortran object libneo/src/field/CMakeFiles/neo_field.dir/field_mesh.f90.o
+[ 73%] Built target spectre_support
+[ 74%] Building Fortran object libneo/src/vmec_support/CMakeFiles/vmec_support.dir/vmecinm_m.f90.o
+[ 74%] Building Fortran object libneo/src/field/CMakeFiles/neo_field.dir/spline_field.f90.o
+[ 74%] Building Fortran object libneo/src/vmec_support/CMakeFiles/vmec_support.dir/spline_vmec_data.f90.o
+[ 74%] Building Fortran object libneo/src/field/CMakeFiles/neo_field.dir/polylag_field.f90.o
+[ 74%] Building Fortran object libneo/src/field/CMakeFiles/neo_field.dir/mgrid.f90.o
+[ 75%] Linking Fortran static library libpyplot.a
+[ 75%] Built target pyplot
+[ 76%] Building Fortran object libneo/src/field/CMakeFiles/neo_field.dir/field.f90.o
+[ 76%] Linking Fortran static library libneo_field.a
+[ 76%] Built target neo_field
+[ 76%] Building Fortran object libneo/src/vmec_support/CMakeFiles/vmec_support.dir/vmec_field_tools.f90.o
+[ 76%] Linking Fortran static library libvmec_support.a
+[ 76%] Built target vmec_support
+[ 76%] Building Fortran object libneo/src/coordinates/CMakeFiles/coordinates.dir/cylindrical_cartesian.f90.o
+[ 76%] Building Fortran object libneo/src/coordinates/CMakeFiles/coordinates.dir/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/libneo-f1bef44e80c4508f04594d4d2ca120eaf17564f8/src/magfie/geqdsk_tools.f90.o
+[ 76%] Building Fortran object libneo/src/coordinates/CMakeFiles/coordinates.dir/flux_pseudocartesian.f90.o
+[ 76%] Building Fortran object libneo/CMakeFiles/boozer.dir/src/boozer_chartmap_types.f90.o
+[ 76%] Building Fortran object libneo/src/coordinates/CMakeFiles/coordinates.dir/libneo_coordinate_conventions.f90.o
+[ 76%] Building Fortran object libneo/src/coordinates/CMakeFiles/coordinates.dir/libneo_coordinates_validator.f90.o
+[ 76%] Building Fortran object libneo/src/coordinates/CMakeFiles/coordinates.dir/vmec_coordinates.f90.o
+[ 76%] Building Fortran object libneo/CMakeFiles/boozer.dir/src/boozer_rk_tables.f90.o
+[ 76%] Building Fortran object libneo/CMakeFiles/boozer.dir/src/field/bc_file.f90.o
+[ 77%] Building Fortran object libneo/CMakeFiles/boozer.dir/src/field/boozmn_file.f90.o
+[ 77%] Building Fortran object libneo/src/coordinates/CMakeFiles/coordinates.dir/libneo_coordinates_base.f90.o
+[ 77%] Building Fortran object libneo/CMakeFiles/boozer.dir/src/field/boozer_chartmap_io.f90.o
+[ 77%] Building Fortran object libneo/CMakeFiles/boozer.dir/src/boozer_converter.F90.o
+[ 79%] Building Fortran object libneo/src/coordinates/CMakeFiles/coordinates.dir/geoflux_coordinates.f90.o
+[ 79%] Building Fortran object libneo/src/coordinates/CMakeFiles/coordinates.dir/libneo_coordinates_chartmap.f90.o
+[ 79%] Building Fortran object libneo/src/coordinates/CMakeFiles/coordinates.dir/libneo_coordinates_file_detection.f90.o
+[ 79%] Building Fortran object libneo/src/coordinates/CMakeFiles/coordinates.dir/libneo_coordinates_spectre.f90.o
+[ 79%] Building Fortran object libneo/src/coordinates/CMakeFiles/coordinates.dir/libneo_coordinates_vmec.f90.o
+[ 80%] Building Fortran object libneo/src/coordinates/CMakeFiles/coordinates.dir/libneo_coordinates_geoflux.f90.o
+[ 80%] Building Fortran object libneo/src/coordinates/CMakeFiles/coordinates.dir/libneo_coordinates.f90.o
+[ 81%] Building Fortran object libneo/src/coordinates/CMakeFiles/coordinates.dir/libneo_coordinates_mapping.f90.o
+[ 81%] Building Fortran object libneo/src/coordinates/CMakeFiles/coordinates.dir/libneo_chartmap_vmec_generator.f90.o
+[ 81%] Linking Fortran static library libcoordinates.a
+[ 81%] Built target coordinates
+[ 82%] Building Fortran object libneo/CMakeFiles/magnetic_field_base.dir/src/field/magnetic_field_base.f90.o
+[ 82%] Linking Fortran static library libmagnetic_field_base.a
+[ 82%] Built target magnetic_field_base
+[ 82%] Building Fortran object libneo/CMakeFiles/vmec_field.dir/src/field/vmec_field_eval.f90.o
+[ 82%] Building Fortran object libneo/CMakeFiles/spectre_field.dir/src/field/field_spectre.f90.o
+[ 83%] Building Fortran object libneo/CMakeFiles/vmec_field.dir/src/field/field_vmec.f90.o
+[ 83%] Linking Fortran static library libvmec_field.a
+[ 83%] Built target vmec_field
+[ 83%] Linking Fortran static library libspectre_field.a
+[ 83%] Built target spectre_field
+[ 83%] Building Fortran object libneo/CMakeFiles/boozer.dir/src/boozer_chartmap.f90.o
+[ 83%] Building Fortran object libneo/CMakeFiles/boozer.dir/src/field/boozmn_reader.f90.o
+[ 83%] Linking Fortran static library libboozer.a
+[ 83%] Built target boozer
+[ 83%] Building Fortran object src/CMakeFiles/simple.dir/callback.f90.o
+[ 83%] Building Fortran object src/CMakeFiles/simple.dir/__/version.f90.o
+[ 83%] Building Fortran object src/CMakeFiles/simple.dir/sorting_mod.f90.o
+[ 83%] Building Fortran object src/CMakeFiles/simple.dir/chamb_m.f90.o
+[ 84%] Building Fortran object src/CMakeFiles/simple.dir/coordinates/scaled_chartmap_coordinates.f90.o
+[ 84%] Building Fortran object src/CMakeFiles/simple.dir/coordinates/cartesian_coordinates.f90.o
+[ 84%] Building Fortran object src/CMakeFiles/simple.dir/coordinates/coordinate_scaling.f90.o
+[ 84%] Building Fortran object src/CMakeFiles/simple.dir/util.F90.o
+[ 84%] Building Fortran object src/CMakeFiles/simple.dir/field/field_can_base.f90.o
+[ 84%] Building Fortran object src/CMakeFiles/simple.dir/field/psi_transform.f90.o
+[ 84%] Building Fortran object src/CMakeFiles/simple.dir/coordinates/stencil_utils.f90.o
+[ 84%] Building Fortran object src/CMakeFiles/simple.dir/diag_counters.f90.o
+[ 86%] Building Fortran object src/CMakeFiles/simple.dir/profiles.f90.o
+[ 86%] Building Fortran object src/CMakeFiles/simple.dir/lapack_interfaces.f90.o
+[ 86%] Building Fortran object src/CMakeFiles/simple.dir/coordinates/array_utils.f90.o
+[ 86%] Building Fortran object src/CMakeFiles/simple.dir/coordinates/coordinates.f90.o
+[ 86%] Building Fortran object src/CMakeFiles/simple.dir/field_line_spectre.f90.o
+[ 86%] Building Fortran object src/CMakeFiles/simple.dir/wall/chartmap_metadata.f90.o
+[ 86%] Building Fortran object src/CMakeFiles/simple.dir/parse_ants.f90.o
+[ 87%] Building Fortran object src/CMakeFiles/simple.dir/wall/stl_wall_intersection.F90.o
+[ 87%] Building Fortran object src/CMakeFiles/simple.dir/timing.f90.o
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/wall/stl_wall_intersection.F90:143:31:
+
+  143 |         integer(c_int) :: hit_i
+      |                               1
+Warning: Unused variable ‘hit_i’ declared at (1) [-Wunused-variable]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/wall/stl_wall_intersection.F90:114:31:
+
+  114 |         integer(c_int) :: hit_i
+      |                               1
+Warning: Unused variable ‘hit_i’ declared at (1) [-Wunused-variable]
+f951: note: unrecognized command-line option ‘-Wno-external-argument-mismatch’ may have been intended to silence earlier diagnostics
+[ 87%] Building Fortran object src/CMakeFiles/simple.dir/sorting.f90.o
+[ 87%] Building Fortran object src/CMakeFiles/simple.dir/progress_monitor.f90.o
+[ 87%] Building Fortran object src/CMakeFiles/simple.dir/check_orbit_type.f90.o
+[ 87%] Building Fortran object src/CMakeFiles/simple.dir/field/field_boozer_chartmap.f90.o
+[ 87%] Building Fortran object src/CMakeFiles/simple.dir/field/field_coils.f90.o
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/check_orbit_type.f90:37:42:
+
+   37 |   double precision :: dummy,dt1,dt2,derfix,per,ds1,ds2
+      |                                          1
+Warning: Unused variable ‘derfix’ declared at (1) [-Wunused-variable]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/check_orbit_type.f90:37:50:
+
+   37 |   double precision :: dummy,dt1,dt2,derfix,per,ds1,ds2
+      |                                                  1
+Warning: Unused variable ‘ds1’ declared at (1) [-Wunused-variable]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/check_orbit_type.f90:37:54:
+
+   37 |   double precision :: dummy,dt1,dt2,derfix,per,ds1,ds2
+      |                                                      1
+Warning: Unused variable ‘ds2’ declared at (1) [-Wunused-variable]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/check_orbit_type.f90:37:27:
+
+   37 |   double precision :: dummy,dt1,dt2,derfix,per,ds1,ds2
+      |                           1
+Warning: Unused variable ‘dummy’ declared at (1) [-Wunused-variable]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/check_orbit_type.f90:38:55:
+
+   38 |   double precision :: theta_1,theta_2,theta_test,errint
+      |                                                       1
+Warning: Unused variable ‘errint’ declared at (1) [-Wunused-variable]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/check_orbit_type.f90:34:24:
+
+   34 |   integer :: nfp,iunit,i,j,k,ngroup,info,ierr,noline
+      |                        1
+Warning: Unused variable ‘i’ declared at (1) [-Wunused-variable]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/check_orbit_type.f90:35:17:
+
+   35 |   integer :: ibeg,iend,npl,nturnm1
+      |                 1
+Warning: Unused variable ‘ibeg’ declared at (1) [-Wunused-variable]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/check_orbit_type.f90:35:22:
+
+   35 |   integer :: ibeg,iend,npl,nturnm1
+      |                      1
+Warning: Unused variable ‘iend’ declared at (1) [-Wunused-variable]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/check_orbit_type.f90:34:40:
+
+   34 |   integer :: nfp,iunit,i,j,k,ngroup,info,ierr,noline
+      |                                        1
+Warning: Unused variable ‘info’ declared at (1) [-Wunused-variable]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/check_orbit_type.f90:34:22:
+
+   34 |   integer :: nfp,iunit,i,j,k,ngroup,info,ierr,noline
+      |                      1
+Warning: Unused variable ‘iunit’ declared at (1) [-Wunused-variable]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/check_orbit_type.f90:34:35:
+
+   34 |   integer :: nfp,iunit,i,j,k,ngroup,info,ierr,noline
+      |                                   1
+Warning: Unused variable ‘ngroup’ declared at (1) [-Wunused-variable]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/check_orbit_type.f90:35:26:
+
+   35 |   integer :: ibeg,iend,npl,nturnm1
+      |                          1
+Warning: Unused variable ‘npl’ declared at (1) [-Wunused-variable]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/check_orbit_type.f90:37:46:
+
+   37 |   double precision :: dummy,dt1,dt2,derfix,per,ds1,ds2
+      |                                              1
+Warning: Unused variable ‘per’ declared at (1) [-Wunused-variable]
+[ 87%] Building Fortran object src/CMakeFiles/simple.dir/field/field_can_boozer.f90.o
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/field/field_can_boozer.f90:162:12:
+
+  162 |         use boozer_sub, only: splint_boozer_coord_device, boozer_state, &
+      |            1
+Warning: Unused module variable ‘boozer_state’ which has been explicitly imported at (1) [-Wunused-variable]
+f951: note: unrecognized command-line option ‘-Wno-external-argument-mismatch’ may have been intended to silence earlier diagnostics
+[ 87%] Building Fortran object src/CMakeFiles/simple.dir/field/field_can_test.f90.o
+[ 87%] Building Fortran object src/CMakeFiles/simple.dir/collis_alphas.f90.o
+f951: note: unrecognized command-line option ‘-Wno-external-argument-mismatch’ may have been intended to silence earlier diagnostics
+[ 87%] Building Fortran object src/CMakeFiles/simple.dir/field/field_splined.f90.o
+[ 87%] Building Fortran object src/CMakeFiles/simple.dir/coordinates/reference_coordinates.f90.o
+[ 87%] Building Fortran object src/CMakeFiles/simple.dir/field.F90.o
+[ 88%] Building Fortran object src/CMakeFiles/simple.dir/field/field_newton.F90.o
+[ 89%] Building Fortran object src/CMakeFiles/simple.dir/field/field_can_meiss.f90.o
+[ 90%] Building Fortran object src/CMakeFiles/simple.dir/get_canonical_coordinates.F90.o
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/get_canonical_coordinates.F90:484:29:
+
+  484 |     subroutine print_progress(message, progress, total)
+      |                             ^
+Warning: ‘print_progress’ defined but not used [-Wunused-function]
+f951: note: unrecognized command-line option ‘-Wno-external-argument-mismatch’ may have been intended to silence earlier diagnostics
+[ 90%] Building Fortran object src/CMakeFiles/simple.dir/field/field_can_albert.f90.o
+[ 91%] Building Fortran object src/CMakeFiles/simple.dir/diag/diag_meiss.f90.o
+[ 91%] Building Fortran object src/CMakeFiles/simple.dir/field/field_can_flux.f90.o
+[ 91%] Building Fortran object src/CMakeFiles/simple.dir/magfie_can_boozer.f90.o
+[ 91%] Building Fortran object src/CMakeFiles/simple.dir/magfie.f90.o
+[ 91%] Building Fortran object src/CMakeFiles/simple.dir/diag/diag_albert.f90.o
+[ 91%] Building Fortran object src/CMakeFiles/simple.dir/field/field_can_spectre.f90.o
+[ 91%] Building Fortran object src/CMakeFiles/simple.dir/find_bminmax.f90.o
+[ 91%] Building Fortran object src/CMakeFiles/simple.dir/interface_crossing.f90.o
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/field/field_can_spectre.f90:306:16:
+
+  306 |             if (dr_out /= 0.0_dp) then
+      |                1
+Warning: Inequality comparison for REAL(8) at (1) [-Wcompare-reals]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/field/field_can_spectre.f90:317:16:
+
+  317 |             if (dr_out /= 0.0_dp) then
+      |                1
+Warning: Inequality comparison for REAL(8) at (1) [-Wcompare-reals]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/interface_crossing.f90:437:16:
+
+  437 |             if (gm_loc == 0.0_dp) then
+      |                1
+Warning: Equality comparison for REAL(8) at (1) [-Wcompare-reals]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/field/field_can_spectre.f90:293:26:
+
+  293 |         integer :: lvol, k
+      |                          1
+Warning: Unused variable ‘k’ declared at (1) [-Wunused-variable]
+[ 91%] Building Fortran object src/CMakeFiles/simple.dir/magfie_wrapper.f90.o
+[ 91%] Building Fortran object src/CMakeFiles/simple.dir/spectre_fo_hybrid.f90.o
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/spectre_fo_hybrid.f90:420:16:
+
+  420 |             if (ue(1) == real(owner, dp)) ue(1) = ue(1) - OWNER_EPS
+      |                1
+Warning: Equality comparison for REAL(8) at (1) [-Wcompare-reals]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/spectre_fo_hybrid.f90:338:16:
+
+  338 |             if (f1 == 0.0_dp) then
+      |                1
+Warning: Equality comparison for REAL(8) at (1) [-Wcompare-reals]
+f951: note: unrecognized command-line option ‘-Wno-external-argument-mismatch’ may have been intended to silence earlier diagnostics
+[ 93%] Building Fortran object src/CMakeFiles/simple.dir/spectre_sheet_gc.f90.o
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/spectre_sheet_gc.f90:150:16:
+
+  150 |             .or. rho0 == 0.0_dp) then
+      |                1
+Warning: Equality comparison for REAL(8) at (1) [-Wcompare-reals]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/spectre_sheet_gc.f90:217:12:
+
+  217 |         if (rho0 == 0.0_dp) then
+      |            1
+Warning: Equality comparison for REAL(8) at (1) [-Wcompare-reals]
+f951: note: unrecognized command-line option ‘-Wno-external-argument-mismatch’ may have been intended to silence earlier diagnostics
+[ 94%] Building Fortran object src/CMakeFiles/simple.dir/field_can.f90.o
+f951: note: unrecognized command-line option ‘-Wno-external-argument-mismatch’ may have been intended to silence earlier diagnostics
+[ 94%] Building Fortran object src/CMakeFiles/simple.dir/orbit_fo_field.f90.o
+[ 94%] Building Fortran object src/CMakeFiles/simple.dir/sub_alpha_lifetime_can.f90.o
+[ 94%] Building Fortran object src/CMakeFiles/simple.dir/orbit_symplectic_base.f90.o
+[ 94%] Building Fortran object src/CMakeFiles/simple.dir/orbit_fo_boris.f90.o
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/orbit_fo_boris.f90:686:19:
+
+  686 |     jacobian_ok = (det == det) .and. abs(det) > 1.0e-8_dp*max(scale, 1.0e-30_dp)**3
+      |                   1
+Warning: Equality comparison for REAL(8) at (1) [-Wcompare-reals]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/orbit_fo_boris.f90:463:21:
+
+  463 |     call locate(x_p, u_p, u_p, bhat, eperp, Bmod, status, reference_field)
+      |                     1
+Warning: Same actual argument associated with INTENT(IN) argument ‘u_guess’ and INTENT(OUT) argument ‘u_out’ at (1)
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/orbit_fo_boris.f90:178:10:
+
+  178 |       if (rnew >= rn) then   ! line search could not improve -> stalled at the floor
+      |          ^
+Warning: ‘rnew’ may be used uninitialized [-Wmaybe-uninitialized]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/orbit_fo_boris.f90:133:66:
+
+  133 |     real(dp) :: w(3), wt(3), ut(3), dw(3), cth, sth, rho, rn, rnew, alpha
+      |                                                                  ^
+note: ‘rnew’ was declared here
+f951: note: unrecognized command-line option ‘-Wno-external-argument-mismatch’ may have been intended to silence earlier diagnostics
+f951: note: unrecognized command-line option ‘-Wno-external-argument-mismatch’ may have been intended to silence earlier diagnostics
+[ 94%] Building Fortran object src/CMakeFiles/simple.dir/orbit_rk_core.f90.o
+[ 94%] Building Fortran object src/CMakeFiles/simple.dir/orbit_symplectic_euler1.f90.o
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/orbit_symplectic_euler1.f90:70:20:
+
+   70 |     linear_failed = matrix_scale == 0d0 .or. &
+      |                    1
+Warning: Equality comparison for REAL(8) at (1) [-Wcompare-reals]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/orbit_symplectic_euler1.f90:79:12:
+
+   79 |     if (all(fjac /= 0d0)) then
+      |            1
+Warning: Inequality comparison for REAL(8) at (1) [-Wcompare-reals]
+[ 94%] Building Fortran object src/CMakeFiles/simple.dir/orbit_symplectic_quasi.f90.o
+f951: note: unrecognized command-line option ‘-Wno-external-argument-mismatch’ may have been intended to silence earlier diagnostics
+[ 94%] Building Fortran object src/CMakeFiles/simple.dir/params.f90.o
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:67:2:
+
+   67 |             integer :: ntau ! number of dtaumin in dtau
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:68:2:
+
+   68 |             integer(8) :: n_microsteps_total = 0_8
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:69:2:
+
+   69 |             character(16) :: macrostep_time_grid = 'linear'
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:70:2:
+
+   70 |             integer, allocatable :: ntau_macro(:)
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:71:2:
+
+   71 |             integer(8), allocatable :: kt_macro(:)
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:200:2:
+
+  200 |                 facE_al, npoiper2, n_e, n_d, netcdffile, ns_s, ns_tp, multharm, &
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:201:2:
+
+  201 |                 isw_field_type, generate_start_only, startmode, grid_density, &
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:207:2:
+
+  207 |                 symplectic_newton_warning_mode, &
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:208:2:
+
+  208 |                 boundary_event_fraction_tolerance, boundary_event_radial_tolerance, &
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:209:2:
+
+  209 |                 canonical_grid_nr, canonical_grid_ntheta, canonical_grid_nphi, &
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:210:2:
+
+  210 |                 canonical_ode_relerr, &
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:211:2:
+
+  211 |                 tcut, nturns, debug, &
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:212:2:
+
+  212 |                 class_plot, cut_in_per, fast_class, vmec_B_scale, &
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:213:2:
+
+  213 |                 vmec_RZ_scale, swcoll, deterministic, old_axis_healing, &
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:214:2:
+
+  214 |                 old_axis_healing_boundary, axis_healing_power_law, rho_axis_heal, &
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:215:2:
+
+  215 |                 axis_healing, s_axis_heal, axis_healing_polyfit_degree, &
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:216:2:
+
+  216 |                 am1, am2, Z1, Z2, &
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:217:2:
+
+  217 |                 densi1, densi2, tempi1, tempi2, tempe, &
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:218:2:
+
+  218 |                 batch_size, ran_seed, reuse_batch, field_input, coord_input, &
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:219:2:
+
+  219 |                 wall_input, wall_units, chart_boundary_kind, integ_coords, crossing_level, &
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:220:2:
+
+  220 |                 spectre_sbeg_is_toroidal_flux, spectre_ncon_r, spectre_ncon_th, &
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:221:2:
+
+  221 |                 spectre_ncon_phi, spectre_ncon_order, spectre_ncon_ode_max_steps, &
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:222:2:
+
+  222 |                 spectre_ncon_ode_relerr, &
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:224:2:
+
+  224 |                 output_error, output_orbits_macrostep, &  ! callback
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:225:2:
+
+  225 |                 macrostep_time_grid, checkpoint_interval, restart
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:350:2:
+
+  350 |             subroutine params_init
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:351:2:
+
+  351 |                 real(dp) :: E_alpha
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:352:2:
+
+  352 |                 integer :: L1i
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:353:2:
+
+  353 |                 real(dp) :: weight_sum, cumul_weight, w
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:354:2:
+
+  354 |                 integer :: i, nintv
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:355:2:
+
+  355 |                 integer(8) :: kt_target, kt_prev
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:356:2:
+
+  356 |                 character(16) :: grid_kind
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:358:2:
+
+  358 |                 if (isw_field_type == TEST) then
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:366:2:
+
+  366 |                     dtau = tau/dble(ntimstep - 1)
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:370:2:
+
+  370 |                     dtaumin = 2.d0*pi*rbig/npoiper2
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:371:2:
+
+  371 |                     ntau = ceiling(dtau/dtaumin)
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:372:2:
+
+  372 |                     dtaumin = dtau/ntau
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:373:2:
+
+  373 |                     fper = 2d0*pi       ! Full torus
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:374:2:
+
+  374 |                 else
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:385:2:
+
+  385 |                     dtau = tau/dble(ntimstep - 1)
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:392:2:
+
+  392 |                     dtaumin = 2.d0*pi*rbig/npoiper2
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:393:2:
+
+  393 |                     ntau = ceiling(dtau/dtaumin)
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:394:2:
+
+  394 |                     dtaumin = dtau/ntau
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:395:2:
+
+  395 |                     fper = 2d0*pi/dble(L1i)
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:396:2:
+
+  396 |                 end if
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:403:2:
+
+  403 |                 nintv = max(1, ntimstep - 1)
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:404:2:
+
+  404 |                 n_microsteps_total = int(nintv, kind=8) * int(ntau, kind=8)
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:405:2:
+
+  405 |                 if (allocated(ntau_macro)) deallocate(ntau_macro)
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:406:2:
+
+  406 |                 if (allocated(kt_macro)) deallocate(kt_macro)
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:407:2:
+
+  407 |                 allocate (ntau_macro(ntimstep))
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:408:2:
+
+  408 |                 allocate (kt_macro(ntimstep))
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:409:2:
+
+  409 |                 ntau_macro = 0
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:410:2:
+
+  410 |                 kt_macro = 0_8
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:412:2:
+
+  412 |                 grid_kind = to_lower(macrostep_time_grid)
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:413:2:
+
+  413 |                 if (trim(grid_kind) == 'log') then
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:420:2:
+
+  420 |                     weight_sum = 0.0d0
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:421:2:
+
+  421 |                     do i = 1, nintv
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:422:2:
+
+  422 |                         weight_sum = weight_sum + 10.0d0 ** (dble(i - 1) / dble(max(1, nintv - 1)))
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:423:2:
+
+  423 |                     end do
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:427:2:
+
+  427 |                     cumul_weight = 0.0d0
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:428:2:
+
+  428 |                     kt_prev = 0_8
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:429:2:
+
+  429 |                     do i = 1, nintv
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:430:2:
+
+  430 |                         w = 10.0d0 ** (dble(i - 1) / dble(max(1, nintv - 1)))
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:431:2:
+
+  431 |                         cumul_weight = cumul_weight + w
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:432:2:
+
+  432 |                         kt_target = nint(cumul_weight / weight_sum * dble(n_microsteps_total), kind=8)
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:433:2:
+
+  433 |                         ntau_macro(i + 1) = max(1, int(kt_target - kt_prev))
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:434:2:
+
+  434 |                         kt_macro(i + 1) = kt_prev + int(ntau_macro(i + 1), kind=8)
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:435:2:
+
+  435 |                         kt_prev = kt_macro(i + 1)
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:436:2:
+
+  436 |                     end do
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:437:2:
+
+  437 |                 else
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:438:2:
+
+  438 |                     do i = 2, ntimstep
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:439:2:
+
+  439 |                         ntau_macro(i) = ntau
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:440:2:
+
+  440 |                         kt_macro(i) = kt_macro(i - 1) + int(ntau, kind=8)
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:441:2:
+
+  441 |                     end do
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:442:2:
+
+  442 |                 end if
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:444:2:
+
+  444 |                 ntcut = microstep_cut_index(ntimstep, ntau, tcut, trace_time)
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:445:2:
+
+  445 |                 norbper = ceiling(1d0*ntau*ntimstep/(L1i*npoiper2))
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:446:2:
+
+  446 |                 nfp = L1i*norbper
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:455:2:
+
+  455 |             end subroutine params_init
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:476:2:
+
+  476 |             pure function to_lower(s) result(out)
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:477:2:
+
+  477 |                 character(*), intent(in) :: s
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:478:2:
+
+  478 |                 character(len(s)) :: out
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:479:2:
+
+  479 |                 integer :: i, c
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:480:2:
+
+  480 |                 out = s
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:481:2:
+
+  481 |                 do i = 1, len(s)
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:482:2:
+
+  482 |                     c = iachar(out(i:i))
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:483:2:
+
+  483 |                     if (c >= iachar('A') .and. c <= iachar('Z')) then
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:484:2:
+
+  484 |                         out(i:i) = achar(c + 32)
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:485:2:
+
+  485 |                     end if
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:486:2:
+
+  486 |                 end do
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:487:2:
+
+  487 |             end function to_lower
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:329:13:
+
+  329 |             (boundary_event_fraction_tolerance /= -1d0 .and. &
+      |             1
+Warning: Inequality comparison for REAL(8) at (1) [-Wcompare-reals]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/params.f90:334:13:
+
+  334 |             (boundary_event_radial_tolerance /= -1d0 .and. &
+      |             1
+Warning: Inequality comparison for REAL(8) at (1) [-Wcompare-reals]
+[ 94%] Building Fortran object src/CMakeFiles/simple.dir/spectre_orbit.f90.o
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/spectre_orbit.f90:120:13:
+
+  120 |             (z_end(1) == state%home_hi .and. z_start(1) < state%home_hi)) then
+      |             1
+Warning: Equality comparison for REAL(8) at (1) [-Wcompare-reals]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/spectre_orbit.f90:124:17:
+
+  124 |                 (z_end(1) == state%home_lo .and. z_start(1) > state%home_lo)) then
+      |                 1
+Warning: Equality comparison for REAL(8) at (1) [-Wcompare-reals]
+f951: note: unrecognized command-line option ‘-Wno-external-argument-mismatch’ may have been intended to silence earlier diagnostics
+f951: note: unrecognized command-line option ‘-Wno-external-argument-mismatch’ may have been intended to silence earlier diagnostics
+[ 95%] Building Fortran object src/CMakeFiles/simple.dir/orbit_symplectic.f90.o
+[ 95%] Building Fortran object src/CMakeFiles/simple.dir/netcdf_orbit_output.f90.o
+[ 95%] Building Fortran object src/CMakeFiles/simple.dir/netcdf_results_output.f90.o
+[ 96%] Building Fortran object src/CMakeFiles/simple.dir/params_wrapper.f90.o
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/orbit_symplectic.f90:2021:10:
+
+ 2021 |       if (si%z(1) == sympl_rmax) then
+      |          1
+Warning: Equality comparison for REAL(8) at (1) [-Wcompare-reals]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/orbit_symplectic.f90:1833:10:
+
+ 1833 |       if (radial_residual == 0d0) then
+      |          1
+Warning: Equality comparison for REAL(8) at (1) [-Wcompare-reals]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/orbit_symplectic.f90:727:26:
+
+  727 |   matrix3_near_singular = matrix_scale == 0d0 .or. &
+      |                          1
+Warning: Equality comparison for REAL(8) at (1) [-Wcompare-reals]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/netcdf_results_output.f90:502:35:
+
+  502 |                 zend_is_zero = all(zend(1:3, i) == 0.0_dp)
+      |                                   1
+Warning: Equality comparison for REAL(8) at (1) [-Wcompare-reals]
+[ 97%] Building Fortran object src/CMakeFiles/simple.dir/restart.f90.o
+[ 97%] Building Fortran object src/CMakeFiles/simple.dir/samplers.f90.o
+[ 97%] Building Fortran object src/CMakeFiles/simple.dir/simple_gpu.f90.o
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/simple_gpu.f90:1584:31:
+
+ 1584 |         integer :: ngpu, navail, dev, i0, i1
+      |                               1
+Warning: Unused variable ‘navail’ declared at (1) [-Wunused-variable]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/simple_gpu.f90:713:34:
+
+  713 |     subroutine gpu_rk_segment_hmax(y, duration, hmax)
+      |                                  ^
+Warning: ‘gpu_rk_segment_hmax’ defined but not used [-Wunused-function]
+f951: note: unrecognized command-line option ‘-Wno-external-argument-mismatch’ may have been intended to silence earlier diagnostics
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/simple_gpu.f90:810:33:
+
+  810 |         real(dp) :: z_previous(4), predictor(5)
+      |                                 ^
+Warning: ‘z_previous[0]’ may be used uninitialized [-Wmaybe-uninitialized]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/simple_gpu.f90:810:33: Warning: ‘z_previous[1]’ may be used uninitialized [-Wmaybe-uninitialized]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/simple_gpu.f90:810:33: Warning: ‘z_previous[2]’ may be used uninitialized [-Wmaybe-uninitialized]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/simple_gpu.f90:810:33: Warning: ‘z_previous[3]’ may be used uninitialized [-Wmaybe-uninitialized]
+f951: note: unrecognized command-line option ‘-Wno-external-argument-mismatch’ may have been intended to silence earlier diagnostics
+f951: note: unrecognized command-line option ‘-Wno-external-argument-mismatch’ may have been intended to silence earlier diagnostics
+[ 97%] Building Fortran object src/CMakeFiles/simple.dir/spectre_sympl_orbit.f90.o
+[ 97%] Building Fortran object src/CMakeFiles/simple.dir/simple.f90.o
+[ 97%] Building Fortran object src/CMakeFiles/simple.dir/diag/diag_newton.f90.o
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/spectre_sympl_orbit.f90:662:35:
+
+  662 |             if (ierr_step /= 0 .or. g /= g .or. &
+      |                                   1
+Warning: Inequality comparison for REAL(8) at (1) [-Wcompare-reals]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/spectre_sympl_orbit.f90:582:13:
+
+  582 |             (si%z(1) == state%home_hi .and. rho_start < state%home_hi)) then
+      |             1
+Warning: Equality comparison for REAL(8) at (1) [-Wcompare-reals]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/spectre_sympl_orbit.f90:587:17:
+
+  587 |                 (si%z(1) == state%home_lo .and. rho_start > state%home_lo)) then
+      |                 1
+Warning: Equality comparison for REAL(8) at (1) [-Wcompare-reals]
+[ 97%] Building Fortran object src/CMakeFiles/simple.dir/orbit_frequencies.f90.o
+[ 97%] Building Fortran object src/CMakeFiles/simple.dir/cut_detector.f90.o
+[ 97%] Building Fortran object src/CMakeFiles/simple.dir/diag/diag_orbit.f90.o
+[ 97%] Building Fortran object src/CMakeFiles/simple.dir/orbit_invariants.f90.o
+f951: note: unrecognized command-line option ‘-Wno-external-argument-mismatch’ may have been intended to silence earlier diagnostics
+[ 98%] Building Fortran object src/CMakeFiles/simple.dir/classification.f90.o
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/classification.f90:88:53:
+
+   88 |         real(dp), dimension(:,:), allocatable :: coef,orb_sten
+      |                                                     ^
+Warning: ‘coef.offset’ may be used uninitialized [-Wmaybe-uninitialized]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/classification.f90:88:53: Warning: ‘coef.dim[1].stride’ may be used uninitialized [-Wmaybe-uninitialized]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/classification.f90:328:66:
+
+  328 |                         var_tip=matmul(orb_sten(:,ipoi),coef(0,:))
+      |                                                                  ^
+Warning: ‘coef.dim[1].ubound’ may be used uninitialized [-Wmaybe-uninitialized]
+/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/SIMPLE-9269e8614e581ede8768e0bccb003b52db87e3be/src/classification.f90:88:53:
+
+   88 |         real(dp), dimension(:,:), allocatable :: coef,orb_sten
+      |                                                     ^
+note: ‘coef.dim[1].ubound’ was declared here
+f951: note: unrecognized command-line option ‘-Wno-external-argument-mismatch’ may have been intended to silence earlier diagnostics
+[ 98%] Building Fortran object src/CMakeFiles/simple.dir/simple_main.f90.o
+[ 98%] Building Fortran object src/CMakeFiles/simple.dir/simple_entry.f90.o
+[ 98%] Linking Fortran static library libsimple.a
+[ 98%] Built target simple
+[100%] Building Fortran object CMakeFiles/simple.x.dir/app/simple.f90.o
+[100%] Linking Fortran executable simple.x
+[100%] Built target simple.x

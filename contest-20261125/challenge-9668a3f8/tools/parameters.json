@@ -1,0 +1,10 @@
+{
+  "feedforward_MW": 53.0,
+  "PG_max": 33.0,
+  "kp": 0.0,
+  "ki": 0.0,
+  "filter": 0.35,
+  "margin_MW": 0.0,
+  "kw": 0.0,
+  "W_target_MJ": 183.2
+}

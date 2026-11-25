@@ -1,0 +1,132 @@
+{
+  "state": "calibrated",
+  "R0_m": 4.0,
+  "B0_T": 7.0,
+  "volume_m3": 240.0,
+  "current_A": 8100000.0,
+  "shape_bounds": {
+    "kappa": [
+      1.4,
+      2.2
+    ],
+    "delta": [
+      -0.3,
+      0.65
+    ],
+    "c2": [
+      -0.15,
+      0.15
+    ],
+    "c3": [
+      -0.15,
+      0.15
+    ],
+    "s2": [
+      -0.12,
+      0.12
+    ],
+    "s3": [
+      -0.12,
+      0.12
+    ]
+  },
+  "axis_pressure_Pa_bounds": [
+    100000.0,
+    4000000.0
+  ],
+  "envelope_m": [
+    2.5,
+    -2.8,
+    5.6,
+    2.8
+  ],
+  "scenarios": [
+    {
+      "name": "broad",
+      "ffprime_hollow": 0.2
+    },
+    {
+      "name": "nominal",
+      "ffprime_hollow": 0.0
+    },
+    {
+      "name": "peaked",
+      "ffprime_hollow": -0.2
+    }
+  ],
+  "coarse": {
+    "boundary_points": 2048,
+    "mesh_m": 0.05,
+    "order": 3,
+    "box_points": 1025,
+    "profile_points": 257,
+    "poloidal_padding": 8,
+    "ballooning_rtol": 1e-07,
+    "ballooning_extent": 1.0,
+    "ballooning_cap": 100.0,
+    "vacuum_points": 512
+  },
+  "fine": {
+    "boundary_points": 4096,
+    "mesh_m": 0.04,
+    "order": 4,
+    "box_points": 2049,
+    "profile_points": 513,
+    "poloidal_padding": 12,
+    "ballooning_rtol": 1e-08,
+    "ballooning_extent": 2.0,
+    "ballooning_cap": 200.0,
+    "vacuum_points": 1024
+  },
+  "modes": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "phases_coarse": [
+    -0.5,
+    -0.25,
+    0.0,
+    0.25,
+    0.5
+  ],
+  "phases_fine": [
+    -0.5,
+    -0.4375,
+    -0.375,
+    -0.3125,
+    -0.25,
+    -0.1875,
+    -0.125,
+    -0.0625,
+    0.0,
+    0.0625,
+    0.125,
+    0.1875,
+    0.25,
+    0.3125,
+    0.375,
+    0.4375,
+    0.5
+  ],
+  "acceptance": {
+    "volume_relative": 0.0001,
+    "current_relative": 0.0001,
+    "dcon_current_relative": 0.002,
+    "pressure_target_relative": 0.0001,
+    "qmin": 1.1,
+    "energy_floor": 0.02,
+    "mercier_ceiling": -0.01,
+    "gs_residual_rms": 0.001,
+    "energy_imaginary_relative": 0.001,
+    "pressure_refinement_relative": 0.001,
+    "q_refinement_absolute": 0.005,
+    "energy_refinement_absolute": 0.01,
+    "energy_refinement_relative": 0.03,
+    "gs_residual_max": 0.03
+  },
+  "score_pressure_scale_Pa": 200000.0,
+  "evaluation_timeout_seconds": 12600
+}

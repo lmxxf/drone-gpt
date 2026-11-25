@@ -1,0 +1,8 @@
+Resolved 2 packages in 4ms
+   Building booz-xform @ file:///home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/booz_xform-21aff118735de4255641aa1b64fc7ab35e8c9767
+      Built booz-xform @ file:///home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/booz_xform-21aff118735de4255641aa1b64fc7ab35e8c9767
+Prepared 1 package in 17.96s
+Uninstalled 1 package in 0.84ms
+Installed 1 package in 0.94ms
+ - booz-xform==0.1.0
+ + booz-xform==0.1.0 (from file:///home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3/tools/src/booz_xform-21aff118735de4255641aa1b64fc7ab35e8c9767)
