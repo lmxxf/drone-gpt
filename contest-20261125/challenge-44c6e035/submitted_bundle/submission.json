@@ -1,0 +1,35 @@
+{
+  "schema_version": "playground-submission/v0",
+  "task_id": "challenge-44c6e035",
+  "challenge_id": "challenge-44c6e035",
+  "run_id": "local-20261125t141355z-5850ba8b",
+  "created_at": "2026-11-25T14:13:55Z",
+  "task_url": "",
+  "agent": {
+    "name": "playground-cli",
+    "version": "0.1.58",
+    "model": "unknown"
+  },
+  "harness": {
+    "name": "codex",
+    "native_trace_format": "auto"
+  },
+  "artifacts": [
+    {
+      "path": "outputs/coils.json",
+      "sha256": "4de7a0be65321f5959f7cdae9912d7b60b369a9675a28e9ea956a4dc3bd67965"
+    },
+    {
+      "path": "outputs/evaluation_report.json",
+      "sha256": "ced3121d54990be92ce152593c46479cd1626d60f3f95be6642d7b6f498c62a6"
+    },
+    {
+      "path": "outputs/solve_coils.py",
+      "sha256": "a379c327a45e72d63685e02f08fca6d84b61a40e4a6a6d2c19a53c80e4cce9fe"
+    }
+  ],
+  "privacy": {
+    "redaction": "playground-cli-secret-scan-v0",
+    "contains_raw_credentials": false
+  }
+}
