@@ -1,0 +1,10 @@
+{
+  "reward": {
+    "reward": 0.5903412248386327,
+    "valid": 1,
+    "feasible": 1,
+    "evaluator_error": 0
+  },
+  "details_path": "runs/certify_062640a28051/result/details.json",
+  "sha256": "062640a28051d29d44f07ae434d9106a4d5723ad6397960304f4a1a0a2079a96"
+}

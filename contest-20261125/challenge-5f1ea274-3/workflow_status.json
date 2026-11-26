@@ -1,6 +1,14 @@
 {
-  "stage": "full_verification",
-  "updated": "2026-11-26T01:10:00+0800",
-  "candidate": "runs/certify_062640a28051/boundary.json",
-  "result": "runs/certify_062640a28051/result/reward.json"
+  "stage": "complete",
+  "first_attempt_id": "111815",
+  "second_attempt_id": "112075",
+  "local_reward": {
+    "reward": 0.5903412248386327,
+    "valid": 1,
+    "feasible": 1,
+    "evaluator_error": 0
+  },
+  "platform_score_final": false,
+  "updated": "2026-11-26T08:06:19.086666+08:00",
+  "report": "final_report.json"
 }

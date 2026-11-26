@@ -1,0 +1,29 @@
+{
+  "reward": {
+    "reward": 0.5903412248386327,
+    "valid": 1,
+    "feasible": 1,
+    "evaluator_error": 0
+  },
+  "metrics": {
+    "aspect_ratio": 5.5117306692441135,
+    "f_alpha": 0.03271484375,
+    "eps_eff_max": 7.545377972983769e-05,
+    "iota_min": 0.4328232969516683,
+    "well": 0.000277160232408905,
+    "kappa_max": 4.657356348736038,
+    "lgradb_min": 4.9542221336601
+  },
+  "alpha_counts": {
+    "N_L": 134,
+    "N_U": 0,
+    "exit_codes": {
+      "0": 3962,
+      "1": 134
+    }
+  },
+  "first_score_upper_bound": 0.5880520288079526,
+  "score_improvement": 0.0022891960306801185,
+  "aspect_ratio_reduction_percent": 8.138005802941938,
+  "boundary_sha256": "062640a28051d29d44f07ae434d9106a4d5723ad6397960304f4a1a0a2079a96"
+}

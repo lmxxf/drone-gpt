@@ -1,5 +1,5 @@
 {
-  "time": "2026-11-26T04:53:06.972339+08:00",
+  "time": "2026-11-26T08:01:35.341064+08:00",
   "workflow": {
     "stage": "full_verification",
     "updated": "2026-11-26T01:10:00+0800",
@@ -10,15 +10,15 @@
   "latest": "INFO: Counter initialization completed       0.000 s (Total:       35.135 s)",
   "particles": {
     "pid": 3675888,
-    "completed": 1815,
+    "completed": 4091,
     "total": 4096,
-    "fraction": 0.443115234375,
+    "fraction": 0.998779296875,
     "observation": "read-only progress and finalized exit records; not a final acceptance test",
-    "elapsed_s": 9881.371174267959,
-    "recorded_terminal_states": 1815,
-    "observed_loss_count_lower_bound": 65,
+    "elapsed_s": 21189.713560000062,
+    "recorded_terminal_states": 4091,
+    "observed_loss_count_lower_bound": 134,
     "observed_unresolved_lower_bound": 0,
-    "whole_ensemble_loss_fraction_lower_bound": 0.015869140625,
-    "linear_eta_s": 12418.40641790921
+    "whole_ensemble_loss_fraction_lower_bound": 0.03271484375,
+    "linear_eta_s": 25.897963285260403
   }
 }

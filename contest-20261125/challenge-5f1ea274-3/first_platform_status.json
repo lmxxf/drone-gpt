@@ -36,7 +36,7 @@
     "queuePosition": null,
     "stage": "received",
     "submittedAt": "2026-11-25T17:03:57+00:00",
-    "waitingSeconds": 711,
+    "waitingSeconds": 25318,
     "workerReceivedAt": null
   },
   "scoringState": {

@@ -1,0 +1,261 @@
+{
+  "created_at": "2026-11-26T08:03:32.415205+08:00",
+  "stage": "Full published-evaluator certificate; second platform submission",
+  "full_verified": true,
+  "boundary_sha256": "062640a28051d29d44f07ae434d9106a4d5723ad6397960304f4a1a0a2079a96",
+  "validation": {
+    "reward": {
+      "reward": 0.5903412248386327,
+      "valid": 1,
+      "feasible": 1,
+      "evaluator_error": 0
+    },
+    "details": {
+      "stages": {
+        "geometry": {
+          "aspect_ratio": 5.5117306692441135,
+          "minor_radius": 1.6999999999999997,
+          "major_radius": 9.369942137714991,
+          "volume": 534.5206560867911,
+          "kappa_max": 4.657356348736038,
+          "kappa_max_phi": 0.3190680038802134,
+          "min_R": 5.677160465769681,
+          "scale_factor": 9.289082511863581
+        },
+        "vmec": {
+          "attempt": 1,
+          "ns": 257,
+          "seconds": 3403.6674621105194,
+          "residuals": [
+            9.991344921946081e-17,
+            2.0470521384619836e-17,
+            3.711316917578511e-17
+          ],
+          "resolution": [
+            15,
+            14
+          ],
+          "failed_attempts": []
+        },
+        "profile": {
+          "iota_min": 0.4328232969516683,
+          "iota_min_s": 0.052734375,
+          "iota_axis_side": 0.43332746960303226,
+          "iota_edge_side": 0.4399447982287357,
+          "well": 0.000277160232408905,
+          "well_worst_s": 0.94921875,
+          "vmec_aspect": 5.51173066924444,
+          "volume_from_vp_rel_error": 3.0073237233807504e-09
+        },
+        "coil": {
+          "lgradb_min": 4.9542221336601,
+          "theta": 3.2397674240144743,
+          "phi": 0.04908738521234052
+        },
+        "boozer": {
+          "B00_axis": 6.121351595199954,
+          "e_B": 6.218778071528809e-13,
+          "history": [
+            {
+              "mboz": 30,
+              "nboz": 28,
+              "e_B": 7.79302169407519e-08,
+              "seconds": 0.6290175914764404
+            },
+            {
+              "mboz": 60,
+              "nboz": 56,
+              "e_B": 6.218778071528809e-13,
+              "seconds": 5.31525993347168
+            }
+          ],
+          "s_neo": [
+            0.201171875,
+            0.400390625,
+            0.599609375,
+            0.798828125,
+            0.998046875
+          ]
+        },
+        "neo": {
+          "s": [
+            0.201171875,
+            0.400390625,
+            0.599609375,
+            0.798828125,
+            0.998046875
+          ],
+          "eps_eff": [
+            7.545377972983769e-05,
+            6.884920592006135e-05,
+            7.072470109273642e-05,
+            7.148041504826706e-05,
+            7.21144406451355e-05
+          ],
+          "eps_eff_max": 7.545377972983769e-05,
+          "B_ref": [
+            6.385411084,
+            6.490970709,
+            6.573627983,
+            6.644417133,
+            6.711440299
+          ],
+          "R_ref": [
+            9.638984009,
+            9.638984009,
+            9.638984009,
+            9.638984009,
+            9.638984009
+          ],
+          "seconds": 12.655500173568726
+        },
+        "simple_memory_gib": 25.728270000000002,
+        "alpha": {
+          "N_L": 134,
+          "N_U": 0,
+          "f_alpha": 0.03271484375,
+          "f_alpha_groups": [
+            0.0322265625,
+            0.033203125
+          ],
+          "exit_codes": {
+            "0": 3962,
+            "1": 134
+          },
+          "simple_axis_field_gauss": 56999.333432676314,
+          "simple_recoveries": {
+            "newton1_maxit": 12695,
+            "symplectic_rk_recovery": 1317,
+            "symplectic_resume": 1311,
+            "warning_maxit_reject_large": 12695,
+            "retry_exhausted": 1317
+          },
+          "seconds": 21249.267982006073,
+          "field_scale": 0.9311669018439725,
+          "wilson_95": [
+            0.02768989995031263,
+            0.03861545881809409
+          ]
+        }
+      },
+      "metrics": {
+        "aspect_ratio": 5.5117306692441135,
+        "f_alpha": 0.03271484375,
+        "eps_eff_max": 7.545377972983769e-05,
+        "iota_min": 0.4328232969516683,
+        "well": 0.000277160232408905,
+        "kappa_max": 4.657356348736038,
+        "lgradb_min": 4.9542221336601
+      },
+      "completion": {
+        "f_alpha": 1.0,
+        "eps_eff": 1.0,
+        "iota": 1.0,
+        "well": 1.0,
+        "kappa": 1.0,
+        "coil": 1.0
+      },
+      "score": 0.5903412248386327,
+      "feasible": true,
+      "seconds": 24719.440509080887
+    }
+  },
+  "comparison": {
+    "first_attempt_id": "111815",
+    "first_submission_aspect_ratio": 5.542969181639843,
+    "first_submission_physical_score_upper_bound": 0.5880520288079526,
+    "upper_bound_explanation": "For this fixed aspect ratio, a feasible evaluation has exactly this logistic score; an infeasible evaluation scores below 0.5. This is a mathematical bound, not an observed platform score.",
+    "certified_score_improvement_over_first_upper_bound": 0.0022891960306801185,
+    "published_QA_well_reference_aspect_ratio": 6.000011993448135,
+    "aspect_ratio_reduction_percent": 8.138005802941938
+  },
+  "platform_scoring": {
+    "expected_metrics": [],
+    "formula_summary": "No automated scoring; reviewers grade attempts manually.",
+    "grader_name": null,
+    "protocol_url": "/api/protocol",
+    "score_range": [
+      0,
+      100
+    ],
+    "strategy": "human_review_only"
+  },
+  "toolchain": {
+    "python_packages": {
+      "numpy": "2.5.5",
+      "scipy": "1.18.1",
+      "simsopt": "1.10.6",
+      "booz_xform": "0.1.0",
+      "vmecpp": "0.9.4",
+      "netCDF4": "1.7.5.1.post1"
+    },
+    "machine": "aarch64",
+    "cpu_affinity": [
+      12,
+      13,
+      14,
+      15
+    ],
+    "pinned_sources": {
+      "VMEC2000_NEO": "780f5db557eacc7ca1160f4ca5a10a80922e4f26",
+      "SIMPLE": "9269e8614e581ede8768e0bccb003b52db87e3be",
+      "libneo": "f1bef44e80c4508f04594d4d2ca120eaf17564f8",
+      "booz_xform": "21aff118735de4255641aa1b64fc7ab35e8c9767"
+    },
+    "compiler": "GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+    "notes": [
+      "Native ARM64 rebuild; original image inaccessible.",
+      "SIMPLE_DETERMINISTIC_FP=ON",
+      "NEO near-rational correction uses abs(iota_bar_fp).",
+      "Compiler and numeric-library versions differ from original image.",
+      "Screening runs before environment pinning used simsopt 1.11.1 and PyPI booz_xform 0.1.0."
+    ],
+    "eval_sha256": "f8af3835fd88130409385891a695f21c774d0ce3d0c990fdf5ca5af7b6bcd83a",
+    "binary_sha256": {
+      "xvmec2000": "62204e33722f67965e01f8a8ee491720932057d515b0374d18ee9525e9c687b9",
+      "xneo": "21240275040e4fbadc400a0a0f5d2538432e9ed2dee4641259372ea7cb0be155",
+      "simple.x": "171b2daa6d1b3f406c3f20947006670bc0f89e90590240192e484d61179bc68e"
+    },
+    "source_archive_sha256": {
+      "fortplot.tar.gz": "d2e14ddb8ee1c157ad373b570845b7e32d518802d3b8840a6d217b6e75c4da45",
+      "stellopt.tar.gz": "95d533ab310a0ab59f9411e20cb99ae07aed0145201646079d221814ebdb869d",
+      "fortio.tar.gz": "98159ba784c8a9a1155dcad1116b911914cea0cbc9274b8a1e4c721c53ec5bf0",
+      "simple.tar.gz": "472c2cba6c4c94797ff7e29cbc3238ed434e2cc02093f795fdecaf6da9df2cf8",
+      "fortnum.tar.gz": "fb1e125123b8611aa323f4b664050e495a28a6104c9722b35f6012a0e8c33ef4",
+      "booz_xform.tar.gz": "76e758bdc6a6ebbde92eda6147cc509817ed3f8d610270f1a6a39d9d2ee06942",
+      "libneo.tar.gz": "44ff8e8c2242a1a72f98afabaf7f42bab4d0faa06f8d42c4ea9871f3ffde1ce0"
+    },
+    "version_banner_note": "Source archives have no .git directory. The build version banners inherited the enclosing workspace git description; pinned source identity is recorded by archive URL/commit and SHA256, not by those banners."
+  },
+  "optimization_status": {
+    "success": false,
+    "message": "Return from COBYLA because the objective function has been evaluated MAXFUN times.",
+    "x": [
+      1.0837399057564632,
+      1.0037697810703525,
+      0.9644661970753774,
+      1.0382238218532092
+    ],
+    "fun": 5.5374704980289975,
+    "nfev": 24,
+    "full_verified": false
+  },
+  "constraints": {
+    "f_alpha_max": 0.05,
+    "eps_eff_max": 0.01,
+    "iota_min": 0.3,
+    "well_min": 0.0,
+    "kappa_max": 8.0,
+    "lgradb_min_m": 2.4
+  },
+  "reproduction": {
+    "working_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-5f1ea274-3",
+    "command": "source tools/environment.sh; OMP_NUM_THREADS=1 taskset -c 12-15 .venv/bin/python -I workspace/eval.py submission_outputs/boundary.json --workdir runs/reproduce-certified --reward-dir results/reproduce-certified --threads 4",
+    "note": "Use a new, empty workdir. Native ARM64 builds and package/compiler deviations from the registry image are documented in toolchain."
+  },
+  "source_inputs": {
+    "vmec": "&INDATA\n  LFREEB = F, LASYM = F, LRFP = F\n  NFP = 2, MPOL = 15, NTOR = 14\n  NTHETA = 96, NZETA = 96\n  NS_ARRAY = 17 33 65 129 257\n  NITER_ARRAY = 1000 2000 3000 4000 60000\n  FTOL_ARRAY = 1e-12 1e-12 1e-12 1e-12 1e-16\n  NSTEP = 250, DELT = 0.9, TCON0 = 2.0\n  PRECON_TYPE = 'none', PREC2D_THRESHOLD = 1e-12\n  GAMMA = 0.0, SPRES_PED = 1.0, PRES_SCALE = 0.0\n  PMASS_TYPE = 'power_series', AM = 0.0\n  NCURR = 1, CURTOR = 0.0, PCURR_TYPE = 'power_series', AC = 0.0\n  PHIEDGE = 51.751455782584664\n  RAXIS_CC = 0.0, ZAXIS_CS = 0.0\n  RBC(0,0) = 9.289082511863581, ZBS(0,0) = -0.0\n  RBC(1,0) = 1.5867287410448931, ZBS(1,0) = -1.0017460623856385\n  RBC(2,0) = 0.07302994294005563, ZBS(2,0) = -0.05157760935483749\n  RBC(3,0) = -0.012592957555808741, ZBS(3,0) = 0.008686328113711995\n  RBC(4,0) = -0.002072462949050064, ZBS(4,0) = 0.002626586478109301\n  RBC(5,0) = -0.00014114984214736253, ZBS(5,0) = 0.00020183606996818513\n  RBC(-5,1) = -0.0002352807200626699, ZBS(-5,1) = -0.00015682234089501004\n  RBC(-4,1) = 0.00016526024171589516, ZBS(-4,1) = -0.00012444047028923165\n  RBC(-3,1) = 0.01626665125873289, ZBS(-3,1) = 0.012187039529708224\n  RBC(-2,1) = 0.10177370372185363, ZBS(-2,1) = 0.10434372911242414\n  RBC(-1,1) = 0.5122436632688276, ZBS(-1,1) = 0.5360242735000974\n  RBC(0,1) = 1.4456067250355908, ZBS(0,1) = 2.70997406990921\n  RBC(1,1) = -1.237857339844921, ZBS(1,1) = 1.0820874573744983\n  RBC(2,1) = -0.24869612849613768, ZBS(2,1) = 0.2172722816166544\n  RBC(3,1) = -0.025468098245972397, ZBS(3,1) = 0.02083320421348677\n  RBC(4,1) = 0.00036631110529710163, ZBS(4,1) = -0.00010546771444651315\n  RBC(5,1) = 0.00018081537037764367, ZBS(5,1) = -0.00013892155471638572\n  RBC(-5,2) = -5.344535498058551e-05, ZBS(-5,2) = 5.363342092544398e-05\n  RBC(-4,2) = 0.0007474574508185141, ZBS(-4,2) = 0.000460663976960536\n  RBC(-3,2) = 0.005970106287384234, ZBS(-3,2) = 0.005341649955437401\n  RBC(-2,2) = 0.026721150349860223, ZBS(-2,2) = 0.02015764275440955\n  RBC(-1,2) = 0.09482414861582339, ZBS(-1,2) = 0.053764697527077625\n  RBC(0,2) = 0.26253719298121375, ZBS(0,2) = 0.10117753940993057\n  RBC(1,2) = 0.35397568218640996, ZBS(1,2) = 0.04372505233191207\n  RBC(2,2) = 0.09196795709465332, ZBS(2,2) = -0.07157803461899834\n  RBC(3,2) = 0.017012358367843785, ZBS(3,2) = -0.018324091403003562\n  RBC(4,2) = 0.0017180193298492624, ZBS(4,2) = -0.0023027288088122567\n  RBC(5,2) = -2.987525087206791e-05, ZBS(5,2) = -6.016567683357173e-05\n  RBC(-5,3) = 5.658920509845837e-05, ZBS(-5,3) = 5.153375441022014e-05\n  RBC(-4,3) = -0.00026898773847889906, ZBS(-4,3) = 0.00010397190332074448\n  RBC(-3,3) = 0.0016987459147800804, ZBS(-3,3) = 0.0004205891820939701\n  RBC(-2,3) = 0.009782831535805878, ZBS(-2,3) = 0.011561183774170154\n  RBC(-1,3) = 0.01778520765541991, ZBS(-1,3) = 0.03151107846523698\n  RBC(0,3) = -0.014727622836668612, ZBS(0,3) = 0.0579474958187173\n  RBC(1,3) = 0.003650740014853838, ZBS(1,3) = -0.0009094398196033574\n  RBC(2,3) = 0.001988434548376192, ZBS(2,3) = 0.029025318048239636\n  RBC(3,3) = -0.0023736546779688852, ZBS(3,3) = 0.007126811521427127\n  RBC(4,3) = -0.0007423620896079476, ZBS(4,3) = 0.0011056731905283118\n  RBC(5,3) = -0.00011983396171707353, ZBS(5,3) = 5.154487806663743e-05\n  RBC(-5,4) = 9.301298489047702e-06, ZBS(-5,4) = 1.9668163184628166e-05\n  RBC(-4,4) = -4.810935218218644e-06, ZBS(-4,4) = 9.495212920387845e-06\n  RBC(-3,4) = 0.00011151630404487807, ZBS(-3,4) = -1.39731640174902e-05\n  RBC(-2,4) = 0.0015892550552337305, ZBS(-2,4) = -0.0004693632954619402\n  RBC(-1,4) = 0.00743161464644575, ZBS(-1,4) = -0.000997627009228271\n  RBC(0,4) = 0.00625280048412337, ZBS(0,4) = -0.006099743591956421\n  RBC(1,4) = 0.0076057367716821185, ZBS(1,4) = 0.0014151404476671168\n  RBC(2,4) = 0.0015833756969384292, ZBS(2,4) = -0.0017297588801781722\n  RBC(3,4) = 0.002923223724177777, ZBS(3,4) = 0.0025533728235896803\n  RBC(4,4) = -0.0004494788677691555, ZBS(4,4) = 0.0007906704681726385\n  RBC(5,4) = 2.0874428328797978e-05, ZBS(5,4) = 5.593854854335937e-05\n  RBC(-5,5) = -5.125323858241192e-06, ZBS(-5,5) = -1.810186713782718e-05\n  RBC(-4,5) = 1.713331348475391e-05, ZBS(-4,5) = 6.323948813411417e-05\n  RBC(-3,5) = -0.00042478077924447904, ZBS(-3,5) = -0.00044739222300990776\n  RBC(-2,5) = -0.0003307063065927323, ZBS(-2,5) = -6.518853210848381e-05\n  RBC(-1,5) = -0.0016084199358937046, ZBS(-1,5) = -0.0008220230539423404\n  RBC(0,5) = -0.0002342567753481815, ZBS(0,5) = 0.0018956384741186903\n  RBC(1,5) = -0.0018099131905756772, ZBS(1,5) = -0.0006966590429382778\n  RBC(2,5) = -0.0004145973019843939, ZBS(2,5) = -0.0016736463999550504\n  RBC(3,5) = 0.0006802550908243465, ZBS(3,5) = 0.0003006966145289478\n  RBC(4,5) = 0.0001956032438313616, ZBS(4,5) = 3.741313094163719e-05\n  RBC(5,5) = 7.455104954104978e-05, ZBS(5,5) = -5.6035587433220985e-05\n/\n",
+    "simple": "&config\nnetcdffile = 'wout.nc'\nisw_field_type = 2\nintegmode = 1\nnpoiper2 = 256\nrelerr = 1d-13\nmultharm = 5\nns_s = 5\nns_tp = 5\nstartmode = 2\nntestpart = 4096\nsbeg = 0.25d0\ntrace_time = 0.2d0\nntimstep = 10001\nn_e = 2\nn_d = 3.97259969d0\nfacE_al = 1d0\nvmec_B_scale = 0.9311669018439725\nvmec_RZ_scale = 1d0\ncontr_pp = -1d10\ntcut = -1d0\nclass_plot = .False.\nfast_class = .False.\nswcoll = .False.\ndeterministic = .True.\n/\n",
+    "neo": "'#'\n'#'\n'#'\nboozmn_eq.nc\nneo_out.eq\n5\n53 104 155 206 257\n300\n300\n0\n0\n150\n1\n0.005\n100\n75\n500\n2000\n0\n1\n0\n0\n2\n0\n0\n0\n0\n0\n'#'\n'#'\n'#'\n0\nneo_cur.eq\n200\n2\n0\n"
+  }
+}
