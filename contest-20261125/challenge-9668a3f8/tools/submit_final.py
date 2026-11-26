@@ -5,7 +5,7 @@ ROOT=Path(__file__).resolve().parents[1]
 TRACE=Path('/home/lmxxf/.codex/sessions/2026/11/25/rollout-2026-11-25T22-15-37-01a2130f-e199-7e90-8883-e3f2d85168e0.jsonl')
 def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
 def main():
- reportpath=ROOT/'evaluation_report.json';report=json.load(open(reportpath));source=Path(report['artifact']['path']);expected=report['artifact']['sha256'];assert sha(source)==expected
+ reportpath=ROOT/'evaluation_report.json';report=json.load(open(reportpath));source=Path(report['artifact'].get('validated_source_path',report['artifact']['path']));expected=report['artifact']['sha256'];assert sha(source)==expected
  assert report['development']['feasible'] and report['all_tested_scenarios']['feasible'];assert report['original_evaluator_replay']['scenario_count']>=9;assert report['native_stress']['feasible'] and report['native_stress']['scenario_count']>=16 and report['native_stress']['candidate_sha256']==expected
  assert report['formal_submission']['state']=='not_submitted'
  out=ROOT/'submission';out.mkdir(exist_ok=True);assert all(p.name=='controller.onnx' and p.is_file() for p in out.iterdir())

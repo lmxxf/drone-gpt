@@ -2,7 +2,7 @@
   "schema": "fusion-control-engineering-report/v1",
   "artifact": {
     "path": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/controller.onnx",
-    "sha256": "d77373104a507bef8ae02a675bacb6acbbf3dea09c817686a7629e41508edb47",
+    "sha256": "9a959bd94dda3cf27257ede2f4a65b139d1c5c55ddaf5716a4339f26daf668e0",
     "bytes": 11995,
     "nodes": 164,
     "opset": 18,
@@ -25,7 +25,7 @@
       "Sub",
       "Where"
     ],
-    "validated_source_path": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/early_reserve.onnx"
+    "validated_source_path": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/precision_guard.onnx"
   },
   "parameters": {
     "coarse_commands_MW": [
@@ -254,19 +254,19 @@
         6.099999904632568
       ],
       [
-        32.0,
+        31.25,
         7.199999809265137
       ],
       [
-        31.5,
+        30.0,
         8.300000190734863
       ],
       [
-        31.0,
+        29.5,
         9.399999618530273
       ],
       [
-        31.0,
+        29.5,
         10.5
       ]
     ],
@@ -530,14 +530,16 @@
     "terminal_fine_rate_MW_per_s": 1.4,
     "terminal_both_start_s": 27.0,
     "terminal_kick_start_s": 28.0,
-    "terminal_kick_delta_MW": 1.999
+    "terminal_kick_delta_MW": 1.999,
+    "coarse_additional_terminal_G_drop_MW": 1.5,
+    "coarse_additional_terminal_G_drop_start_s": 27.5
   },
   "runtime": {
     "validation_scope": "Local native physics replay, not the trusted release gate",
     "unmodified_eval_entrypoint": {
       "state": "evaluator_error",
       "reason": "[Errno 2] No such file or directory: '/workspace/t0/env/lib/python3.12/site-packages/torax/__init__.py'",
-      "wall_time_s": 0.22684979438781738
+      "wall_time_s": 0.24100375175476074
     },
     "python": "3.12.3",
     "architecture": "aarch64",
@@ -594,40 +596,40 @@
     "scenario_count": 4,
     "trajectory_count": 8,
     "native_accepted_steps": 72000,
-    "worst_supplied_heat_J": 1291291894.6872067,
-    "minimum_fusion_energy_ratio": 1.003966095154381,
-    "minimum_terminal_W_ratio": 0.9845091570280922,
-    "maximum_fusion_rms_relative": 0.022966750663953043,
+    "worst_supplied_heat_J": 1288296439.300367,
+    "minimum_fusion_energy_ratio": 1.0039041518039595,
+    "minimum_terminal_W_ratio": 0.9826335532414462,
+    "maximum_fusion_rms_relative": 0.022966743351761444,
     "maximum_fusion_peak_relative": 0.048053690611131336,
     "maximum_beta_N": 1.4067411417014657,
     "maximum_temperature_keV": 17.707612311933875,
     "maximum_positive_pedestal_heat_J": 0.0,
-    "maximum_grid_heat_difference_J": 8566407.596235514,
+    "maximum_grid_heat_difference_J": 7068680.854898214,
     "maximum_grid_power_difference_W": 3258973.679965839,
-    "score": 0.7520521529674229,
+    "score": 0.7523424342653444,
     "reference_supplied_heat_J": 1312666780.7788234
   },
   "all_tested_scenarios": {
     "feasible": true,
-    "scenario_count": 25,
-    "trajectory_count": 50,
-    "native_accepted_steps": 450000,
-    "worst_supplied_heat_J": 1291369591.3822482,
-    "minimum_fusion_energy_ratio": 1.0003119115192365,
-    "minimum_terminal_W_ratio": 0.98372370929516,
-    "maximum_fusion_rms_relative": 0.02856181174436055,
+    "scenario_count": 26,
+    "trajectory_count": 52,
+    "native_accepted_steps": 468000,
+    "worst_supplied_heat_J": 1288347562.74358,
+    "minimum_fusion_energy_ratio": 1.0002466558714533,
+    "minimum_terminal_W_ratio": 0.981810214865154,
+    "maximum_fusion_rms_relative": 0.025795561525671497,
     "maximum_fusion_peak_relative": 0.05207625694301269,
-    "maximum_beta_N": 1.417058851930777,
-    "maximum_temperature_keV": 17.707612580105224,
+    "maximum_beta_N": 1.4195147621891488,
+    "maximum_temperature_keV": 17.707612311933875,
     "maximum_positive_pedestal_heat_J": 0.0,
-    "maximum_grid_heat_difference_J": 8566407.596235514,
-    "maximum_grid_power_difference_W": 3369163.244097322,
+    "maximum_grid_heat_difference_J": 7068680.854898214,
+    "maximum_grid_power_difference_W": 3323468.3744940907,
     "scope": "Original evaluator replay plus separately validated native control-window batching; not the trusted runtime gate"
   },
   "pairs": [
     {
       "seed": 7487,
-      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/early_reserve-local",
+      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/precision_guard-local",
       "physical_override": null,
       "scenario": {
         "event_start_s": 8.347425915147419,
@@ -635,39 +637,39 @@
         "initial_temperature_multiplier": 0.9803865108038421,
         "sensor_seed": 3927426302178252369
       },
-      "J_upper_J": 1291294757.613843,
-      "grid_heat_difference_J": 8000338.505533695,
+      "J_upper_J": 1288299283.1310327,
+      "grid_heat_difference_J": 6502602.692849398,
       "grid_power_difference_W": 3323468.3744940907,
       "accepted_state_counts": [
         6001,
         12001
       ],
       "terminal_W_J": [
-        182569340.74632427,
-        183212432.04400986
+        182216008.605235,
+        183212430.93259457
       ],
       "episodes": [
         {
           "seed": 7487,
           "level": "coarse",
           "metrics": {
-            "fusion_energy_J": 3345885047.988058,
+            "fusion_energy_J": 3345670280.5522456,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.01900175353147742,
+            "fusion_rms_relative": 0.019036730237159835,
             "fusion_peak_relative": 0.04845501957592281,
             "q_min": 1.8337676430354448,
             "q95_min": 4.978940067200357,
             "beta_N_max": 1.3647524905610047,
             "temperature_max_keV": 17.46311417900716,
             "fgw_max": 0.8168140899333457,
-            "terminal_energy_deficit_fraction": 0.01597195905711246,
-            "E_external_total_J": 1283294419.1083093,
-            "E_external_right_endpoint_J": 1283288369.2318182,
-            "E_external_quadrature_difference_J": -6049.876491069794,
+            "terminal_energy_deficit_fraction": 0.01787637922523555,
+            "E_external_total_J": 1281796680.4381833,
+            "E_external_right_endpoint_J": 1281786887.877339,
+            "E_external_quadrature_difference_J": -9792.560844421387,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1201279435.2682054,
+            "E_pedestal_negative_J": -1200105205.539636,
             "E_pedestal_positive_trapezoidal_J": 29833047.408798773,
-            "J_supplied_total_J": 1283294419.1083093
+            "J_supplied_total_J": 1281796680.4381833
           },
           "violation": {}
         },
@@ -675,23 +677,23 @@
           "seed": 7487,
           "level": "fine",
           "metrics": {
-            "fusion_energy_J": 3347245280.677308,
+            "fusion_energy_J": 3347245280.213048,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.02050111688472764,
+            "fusion_rms_relative": 0.020501117051505077,
             "fusion_peak_relative": 0.04846961885354666,
             "q_min": 1.8279795705948279,
             "q95_min": 4.979431417148658,
             "beta_N_max": 1.364754441937612,
             "temperature_max_keV": 17.70760970559407,
             "fgw_max": 0.8168140899333461,
-            "terminal_energy_deficit_fraction": 0.012505769897300234,
-            "E_external_total_J": 1275294080.6027756,
-            "E_external_right_endpoint_J": 1275294533.1258416,
-            "E_external_quadrature_difference_J": 452.52306604385376,
+            "terminal_energy_deficit_fraction": 0.01250577588770263,
+            "E_external_total_J": 1275294077.745334,
+            "E_external_right_endpoint_J": 1275294530.2636416,
+            "E_external_quadrature_difference_J": 452.51830768585205,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1194898001.1521482,
+            "E_pedestal_negative_J": -1194897999.3382866,
             "E_pedestal_positive_trapezoidal_J": 17619559.542301595,
-            "J_supplied_total_J": 1275294080.6027756
+            "J_supplied_total_J": 1275294077.745334
           },
           "violation": {}
         }
@@ -699,7 +701,7 @@
     },
     {
       "seed": 8516,
-      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/early_reserve-local",
+      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/precision_guard-local",
       "physical_override": null,
       "scenario": {
         "event_start_s": 8.182058436773001,
@@ -707,39 +709,39 @@
         "initial_temperature_multiplier": 0.9818442577990563,
         "sensor_seed": 2457618678038048519
       },
-      "J_upper_J": 1291343020.1991475,
-      "grid_heat_difference_J": 8016424.970516205,
+      "J_upper_J": 1288347562.74358,
+      "grid_heat_difference_J": 6518760.050380945,
       "grid_power_difference_W": 3322493.727796823,
       "accepted_state_counts": [
         6001,
         12001
       ],
       "terminal_W_J": [
-        182559994.54216483,
-        183236299.4996058
+        182206191.36063084,
+        183236257.07178426
       ],
       "episodes": [
         {
           "seed": 8516,
           "level": "coarse",
           "metrics": {
-            "fusion_energy_J": 3344919769.30089,
+            "fusion_energy_J": 3344704337.259488,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.018909713398565932,
+            "fusion_rms_relative": 0.01894584956981384,
             "fusion_peak_relative": 0.044883108742385304,
             "q_min": 1.8337676430354448,
             "q95_min": 4.978940067200357,
             "beta_N_max": 1.3667817610175494,
             "temperature_max_keV": 17.463114179003906,
             "fgw_max": 0.8168140899333457,
-            "terminal_energy_deficit_fraction": 0.01602233403755371,
-            "E_external_total_J": 1283326595.2286313,
-            "E_external_right_endpoint_J": 1283320549.5330462,
-            "E_external_quadrature_difference_J": -6045.695585012436,
+            "terminal_energy_deficit_fraction": 0.017929293060251816,
+            "E_external_total_J": 1281828802.6931992,
+            "E_external_right_endpoint_J": 1281819014.182108,
+            "E_external_quadrature_difference_J": -9788.5110912323,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1200841789.0795398,
+            "E_pedestal_negative_J": -1199667865.9882727,
             "E_pedestal_positive_trapezoidal_J": 26531857.859220386,
-            "J_supplied_total_J": 1283326595.2286313
+            "J_supplied_total_J": 1281828802.6931992
           },
           "violation": {}
         },
@@ -747,23 +749,23 @@
           "seed": 8516,
           "level": "fine",
           "metrics": {
-            "fusion_energy_J": 3346285377.4695086,
+            "fusion_energy_J": 3346285358.5569057,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.02064629580836916,
+            "fusion_rms_relative": 0.02064630210195247,
             "fusion_peak_relative": 0.047495902312278925,
             "q_min": 1.8279795705948279,
             "q95_min": 4.979431417148658,
             "beta_N_max": 1.366783715893062,
             "temperature_max_keV": 17.707597930254998,
             "fgw_max": 0.8168140899333461,
-            "terminal_energy_deficit_fraction": 0.012377127018510459,
-            "E_external_total_J": 1275310170.258115,
-            "E_external_right_endpoint_J": 1275310624.3388631,
-            "E_external_quadrature_difference_J": 454.0807480812073,
+            "terminal_energy_deficit_fraction": 0.0123773556996567,
+            "E_external_total_J": 1275310042.6428182,
+            "E_external_right_endpoint_J": 1275310496.561892,
+            "E_external_quadrature_difference_J": 453.91907382011414,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1194410875.892417,
+            "E_pedestal_negative_J": -1194410788.2691183,
             "E_pedestal_positive_trapezoidal_J": 16809371.0951178,
-            "J_supplied_total_J": 1275310170.258115
+            "J_supplied_total_J": 1275310042.6428182
           },
           "violation": {}
         }
@@ -771,7 +773,7 @@
     },
     {
       "seed": 2026100801,
-      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/early_reserve-local",
+      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/precision_guard-local",
       "physical_override": null,
       "scenario": {
         "event_start_s": 9.733964748532262,
@@ -779,39 +781,39 @@
         "initial_temperature_multiplier": 0.9928800935558718,
         "sensor_seed": 4900597926794362877
       },
-      "J_upper_J": 1289596035.3324692,
-      "grid_heat_difference_J": 8234312.404564381,
+      "J_upper_J": 1286600040.1272712,
+      "grid_heat_difference_J": 6736326.232070923,
       "grid_power_difference_W": 2779030.181965381,
       "accepted_state_counts": [
         6001,
         12001
       ],
       "terminal_W_J": [
-        183257367.47823167,
-        184130532.98298764
+        183014645.3681212,
+        184130527.06156406
       ],
       "episodes": [
         {
           "seed": 2026100801,
           "level": "coarse",
           "metrics": {
-            "fusion_energy_J": 3391347658.7044516,
+            "fusion_energy_J": 3391192298.8439255,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.019886990480464686,
+            "fusion_rms_relative": 0.019844974017992983,
             "fusion_peak_relative": 0.04256599584054479,
             "q_min": 1.8337676430354448,
             "q95_min": 4.978940067200357,
             "beta_N_max": 1.3821443752917029,
             "temperature_max_keV": 17.46311417901857,
             "fgw_max": 0.8168140899333457,
-            "terminal_energy_deficit_fraction": 0.012263573003093109,
-            "E_external_total_J": 1281361722.9279048,
-            "E_external_right_endpoint_J": 1281355612.629962,
-            "E_external_quadrature_difference_J": -6110.297942876816,
+            "terminal_energy_deficit_fraction": 0.013571817648821427,
+            "E_external_total_J": 1279863713.8952003,
+            "E_external_right_endpoint_J": 1279853859.322444,
+            "E_external_quadrature_difference_J": -9854.572756290436,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1235543203.3792727,
+            "E_pedestal_negative_J": -1234269009.5253017,
             "E_pedestal_positive_trapezoidal_J": 1540288.134931299,
-            "J_supplied_total_J": 1281361722.9279048
+            "J_supplied_total_J": 1279863713.8952003
           },
           "violation": {}
         },
@@ -819,23 +821,23 @@
           "seed": 2026100801,
           "level": "fine",
           "metrics": {
-            "fusion_energy_J": 3396290832.836055,
+            "fusion_energy_J": 3396290829.52961,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.02210596667937876,
+            "fusion_rms_relative": 0.02210596618049413,
             "fusion_peak_relative": 0.044081003406069214,
             "q_min": 1.8279795705948279,
             "q95_min": 4.979431417148658,
             "beta_N_max": 1.3821462813669836,
             "temperature_max_keV": 17.70761126322646,
             "fgw_max": 0.8168140899333461,
-            "terminal_energy_deficit_fraction": 0.007557309960505965,
-            "E_external_total_J": 1273127410.5233405,
-            "E_external_right_endpoint_J": 1273127680.8238978,
-            "E_external_quadrature_difference_J": 270.3005573749542,
+            "terminal_energy_deficit_fraction": 0.007557341876307522,
+            "E_external_total_J": 1273127387.6631293,
+            "E_external_right_endpoint_J": 1273127657.9351373,
+            "E_external_quadrature_difference_J": 270.2720079421997,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1229322230.677079,
+            "E_pedestal_negative_J": -1229322213.306244,
             "E_pedestal_positive_trapezoidal_J": 10675860.50340028,
-            "J_supplied_total_J": 1273127410.5233405
+            "J_supplied_total_J": 1273127387.6631293
           },
           "violation": {}
         }
@@ -843,7 +845,7 @@
     },
     {
       "seed": 2026100802,
-      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/early_reserve-local",
+      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/precision_guard-local",
       "physical_override": null,
       "scenario": {
         "event_start_s": 8.844209474566608,
@@ -851,39 +853,39 @@
         "initial_temperature_multiplier": 1.0055367880169201,
         "sensor_seed": 3004297751883849137
       },
-      "J_upper_J": 1291291894.6872067,
-      "grid_heat_difference_J": 8566407.596235514,
+      "J_upper_J": 1288296439.300367,
+      "grid_heat_difference_J": 7068680.854898214,
       "grid_power_difference_W": 1901977.0633270293,
       "accepted_state_counts": [
         6001,
         12001
       ],
       "terminal_W_J": [
-        182658603.49377006,
-        182917322.92994094
+        182310617.73261112,
+        182917321.87097108
       ],
       "episodes": [
         {
           "seed": 2026100802,
           "level": "coarse",
           "metrics": {
-            "fusion_energy_J": 3353570594.6829057,
+            "fusion_energy_J": 3353363683.9122014,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.018120697020691485,
+            "fusion_rms_relative": 0.018147811493726723,
             "fusion_peak_relative": 0.04256643451319716,
             "q_min": 1.8337676430354448,
             "q95_min": 4.978940067200357,
             "beta_N_max": 1.399763247513001,
             "temperature_max_keV": 17.463114179027023,
             "fgw_max": 0.8168140899333457,
-            "terminal_energy_deficit_fraction": 0.015490842971907837,
-            "E_external_total_J": 1282725487.0909712,
-            "E_external_right_endpoint_J": 1282719481.1698458,
-            "E_external_quadrature_difference_J": -6005.921125411987,
+            "terminal_energy_deficit_fraction": 0.01736644675855381,
+            "E_external_total_J": 1281227758.445469,
+            "E_external_right_endpoint_J": 1281218009.8258374,
+            "E_external_quadrature_difference_J": -9748.619631528854,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1210773774.3134828,
+            "E_pedestal_negative_J": -1209595539.8757865,
             "E_pedestal_positive_trapezoidal_J": 0.0,
-            "J_supplied_total_J": 1282725487.0909712
+            "J_supplied_total_J": 1281227758.445469
           },
           "violation": {}
         },
@@ -891,23 +893,23 @@
           "seed": 2026100802,
           "level": "fine",
           "metrics": {
-            "fusion_energy_J": 3354852188.3278885,
+            "fusion_energy_J": 3354852188.138646,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.01986026688593958,
+            "fusion_rms_relative": 0.01986026730866083,
             "fusion_peak_relative": 0.04664161398671342,
             "q_min": 1.8279795705948279,
             "q95_min": 4.979431417148658,
             "beta_N_max": 1.3997651816899508,
             "temperature_max_keV": 17.707612311933875,
             "fgw_max": 0.8168140899333461,
-            "terminal_energy_deficit_fraction": 0.014096374553013713,
-            "E_external_total_J": 1274159079.4947357,
-            "E_external_right_endpoint_J": 1274159425.5215142,
-            "E_external_quadrature_difference_J": 346.02677845954895,
+            "terminal_energy_deficit_fraction": 0.014096380260741115,
+            "E_external_total_J": 1274159077.5905707,
+            "E_external_right_endpoint_J": 1274159423.6173565,
+            "E_external_quadrature_difference_J": 346.0267858505249,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1204204111.1754248,
+            "E_pedestal_negative_J": -1204204110.3155382,
             "E_pedestal_positive_trapezoidal_J": 3641507.034970823,
-            "J_supplied_total_J": 1274159079.4947357
+            "J_supplied_total_J": 1274159077.5905707
           },
           "violation": {}
         }
@@ -915,7 +917,7 @@
     },
     {
       "seed": 2026100803,
-      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/early_reserve-local",
+      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/precision_guard-local",
       "physical_override": null,
       "scenario": {
         "event_start_s": 10.17396325070405,
@@ -923,39 +925,39 @@
         "initial_temperature_multiplier": 1.0105480313605568,
         "sensor_seed": 226952982281404168
       },
-      "J_upper_J": 1289661960.6195138,
-      "grid_heat_difference_J": 8227781.7855911255,
+      "J_upper_J": 1286666261.178232,
+      "grid_heat_difference_J": 6729933.493875504,
       "grid_power_difference_W": 2866736.6590362787,
       "accepted_state_counts": [
         6001,
         12001
       ],
       "terminal_W_J": [
-        183085421.60875842,
-        183910088.4635664
+        182790643.6778596,
+        183910087.49207774
       ],
       "episodes": [
         {
           "seed": 2026100803,
           "level": "coarse",
           "metrics": {
-            "fusion_energy_J": 3381734033.7634344,
+            "fusion_energy_J": 3381579263.0923057,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.01845893540469156,
+            "fusion_rms_relative": 0.01843727726426828,
             "fusion_peak_relative": 0.04256660029753122,
             "q_min": 1.8337676430354448,
             "q95_min": 4.978940067200357,
             "beta_N_max": 1.4067391964503548,
             "temperature_max_keV": 17.463114179033447,
             "fgw_max": 0.8168140899333457,
-            "terminal_energy_deficit_fraction": 0.013190341738710587,
-            "E_external_total_J": 1281434178.8339226,
-            "E_external_right_endpoint_J": 1281428129.2487743,
-            "E_external_quadrature_difference_J": -6049.585148334503,
+            "terminal_energy_deficit_fraction": 0.014779161354697479,
+            "E_external_total_J": 1279936327.6843565,
+            "E_external_right_endpoint_J": 1279926534.4356778,
+            "E_external_quadrature_difference_J": -9793.248678684235,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1231435851.646591,
+            "E_pedestal_negative_J": -1230213665.7380857,
             "E_pedestal_positive_trapezoidal_J": 0.0,
-            "J_supplied_total_J": 1281434178.8339226
+            "J_supplied_total_J": 1279936327.6843565
           },
           "violation": {}
         },
@@ -963,23 +965,23 @@
           "seed": 2026100803,
           "level": "fine",
           "metrics": {
-            "fusion_energy_J": 3384550307.54545,
+            "fusion_energy_J": 3384550307.0986166,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.019434510395233567,
+            "fusion_rms_relative": 0.019434510408388735,
             "fusion_peak_relative": 0.04771820552908042,
             "q_min": 1.8279795705948279,
             "q95_min": 4.979431417148658,
             "beta_N_max": 1.4067411417014657,
             "temperature_max_keV": 17.707609977858294,
             "fgw_max": 0.8168140899333461,
-            "terminal_energy_deficit_fraction": 0.008745480918980864,
-            "E_external_total_J": 1273206397.0483315,
-            "E_external_right_endpoint_J": 1273206757.0552864,
-            "E_external_quadrature_difference_J": 360.006954908371,
+            "terminal_energy_deficit_fraction": 0.008745486155194548,
+            "E_external_total_J": 1273206394.190481,
+            "E_external_right_endpoint_J": 1273206754.192677,
+            "E_external_quadrature_difference_J": 360.0021960735321,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1224903556.6606688,
+            "E_pedestal_negative_J": -1224903554.7091541,
             "E_pedestal_positive_trapezoidal_J": 856351.945390325,
-            "J_supplied_total_J": 1273206397.0483315
+            "J_supplied_total_J": 1273206394.190481
           },
           "violation": {}
         }
@@ -987,7 +989,7 @@
     },
     {
       "seed": 2026100804,
-      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/early_reserve-local",
+      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/precision_guard-local",
       "physical_override": null,
       "scenario": {
         "event_start_s": 15.27296263889181,
@@ -995,39 +997,39 @@
         "initial_temperature_multiplier": 0.9855703049240425,
         "sensor_seed": 1084602772747871426
       },
-      "J_upper_J": 1289347042.4055493,
-      "grid_heat_difference_J": 8084185.706726074,
+      "J_upper_J": 1286351225.7329748,
+      "grid_heat_difference_J": 6586387.854933023,
       "grid_power_difference_W": 3258973.679965839,
       "accepted_state_counts": [
         6001,
         12001
       ],
       "terminal_W_J": [
-        183208484.99250504,
-        184168619.24896044
+        182938527.90885752,
+        184168565.86276644
       ],
       "episodes": [
         {
           "seed": 2026100804,
           "level": "coarse",
           "metrics": {
-            "fusion_energy_J": 3389888985.0947156,
+            "fusion_energy_J": 3389736250.2129135,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.019831691053776312,
+            "fusion_rms_relative": 0.01979709192480208,
             "fusion_peak_relative": 0.04256573073020107,
             "q_min": 1.8337676430354448,
             "q95_min": 4.978940067200357,
             "beta_N_max": 1.371968640007437,
             "temperature_max_keV": 17.46311417901295,
             "fgw_max": 0.8168140899333457,
-            "terminal_energy_deficit_fraction": 0.012527044057265568,
-            "E_external_total_J": 1281262856.6988232,
-            "E_external_right_endpoint_J": 1281256737.1298895,
-            "E_external_quadrature_difference_J": -6119.568933725357,
+            "terminal_energy_deficit_fraction": 0.01398208212156693,
+            "E_external_total_J": 1279764837.8780417,
+            "E_external_right_endpoint_J": 1279754974.0486236,
+            "E_external_quadrature_difference_J": -9863.829418182373,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1233174492.186626,
+            "E_pedestal_negative_J": -1231927766.7390985,
             "E_pedestal_positive_trapezoidal_J": 18093913.640761692,
-            "J_supplied_total_J": 1281262856.6988232
+            "J_supplied_total_J": 1279764837.8780417
           },
           "violation": {}
         },
@@ -1035,23 +1037,23 @@
           "seed": 2026100804,
           "level": "fine",
           "metrics": {
-            "fusion_energy_J": 3394848021.2553043,
+            "fusion_energy_J": 3394847984.5074854,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.022966750663953043,
+            "fusion_rms_relative": 0.022966743351761444,
             "fusion_peak_relative": 0.048053690611131336,
             "q_min": 1.8279795705948279,
             "q95_min": 4.979431417148658,
             "beta_N_max": 1.3719706038469877,
             "temperature_max_keV": 17.707591280871522,
             "fgw_max": 0.8168140899333461,
-            "terminal_energy_deficit_fraction": 0.00735202930637846,
-            "E_external_total_J": 1273178670.9920971,
-            "E_external_right_endpoint_J": 1273179084.6972692,
-            "E_external_quadrature_difference_J": 413.70517206192017,
+            "terminal_energy_deficit_fraction": 0.007352317051909418,
+            "E_external_total_J": 1273178450.0231087,
+            "E_external_right_endpoint_J": 1273178863.4521377,
+            "E_external_quadrature_difference_J": 413.4290289878845,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1227012835.962579,
+            "E_pedestal_negative_J": -1227012663.261756,
             "E_pedestal_positive_trapezoidal_J": 14738503.96643407,
-            "J_supplied_total_J": 1273178670.9920971
+            "J_supplied_total_J": 1273178450.0231087
           },
           "violation": {}
         }
@@ -1059,7 +1061,7 @@
     },
     {
       "seed": 17,
-      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/early_reserve-extreme",
+      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/precision_guard-extreme",
       "physical_override": {
         "event_start_s": 8.0,
         "Z_eff_after_event": 1.75,
@@ -1071,39 +1073,39 @@
         "initial_temperature_multiplier": 0.98,
         "sensor_seed": 3394938241273377201
       },
-      "J_upper_J": 1291292482.7278774,
-      "grid_heat_difference_J": 7980028.836236477,
+      "J_upper_J": 1288296983.4368565,
+      "grid_heat_difference_J": 6482304.903856516,
       "grid_power_difference_W": 3318992.583631143,
       "accepted_state_counts": [
         6001,
         12001
       ],
       "terminal_W_J": [
-        182514211.0383837,
-        183177888.5732824
+        182158107.33564287,
+        183177870.1782586
       ],
       "episodes": [
         {
           "seed": 17,
           "level": "coarse",
           "metrics": {
-            "fusion_energy_J": 3341364442.6569176,
+            "fusion_energy_J": 3341146467.7446184,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.01931494978905815,
+            "fusion_rms_relative": 0.019354995059218172,
             "fusion_peak_relative": 0.04940125163741687,
             "q_min": 1.8337676430354448,
             "q95_min": 4.978940067200357,
             "beta_N_max": 1.3642144445480855,
             "temperature_max_keV": 17.46311417900608,
             "fgw_max": 0.8168140899333457,
-            "terminal_energy_deficit_fraction": 0.016269101930503793,
-            "E_external_total_J": 1283312453.891641,
-            "E_external_right_endpoint_J": 1283306409.7980418,
-            "E_external_quadrature_difference_J": -6044.093599081039,
+            "terminal_energy_deficit_fraction": 0.018188460501598502,
+            "E_external_total_J": 1281814678.533,
+            "E_external_right_endpoint_J": 1281804891.6892831,
+            "E_external_quadrature_difference_J": -9786.843716859818,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1197898086.355854,
+            "E_pedestal_negative_J": -1196726076.862216,
             "E_pedestal_positive_trapezoidal_J": 30708333.333333187,
-            "J_supplied_total_J": 1283312453.891641
+            "J_supplied_total_J": 1281814678.533
           },
           "violation": {}
         },
@@ -1111,23 +1113,23 @@
           "seed": 17,
           "level": "fine",
           "metrics": {
-            "fusion_energy_J": 3343015213.8063483,
+            "fusion_energy_J": 3343015205.6265306,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.021245192593887918,
+            "fusion_rms_relative": 0.021245195650934242,
             "fusion_peak_relative": 0.05207625694301269,
             "q_min": 1.8279795705948279,
             "q95_min": 4.979431417148658,
             "beta_N_max": 1.3642163949977513,
             "temperature_max_keV": 17.70761047588506,
             "fgw_max": 0.8168140899333461,
-            "terminal_energy_deficit_fraction": 0.012691955286853407,
-            "E_external_total_J": 1275332425.0554044,
-            "E_external_right_endpoint_J": 1275332880.2398894,
-            "E_external_quadrature_difference_J": 455.1844849586487,
+            "terminal_energy_deficit_fraction": 0.012692054433945499,
+            "E_external_total_J": 1275332373.6291435,
+            "E_external_right_endpoint_J": 1275332828.747061,
+            "E_external_quadrature_difference_J": 455.1179175376892,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1191563788.3295088,
+            "E_pedestal_negative_J": -1191563754.193269,
             "E_pedestal_positive_trapezoidal_J": 17834374.99999945,
-            "J_supplied_total_J": 1275332425.0554044
+            "J_supplied_total_J": 1275332373.6291435
           },
           "violation": {}
         }
@@ -1135,7 +1137,7 @@
     },
     {
       "seed": 17,
-      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/early_reserve-middle",
+      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/precision_guard-middle",
       "physical_override": {
         "event_start_s": 12.0,
         "Z_eff_after_event": 1.75,
@@ -1147,39 +1149,39 @@
         "initial_temperature_multiplier": 0.98,
         "sensor_seed": 3394938241273377201
       },
-      "J_upper_J": 1290887747.1052096,
-      "grid_heat_difference_J": 8111297.15343976,
+      "J_upper_J": 1287892226.6574254,
+      "grid_heat_difference_J": 6613562.642165661,
       "grid_power_difference_W": 3318992.583631143,
       "accepted_state_counts": [
         6001,
         12001
       ],
       "terminal_W_J": [
-        182512877.28595313,
-        183331989.90164256
+        182157861.57291186,
+        183331975.9242132
       ],
       "episodes": [
         {
           "seed": 17,
           "level": "coarse",
           "metrics": {
-            "fusion_energy_J": 3351755011.863478,
+            "fusion_energy_J": 3351545905.3892846,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.01923818997661782,
+            "fusion_rms_relative": 0.019273365426368493,
             "fusion_peak_relative": 0.04940125163741687,
             "q_min": 1.8337676430354448,
             "q95_min": 4.978940067200357,
             "beta_N_max": 1.3642144445480855,
             "temperature_max_keV": 17.46311417900608,
             "fgw_max": 0.8168140899333457,
-            "terminal_energy_deficit_fraction": 0.016276290704840046,
-            "E_external_total_J": 1282776449.9517698,
-            "E_external_right_endpoint_J": 1282770405.8930776,
-            "E_external_quadrature_difference_J": -6044.058692216873,
+            "terminal_energy_deficit_fraction": 0.018189785134846037,
+            "E_external_total_J": 1281278664.0152597,
+            "E_external_right_endpoint_J": 1281268877.1878912,
+            "E_external_quadrature_difference_J": -9786.827368497849,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1205271939.4619327,
+            "E_pedestal_negative_J": -1204100380.2734694,
             "E_pedestal_positive_trapezoidal_J": 30708333.333333187,
-            "J_supplied_total_J": 1282776449.9517698
+            "J_supplied_total_J": 1281278664.0152597
           },
           "violation": {}
         },
@@ -1187,23 +1189,23 @@
           "seed": 17,
           "level": "fine",
           "metrics": {
-            "fusion_energy_J": 3354246835.141425,
+            "fusion_energy_J": 3354246827.240277,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.021193202736691265,
+            "fusion_rms_relative": 0.021193204824882385,
             "fusion_peak_relative": 0.049415852947283366,
             "q_min": 1.8279795705948279,
             "q95_min": 4.979431417148658,
             "beta_N_max": 1.3642163949977513,
             "temperature_max_keV": 17.70761047588506,
             "fgw_max": 0.8168140899333461,
-            "terminal_energy_deficit_fraction": 0.011861366604038137,
-            "E_external_total_J": 1274665152.79833,
-            "E_external_right_endpoint_J": 1274665605.8516943,
-            "E_external_quadrature_difference_J": 453.053364276886,
+            "terminal_energy_deficit_fraction": 0.01186144194079719,
+            "E_external_total_J": 1274665101.373094,
+            "E_external_right_endpoint_J": 1274665554.3598518,
+            "E_external_quadrature_difference_J": 452.98675775527954,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1198834938.9559226,
+            "E_pedestal_negative_J": -1198834900.482952,
             "E_pedestal_positive_trapezoidal_J": 17834374.99999945,
-            "J_supplied_total_J": 1274665152.79833
+            "J_supplied_total_J": 1274665101.373094
           },
           "violation": {}
         }
@@ -1211,7 +1213,7 @@
     },
     {
       "seed": 991,
-      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/early_reserve-late",
+      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/precision_guard-late",
       "physical_override": {
         "event_start_s": 16.0,
         "Z_eff_after_event": 1.75,
@@ -1223,39 +1225,39 @@
         "initial_temperature_multiplier": 0.98,
         "sensor_seed": 8630179878794478758
       },
-      "J_upper_J": 1290414232.4053102,
-      "grid_heat_difference_J": 8278231.752064705,
+      "J_upper_J": 1287418706.8131125,
+      "grid_heat_difference_J": 6780488.002970934,
       "grid_power_difference_W": 3318992.583631143,
       "accepted_state_counts": [
         6001,
         12001
       ],
       "terminal_W_J": [
-        182512904.70390958,
-        183298256.99577206
+        182157971.52244872,
+        183298258.23274112
       ],
       "episodes": [
         {
           "seed": 991,
           "level": "coarse",
           "metrics": {
-            "fusion_energy_J": 3361910456.8126984,
+            "fusion_energy_J": 3361700161.0899577,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.019514604203141425,
+            "fusion_rms_relative": 0.019550097747383005,
             "fusion_peak_relative": 0.04940125163741687,
             "q_min": 1.8337676430354448,
             "q95_min": 4.978940067200357,
             "beta_N_max": 1.3642144445480855,
             "temperature_max_keV": 17.46311417900608,
             "fgw_max": 0.8168140899333457,
-            "terminal_energy_deficit_fraction": 0.01627614292516444,
-            "E_external_total_J": 1282136000.6532454,
-            "E_external_right_endpoint_J": 1282129956.5998917,
-            "E_external_quadrature_difference_J": -6044.0533537864685,
+            "terminal_energy_deficit_fraction": 0.01818919251931206,
+            "E_external_total_J": 1280638218.8101416,
+            "E_external_right_endpoint_J": 1280628431.9869025,
+            "E_external_quadrature_difference_J": -9786.823239088058,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1212480057.4667635,
+            "E_pedestal_negative_J": -1211308224.9639242,
             "E_pedestal_positive_trapezoidal_J": 30708333.333333187,
-            "J_supplied_total_J": 1282136000.6532454
+            "J_supplied_total_J": 1280638218.8101416
           },
           "violation": {}
         },
@@ -1263,23 +1265,23 @@
           "seed": 991,
           "level": "fine",
           "metrics": {
-            "fusion_energy_J": 3366180812.12619,
+            "fusion_energy_J": 3366180806.6244597,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.02210637291934684,
+            "fusion_rms_relative": 0.02210637004416984,
             "fusion_peak_relative": 0.049415852947283366,
             "q_min": 1.8279795705948279,
             "q95_min": 4.979431417148658,
             "beta_N_max": 1.3642163949977513,
             "temperature_max_keV": 17.70761047588506,
             "fgw_max": 0.8168140899333461,
-            "terminal_energy_deficit_fraction": 0.01204318314094055,
-            "E_external_total_J": 1273857768.9011807,
-            "E_external_right_endpoint_J": 1273858071.1308968,
-            "E_external_quadrature_difference_J": 302.2297160625458,
+            "terminal_energy_deficit_fraction": 0.012043176473817585,
+            "E_external_total_J": 1273857730.8071706,
+            "E_external_right_endpoint_J": 1273858032.9892242,
+            "E_external_quadrature_difference_J": 302.182053565979,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1206218917.8495347,
+            "E_pedestal_negative_J": -1206218877.903519,
             "E_pedestal_positive_trapezoidal_J": 17834374.99999945,
-            "J_supplied_total_J": 1273857768.9011807
+            "J_supplied_total_J": 1273857730.8071706
           },
           "violation": {}
         }
@@ -1303,18 +1305,20 @@
   "q_calibration_note": "Gain scheduling uses only past noisy q_min observations, averaged during the first 7.5 seconds; the midpoint is calibrated from the two public native radial resolutions. This numerical-model calibration is explicit; no scenario/seed identifier is supplied to the graph.",
   "formal_submission": {
     "state": "failed",
-    "attempt_id": "111963",
+    "attempt_id": "111981",
     "score": null,
     "trace_path": "/home/lmxxf/.codex/sessions/2026/11/25/rollout-2026-11-25T22-15-37-01a2130f-e199-7e90-8883-e3f2d85168e0.jsonl",
-    "submitted_controller_sha256": "d77373104a507bef8ae02a675bacb6acbbf3dea09c817686a7629e41508edb47",
+    "submitted_controller_sha256": "9a959bd94dda3cf27257ede2f4a65b139d1c5c55ddaf5716a4339f26daf668e0",
+    "exit_code": 1,
+    "log": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/final-submit.log",
     "status": "submitted",
     "challenge_id": "challenge-9668a3f8",
     "attempt_url": "https://play.bohrium.com/#challenge/challenge-9668a3f8",
     "bundle": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/final-bundle.zip",
-    "bundle_sha256": "e9f94c9fd98ed40eb7993cd94bf8410041c082b0de5de0c5e463b6c38f9a5b65",
+    "bundle_sha256": "f9322876609f25bc0d5a6568ff46726b2aff9217f98c5f34adf4d41f2e6ec3fe",
     "trace_backup_path": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/session_trace.jsonl",
     "platform_score_is_final": false,
-    "platform_status_path": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/platform-111963-status.json",
+    "platform_status_path": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/platform-111981-status.json",
     "platform_scoring_state": {
       "actionNeeded": null,
       "displayScore": null,
@@ -1339,6 +1343,13 @@
       "score_is_final": false,
       "score_percent": null,
       "scored_by": "playground-worker/harbor-lbg"
+    },
+    "benchmark_reward": null,
+    "worker_retry_receipt": {
+      "worker_job_id": 86294,
+      "status": "evaluation_failed",
+      "new_job_created": false,
+      "log": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/platform-111981-idempotent-retry.log"
     }
   },
   "memory_replay_audit": {
@@ -1357,7 +1368,7 @@
       5.300000190734863,
       19.92616081237793,
       0.29992517828941345,
-      0.2365184873342514,
+      0.23925383388996124,
       5.376386642456055,
       15.0,
       1.0,
@@ -1379,7 +1390,7 @@
       0.0,
       0.0
     ],
-    "maximum_fusion_integral_float32_rounding_error_J": 747.6806640625,
+    "maximum_fusion_integral_float32_rounding_error_J": 667.572021484375,
     "maximum_target_integral_float32_rounding_error_J": 263.214111328125,
     "scope": "Exact original delayed/noisy observations and commands; memory is a delayed diagnostic estimator, not native-step ground truth"
   },
@@ -1423,762 +1434,1200 @@
     "scenario_count": 9,
     "trajectory_count": 18,
     "native_accepted_steps": 162000,
-    "worst_supplied_heat_J": 1291343020.1991475,
-    "minimum_fusion_energy_ratio": 1.0003119115192365,
-    "minimum_terminal_W_ratio": 0.98372370929516,
-    "maximum_fusion_rms_relative": 0.022966750663953043,
+    "worst_supplied_heat_J": 1288347562.74358,
+    "minimum_fusion_energy_ratio": 1.0002466558714533,
+    "minimum_terminal_W_ratio": 0.981810214865154,
+    "maximum_fusion_rms_relative": 0.022966743351761444,
     "maximum_fusion_peak_relative": 0.05207625694301269,
     "maximum_beta_N": 1.4067411417014657,
     "maximum_temperature_keV": 17.707612311933875,
     "maximum_positive_pedestal_heat_J": 0.0,
-    "maximum_grid_heat_difference_J": 8566407.596235514,
+    "maximum_grid_heat_difference_J": 7068680.854898214,
     "maximum_grid_power_difference_W": 3323468.3744940907
   },
   "native_stress": {
     "feasible": true,
-    "scenario_count": 16,
-    "trajectory_count": 32,
-    "native_accepted_steps": 288000,
-    "worst_supplied_heat_J": 1291369591.3822482,
-    "minimum_fusion_energy_ratio": 1.0017253261048584,
-    "minimum_terminal_W_ratio": 0.9839569215827418,
-    "maximum_fusion_rms_relative": 0.02856181174436055,
+    "scenario_count": 17,
+    "trajectory_count": 34,
+    "native_accepted_steps": 306000,
+    "worst_supplied_heat_J": 1288069094.8295367,
+    "minimum_fusion_energy_ratio": 1.0029605809791151,
+    "minimum_terminal_W_ratio": 0.9818747373612687,
+    "maximum_fusion_rms_relative": 0.025795561525671497,
     "maximum_fusion_peak_relative": 0.05022923238604388,
-    "maximum_beta_N": 1.417058851930777,
-    "maximum_temperature_keV": 17.707612580105224,
+    "maximum_beta_N": 1.4195147621891488,
+    "maximum_temperature_keV": 17.7076122606661,
     "maximum_positive_pedestal_heat_J": 0.0,
-    "maximum_grid_heat_difference_J": 8486157.682707548,
-    "maximum_grid_power_difference_W": 3369163.244097322,
-    "seed_generator": "PCG64(966820261125), integers [1,2**31), 16 draws; all retained",
+    "maximum_grid_heat_difference_J": 6916222.467320204,
+    "maximum_grid_power_difference_W": 3284036.4456637204,
+    "seed_generator": "PCG64(966820261126), integers [1,2**31), 16 draws; all retained; extra validation seeds=[1434697116]",
     "scope": "Same native simulator and evaluation metrics, accelerated host driver; separately parity-validated against original evaluator",
-    "candidate_sha256": "d77373104a507bef8ae02a675bacb6acbbf3dea09c817686a7629e41508edb47"
+    "candidate_sha256": "9a959bd94dda3cf27257ede2f4a65b139d1c5c55ddaf5716a4339f26daf668e0"
   },
   "native_stress_pairs": [
     {
-      "seed": 1054679686,
-      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/early_reserve-stress",
+      "seed": 200310932,
+      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/precision_guard-stress",
       "driver": "Native TORAX steps batched per control window, actual original isolated ONNX Controller and delayed/noisy features",
       "scenario": {
-        "event_start_s": 9.537195501604899,
-        "Z_eff_after_event": 1.6010752068504135,
-        "initial_temperature_multiplier": 1.0024171498200272,
-        "sensor_seed": 588053819336085876
+        "event_start_s": 14.18419735696284,
+        "Z_eff_after_event": 1.6059155344108464,
+        "initial_temperature_multiplier": 0.9994283460015111,
+        "sensor_seed": 4845331381207041569
       },
       "physical_override": null,
-      "J_upper_J": 1288927619.3314652,
-      "grid_heat_difference_J": 8024319.841264248,
-      "grid_power_difference_W": 3189156.658766344,
+      "J_upper_J": 1285951112.3137562,
+      "grid_heat_difference_J": 6526242.643233061,
+      "grid_power_difference_W": 3135299.6459024847,
       "accepted_state_counts": [
         6001,
         12001
       ],
       "terminal_W_J": [
-        183309422.7291986,
-        183151136.91740486
+        183047481.80469757,
+        183218416.07265428
       ],
       "episodes": [
         {
-          "seed": 1054679686,
+          "seed": 200310932,
           "level": "coarse",
           "metrics": {
-            "fusion_energy_J": 3395612923.863808,
+            "fusion_energy_J": 3394238791.102947,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.020544647717492055,
-            "fusion_peak_relative": 0.04256632979185285,
+            "fusion_rms_relative": 0.020253427135664356,
+            "fusion_peak_relative": 0.04256622808960761,
             "q_min": 1.8337676430354448,
             "q95_min": 4.978940067200357,
-            "beta_N_max": 1.3954205254609133,
-            "temperature_max_keV": 17.463114179025382,
+            "beta_N_max": 1.3912599326204684,
+            "temperature_max_keV": 17.463114179022693,
             "fgw_max": 0.8168140899333457,
-            "terminal_energy_deficit_fraction": 0.011983001104107327,
-            "E_external_total_J": 1280903299.490201,
-            "E_external_right_endpoint_J": 1280896902.144129,
-            "E_external_quadrature_difference_J": -6397.346071958542,
+            "terminal_energy_deficit_fraction": 0.01339483297974342,
+            "E_external_total_J": 1279424869.6705232,
+            "E_external_right_endpoint_J": 1279414724.984413,
+            "E_external_quadrature_difference_J": -10144.686110258102,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1240035646.5180926,
+            "E_pedestal_negative_J": -1237342709.33223,
             "E_pedestal_positive_trapezoidal_J": 0.0,
-            "J_supplied_total_J": 1280903299.490201
+            "J_supplied_total_J": 1279424869.6705232
           },
           "violation": {}
         },
         {
-          "seed": 1054679686,
+          "seed": 200310932,
           "level": "fine",
           "metrics": {
-            "fusion_energy_J": 3399963896.7527795,
+            "fusion_energy_J": 3398973780.9355536,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.023700649835885955,
-            "fusion_peak_relative": 0.0496750298011397,
+            "fusion_rms_relative": 0.023608828853630533,
+            "fusion_peak_relative": 0.04839068629500516,
             "q_min": 1.8279795705948279,
             "q95_min": 4.979431417148658,
-            "beta_N_max": 1.3954224527282415,
-            "temperature_max_keV": 17.707604404168563,
+            "beta_N_max": 1.3912618532572487,
+            "temperature_max_keV": 17.707602949882503,
             "fgw_max": 0.8168140899333461,
-            "terminal_energy_deficit_fraction": 0.012836143678056078,
-            "E_external_total_J": 1272878979.6489367,
-            "E_external_right_endpoint_J": 1272879263.7307127,
-            "E_external_quadrature_difference_J": 284.0817759037018,
+            "terminal_energy_deficit_fraction": 0.012473516661571704,
+            "E_external_total_J": 1272898627.02729,
+            "E_external_right_endpoint_J": 1272898907.4298906,
+            "E_external_quadrature_difference_J": 280.4026005268097,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1234933909.5336828,
-            "E_pedestal_positive_trapezoidal_J": 5375343.451587758,
-            "J_supplied_total_J": 1272878979.6489367
+            "E_pedestal_negative_J": -1233472497.2339163,
+            "E_pedestal_positive_trapezoidal_J": 7036464.573847403,
+            "J_supplied_total_J": 1272898627.02729
           },
           "violation": {}
         }
       ]
     },
     {
-      "seed": 1978762442,
-      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/early_reserve-stress",
+      "seed": 685746659,
+      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/precision_guard-stress",
       "driver": "Native TORAX steps batched per control window, actual original isolated ONNX Controller and delayed/noisy features",
       "scenario": {
-        "event_start_s": 11.621165267037554,
-        "Z_eff_after_event": 1.5690591749348861,
-        "initial_temperature_multiplier": 0.9990825830157612,
-        "sensor_seed": 5738060685593770525
+        "event_start_s": 11.68212114676609,
+        "Z_eff_after_event": 1.7106208985643834,
+        "initial_temperature_multiplier": 0.9995223859712616,
+        "sensor_seed": 171893035956404098
       },
       "physical_override": null,
-      "J_upper_J": 1288774137.60256,
-      "grid_heat_difference_J": 8029295.711440325,
-      "grid_power_difference_W": 2551129.785996914,
+      "J_upper_J": 1287535290.9214425,
+      "grid_heat_difference_J": 6738186.798297167,
+      "grid_power_difference_W": 2512121.8870310485,
       "accepted_state_counts": [
         6001,
         12001
       ],
       "terminal_W_J": [
-        183457705.81180322,
-        185599234.94127104
+        182390386.61368284,
+        183459648.99843425
       ],
       "episodes": [
         {
-          "seed": 1978762442,
+          "seed": 685746659,
           "level": "coarse",
           "metrics": {
-            "fusion_energy_J": 3404848201.7692533,
+            "fusion_energy_J": 3363281724.3863635,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.022654838915399857,
-            "fusion_peak_relative": 0.04256621620949949,
+            "fusion_rms_relative": 0.017621373935972885,
+            "fusion_peak_relative": 0.04256623131439121,
             "q_min": 1.8337676430354448,
             "q95_min": 4.978940067200357,
-            "beta_N_max": 1.3907786099589374,
-            "temperature_max_keV": 17.463114179022305,
+            "beta_N_max": 1.391390841857062,
+            "temperature_max_keV": 17.463114179026302,
             "fgw_max": 0.8168140899333457,
-            "terminal_energy_deficit_fraction": 0.011183772106051482,
-            "E_external_total_J": 1280744841.8911197,
-            "E_external_right_endpoint_J": 1280738415.4907606,
-            "E_external_quadrature_difference_J": -6426.400359153748,
+            "terminal_energy_deficit_fraction": 0.01693650153638049,
+            "E_external_total_J": 1280797104.1231453,
+            "E_external_right_endpoint_J": 1280787332.487834,
+            "E_external_quadrature_difference_J": -9771.635311365128,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1246331242.992426,
+            "E_pedestal_negative_J": -1215561890.7533212,
             "E_pedestal_positive_trapezoidal_J": 0.0,
-            "J_supplied_total_J": 1280744841.8911197
+            "J_supplied_total_J": 1280797104.1231453
           },
           "violation": {}
         },
         {
-          "seed": 1978762442,
+          "seed": 685746659,
           "level": "fine",
           "metrics": {
-            "fusion_energy_J": 3411572933.111718,
+            "fusion_energy_J": 3365312524.8422346,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.026210113621989828,
-            "fusion_peak_relative": 0.04827533207331905,
+            "fusion_rms_relative": 0.019235746467010685,
+            "fusion_peak_relative": 0.04842558919227197,
             "q_min": 1.8279795705948279,
             "q95_min": 4.979431417148658,
-            "beta_N_max": 1.3907805298279998,
-            "temperature_max_keV": 17.707589331220873,
+            "beta_N_max": 1.3913927627026221,
+            "temperature_max_keV": 17.7076122606661,
             "fgw_max": 0.8168140899333461,
-            "terminal_energy_deficit_fraction": 0.0,
-            "E_external_total_J": 1272715546.1796794,
-            "E_external_right_endpoint_J": 1272715798.8526332,
-            "E_external_quadrature_difference_J": 252.67295384407043,
+            "terminal_energy_deficit_fraction": 0.011173298550492317,
+            "E_external_total_J": 1274058917.3248482,
+            "E_external_right_endpoint_J": 1274059301.9602823,
+            "E_external_quadrature_difference_J": 384.6354341506958,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1239375647.0490324,
-            "E_pedestal_positive_trapezoidal_J": 7228633.1582711255,
-            "J_supplied_total_J": 1272715546.1796794
+            "E_pedestal_negative_J": -1210156545.5424209,
+            "E_pedestal_positive_trapezoidal_J": 6984198.9219094375,
+            "J_supplied_total_J": 1274058917.3248482
           },
           "violation": {}
         }
       ]
     },
     {
-      "seed": 1960757239,
-      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/early_reserve-stress",
+      "seed": 44257316,
+      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/precision_guard-stress",
       "driver": "Native TORAX steps batched per control window, actual original isolated ONNX Controller and delayed/noisy features",
       "scenario": {
-        "event_start_s": 14.464562468677121,
-        "Z_eff_after_event": 1.5839550958609228,
-        "initial_temperature_multiplier": 1.011327112175154,
-        "sensor_seed": 1180707296264350558
+        "event_start_s": 11.800720416558026,
+        "Z_eff_after_event": 1.7479715313239081,
+        "initial_temperature_multiplier": 0.9870611313312873,
+        "sensor_seed": 2017304627549747536
       },
       "physical_override": null,
-      "J_upper_J": 1288858129.3720717,
-      "grid_heat_difference_J": 8028823.3856060505,
-      "grid_power_difference_W": 2352883.812586397,
+      "J_upper_J": 1287961266.2018025,
+      "grid_heat_difference_J": 6530168.887576103,
+      "grid_power_difference_W": 3176766.5934175104,
       "accepted_state_counts": [
         6001,
         12001
       ],
       "terminal_W_J": [
-        183399433.1424781,
-        185375411.59240833
+        182169832.60329804,
+        183321964.94558528
       ],
       "episodes": [
         {
-          "seed": 1960757239,
+          "seed": 44257316,
           "level": "coarse",
           "metrics": {
-            "fusion_energy_J": 3400165525.8517814,
+            "fusion_energy_J": 3351926678.227539,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.021634084561649076,
-            "fusion_peak_relative": 0.0425666257469727,
+            "fusion_rms_relative": 0.018877893207533792,
+            "fusion_peak_relative": 0.042565785352102536,
             "q_min": 1.8337676430354448,
             "q95_min": 4.978940067200357,
-            "beta_N_max": 1.4078237232973159,
-            "temperature_max_keV": 17.463114179034502,
+            "beta_N_max": 1.374044033258339,
+            "temperature_max_keV": 17.46311417901239,
             "fgw_max": 0.8168140899333457,
-            "terminal_energy_deficit_fraction": 0.0114978551848538,
-            "E_external_total_J": 1280829305.9864657,
-            "E_external_right_endpoint_J": 1280822915.8745587,
-            "E_external_quadrature_difference_J": -6390.11190700531,
+            "terminal_energy_deficit_fraction": 0.018125262638731265,
+            "E_external_total_J": 1281431097.3142264,
+            "E_external_right_endpoint_J": 1281421325.1563656,
+            "E_external_quadrature_difference_J": -9772.15786075592,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1244935031.453502,
-            "E_pedestal_positive_trapezoidal_J": 0.0,
-            "J_supplied_total_J": 1280829305.9864657
+            "E_pedestal_negative_J": -1205707129.6069798,
+            "E_pedestal_positive_trapezoidal_J": 14717813.006021805,
+            "J_supplied_total_J": 1281431097.3142264
           },
           "violation": {}
         },
         {
-          "seed": 1960757239,
+          "seed": 44257316,
           "level": "fine",
           "metrics": {
-            "fusion_energy_J": 3406596070.795306,
+            "fusion_energy_J": 3354579717.7373447,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.024664534496069992,
-            "fusion_peak_relative": 0.04733111465763143,
+            "fusion_rms_relative": 0.019823689058549622,
+            "fusion_peak_relative": 0.04701280845711932,
             "q_min": 1.8279795705948279,
             "q95_min": 4.979431417148658,
-            "beta_N_max": 1.4078256702671959,
-            "temperature_max_keV": 17.707592778865678,
+            "beta_N_max": 1.3740459263572287,
+            "temperature_max_keV": 17.707599568466925,
             "fgw_max": 0.8168140899333461,
-            "terminal_energy_deficit_fraction": 0.0008475554407586516,
-            "E_external_total_J": 1272800482.6008596,
-            "E_external_right_endpoint_J": 1272800753.708366,
-            "E_external_quadrature_difference_J": 271.107506275177,
+            "terminal_energy_deficit_fraction": 0.011915399980229613,
+            "E_external_total_J": 1274900928.4266503,
+            "E_external_right_endpoint_J": 1274901389.2280257,
+            "E_external_quadrature_difference_J": 460.8013753890991,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1238092372.8598838,
-            "E_pedestal_positive_trapezoidal_J": 423353.4364025307,
-            "J_supplied_total_J": 1272800482.6008596
+            "E_pedestal_negative_J": -1200536784.0293865,
+            "E_pedestal_positive_trapezoidal_J": 13909930.602282533,
+            "J_supplied_total_J": 1274900928.4266503
           },
           "violation": {}
         }
       ]
     },
     {
-      "seed": 1132004342,
-      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/early_reserve-stress",
+      "seed": 1044425239,
+      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/precision_guard-stress",
       "driver": "Native TORAX steps batched per control window, actual original isolated ONNX Controller and delayed/noisy features",
       "scenario": {
-        "event_start_s": 13.459443663549134,
-        "Z_eff_after_event": 1.7004874515957438,
-        "initial_temperature_multiplier": 1.0128474093905597,
-        "sensor_seed": 2681319609747041087
+        "event_start_s": 14.165084348178254,
+        "Z_eff_after_event": 1.7128897221356576,
+        "initial_temperature_multiplier": 0.9955936350333369,
+        "sensor_seed": 8427832624177772692
       },
       "physical_override": null,
-      "J_upper_J": 1290168091.1360536,
-      "grid_heat_difference_J": 8244249.248028994,
-      "grid_power_difference_W": 2154685.0659905076,
+      "J_upper_J": 1286792680.5823188,
+      "grid_heat_difference_J": 6644784.769592762,
+      "grid_power_difference_W": 2642785.8232361525,
       "accepted_state_counts": [
         6001,
         12001
       ],
       "terminal_W_J": [
-        182786607.93027434,
-        183754315.02360353
+        182377200.0760194,
+        183714308.1602488
       ],
       "episodes": [
         {
-          "seed": 1132004342,
+          "seed": 1044425239,
           "level": "coarse",
           "metrics": {
-            "fusion_energy_J": 3369894577.9999876,
+            "fusion_energy_J": 3367091665.8582525,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.017854222269236032,
-            "fusion_peak_relative": 0.04256667528714401,
+            "fusion_rms_relative": 0.017833631956746348,
+            "fusion_peak_relative": 0.042566092888242854,
             "q_min": 1.8337676430354448,
             "q95_min": 4.978940067200357,
-            "beta_N_max": 1.4099400674685478,
-            "temperature_max_keV": 17.463114179039167,
+            "beta_N_max": 1.3859217866270013,
+            "temperature_max_keV": 17.46311417901731,
             "fgw_max": 0.8168140899333457,
-            "terminal_energy_deficit_fraction": 0.01480091357647717,
-            "E_external_total_J": 1281923841.8880246,
-            "E_external_right_endpoint_J": 1281917834.5594714,
-            "E_external_quadrature_difference_J": -6007.328553199768,
+            "terminal_energy_deficit_fraction": 0.017007575478865666,
+            "E_external_total_J": 1280147895.812726,
+            "E_external_right_endpoint_J": 1280138117.6290627,
+            "E_external_quadrature_difference_J": -9778.183663368225,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1223570018.2248113,
+            "E_pedestal_negative_J": -1217287112.5223987,
             "E_pedestal_positive_trapezoidal_J": 0.0,
-            "J_supplied_total_J": 1281923841.8880246
+            "J_supplied_total_J": 1280147895.812726
           },
           "violation": {}
         },
         {
-          "seed": 1132004342,
+          "seed": 1044425239,
           "level": "fine",
           "metrics": {
-            "fusion_energy_J": 3373333764.8370714,
+            "fusion_energy_J": 3371125559.7678337,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.01968662629990448,
-            "fusion_peak_relative": 0.04676740112162066,
+            "fusion_rms_relative": 0.019884901659200434,
+            "fusion_peak_relative": 0.04585910816776885,
             "q_min": 1.8279795705948279,
             "q95_min": 4.979431417148658,
-            "beta_N_max": 1.4099420177901203,
-            "temperature_max_keV": 17.707595796422726,
+            "beta_N_max": 1.3859236987419905,
+            "temperature_max_keV": 17.707608559983107,
             "fgw_max": 0.8168140899333461,
-            "terminal_energy_deficit_fraction": 0.009585082093696018,
-            "E_external_total_J": 1273679592.6399956,
-            "E_external_right_endpoint_J": 1273680063.1355395,
-            "E_external_quadrature_difference_J": 470.4955439567566,
+            "terminal_energy_deficit_fraction": 0.009800714549892175,
+            "E_external_total_J": 1273503111.0431333,
+            "E_external_right_endpoint_J": 1273503500.6759934,
+            "E_external_quadrature_difference_J": 389.6328601837158,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1217015601.0710912,
-            "E_pedestal_positive_trapezoidal_J": 0.0,
-            "J_supplied_total_J": 1273679592.6399956
+            "E_pedestal_negative_J": -1212059856.8818295,
+            "E_pedestal_positive_trapezoidal_J": 9167725.029127918,
+            "J_supplied_total_J": 1273503111.0431333
           },
           "violation": {}
         }
       ]
     },
     {
-      "seed": 481768792,
-      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/early_reserve-stress",
+      "seed": 495258574,
+      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/precision_guard-stress",
       "driver": "Native TORAX steps batched per control window, actual original isolated ONNX Controller and delayed/noisy features",
       "scenario": {
-        "event_start_s": 10.758720988912113,
-        "Z_eff_after_event": 1.5566986117976283,
-        "initial_temperature_multiplier": 1.0013058651516267,
-        "sensor_seed": 1478435051675573579
+        "event_start_s": 12.738493863335126,
+        "Z_eff_after_event": 1.6038515514993004,
+        "initial_temperature_multiplier": 1.018699830077416,
+        "sensor_seed": 5440886649051800629
       },
       "physical_override": null,
-      "J_upper_J": 1288702214.1689484,
-      "grid_heat_difference_J": 8029691.867394924,
-      "grid_power_difference_W": 2562537.505473286,
+      "J_upper_J": 1286027328.0029593,
+      "grid_heat_difference_J": 6568786.119152546,
+      "grid_power_difference_W": 2705207.1341595203,
       "accepted_state_counts": [
         6001,
         12001
       ],
       "terminal_W_J": [
-        183526483.87956595,
-        184120029.0308458
+        183058784.0644189,
+        184166721.55354986
       ],
       "episodes": [
         {
-          "seed": 481768792,
+          "seed": 495258574,
           "level": "coarse",
           "metrics": {
-            "fusion_energy_J": 3409155912.6453037,
+            "fusion_energy_J": 3395290040.2215014,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.023710979175540714,
-            "fusion_peak_relative": 0.04256629215599832,
+            "fusion_rms_relative": 0.020795531640258692,
+            "fusion_peak_relative": 0.04703085552618485,
             "q_min": 1.8337676430354448,
             "q95_min": 4.978940067200357,
-            "beta_N_max": 1.3938735510506026,
-            "temperature_max_keV": 17.463114179025997,
+            "beta_N_max": 1.4180869851712745,
+            "temperature_max_keV": 17.463114179040936,
             "fgw_max": 0.8168140899333457,
-            "terminal_energy_deficit_fraction": 0.010813066121115988,
-            "E_external_total_J": 1280672522.3015535,
-            "E_external_right_endpoint_J": 1280666091.451655,
-            "E_external_quadrature_difference_J": -6430.849898576736,
+            "terminal_energy_deficit_fraction": 0.013333915081665038,
+            "E_external_total_J": 1279458541.8838067,
+            "E_external_right_endpoint_J": 1279448436.6474595,
+            "E_external_quadrature_difference_J": -10105.236347198486,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1249910888.0267265,
+            "E_pedestal_negative_J": -1241495845.965746,
             "E_pedestal_positive_trapezoidal_J": 0.0,
-            "J_supplied_total_J": 1280672522.3015535
+            "J_supplied_total_J": 1279458541.8838067
           },
           "violation": {}
         },
         {
-          "seed": 481768792,
+          "seed": 495258574,
           "level": "fine",
           "metrics": {
-            "fusion_energy_J": 3415732797.620348,
+            "fusion_energy_J": 3399311973.690084,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.027585811599779006,
-            "fusion_peak_relative": 0.04921559618850836,
+            "fusion_rms_relative": 0.02273764247082505,
+            "fusion_peak_relative": 0.04701657015695221,
             "q_min": 1.8279795705948279,
             "q95_min": 4.979431417148658,
-            "beta_N_max": 1.3938754758537875,
-            "temperature_max_keV": 17.70759007949813,
+            "beta_N_max": 1.4180889855431578,
+            "temperature_max_keV": 17.70760767207466,
             "fgw_max": 0.8168140899333461,
-            "terminal_energy_deficit_fraction": 0.007613925071269123,
-            "E_external_total_J": 1272642830.4341586,
-            "E_external_right_endpoint_J": 1272643091.120417,
-            "E_external_quadrature_difference_J": 260.6862585544586,
+            "terminal_energy_deficit_fraction": 0.007362257669418781,
+            "E_external_total_J": 1272889755.7646542,
+            "E_external_right_endpoint_J": 1272890050.3792017,
+            "E_external_quadrature_difference_J": 294.6145474910736,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1244449015.976172,
-            "E_pedestal_positive_trapezoidal_J": 5992974.633697156,
-            "J_supplied_total_J": 1272642830.4341586
+            "E_pedestal_negative_J": -1236521399.420357,
+            "E_pedestal_positive_trapezoidal_J": 0.0,
+            "J_supplied_total_J": 1272889755.7646542
           },
           "violation": {}
         }
       ]
     },
     {
-      "seed": 890124189,
-      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/early_reserve-stress",
+      "seed": 1724654083,
+      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/precision_guard-stress",
       "driver": "Native TORAX steps batched per control window, actual original isolated ONNX Controller and delayed/noisy features",
       "scenario": {
-        "event_start_s": 15.488605369439924,
-        "Z_eff_after_event": 1.7040752351138782,
-        "initial_temperature_multiplier": 1.0079610415773523,
-        "sensor_seed": 8892009321540205125
+        "event_start_s": 14.181658277420755,
+        "Z_eff_after_event": 1.7121774249642892,
+        "initial_temperature_multiplier": 1.007578833136017,
+        "sensor_seed": 3956117826853062820
       },
       "physical_override": null,
-      "J_upper_J": 1289851177.601552,
-      "grid_heat_difference_J": 8224744.89695406,
-      "grid_power_difference_W": 2138582.0472997427,
+      "J_upper_J": 1287457391.055251,
+      "grid_heat_difference_J": 6704384.840150833,
+      "grid_power_difference_W": 2483407.8187898397,
       "accepted_state_counts": [
         6001,
         12001
       ],
       "terminal_W_J": [
-        182767564.70258197,
-        183581576.26253992
+        182380778.86863592,
+        183787530.75073117
       ],
       "episodes": [
         {
-          "seed": 890124189,
+          "seed": 1724654083,
           "level": "coarse",
           "metrics": {
-            "fusion_energy_J": 3372320890.955634,
+            "fusion_energy_J": 3367831351.435835,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.01823053221039021,
-            "fusion_peak_relative": 0.042566515134083986,
+            "fusion_rms_relative": 0.017882921617705706,
+            "fusion_peak_relative": 0.042566502462900474,
             "q_min": 1.8337676430354448,
             "q95_min": 4.978940067200357,
-            "beta_N_max": 1.4031379527391663,
-            "temperature_max_keV": 17.463114179032193,
+            "beta_N_max": 1.402605895844479,
+            "temperature_max_keV": 17.463114179031972,
             "fgw_max": 0.8168140899333457,
-            "terminal_energy_deficit_fraction": 0.014903554413995268,
-            "E_external_total_J": 1281626432.704598,
-            "E_external_right_endpoint_J": 1281620422.6612968,
-            "E_external_quadrature_difference_J": -6010.043301105499,
+            "terminal_energy_deficit_fraction": 0.01698828619254311,
+            "E_external_total_J": 1280753006.2151,
+            "E_external_right_endpoint_J": 1280743252.826498,
+            "E_external_quadrature_difference_J": -9753.388602018356,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1224360146.9180422,
+            "E_pedestal_negative_J": -1220427293.3247907,
             "E_pedestal_positive_trapezoidal_J": 0.0,
-            "J_supplied_total_J": 1281626432.704598
+            "J_supplied_total_J": 1280753006.2151
           },
           "violation": {}
         },
         {
-          "seed": 890124189,
+          "seed": 1724654083,
           "level": "fine",
           "metrics": {
-            "fusion_energy_J": 3375746594.3407106,
+            "fusion_energy_J": 3371466868.803658,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.020474606878449104,
-            "fusion_peak_relative": 0.049003819981084044,
+            "fusion_rms_relative": 0.02009719850883128,
+            "fusion_peak_relative": 0.04916358257935486,
             "q_min": 1.8279795705948279,
             "q95_min": 4.979431417148658,
-            "beta_N_max": 1.4031398922773486,
-            "temperature_max_keV": 17.707585388020785,
+            "beta_N_max": 1.4026078345378952,
+            "temperature_max_keV": 17.707607732858204,
             "fgw_max": 0.8168140899333461,
-            "terminal_energy_deficit_fraction": 0.010516124425061557,
-            "E_external_total_J": 1273401687.807644,
-            "E_external_right_endpoint_J": 1273402004.8381054,
-            "E_external_quadrature_difference_J": 317.0304615497589,
+            "terminal_energy_deficit_fraction": 0.00940605309156295,
+            "E_external_total_J": 1274048621.3749492,
+            "E_external_right_endpoint_J": 1274049088.106843,
+            "E_external_quadrature_difference_J": 466.7318937778473,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1217968626.8632846,
-            "E_pedestal_positive_trapezoidal_J": 2294152.3608369394,
-            "J_supplied_total_J": 1273401687.807644
+            "E_pedestal_negative_J": -1214997923.943969,
+            "E_pedestal_positive_trapezoidal_J": 2506576.646122802,
+            "J_supplied_total_J": 1274048621.3749492
           },
           "violation": {}
         }
       ]
     },
     {
-      "seed": 1025703531,
-      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/early_reserve-stress",
+      "seed": 778193350,
+      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/precision_guard-stress",
       "driver": "Native TORAX steps batched per control window, actual original isolated ONNX Controller and delayed/noisy features",
       "scenario": {
-        "event_start_s": 8.140288752487777,
-        "Z_eff_after_event": 1.553890762176326,
-        "initial_temperature_multiplier": 0.9833711004130938,
-        "sensor_seed": 2848231194075524933
+        "event_start_s": 15.450789320024167,
+        "Z_eff_after_event": 1.7295952756459863,
+        "initial_temperature_multiplier": 1.0163906676065266,
+        "sensor_seed": 3947148864481668057
       },
       "physical_override": null,
-      "J_upper_J": 1288657909.5757842,
-      "grid_heat_difference_J": 8029652.1755898,
-      "grid_power_difference_W": 3315811.2185661495,
+      "J_upper_J": 1287620604.8261302,
+      "grid_heat_difference_J": 6844291.702057838,
+      "grid_power_difference_W": 1999040.4156742394,
       "accepted_state_counts": [
         6001,
         12001
       ],
       "terminal_W_J": [
-        183534999.45629045,
-        183913910.35258242
+        182277411.65401867,
+        183101986.77259928
       ],
       "episodes": [
         {
-          "seed": 1025703531,
+          "seed": 778193350,
           "level": "coarse",
           "metrics": {
-            "fusion_energy_J": 3411496635.265112,
+            "fusion_energy_J": 3366416797.352312,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.02458241042205431,
-            "fusion_peak_relative": 0.04256564973003928,
+            "fusion_rms_relative": 0.018851475189240876,
+            "fusion_peak_relative": 0.04256678961715968,
             "q_min": 1.8337676430354448,
             "q95_min": 4.978940067200357,
-            "beta_N_max": 1.3689072166678207,
-            "temperature_max_keV": 17.463114179006965,
+            "beta_N_max": 1.4148724936748132,
+            "temperature_max_keV": 17.463114179041945,
             "fgw_max": 0.8168140899333457,
-            "terminal_energy_deficit_fraction": 0.010767168128345439,
-            "E_external_total_J": 1280628257.4001944,
-            "E_external_right_endpoint_J": 1280621785.5741072,
-            "E_external_quadrature_difference_J": -6471.826087236404,
+            "terminal_energy_deficit_fraction": 0.017545423756176404,
+            "E_external_total_J": 1280776313.1240723,
+            "E_external_right_endpoint_J": 1280766591.1724412,
+            "E_external_quadrature_difference_J": -9721.951631069183,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1248573016.2852268,
-            "E_pedestal_positive_trapezoidal_J": 23074195.52284699,
-            "J_supplied_total_J": 1280628257.4001944
+            "E_pedestal_negative_J": -1221067124.965829,
+            "E_pedestal_positive_trapezoidal_J": 0.0,
+            "J_supplied_total_J": 1280776313.1240723
           },
           "violation": {}
         },
         {
-          "seed": 1025703531,
+          "seed": 778193350,
           "level": "fine",
           "metrics": {
-            "fusion_energy_J": 3418103556.7621703,
+            "fusion_energy_J": 3367802040.718432,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.02856181174436055,
-            "fusion_peak_relative": 0.048308425751845234,
+            "fusion_rms_relative": 0.020246515567279147,
+            "fusion_peak_relative": 0.04596149307774045,
             "q_min": 1.8279795705948279,
             "q95_min": 4.979431417148658,
-            "beta_N_max": 1.3689091752129774,
-            "temperature_max_keV": 17.707609261435195,
+            "beta_N_max": 1.4148744887609648,
+            "temperature_max_keV": 17.70760066425016,
             "fgw_max": 0.8168140899333461,
-            "terminal_energy_deficit_fraction": 0.008724881370635207,
-            "E_external_total_J": 1272598605.2246046,
-            "E_external_right_endpoint_J": 1272598847.5305429,
-            "E_external_quadrature_difference_J": 242.30593824386597,
+            "terminal_energy_deficit_fraction": 0.013101057384308112,
+            "E_external_total_J": 1273932021.4220145,
+            "E_external_right_endpoint_J": 1273932361.1053107,
+            "E_external_quadrature_difference_J": 339.6832962036133,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1243329079.204269,
-            "E_pedestal_positive_trapezoidal_J": 15960780.598534646,
-            "J_supplied_total_J": 1272598605.2246046
+            "E_pedestal_negative_J": -1215679387.7091649,
+            "E_pedestal_positive_trapezoidal_J": 0.0,
+            "J_supplied_total_J": 1273932021.4220145
           },
           "violation": {}
         }
       ]
     },
     {
-      "seed": 1906909179,
-      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/early_reserve-stress",
+      "seed": 439212332,
+      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/precision_guard-stress",
       "driver": "Native TORAX steps batched per control window, actual original isolated ONNX Controller and delayed/noisy features",
       "scenario": {
-        "event_start_s": 8.600198630197752,
-        "Z_eff_after_event": 1.742503337738756,
-        "initial_temperature_multiplier": 0.9929178872859844,
-        "sensor_seed": 2518286743963144730
+        "event_start_s": 8.536931211598327,
+        "Z_eff_after_event": 1.6032147575232145,
+        "initial_temperature_multiplier": 1.0019557059970239,
+        "sensor_seed": 1576903550963621654
       },
       "physical_override": null,
-      "J_upper_J": 1291369591.3822482,
-      "grid_heat_difference_J": 8057043.438755274,
-      "grid_power_difference_W": 2775969.249024302,
+      "J_upper_J": 1285943578.8495164,
+      "grid_heat_difference_J": 6526035.877905369,
+      "grid_power_difference_W": 3284036.4456637204,
       "accepted_state_counts": [
         6001,
         12001
       ],
       "terminal_W_J": [
-        182556145.78220144,
-        182645323.44826755
+        183061574.82068545,
+        183156512.8361824
       ],
       "episodes": [
         {
-          "seed": 1906909179,
+          "seed": 439212332,
           "level": "coarse",
           "metrics": {
-            "fusion_energy_J": 3346085703.2804737,
+            "fusion_energy_J": 3394681249.92533,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.018768221156708197,
-            "fusion_peak_relative": 0.04256599719821287,
+            "fusion_rms_relative": 0.020355128168047992,
+            "fusion_peak_relative": 0.04256631417607243,
             "q_min": 1.8337676430354448,
             "q95_min": 4.978940067200357,
-            "beta_N_max": 1.3821969864149042,
-            "temperature_max_keV": 17.463114179016667,
+            "beta_N_max": 1.394778168191236,
+            "temperature_max_keV": 17.463114179026626,
             "fgw_max": 0.8168140899333457,
-            "terminal_energy_deficit_fraction": 0.01604307841725816,
-            "E_external_total_J": 1283312547.943493,
-            "E_external_right_endpoint_J": 1283306527.6988387,
-            "E_external_quadrature_difference_J": -6020.244654178619,
+            "terminal_energy_deficit_fraction": 0.013318873221895622,
+            "E_external_total_J": 1279417542.971611,
+            "E_external_right_endpoint_J": 1279407402.998676,
+            "E_external_quadrature_difference_J": -10139.972934961319,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1203616402.343193,
-            "E_pedestal_positive_trapezoidal_J": 1454701.0836140916,
-            "J_supplied_total_J": 1283312547.943493
+            "E_pedestal_negative_J": -1238102276.2131076,
+            "E_pedestal_positive_trapezoidal_J": 0.0,
+            "J_supplied_total_J": 1279417542.971611
           },
           "violation": {}
         },
         {
-          "seed": 1906909179,
+          "seed": 439212332,
           "level": "fine",
           "metrics": {
-            "fusion_energy_J": 3347921238.0116477,
+            "fusion_energy_J": 3399252049.0634475,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.020000059520384247,
-            "fusion_peak_relative": 0.044070906386943574,
+            "fusion_rms_relative": 0.02362347478010369,
+            "fusion_peak_relative": 0.049327017958909904,
             "q_min": 1.8279795705948279,
             "q95_min": 4.979431417148658,
-            "beta_N_max": 1.3821988925743574,
-            "temperature_max_keV": 17.707604469633598,
+            "beta_N_max": 1.394780094435541,
+            "temperature_max_keV": 17.707591598719226,
             "fgw_max": 0.8168140899333461,
-            "terminal_energy_deficit_fraction": 0.015562420911040764,
-            "E_external_total_J": 1275255504.5047376,
-            "E_external_right_endpoint_J": 1275255975.3859391,
-            "E_external_quadrature_difference_J": 470.881201505661,
+            "terminal_energy_deficit_fraction": 0.01280716808554272,
+            "E_external_total_J": 1272891507.0937057,
+            "E_external_right_endpoint_J": 1272891790.983428,
+            "E_external_quadrature_difference_J": 283.8897223472595,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1197809051.109191,
-            "E_pedestal_positive_trapezoidal_J": 10654855.456836091,
-            "J_supplied_total_J": 1275255504.5047376
+            "E_pedestal_negative_J": -1234276252.71684,
+            "E_pedestal_positive_trapezoidal_J": 5631805.276341302,
+            "J_supplied_total_J": 1272891507.0937057
           },
           "violation": {}
         }
       ]
     },
     {
-      "seed": 394575562,
-      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/early_reserve-stress",
+      "seed": 363410527,
+      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/precision_guard-stress",
       "driver": "Native TORAX steps batched per control window, actual original isolated ONNX Controller and delayed/noisy features",
       "scenario": {
-        "event_start_s": 10.950847156065505,
-        "Z_eff_after_event": 1.7326532256534115,
-        "initial_temperature_multiplier": 1.0151625065413858,
-        "sensor_seed": 113354099171408991
+        "event_start_s": 11.056791546632937,
+        "Z_eff_after_event": 1.6434023647418352,
+        "initial_temperature_multiplier": 0.9912190830699208,
+        "sensor_seed": 6927033741383036551
       },
       "physical_override": null,
-      "J_upper_J": 1290783495.5799053,
-      "grid_heat_difference_J": 8151575.848731279,
-      "grid_power_difference_W": 2690475.3345355242,
+      "J_upper_J": 1286146467.8465595,
+      "grid_heat_difference_J": 6522351.632887125,
+      "grid_power_difference_W": 2904140.7161788642,
       "accepted_state_counts": [
         6001,
         12001
       ],
       "terminal_W_J": [
-        182610069.11435863,
-        182623964.69318128
+        182777656.40304175,
+        183947879.55527985
       ],
       "episodes": [
         {
-          "seed": 394575562,
+          "seed": 363410527,
           "level": "coarse",
           "metrics": {
-            "fusion_energy_J": 3355759283.984147,
+            "fusion_energy_J": 3382346877.647522,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.018376108276118627,
-            "fusion_peak_relative": 0.0425667501331134,
+            "fusion_rms_relative": 0.01847199134090694,
+            "fusion_peak_relative": 0.04256593604369103,
             "q_min": 1.8337676430354448,
             "q95_min": 4.978940067200357,
-            "beta_N_max": 1.413162820420147,
-            "temperature_max_keV": 17.46311417903749,
+            "beta_N_max": 1.3798321497656318,
+            "temperature_max_keV": 17.46311417901881,
             "fgw_max": 0.8168140899333457,
-            "terminal_energy_deficit_fraction": 0.015752437772521,
-            "E_external_total_J": 1282631919.731174,
-            "E_external_right_endpoint_J": 1282625940.8559132,
-            "E_external_quadrature_difference_J": -5978.8752608299255,
+            "terminal_energy_deficit_fraction": 0.014849161293044033,
+            "E_external_total_J": 1279624116.2136724,
+            "E_external_right_endpoint_J": 1279613979.9890845,
+            "E_external_quadrature_difference_J": -10136.224587917328,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1214036957.153374,
-            "E_pedestal_positive_trapezoidal_J": 0.0,
-            "J_supplied_total_J": 1282631919.731174
+            "E_pedestal_negative_J": -1227199416.1533203,
+            "E_pedestal_positive_trapezoidal_J": 5301784.797907797,
+            "J_supplied_total_J": 1279624116.2136724
           },
           "violation": {}
         },
         {
-          "seed": 394575562,
+          "seed": 363410527,
           "level": "fine",
           "metrics": {
-            "fusion_energy_J": 3357030370.931837,
+            "fusion_energy_J": 3386244734.9175096,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.020160935744517144,
-            "fusion_peak_relative": 0.04614121495431494,
+            "fusion_rms_relative": 0.02261508827356858,
+            "fusion_peak_relative": 0.04433590007624049,
             "q_min": 1.8279795705948279,
             "q95_min": 4.979431417148658,
-            "beta_N_max": 1.4131648126950962,
-            "temperature_max_keV": 17.707609853951002,
+            "beta_N_max": 1.3798340521401864,
+            "temperature_max_keV": 17.707580142847256,
             "fgw_max": 0.8168140899333461,
-            "terminal_energy_deficit_fraction": 0.015677542178601955,
-            "E_external_total_J": 1274480343.8824427,
-            "E_external_right_endpoint_J": 1274480835.2500496,
-            "E_external_quadrature_difference_J": 491.36760687828064,
+            "terminal_energy_deficit_fraction": 0.008541791220634698,
+            "E_external_total_J": 1273101764.5807853,
+            "E_external_right_endpoint_J": 1273102042.657649,
+            "E_external_quadrature_difference_J": 278.07686376571655,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1208133414.3574152,
-            "E_pedestal_positive_trapezoidal_J": 0.0,
-            "J_supplied_total_J": 1274480343.8824427
+            "E_pedestal_negative_J": -1222213575.3134222,
+            "E_pedestal_positive_trapezoidal_J": 11599018.987545079,
+            "J_supplied_total_J": 1273101764.5807853
           },
           "violation": {}
         }
       ]
     },
     {
-      "seed": 2085604132,
-      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/early_reserve-stress",
+      "seed": 1541451554,
+      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/precision_guard-stress",
       "driver": "Native TORAX steps batched per control window, actual original isolated ONNX Controller and delayed/noisy features",
       "scenario": {
-        "event_start_s": 9.381283537939684,
-        "Z_eff_after_event": 1.6886108482093942,
-        "initial_temperature_multiplier": 1.0179598243958459,
-        "sensor_seed": 8286489817793171262
+        "event_start_s": 15.359673126966802,
+        "Z_eff_after_event": 1.6199813398161222,
+        "initial_temperature_multiplier": 0.9973926882334792,
+        "sensor_seed": 4947992330621419797
       },
       "physical_override": null,
-      "J_upper_J": 1290688435.0725856,
-      "grid_heat_difference_J": 8486157.682707548,
-      "grid_power_difference_W": 2818143.71407561,
+      "J_upper_J": 1286004403.846843,
+      "grid_heat_difference_J": 6526680.4140610695,
+      "grid_power_difference_W": 2704089.106914118,
       "accepted_state_counts": [
         6001,
         12001
       ],
       "terminal_W_J": [
-        182851211.1902964,
-        182819673.89289492
+        182951295.6274018,
+        184125246.72466412
       ],
       "episodes": [
         {
-          "seed": 2085604132,
+          "seed": 1541451554,
           "level": "coarse",
           "metrics": {
-            "fusion_energy_J": 3367131879.4467764,
+            "fusion_energy_J": 3391073774.372134,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.018042249552036146,
-            "fusion_peak_relative": 0.045155758648002885,
+            "fusion_rms_relative": 0.01968884591472759,
+            "fusion_peak_relative": 0.042566157016930235,
             "q_min": 1.8337676430354448,
             "q95_min": 4.978940067200357,
-            "beta_N_max": 1.4170568532528043,
-            "temperature_max_keV": 17.463114179039103,
+            "beta_N_max": 1.3884261758066132,
+            "temperature_max_keV": 17.463114179024945,
             "fgw_max": 0.8168140899333457,
-            "terminal_energy_deficit_fraction": 0.01445270933178755,
-            "E_external_total_J": 1282202277.389878,
-            "E_external_right_endpoint_J": 1282196272.3630924,
-            "E_external_quadrature_difference_J": -6005.026785612106,
+            "terminal_energy_deficit_fraction": 0.013913265566634636,
+            "E_external_total_J": 1279477723.432782,
+            "E_external_right_endpoint_J": 1279467584.4062948,
+            "E_external_quadrature_difference_J": -10139.026487112045,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1222482472.827698,
+            "E_pedestal_negative_J": -1234688653.74953,
             "E_pedestal_positive_trapezoidal_J": 0.0,
-            "J_supplied_total_J": 1282202277.389878
+            "J_supplied_total_J": 1279477723.432782
           },
           "violation": {}
         },
         {
-          "seed": 2085604132,
+          "seed": 1541451554,
           "level": "fine",
           "metrics": {
-            "fusion_energy_J": 3368115457.3901377,
+            "fusion_energy_J": 3396089840.4819202,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.019902662511796464,
-            "fusion_peak_relative": 0.04556097058793783,
+            "fusion_rms_relative": 0.02265737118150078,
+            "fusion_peak_relative": 0.047546893137758346,
             "q_min": 1.8279795705948279,
             "q95_min": 4.979431417148658,
-            "beta_N_max": 1.417058851930777,
-            "temperature_max_keV": 17.707585900043494,
+            "beta_N_max": 1.3884280919215948,
+            "temperature_max_keV": 17.707610897513913,
             "fgw_max": 0.8168140899333461,
-            "terminal_energy_deficit_fraction": 0.014622691788051867,
-            "E_external_total_J": 1273716119.7071705,
-            "E_external_right_endpoint_J": 1273716598.4174814,
-            "E_external_quadrature_difference_J": 478.7103109359741,
+            "terminal_energy_deficit_fraction": 0.0075858022933410485,
+            "E_external_total_J": 1272951043.0187209,
+            "E_external_right_endpoint_J": 1272951319.615778,
+            "E_external_quadrature_difference_J": 276.5970571041107,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1216228779.9886656,
+            "E_pedestal_negative_J": -1229876146.3798375,
+            "E_pedestal_positive_trapezoidal_J": 8167844.992736434,
+            "J_supplied_total_J": 1272951043.0187209
+          },
+          "violation": {}
+        }
+      ]
+    },
+    {
+      "seed": 1885058306,
+      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/precision_guard-stress",
+      "driver": "Native TORAX steps batched per control window, actual original isolated ONNX Controller and delayed/noisy features",
+      "scenario": {
+        "event_start_s": 10.105726634194074,
+        "Z_eff_after_event": 1.7401457461537475,
+        "initial_temperature_multiplier": 0.9861211228354415,
+        "sensor_seed": 8353071238193221887
+      },
+      "physical_override": null,
+      "J_upper_J": 1288069094.8295367,
+      "grid_heat_difference_J": 6520683.142849684,
+      "grid_power_difference_W": 3232323.4504784346,
+      "accepted_state_counts": [
+        6001,
+        12001
+      ],
+      "terminal_W_J": [
+        182215728.09785944,
+        182939020.9112418
+      ],
+      "episodes": [
+        {
+          "seed": 1885058306,
+          "level": "coarse",
+          "metrics": {
+            "fusion_energy_J": 3350211853.0013056,
+            "fusion_energy_deficit_fraction": 0.0,
+            "fusion_rms_relative": 0.018754462014135043,
+            "fusion_peak_relative": 0.04256575093965631,
+            "q_min": 1.8337676430354448,
+            "q95_min": 4.978940067200357,
+            "beta_N_max": 1.3727354112608263,
+            "temperature_max_keV": 17.4631141790093,
+            "fgw_max": 0.8168140899333457,
+            "terminal_energy_deficit_fraction": 0.017877891128176726,
+            "E_external_total_J": 1281548411.686687,
+            "E_external_right_endpoint_J": 1281538631.5863366,
+            "E_external_quadrature_difference_J": -9780.100350379944,
+            "E_pedestal_positive_J": 0.0,
+            "E_pedestal_negative_J": -1204256025.2398643,
+            "E_pedestal_positive_trapezoidal_J": 16846540.578905415,
+            "J_supplied_total_J": 1281548411.686687
+          },
+          "violation": {}
+        },
+        {
+          "seed": 1885058306,
+          "level": "fine",
+          "metrics": {
+            "fusion_energy_J": 3352697136.88803,
+            "fusion_energy_deficit_fraction": 0.0,
+            "fusion_rms_relative": 0.020369038765978606,
+            "fusion_peak_relative": 0.047718275280044783,
+            "q_min": 1.8279795705948279,
+            "q95_min": 4.979431417148658,
+            "beta_N_max": 1.372737376428044,
+            "temperature_max_keV": 17.707611448852955,
+            "fgw_max": 0.8168140899333461,
+            "terminal_energy_deficit_fraction": 0.013979424894628445,
+            "E_external_total_J": 1275027728.5438373,
+            "E_external_right_endpoint_J": 1275028186.2907245,
+            "E_external_quadrature_difference_J": 457.74688720703125,
+            "E_pedestal_positive_J": 0.0,
+            "E_pedestal_negative_J": -1199477584.3272216,
+            "E_pedestal_positive_trapezoidal_J": 14432369.699114345,
+            "J_supplied_total_J": 1275027728.5438373
+          },
+          "violation": {}
+        }
+      ]
+    },
+    {
+      "seed": 1160088779,
+      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/precision_guard-stress",
+      "driver": "Native TORAX steps batched per control window, actual original isolated ONNX Controller and delayed/noisy features",
+      "scenario": {
+        "event_start_s": 10.632648373420322,
+        "Z_eff_after_event": 1.7120363934506326,
+        "initial_temperature_multiplier": 1.0197240494682394,
+        "sensor_seed": 1321617174013244661
+      },
+      "physical_override": null,
+      "J_upper_J": 1287663172.187729,
+      "grid_heat_difference_J": 6916222.467320204,
+      "grid_power_difference_W": 2189632.1994754523,
+      "accepted_state_counts": [
+        6001,
+        12001
+      ],
+      "terminal_W_J": [
+        182371572.88330346,
+        182812462.9682371
+      ],
+      "episodes": [
+        {
+          "seed": 1160088779,
+          "level": "coarse",
+          "metrics": {
+            "fusion_energy_J": 3361515849.867798,
+            "fusion_energy_deficit_fraction": 0.0,
+            "fusion_rms_relative": 0.01815584192180916,
+            "fusion_peak_relative": 0.04962806609238318,
+            "q_min": 1.8337676430354448,
+            "q95_min": 4.978940067200357,
+            "beta_N_max": 1.419512759472757,
+            "temperature_max_keV": 17.463114179041806,
+            "fgw_max": 0.8168140899333457,
+            "terminal_energy_deficit_fraction": 0.017037905409409526,
+            "E_external_total_J": 1280746949.7204087,
+            "E_external_right_endpoint_J": 1280737221.7443752,
+            "E_external_quadrature_difference_J": -9727.976033449173,
+            "E_pedestal_positive_J": 0.0,
+            "E_pedestal_negative_J": -1217668058.2706165,
             "E_pedestal_positive_trapezoidal_J": 0.0,
-            "J_supplied_total_J": 1273716119.7071705
+            "J_supplied_total_J": 1280746949.7204087
+          },
+          "violation": {}
+        },
+        {
+          "seed": 1160088779,
+          "level": "fine",
+          "metrics": {
+            "fusion_energy_J": 3362561640.070716,
+            "fusion_energy_deficit_fraction": 0.0,
+            "fusion_rms_relative": 0.019785140468981808,
+            "fusion_peak_relative": 0.04961379230462661,
+            "q_min": 1.8279795705948279,
+            "q95_min": 4.979431417148658,
+            "beta_N_max": 1.4195147621891488,
+            "temperature_max_keV": 17.707603940965196,
+            "fgw_max": 0.8168140899333461,
+            "terminal_energy_deficit_fraction": 0.014661557854147245,
+            "E_external_total_J": 1273830727.2530885,
+            "E_external_right_endpoint_J": 1273831066.1797023,
+            "E_external_quadrature_difference_J": 338.9266138076782,
+            "E_pedestal_positive_J": 0.0,
+            "E_pedestal_negative_J": -1212523324.768649,
+            "E_pedestal_positive_trapezoidal_J": 0.0,
+            "J_supplied_total_J": 1273830727.2530885
+          },
+          "violation": {}
+        }
+      ]
+    },
+    {
+      "seed": 1224590328,
+      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/precision_guard-stress",
+      "driver": "Native TORAX steps batched per control window, actual original isolated ONNX Controller and delayed/noisy features",
+      "scenario": {
+        "event_start_s": 15.60689189696192,
+        "Z_eff_after_event": 1.7396339526005553,
+        "initial_temperature_multiplier": 0.9850900041899766,
+        "sensor_seed": 4929571726990822452
+      },
+      "physical_override": null,
+      "J_upper_J": 1287296068.4271915,
+      "grid_heat_difference_J": 6547898.484320641,
+      "grid_power_difference_W": 3278621.683259174,
+      "accepted_state_counts": [
+        6001,
+        12001
+      ],
+      "terminal_W_J": [
+        182218463.75975826,
+        183102680.37264585
+      ],
+      "episodes": [
+        {
+          "seed": 1224590328,
+          "level": "coarse",
+          "metrics": {
+            "fusion_energy_J": 3363322848.254519,
+            "fusion_energy_deficit_fraction": 0.0,
+            "fusion_rms_relative": 0.019016009334009525,
+            "fusion_peak_relative": 0.04256571307856292,
+            "q_min": 1.8337676430354448,
+            "q95_min": 4.978940067200357,
+            "beta_N_max": 1.3713000328523237,
+            "temperature_max_keV": 17.46311417900939,
+            "fgw_max": 0.8168140899333457,
+            "terminal_energy_deficit_fraction": 0.017863146220800874,
+            "E_external_total_J": 1280748169.9428709,
+            "E_external_right_endpoint_J": 1280738387.198273,
+            "E_external_quadrature_difference_J": -9782.744597911835,
+            "E_pedestal_positive_J": 0.0,
+            "E_pedestal_negative_J": -1213411040.001759,
+            "E_pedestal_positive_trapezoidal_J": 19181594.67811529,
+            "J_supplied_total_J": 1280748169.9428709
+          },
+          "violation": {}
+        },
+        {
+          "seed": 1224590328,
+          "level": "fine",
+          "metrics": {
+            "fusion_energy_J": 3367588104.155461,
+            "fusion_energy_deficit_fraction": 0.0,
+            "fusion_rms_relative": 0.021081981193965586,
+            "fusion_peak_relative": 0.04816790683379176,
+            "q_min": 1.8279795705948279,
+            "q95_min": 4.979431417148658,
+            "beta_N_max": 1.3713019955347088,
+            "temperature_max_keV": 17.707587879428974,
+            "fgw_max": 0.8168140899333461,
+            "terminal_energy_deficit_fraction": 0.013097318958720128,
+            "E_external_total_J": 1274200271.4585502,
+            "E_external_right_endpoint_J": 1274200726.872016,
+            "E_external_quadrature_difference_J": 455.4134657382965,
+            "E_pedestal_positive_J": 0.0,
+            "E_pedestal_negative_J": -1208763166.2764182,
+            "E_pedestal_positive_trapezoidal_J": 15005446.108789211,
+            "J_supplied_total_J": 1274200271.4585502
+          },
+          "violation": {}
+        }
+      ]
+    },
+    {
+      "seed": 1711349131,
+      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/precision_guard-stress",
+      "driver": "Native TORAX steps batched per control window, actual original isolated ONNX Controller and delayed/noisy features",
+      "scenario": {
+        "event_start_s": 12.996853739719207,
+        "Z_eff_after_event": 1.7449641720775892,
+        "initial_temperature_multiplier": 1.0118290704339468,
+        "sensor_seed": 4200919251056192357
+      },
+      "physical_override": null,
+      "J_upper_J": 1287828460.743384,
+      "grid_heat_difference_J": 6888998.74269104,
+      "grid_power_difference_W": 1972527.6942608058,
+      "accepted_state_counts": [
+        6001,
+        12001
+      ],
+      "terminal_W_J": [
+        182187448.3151858,
+        183436249.36164948
+      ],
+      "episodes": [
+        {
+          "seed": 1711349131,
+          "level": "coarse",
+          "metrics": {
+            "fusion_energy_J": 3356539337.600369,
+            "fusion_energy_deficit_fraction": 0.0,
+            "fusion_rms_relative": 0.01866454056788527,
+            "fusion_peak_relative": 0.04256664212074841,
+            "q_min": 1.8337676430354448,
+            "q95_min": 4.978940067200357,
+            "beta_N_max": 1.4085224790575315,
+            "temperature_max_keV": 17.463114179033962,
+            "fgw_max": 0.8168140899333457,
+            "terminal_energy_deficit_fraction": 0.018030315949501552,
+            "E_external_total_J": 1280939462.0006928,
+            "E_external_right_endpoint_J": 1280929740.7237535,
+            "E_external_quadrature_difference_J": -9721.27693939209,
+            "E_pedestal_positive_J": 0.0,
+            "E_pedestal_negative_J": -1213031621.818551,
+            "E_pedestal_positive_trapezoidal_J": 0.0,
+            "J_supplied_total_J": 1280939462.0006928
+          },
+          "violation": {}
+        },
+        {
+          "seed": 1711349131,
+          "level": "fine",
+          "metrics": {
+            "fusion_energy_J": 3358799449.9798136,
+            "fusion_energy_deficit_fraction": 0.0,
+            "fusion_rms_relative": 0.019945520178136764,
+            "fusion_peak_relative": 0.047140014750063124,
+            "q_min": 1.8279795705948279,
+            "q95_min": 4.979431417148658,
+            "beta_N_max": 1.408524427134383,
+            "temperature_max_keV": 17.707611585378096,
+            "fgw_max": 0.8168140899333461,
+            "terminal_energy_deficit_fraction": 0.011299419938946453,
+            "E_external_total_J": 1274050463.2580018,
+            "E_external_right_endpoint_J": 1274050948.0729885,
+            "E_external_quadrature_difference_J": 484.81498670578003,
+            "E_pedestal_positive_J": 0.0,
+            "E_pedestal_negative_J": -1207353429.778709,
+            "E_pedestal_positive_trapezoidal_J": 144374.44788282548,
+            "J_supplied_total_J": 1274050463.2580018
+          },
+          "violation": {}
+        }
+      ]
+    },
+    {
+      "seed": 314467947,
+      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/precision_guard-stress",
+      "driver": "Native TORAX steps batched per control window, actual original isolated ONNX Controller and delayed/noisy features",
+      "scenario": {
+        "event_start_s": 15.084082242594683,
+        "Z_eff_after_event": 1.5676312105654246,
+        "initial_temperature_multiplier": 0.9920204932311898,
+        "sensor_seed": 2815691339586765198
+      },
+      "physical_override": null,
+      "J_upper_J": 1285800932.8574507,
+      "grid_heat_difference_J": 6527593.3271558285,
+      "grid_power_difference_W": 3142620.165825486,
+      "accepted_state_counts": [
+        6001,
+        12001
+      ],
+      "terminal_W_J": [
+        183164567.61855802,
+        183316836.2736378
+      ],
+      "episodes": [
+        {
+          "seed": 314467947,
+          "level": "coarse",
+          "metrics": {
+            "fusion_energy_J": 3402920121.333805,
+            "fusion_energy_deficit_fraction": 0.0,
+            "fusion_rms_relative": 0.022393132787601275,
+            "fusion_peak_relative": 0.042565964927301955,
+            "q_min": 1.8337676430354448,
+            "q95_min": 4.978940067200357,
+            "beta_N_max": 1.3809477604431684,
+            "temperature_max_keV": 17.463114179013207,
+            "fgw_max": 0.8168140899333457,
+            "terminal_energy_deficit_fraction": 0.012763753722052518,
+            "E_external_total_J": 1279273339.530295,
+            "E_external_right_endpoint_J": 1279263153.189608,
+            "E_external_quadrature_difference_J": -10186.340686798096,
+            "E_pedestal_positive_J": 0.0,
+            "E_pedestal_negative_J": -1242584515.852628,
+            "E_pedestal_positive_trapezoidal_J": 3486924.703535587,
+            "J_supplied_total_J": 1279273339.530295
+          },
+          "violation": {}
+        },
+        {
+          "seed": 314467947,
+          "level": "fine",
+          "metrics": {
+            "fusion_energy_J": 3407915744.1183586,
+            "fusion_energy_deficit_fraction": 0.0,
+            "fusion_rms_relative": 0.02536404133669929,
+            "fusion_peak_relative": 0.04660970606394,
+            "q_min": 1.8279795705948279,
+            "q95_min": 4.979431417148658,
+            "beta_N_max": 1.3809496646036066,
+            "temperature_max_keV": 17.707611066451506,
+            "fgw_max": 0.8168140899333461,
+            "terminal_energy_deficit_fraction": 0.011943042940370074,
+            "E_external_total_J": 1272745746.203139,
+            "E_external_right_endpoint_J": 1272746007.216461,
+            "E_external_quadrature_difference_J": 261.0133218765259,
+            "E_pedestal_positive_J": 0.0,
+            "E_pedestal_negative_J": -1238773224.1023886,
+            "E_pedestal_positive_trapezoidal_J": 11153610.2463524,
+            "J_supplied_total_J": 1272745746.203139
+          },
+          "violation": {}
+        }
+      ]
+    },
+    {
+      "seed": 542370020,
+      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/precision_guard-stress",
+      "driver": "Native TORAX steps batched per control window, actual original isolated ONNX Controller and delayed/noisy features",
+      "scenario": {
+        "event_start_s": 8.661435585969787,
+        "Z_eff_after_event": 1.5745159691347514,
+        "initial_temperature_multiplier": 0.9979866762605097,
+        "sensor_seed": 1780491512163632645
+      },
+      "physical_override": null,
+      "J_upper_J": 1285882382.2181394,
+      "grid_heat_difference_J": 6578348.7369802,
+      "grid_power_difference_W": 2873591.419374332,
+      "accepted_state_counts": [
+        6001,
+        12001
+      ],
+      "terminal_W_J": [
+        183156406.65004346,
+        183731034.5808297
+      ],
+      "episodes": [
+        {
+          "seed": 542370020,
+          "level": "coarse",
+          "metrics": {
+            "fusion_energy_J": 3404312016.5083427,
+            "fusion_energy_deficit_fraction": 0.0,
+            "fusion_rms_relative": 0.02237555126752078,
+            "fusion_peak_relative": 0.04256617802196599,
+            "q_min": 1.8337676430354448,
+            "q95_min": 4.978940067200357,
+            "beta_N_max": 1.3892530425070324,
+            "temperature_max_keV": 17.46311417902075,
+            "fgw_max": 0.8168140899333457,
+            "terminal_energy_deficit_fraction": 0.012807740416788671,
+            "E_external_total_J": 1279304033.4811592,
+            "E_external_right_endpoint_J": 1279293864.8710656,
+            "E_external_quadrature_difference_J": -10168.610093593597,
+            "E_pedestal_positive_J": 0.0,
+            "E_pedestal_negative_J": -1244702893.9503298,
+            "E_pedestal_positive_trapezoidal_J": 0.0,
+            "J_supplied_total_J": 1279304033.4811592
+          },
+          "violation": {}
+        },
+        {
+          "seed": 542370020,
+          "level": "fine",
+          "metrics": {
+            "fusion_energy_J": 3409754428.575466,
+            "fusion_energy_deficit_fraction": 0.0,
+            "fusion_rms_relative": 0.025795561525671497,
+            "fusion_peak_relative": 0.04930385477562438,
+            "q_min": 1.8279795705948279,
+            "q95_min": 4.979431417148658,
+            "beta_N_max": 1.3892549599419097,
+            "temperature_max_keV": 17.70759716700356,
+            "fgw_max": 0.8168140899333461,
+            "terminal_energy_deficit_fraction": 0.009710561039949384,
+            "E_external_total_J": 1272725684.744179,
+            "E_external_right_endpoint_J": 1272725950.7271929,
+            "E_external_quadrature_difference_J": 265.9830138683319,
+            "E_pedestal_positive_J": 0.0,
+            "E_pedestal_negative_J": -1240514595.0985267,
+            "E_pedestal_positive_trapezoidal_J": 7837717.5845883265,
+            "J_supplied_total_J": 1272725684.744179
           },
           "violation": {}
         }
@@ -2186,7 +2635,7 @@
     },
     {
       "seed": 1434697116,
-      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/early_reserve-stress",
+      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/precision_guard-stress",
       "driver": "Native TORAX steps batched per control window, actual original isolated ONNX Controller and delayed/noisy features",
       "scenario": {
         "event_start_s": 10.404195835784677,
@@ -2195,39 +2644,39 @@
         "sensor_seed": 4984461618591284814
       },
       "physical_override": null,
-      "J_upper_J": 1290095868.0283117,
-      "grid_heat_difference_J": 8304877.5255076885,
-      "grid_power_difference_W": 3369163.244097322,
+      "J_upper_J": 1287100006.2607996,
+      "grid_heat_difference_J": 6806956.643300056,
+      "grid_power_difference_W": 3217942.728140801,
       "accepted_state_counts": [
         6001,
         12001
       ],
       "terminal_W_J": [
-        182901034.26168177,
-        182882295.64122954
+        182578066.7128005,
+        182882292.7157191
       ],
       "episodes": [
         {
           "seed": 1434697116,
           "level": "coarse",
           "metrics": {
-            "fusion_energy_J": 3371111493.280478,
+            "fusion_energy_J": 3370943192.334078,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.01752471321813634,
+            "fusion_rms_relative": 0.01752266109668809,
             "fusion_peak_relative": 0.04256640225491875,
             "q_min": 1.8337676430354448,
             "q95_min": 4.978940067200357,
             "beta_N_max": 1.3984216704518302,
             "temperature_max_keV": 17.463114179028945,
             "fgw_max": 0.8168140899333457,
-            "terminal_energy_deficit_fraction": 0.014184168627588978,
-            "E_external_total_J": 1281790990.502804,
-            "E_external_right_endpoint_J": 1281784951.1320696,
-            "E_external_quadrature_difference_J": -6039.370734453201,
+            "terminal_energy_deficit_fraction": 0.015924927087440977,
+            "E_external_total_J": 1280293049.6174996,
+            "E_external_right_endpoint_J": 1280283266.7140813,
+            "E_external_quadrature_difference_J": -9782.903418302536,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1222785376.056491,
+            "E_pedestal_negative_J": -1221588732.4346228,
             "E_pedestal_positive_trapezoidal_J": 0.0,
-            "J_supplied_total_J": 1281790990.502804
+            "J_supplied_total_J": 1280293049.6174996
           },
           "violation": {}
         },
@@ -2235,392 +2684,185 @@
           "seed": 1434697116,
           "level": "fine",
           "metrics": {
-            "fusion_energy_J": 3372510309.4792128,
+            "fusion_energy_J": 3372510307.986758,
             "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.020378738231743874,
+            "fusion_rms_relative": 0.02037873863510553,
             "fusion_peak_relative": 0.05022923238604388,
             "q_min": 1.8279795705948279,
             "q95_min": 4.979431417148658,
             "beta_N_max": 1.3984236024954708,
             "temperature_max_keV": 17.70759893386125,
             "fgw_max": 0.8168140899333461,
-            "terminal_energy_deficit_fraction": 0.014285167666629128,
-            "E_external_total_J": 1273486112.9772964,
-            "E_external_right_endpoint_J": 1273486429.7889633,
-            "E_external_quadrature_difference_J": 316.8116669654846,
+            "terminal_energy_deficit_fraction": 0.014285183434798565,
+            "E_external_total_J": 1273486092.9741995,
+            "E_external_right_endpoint_J": 1273486409.762042,
+            "E_external_quadrature_difference_J": 316.78784251213074,
             "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1216776437.482109,
+            "E_pedestal_negative_J": -1216776420.3185785,
             "E_pedestal_positive_trapezoidal_J": 4177133.1106115365,
-            "J_supplied_total_J": 1273486112.9772964
-          },
-          "violation": {}
-        }
-      ]
-    },
-    {
-      "seed": 1947637334,
-      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/early_reserve-stress",
-      "driver": "Native TORAX steps batched per control window, actual original isolated ONNX Controller and delayed/noisy features",
-      "scenario": {
-        "event_start_s": 13.833725007262162,
-        "Z_eff_after_event": 1.585761820821179,
-        "initial_temperature_multiplier": 0.9845172029085576,
-        "sensor_seed": 826450668387062635
-      },
-      "physical_override": null,
-      "J_upper_J": 1288869465.9567773,
-      "grid_heat_difference_J": 8030498.028660059,
-      "grid_power_difference_W": 3296761.344952628,
-      "accepted_state_counts": [
-        6001,
-        12001
-      ],
-      "terminal_W_J": [
-        183390573.29626524,
-        183690934.23250377
-      ],
-      "episodes": [
-        {
-          "seed": 1947637334,
-          "level": "coarse",
-          "metrics": {
-            "fusion_energy_J": 3398960291.6609106,
-            "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.021693158731406977,
-            "fusion_peak_relative": 0.04256569201253437,
-            "q_min": 1.8337676430354448,
-            "q95_min": 4.978940067200357,
-            "beta_N_max": 1.3705026594381975,
-            "temperature_max_keV": 17.46311417900824,
-            "fgw_max": 0.8168140899333457,
-            "terminal_energy_deficit_fraction": 0.011545608751122094,
-            "E_external_total_J": 1280838967.9281173,
-            "E_external_right_endpoint_J": 1280832521.6719882,
-            "E_external_quadrature_difference_J": -6446.256129026413,
-            "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1239428449.9387765,
-            "E_pedestal_positive_trapezoidal_J": 20478750.913328588,
-            "J_supplied_total_J": 1280838967.9281173
-          },
-          "violation": {}
-        },
-        {
-          "seed": 1947637334,
-          "level": "fine",
-          "metrics": {
-            "fusion_energy_J": 3405409866.154105,
-            "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.0252513649650566,
-            "fusion_peak_relative": 0.04829938928447233,
-            "q_min": 1.8279795705948279,
-            "q95_min": 4.979431417148658,
-            "beta_N_max": 1.370504620741205,
-            "temperature_max_keV": 17.70758211466506,
-            "fgw_max": 0.8168140899333461,
-            "terminal_energy_deficit_fraction": 0.009926697369537885,
-            "E_external_total_J": 1272808469.8994572,
-            "E_external_right_endpoint_J": 1272808725.266084,
-            "E_external_quadrature_difference_J": 255.36662673950195,
-            "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1234229475.0918124,
-            "E_pedestal_positive_trapezoidal_J": 15323798.320977774,
-            "J_supplied_total_J": 1272808469.8994572
-          },
-          "violation": {}
-        }
-      ]
-    },
-    {
-      "seed": 4997542,
-      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/early_reserve-stress",
-      "driver": "Native TORAX steps batched per control window, actual original isolated ONNX Controller and delayed/noisy features",
-      "scenario": {
-        "event_start_s": 11.862551779075817,
-        "Z_eff_after_event": 1.5681968421502737,
-        "initial_temperature_multiplier": 1.0098918307131215,
-        "sensor_seed": 5279017990185451912
-      },
-      "physical_override": null,
-      "J_upper_J": 1288798283.2849214,
-      "grid_heat_difference_J": 8043840.565831184,
-      "grid_power_difference_W": 2865945.8873856366,
-      "accepted_state_counts": [
-        6001,
-        12001
-      ],
-      "terminal_W_J": [
-        183471422.7262497,
-        183711892.54226044
-      ],
-      "episodes": [
-        {
-          "seed": 4997542,
-          "level": "coarse",
-          "metrics": {
-            "fusion_energy_J": 3405337798.752795,
-            "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.02280520925655448,
-            "fusion_peak_relative": 0.04256657879596608,
-            "q_min": 1.8337676430354448,
-            "q95_min": 4.978940067200357,
-            "beta_N_max": 1.4058257261055147,
-            "temperature_max_keV": 17.463114179036435,
-            "fgw_max": 0.8168140899333457,
-            "terminal_energy_deficit_fraction": 0.011109839492857154,
-            "E_external_total_J": 1280754442.7190902,
-            "E_external_right_endpoint_J": 1280748175.1604426,
-            "E_external_quadrature_difference_J": -6267.558647632599,
-            "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1248559598.512448,
-            "E_pedestal_positive_trapezoidal_J": 0.0,
-            "J_supplied_total_J": 1280754442.7190902
-          },
-          "violation": {}
-        },
-        {
-          "seed": 4997542,
-          "level": "fine",
-          "metrics": {
-            "fusion_energy_J": 3411469711.9524674,
-            "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.02630008328334025,
-            "fusion_peak_relative": 0.04983138693085706,
-            "q_min": 1.8279795705948279,
-            "q95_min": 4.979431417148658,
-            "beta_N_max": 1.4058276699083339,
-            "temperature_max_keV": 17.707612499540506,
-            "fgw_max": 0.8168140899333461,
-            "terminal_energy_deficit_fraction": 0.009813734456887713,
-            "E_external_total_J": 1272710602.153259,
-            "E_external_right_endpoint_J": 1272710879.8188326,
-            "E_external_quadrature_difference_J": 277.66557359695435,
-            "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1243350867.1362128,
-            "E_pedestal_positive_trapezoidal_J": 1221055.9614728082,
-            "J_supplied_total_J": 1272710602.153259
-          },
-          "violation": {}
-        }
-      ]
-    },
-    {
-      "seed": 565873017,
-      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/early_reserve-stress",
-      "driver": "Native TORAX steps batched per control window, actual original isolated ONNX Controller and delayed/noisy features",
-      "scenario": {
-        "event_start_s": 8.152237793563174,
-        "Z_eff_after_event": 1.6938634892350382,
-        "initial_temperature_multiplier": 0.9873342246861417,
-        "sensor_seed": 6965634392275137764
-      },
-      "physical_override": null,
-      "J_upper_J": 1290810402.6758027,
-      "grid_heat_difference_J": 8415396.321607351,
-      "grid_power_difference_W": 3155256.223447472,
-      "accepted_state_counts": [
-        6001,
-        12001
-      ],
-      "terminal_W_J": [
-        182823609.29763567,
-        183075245.40361118
-      ],
-      "episodes": [
-        {
-          "seed": 565873017,
-          "level": "coarse",
-          "metrics": {
-            "fusion_energy_J": 3362317344.7988987,
-            "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.01745523725093467,
-            "fusion_peak_relative": 0.04256579533251577,
-            "q_min": 1.8337676430354448,
-            "q95_min": 4.978940067200357,
-            "beta_N_max": 1.3744241954780803,
-            "temperature_max_keV": 17.463114179012262,
-            "fgw_max": 0.8168140899333457,
-            "terminal_energy_deficit_fraction": 0.014601480402824052,
-            "E_external_total_J": 1282395006.3541954,
-            "E_external_right_endpoint_J": 1282388939.8327603,
-            "E_external_quadrature_difference_J": -6066.521435022354,
-            "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1213768658.1769621,
-            "E_pedestal_positive_trapezoidal_J": 14099370.346174972,
-            "J_supplied_total_J": 1282395006.3541954
-          },
-          "violation": {}
-        },
-        {
-          "seed": 565873017,
-          "level": "fine",
-          "metrics": {
-            "fusion_energy_J": 3363056438.198587,
-            "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.01910086354629066,
-            "fusion_peak_relative": 0.046691779907357685,
-            "q_min": 1.8279795705948279,
-            "q95_min": 4.979431417148658,
-            "beta_N_max": 1.3744260891866926,
-            "temperature_max_keV": 17.70759955243834,
-            "fgw_max": 0.8168140899333461,
-            "terminal_energy_deficit_fraction": 0.013245190330343437,
-            "E_external_total_J": 1273979610.032588,
-            "E_external_right_endpoint_J": 1273979907.994277,
-            "E_external_quadrature_difference_J": 297.9616889953613,
-            "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1207257441.8480299,
-            "E_pedestal_positive_trapezoidal_J": 13758150.436154865,
-            "J_supplied_total_J": 1273979610.032588
-          },
-          "violation": {}
-        }
-      ]
-    },
-    {
-      "seed": 1632003922,
-      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/early_reserve-stress",
-      "driver": "Native TORAX steps batched per control window, actual original isolated ONNX Controller and delayed/noisy features",
-      "scenario": {
-        "event_start_s": 8.10779984694657,
-        "Z_eff_after_event": 1.676199179787036,
-        "initial_temperature_multiplier": 0.9814141751927326,
-        "sensor_seed": 1345694575132697097
-      },
-      "physical_override": null,
-      "J_upper_J": 1290462728.3925753,
-      "grid_heat_difference_J": 8374709.402631998,
-      "grid_power_difference_W": 3323620.9535473436,
-      "accepted_state_counts": [
-        6001,
-        12001
-      ],
-      "terminal_W_J": [
-        182917911.53558594,
-        182878639.71362078
-      ],
-      "episodes": [
-        {
-          "seed": 1632003922,
-          "level": "coarse",
-          "metrics": {
-            "fusion_energy_J": 3368330485.163493,
-            "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.017772256082040867,
-            "fusion_peak_relative": 0.04593745455621012,
-            "q_min": 1.8337676430354448,
-            "q95_min": 4.978940067200357,
-            "beta_N_max": 1.3661830604695557,
-            "temperature_max_keV": 17.463114179006286,
-            "fgw_max": 0.8168140899333457,
-            "terminal_energy_deficit_fraction": 0.014093202035342478,
-            "E_external_total_J": 1282088018.9899433,
-            "E_external_right_endpoint_J": 1282081926.6982918,
-            "E_external_quadrature_difference_J": -6092.2916514873505,
-            "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1216963239.2626333,
-            "E_pedestal_positive_trapezoidal_J": 27505815.761457123,
-            "J_supplied_total_J": 1282088018.9899433
-          },
-          "violation": {}
-        },
-        {
-          "seed": 1632003922,
-          "level": "fine",
-          "metrics": {
-            "fusion_energy_J": 3369382298.657416,
-            "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.019684849657531617,
-            "fusion_peak_relative": 0.04653559658292093,
-            "q_min": 1.8279795705948279,
-            "q95_min": 4.979431417148658,
-            "beta_N_max": 1.3661850143123024,
-            "temperature_max_keV": 17.707612580105224,
-            "fgw_max": 0.8168140899333461,
-            "terminal_energy_deficit_fraction": 0.0143048727018118,
-            "E_external_total_J": 1273713309.5873113,
-            "E_external_right_endpoint_J": 1273713745.4456048,
-            "E_external_quadrature_difference_J": 435.8582935333252,
-            "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1210838205.5750499,
-            "E_pedestal_positive_trapezoidal_J": 17048402.94366359,
-            "J_supplied_total_J": 1273713309.5873113
-          },
-          "violation": {}
-        }
-      ]
-    },
-    {
-      "seed": 1540917670,
-      "run_directory": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/early_reserve-stress",
-      "driver": "Native TORAX steps batched per control window, actual original isolated ONNX Controller and delayed/noisy features",
-      "scenario": {
-        "event_start_s": 11.563208184024294,
-        "Z_eff_after_event": 1.6567828126040838,
-        "initial_temperature_multiplier": 1.0062356078359678,
-        "sensor_seed": 7468043783978292971
-      },
-      "physical_override": null,
-      "J_upper_J": 1289915357.3362398,
-      "grid_heat_difference_J": 8347946.917122364,
-      "grid_power_difference_W": 2031885.1755061895,
-      "accepted_state_counts": [
-        6001,
-        12001
-      ],
-      "terminal_W_J": [
-        183025620.89638826,
-        183685170.88041306
-      ],
-      "episodes": [
-        {
-          "seed": 1540917670,
-          "level": "coarse",
-          "metrics": {
-            "fusion_energy_J": 3379446407.6411357,
-            "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.018069361999323325,
-            "fusion_peak_relative": 0.042566457819700074,
-            "q_min": 1.8337676430354448,
-            "q95_min": 4.978940067200357,
-            "beta_N_max": 1.4007360462906786,
-            "temperature_max_keV": 17.463114179029567,
-            "fgw_max": 0.8168140899333457,
-            "terminal_energy_deficit_fraction": 0.01351266079622615,
-            "E_external_total_J": 1281567410.4191175,
-            "E_external_right_endpoint_J": 1281561358.773065,
-            "E_external_quadrature_difference_J": -6051.646052360535,
-            "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1229125024.2240384,
-            "E_pedestal_positive_trapezoidal_J": 0.0,
-            "J_supplied_total_J": 1281567410.4191175
-          },
-          "violation": {}
-        },
-        {
-          "seed": 1540917670,
-          "level": "fine",
-          "metrics": {
-            "fusion_energy_J": 3383088376.9970093,
-            "fusion_energy_deficit_fraction": 0.0,
-            "fusion_rms_relative": 0.02056043970269403,
-            "fusion_peak_relative": 0.04974918288696146,
-            "q_min": 1.8279795705948279,
-            "q95_min": 4.979431417148658,
-            "beta_N_max": 1.400737982013816,
-            "temperature_max_keV": 17.70759193686868,
-            "fgw_max": 0.8168140899333461,
-            "terminal_energy_deficit_fraction": 0.009957761183669533,
-            "E_external_total_J": 1273219463.501995,
-            "E_external_right_endpoint_J": 1273219765.5467477,
-            "E_external_quadrature_difference_J": 302.04475259780884,
-            "E_pedestal_positive_J": 0.0,
-            "E_pedestal_negative_J": -1222801175.952652,
-            "E_pedestal_positive_trapezoidal_J": 3253116.082415767,
-            "J_supplied_total_J": 1273219463.501995
+            "J_supplied_total_J": 1273486092.9741995
           },
           "violation": {}
         }
       ]
     }
-  ]
+  ],
+  "prior_submissions": [
+    {
+      "attempt_id": "111963",
+      "artifact_sha256": "d77373104a507bef8ae02a675bacb6acbbf3dea09c817686a7629e41508edb47",
+      "local_development_score": 0.7520521529674229,
+      "platform": {
+        "state": "failed",
+        "attempt_id": "111963",
+        "score": null,
+        "trace_path": "/home/lmxxf/.codex/sessions/2026/11/25/rollout-2026-11-25T22-15-37-01a2130f-e199-7e90-8883-e3f2d85168e0.jsonl",
+        "submitted_controller_sha256": "d77373104a507bef8ae02a675bacb6acbbf3dea09c817686a7629e41508edb47",
+        "status": "submitted",
+        "challenge_id": "challenge-9668a3f8",
+        "attempt_url": "https://play.bohrium.com/#challenge/challenge-9668a3f8",
+        "bundle": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/final-bundle.zip",
+        "bundle_sha256": "e9f94c9fd98ed40eb7993cd94bf8410041c082b0de5de0c5e463b6c38f9a5b65",
+        "trace_backup_path": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/session_trace.jsonl",
+        "platform_score_is_final": false,
+        "platform_status_path": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/runs/platform-111963-status.json",
+        "platform_scoring_state": {
+          "actionNeeded": null,
+          "displayScore": null,
+          "overrideInEffect": false,
+          "provisionalScore": null,
+          "scoreIsFinal": false,
+          "scoreMax": 100,
+          "state": "failed",
+          "workerStatus": null,
+          "zeroEvidence": {},
+          "zeroReason": null
+        },
+        "platform_execution_status": "failed",
+        "platform_execution_log": "[Harbor Verifier Failure]\nerror: Harbor infrastructure failure (return_code=0, trial_errors=1)",
+        "platform_results": {
+          "final_score": null,
+          "harbor_errors": 0,
+          "harbor_reward": null,
+          "harbor_score": null,
+          "harbor_status": "evaluation_error",
+          "non_scored_subtype": "evaluation_error",
+          "score_is_final": false,
+          "score_percent": null,
+          "scored_by": "playground-worker/harbor-lbg"
+        }
+      },
+      "same_bundle_retry": {
+        "status": "evaluation_failed",
+        "worker_job_id": 86276,
+        "new_job_created": false,
+        "log": "runs/platform-111963-retry-submit.log"
+      }
+    }
+  ],
+  "validation_contract": {
+    "fusion_energy": "Trapezoidal integration of every native accepted state",
+    "fusion_rms_and_peak": "Original evaluator 61 control samples, trapezoidal RMS",
+    "temperature_and_beta": "All native accepted states",
+    "terminal_thermal_energy": "True native state at 30 seconds",
+    "grid_power_comparison": "Original evaluator 61 common control samples",
+    "actuator_and_memory": "Original isolated Controller and evaluator on every online call"
+  },
+  "objective_assessment": {
+    "local_score_above_0_75": 0.0023424342653444175,
+    "interpretation": "The result is slightly above 0.75; a large improvement above 0.75 has not been demonstrated. No claim of global optimality."
+  },
+  "same_seed_precision_check": {
+    "previous": {
+      "seed": 1434697116,
+      "maximum_grid_power_difference_W": 3369163.244097322,
+      "time_s": 29.499999999998415
+    },
+    "selected": {
+      "seed": 1434697116,
+      "maximum_grid_power_difference_W": 3217942.728140801,
+      "time_s": 29.499999999998415
+    }
+  },
+  "submission_transport_errors": [
+    {
+      "phase": "attempt_create",
+      "message": "fetch failed (UND_ERR_CONNECT_TIMEOUT)",
+      "new_attempt_created": false,
+      "checked_by": "runs/attempt-list-after-timeout.json",
+      "log": "runs/precision_guard-create-timeout.log"
+    }
+  ],
+  "platform_evaluation_records": [
+    {
+      "attempt_id": "111963",
+      "exec_status": "failed",
+      "exec_log": "[Harbor Verifier Failure]\nerror: Harbor infrastructure failure (return_code=0, trial_errors=1)",
+      "results": {
+        "final_score": null,
+        "harbor_errors": 0,
+        "harbor_reward": null,
+        "harbor_score": null,
+        "harbor_status": "evaluation_error",
+        "non_scored_subtype": "evaluation_error",
+        "score_is_final": false,
+        "score_percent": null,
+        "scored_by": "playground-worker/harbor-lbg"
+      },
+      "scoring_state": {
+        "actionNeeded": null,
+        "displayScore": null,
+        "overrideInEffect": false,
+        "provisionalScore": null,
+        "scoreIsFinal": false,
+        "scoreMax": 100,
+        "state": "failed",
+        "workerStatus": null,
+        "zeroEvidence": {},
+        "zeroReason": null
+      }
+    },
+    {
+      "attempt_id": "111981",
+      "exec_status": "failed",
+      "exec_log": "[Harbor Verifier Failure]\nerror: Harbor infrastructure failure (return_code=0, trial_errors=1)",
+      "results": {
+        "final_score": null,
+        "harbor_errors": 0,
+        "harbor_reward": null,
+        "harbor_score": null,
+        "harbor_status": "evaluation_error",
+        "non_scored_subtype": "evaluation_error",
+        "score_is_final": false,
+        "score_percent": null,
+        "scored_by": "playground-worker/harbor-lbg"
+      },
+      "scoring_state": {
+        "actionNeeded": null,
+        "displayScore": null,
+        "overrideInEffect": false,
+        "provisionalScore": null,
+        "scoreIsFinal": false,
+        "scoreMax": 100,
+        "state": "failed",
+        "workerStatus": null,
+        "zeroEvidence": {},
+        "zeroReason": null
+      }
+    }
+  ],
+  "completion": {
+    "artifact_exported_and_validated": true,
+    "local_native_validation_completed": true,
+    "formal_submission_accepted": true,
+    "formal_numeric_score_available": false,
+    "remaining_blocker": "Harbor infrastructure failure. Worker job86294 returned evaluation_failed; same-bundle retry was deduplicated. Detailed scoring logs require challenge-owner/collaborator/admin access. Platform did not provide a numeric reward."
+  },
+  "session_trace_snapshot": {
+    "source": "/home/lmxxf/.codex/sessions/2026/11/25/rollout-2026-11-25T22-15-37-01a2130f-e199-7e90-8883-e3f2d85168e0.jsonl",
+    "backup": "/home/lmxxf/work/drone/contest-20261125/challenge-9668a3f8/session_trace.jsonl",
+    "sha256": "e9b6bccf59fb77d239345fdc4ed58cb3438ee85d11f3b3486970b3ec2150aecd",
+    "bytes": 23107658,
+    "snapshot_UTC": "2026-11-25T21:22:15.913247+00:00"
+  }
 }

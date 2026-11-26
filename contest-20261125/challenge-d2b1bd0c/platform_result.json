@@ -1,30 +1,23 @@
 {
   "attempt_id": "111942",
-  "updated_at_utc": "2026-11-25T20:53:12.010587+00:00",
-  "state": "evaluating",
+  "updated_at_utc": "2026-11-26T04:10:32.362323+00:00",
+  "state": "failed",
   "score_is_final": false,
   "platform_score": null,
   "local_formal_score": 0.6246040634940218,
   "local_average_pressure_Pa": 332770.8175573579,
   "scoring_state": {
-    "actionNeeded": false,
+    "actionNeeded": null,
     "displayScore": null,
     "overrideInEffect": false,
     "provisionalScore": null,
     "scoreIsFinal": false,
     "scoreMax": 100,
-    "state": "evaluating",
-    "workerStatus": "evaluating",
+    "state": "failed",
+    "workerStatus": null,
     "zeroEvidence": {},
     "zeroReason": null
   },
-  "scoring_queue": {
-    "notReceivedAfterMinutes": 30,
-    "queuePosition": null,
-    "stage": "received",
-    "submittedAt": "2026-11-25T19:31:36+00:00",
-    "waitingSeconds": 4896,
-    "workerReceivedAt": null
-  },
+  "scoring_queue": null,
   "monitor_pid": 3897812
 }
